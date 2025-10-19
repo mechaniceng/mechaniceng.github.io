@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "provider_name": "BenimVOD",
+  "last_updated": "2025-10-19T20:00:00+03:00",
+  "items": [
+    {
+      "id": "vod-0001",
+      "title": "Sıcak Film",
+      "original_title": "Hot Movie",
+      "year": 2022,
+      "plot": "Aksiyon dolu bir hikaye...",
+      "genres": ["Aksiyon", "Dram"],
+      "rating": 7.4,
+      "runtime": 118,
+      "poster": "https://cdn.example.com/posters/hot_movie.jpg",
+      "fanart": "https://cdn.example.com/backdrops/hot_movie.jpg",
+      "cast": ["Oyuncu Bir", "Oyuncu Iki"],
+      "director": "Yönetmen Adı",
+      "stream_url": "https://cdn.example.com/videos/hot_movie.mp4",
+      "language": "tr",
+      "tags": ["1080p", "Türkçe Altyazı"]
+    },
+    {
+      "id": "vod-0002",
+      "title": "Komik Dizi",
+      "year": 2019,
+      "plot": "Kısa komedi dizisi açıklaması",
+      "genres": ["Komedi"],
+      "poster": "https://cdn.example.com/posters/komik_dizi.jpg",
+      "stream_url": "https://cdn.example.com/videos/komik_dizi_s01_e01.mp4"
+    }
+  ]
+}
