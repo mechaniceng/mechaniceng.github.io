@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Üç Silahşörler" tvg-logo="https://image.tmdb.org/t/p/w500/ss2IjJib51ZPYqZ5Yzb4ZTFEo1D.jpg" group-title="VOD" title="Üç Silahşörler" desc="Fransa Kralı’nın sadık silahşörleri tehlikeli bir komplonun izini sürer; dostluk, ihanet ve macera dolu bir epik serüven." actors="Logan Lerman, Milla Jovovich, Matthew Macfadyen, Ray Stevenson, Luke Evans" director="Paul W. S. Anderson"
+http://example.com/streams/uc_silahsorler_2011.mkv
+#EXTINF:-1 tvg-name="Ucubeler Sirki: Vampirin Çırağı" tvg-logo="https://image.tmdb.org/t/p/w500/l0mKBRXmuvUMI5PIcCFUWy7eWf8.jpg" group-title="VOD" title="Ucubeler Sirki: Vampirin Çırağı" desc="Genç birinin, gece yaratıkları ve vampir toplulukları arasında kalan ürkütücü ve fantastik hikayesi." actors="Chris Massoglia, John C. Reilly, Josh Hutcherson, Patrick Fugit, Salma Hayek" director="Paul Weitz"
+http://example.com/streams/ucubeler_sirki_2009.mkv
+#EXTINF:-1 tvg-name="Umut Kırıntıları" tvg-logo="https://image.tmdb.org/t/p/w500/fxUmT00PW2W6RDjmS8tbjWXDDj3.jpg" group-title="VOD" title="Umut Kırıntıları" desc="Bir cüzdan bulan üç çocuk, hayatlarını ve çevrelerini altüst eden bir maceraya sürüklenir; dayanışma ve fedakârlık öyküsü." actors="Rickson Tevez, Eduardo Luís, Gabriel Weinstein, Wagner Moura, Selton Mello" director="Gabriel Mascaro"
+http://example.com/streams/umut_kirintilari_2014.mkv
+#EXTINF:-1 tvg-name="Sihirli Yollarda" tvg-logo="https://image.tmdb.org/t/p/w500/6sOzqhtSIZ2qu4mPQtdK1nS4JUJ.jpg" group-title="VOD" title="Sihirli Yollarda" desc="Köylü ve küçük atının fantastik yolculuğu; ateş kuşu, balina kurtarma ve gerçek aşk arayışı." actors="Anton Shagin, Pavel Derevyanko, Mikhail Efremov, Paulina Andreeva, Yan Tsapnik" director="Oleg Pogodin"
+http://example.com/streams/sihirli_yollarda_2021.mkv
+#EXTINF:-1 tvg-name="Vahşetin Çağrısı" tvg-logo="https://image.tmdb.org/t/p/w500/lvWCJvI8xVM7hbpaXtXXG4clKFm.jpg" group-title="VOD" title="Vahşetin Çağrısı" desc="Evinden kopartılıp Alaska'ya götürülen bir köpeğin hayatta kalma ve kendini keşfetme öyküsü." actors="Harrison Ford, Dan Stevens, Colin Woodell, Karen Gillan, Omar Sy" director="Chris Sanders"
+http://example.com/streams/vahsetin_cagrisi_1935_2020.mkv
+#EXTINF:-1 tvg-name="Vahşi Dostum" tvg-logo="https://image.tmdb.org/t/p/w500/jT2eE40R4PWEJ7PGIV4xEeZSsFb.jpg" group-title="VOD" title="Vahşi Dostum" desc="On yaşındaki Mia’nın, beyaz bir aslanla kurduğu bağ ve tehlikelerle dolu macerası." actors="Daniah De Villiers, Mélanie Laurent, Langley Kirkwood, Ryan Mac Lennan, Lionel Newton" director="Gilles de Maistre"
+http://example.com/streams/vahsi_dostum_2018.mkv
