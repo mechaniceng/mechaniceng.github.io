@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="movie1" tvg-name="Inception" group-title="Movies",Inception (2010)
+http://stream.example.com/movies/inception.mkv
+#EXTINF:-1 tvg-id="movie2" tvg-name="The Matrix" group-title="Movies",The Matrix (1999)
+http://stream.example.com/movies/thematrix.mkv
+#EXTINF:-1 tvg-id="movie3" tvg-name="Interstellar" group-title="Movies",Interstellar (2014)
+http://stream.example.com/movies/interstellar.mkv
+#EXTINF:-1 tvg-id="movie4" tvg-name="Fight Club" group-title="Movies",Fight Club (1999)
+http://stream.example.com/movies/fightclub.mkv
+#EXTINF:-1 tvg-id="movie5" tvg-name="The Dark Knight" group-title="Movies",The Dark Knight (2008)
+http://stream.example.com/movies/darkknight.mkv
+#EXTINF:-1 tvg-id="movie6" tvg-name="Pulp Fiction" group-title="Movies",Pulp Fiction (1994)
+http://stream.example.com/movies/pulpfiction.mkv
+#EXTINF:-1 tvg-id="movie7" tvg-name="Forrest Gump" group-title="Movies",Forrest Gump (1994)
+http://stream.example.com/movies/forrestgump.mkv
+#EXTINF:-1 tvg-id="movie8" tvg-name="Gladiator" group-title="Movies",Gladiator (2000)
+http://stream.example.com/movies/gladiator.mkv
+#EXTINF:-1 tvg-id="movie9" tvg-name="The Shawshank Redemption" group-title="Movies",Shawshank Redemption (1994)
+http://stream.example.com/movies/shawshank.mkv
+#EXTINF:-1 tvg-id="movie10" tvg-name="The Godfather" group-title="Movies",The Godfather (1972)
+http://stream.example.com/movies/godfather.mkv
