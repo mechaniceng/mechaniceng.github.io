@@ -1,0 +1,61 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="shawshank" tvg-name="The Shawshank Redemption" tvg-logo="https://cdn.example.com/posters/shawshank.jpg" group-title="Drama",The Shawshank Redemption (1994)
+https://stream.example.com/vod/shawshank.mp4
+
+#EXTINF:-1 tvg-id="inception" tvg-name="Inception" tvg-logo="https://cdn.example.com/posters/inception.jpg" group-title="Sci-Fi",Inception (2010)
+https://stream.example.com/vod/inception.mp4
+
+#EXTINF:-1 tvg-id="godfather" tvg-name="The Godfather" tvg-logo="https://cdn.example.com/posters/godfather.jpg" group-title="Crime",The Godfather (1972)
+https://stream.example.com/vod/godfather.mp4
+
+#EXTINF:-1 tvg-id="parasite" tvg-name="Parasite" tvg-logo="https://cdn.example.com/posters/parasite.jpg" group-title="Thriller",Parasite (2019)
+https://stream.example.com/vod/parasite.mp4
+
+#EXTINF:-1 tvg-id="interstellar" tvg-name="Interstellar" tvg-logo="https://cdn.example.com/posters/interstellar.jpg" group-title="Sci-Fi",Interstellar (2014)
+https://stream.example.com/vod/interstellar.mp4
+
+#EXTINF:-1 tvg-id="darkknight" tvg-name="The Dark Knight" tvg-logo="https://cdn.example.com/posters/darkknight.jpg" group-title="Action",The Dark Knight (2008)
+https://stream.example.com/vod/darkknight.mp4
+
+#EXTINF:-1 tvg-id="forrestgump" tvg-name="Forrest Gump" tvg-logo="https://cdn.example.com/posters/forrestgump.jpg" group-title="Drama",Forrest Gump (1994)
+https://stream.example.com/vod/forrestgump.mp4
+
+#EXTINF:-1 tvg-id="spiritedaway" tvg-name="Spirited Away" tvg-logo="https://cdn.example.com/posters/spiritedaway.jpg" group-title="Animation",Spirited Away (2001)
+https://stream.example.com/vod/spiritedaway.mp4
+
+#EXTINF:-1 tvg-id="lalaland" tvg-name="La La Land" tvg-logo="https://cdn.example.com/posters/lalaland.jpg" group-title="Musical",La La Land (2016)
+https://stream.example.com/vod/lalaland.mp4
+
+#EXTINF:-1 tvg-id="grandbudapest" tvg-name="The Grand Budapest Hotel" tvg-logo="https://cdn.example.com/posters/grandbudapest.jpg" group-title="Comedy",The Grand Budapest Hotel (2014)
+https://stream.example.com/vod/grandbudapest.mp4
+
+#EXTINF:-1 tvg-id="fightclub" tvg-name="Fight Club" tvg-logo="https://cdn.example.com/posters/fightclub.jpg" group-title="Drama",Fight Club (1999)
+https://stream.example.com/vod/fightclub.mp4
+
+#EXTINF:-1 tvg-id="theprestige" tvg-name="The Prestige" tvg-logo="https://cdn.example.com/posters/prestige.jpg" group-title="Mystery",The Prestige (2006)
+https://stream.example.com/vod/prestige.mp4
+
+#EXTINF:-1 tvg-id="blade_runner" tvg-name="Blade Runner 2049" tvg-logo="https://cdn.example.com/posters/bladerunner2049.jpg" group-title="Sci-Fi",Blade Runner 2049 (2017)
+https://stream.example.com/vod/bladerunner2049.mp4
+
+#EXTINF:-1 tvg-id="whiplash" tvg-name="Whiplash" tvg-logo="https://cdn.example.com/posters/whiplash.jpg" group-title="Drama",Whiplash (2014)
+https://stream.example.com/vod/whiplash.mp4
+
+#EXTINF:-1 tvg-id="madmax" tvg-name="Mad Max Fury Road" tvg-logo="https://cdn.example.com/posters/madmax.jpg" group-title="Action",Mad Max Fury Road (2015)
+https://stream.example.com/vod/madmax.mp4
+
+#EXTINF:-1 tvg-id="arrival" tvg-name="Arrival" tvg-logo="https://cdn.example.com/posters/arrival.jpg" group-title="Sci-Fi",Arrival (2016)
+https://stream.example.com/vod/arrival.mp4
+
+#EXTINF:-1 tvg-id="joker" tvg-name="Joker" tvg-logo="https://cdn.example.com/posters/joker.jpg" group-title="Drama",Joker (2019)
+https://stream.example.com/vod/joker.mp4
+
+#EXTINF:-1 tvg-id="thelordrings" tvg-name="The Lord of the Rings The Fellowship of the Ring" tvg-logo="https://cdn.example.com/posters/lotr1.jpg" group-title="Fantasy",The Lord of the Rings The Fellowship of the Ring (2001)
+https://stream.example.com/vod/lotr1.mp4
+
+#EXTINF:-1 tvg-id="toy_story" tvg-name="Toy Story" tvg-logo="https://cdn.example.com/posters/toystory.jpg" group-title="Animation",Toy Story (1995)
+https://stream.example.com/vod/toystory.mp4
+
+#EXTINF:-1 tvg-id="oldboy" tvg-name="Oldboy" tvg-logo="https://cdn.example.com/posters/oldboy.jpg" group-title="Thriller",Oldboy (2003)
+https://stream.example.com/vod/oldboy.mp4
