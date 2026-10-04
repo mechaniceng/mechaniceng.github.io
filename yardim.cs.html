@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrum nápovědy — TiviEase Go</title>
+    <meta name="description" content="Uživatelská příručka TiviEase Go: instalace, přidávání seznamů, EPG, celoobrazový přehrávač, nastavení a řešení potíží.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="Centrum nápovědy — TiviEase Go">
+    <meta property="og:description" content="Uživatelská příručka TiviEase Go: instalace, přidávání seznamů, EPG, celoobrazový přehrávač, nastavení a řešení potíží.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.cs.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="cs_CZ">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.cs.html">
+            <img src="assets/logo.png?v=2" alt="Logo TiviEase Go">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Menu">☰</button>
+        <nav class="site-nav">
+            <a href="index.cs.html">Domů</a>
+            <a href="index.cs.html#ozellikler">Funkce</a>
+            <a href="satin-al.en.html">Koupit</a>
+            <a class="active" href="yardim.cs.html">Centrum nápovědy</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">Centrum nápovědy</span>
+            <h1 style="font-size:34px">Jak používat?</h1>
+            <p>Každá obrazovka vysvětlena krok za krokem — od prvního spuštění po poslední nastavení. Vyberte téma v menu vlevo nebo použijte vyhledávání.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">Odznaky: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">MOBILNÍ</span> Telefon/Tablet &nbsp; <span class="plat pro">PRO</span> Placená funkce</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ BOČNÍ MENU ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="Hledat v nápovědě..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ Témata</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Začínáme<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">První spuštění</a>
+                        <a href="#profil-secimi">Výběr profilu</a>
+                        <a href="#qr-giris">Přihlášení QR kódem</a>
+                        <a href="#google-giris">Přihlášení přes Google</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Zdroje<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">Přidání seznamu</a>
+                        <a href="#liste-yonetimi">Správa seznamů</a>
+                        <a href="#epg-kaynagi">Přidání zdroje EPG</a>
+                        <a href="#grup-siralama">Skupiny, řazení, filtry</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Hlavní obrazovka a EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">Hlavní obrazovka (TV)</a>
+                        <a href="#epg-rehberi">Používání průvodce</a>
+                        <a href="#arama">Hledání a hlasové vyhledávání</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Kontextová menu<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">Kontextové menu EPG</a>
+                        <a href="#vod-context">Menu Filmů/Seriálů</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Přehrávač<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">Celá obrazovka — živé vysílání</a>
+                        <a href="#fs-tuslar">Klávesy ovladače</a>
+                        <a href="#fs-paneller">Panely a karta nastavení</a>
+                        <a href="#coklu-ekran">Multiobraz (PIP)</a>
+                        <a href="#fs-vod">Celá obrazovka — Filmy/Seriály</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Nahrávání a připomínky<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">Nahrávání pořadů</a>
+                        <a href="#hatirlatici">Připomínky</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profily a rodičovská kontrola<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">Správa profilů</a>
+                        <a href="#ebeveyn">Rodičovská kontrola</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Průvodce nastaveními<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">Obrazovka nastavení</a>
+                        <a href="#ayar-listeler">Playlisty</a>
+                        <a href="#ayar-epg">Televizní průvodce</a>
+                        <a href="#ayar-oynatici">Přehrávač</a>
+                        <a href="#ayar-gorunum">Vzhled</a>
+                        <a href="#ayar-medya">Údaje o médiích</a>
+                        <a href="#ayar-diger">Nahrávání / Připomínky / Ostatní</a>
+                        <a href="#ayar-hesap">Účet a O aplikaci</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mobilní a ostatní<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">Mobilní aplikace</a>
+                        <a href="#kumanda">Ovladač z telefonu</a>
+                        <a href="#dlna">DLNA a streamování</a>
+                        <a href="#indirilenler">Stahování</a>
+                        <a href="#yedekleme">Záloha a synchronizace</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">Řešení potíží / FAQ</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">Nic nenalezeno.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ OBSAH ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── ZAČÍNÁME ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Začínáme</h2>
+            <p>TiviEase Go funguje na <strong>Android TV</strong> i na <strong>telefonu/tabletu</strong> v jedné aplikaci. Aplikace neposkytuje kanály ani obsah — přidáváte <strong>seznam M3U</strong> nebo účet <strong>Xtream Codes</strong> od svého poskytovatele IPTV.</p>
+
+            <h3>Obrazovka prvního spuštění</h3>
+            <p>Pokud při otevření aplikace není zadán žádný seznam, objeví se <strong>uvítací obrazovka</strong>. Nabízí čtyři karty:</p>
+            <table class="tbl">
+                <tr><th>Karta</th><th>Co dělá?</th></tr>
+                <tr><td>Přidat seznam<br><small>M3U / Xtream</small></td><td>Přenese na hlavní obrazovku a otevře formulář přidání. Podrobnosti: <a href="#kaynak-ekleme">Přidání seznamu</a>.</td></tr>
+                <tr><td>Přihlášení přes Google<br><small>Synchronizace v cloudu</small></td><td>Přihlášení účtem Google; načtou se vaše zdroje, oblíbené a cloudová historie, pak se seznamy automaticky aktualizují.</td></tr>
+                <tr><td>Přihlášení QR<br><small>Skenování z telefonu</small> <span class="plat tv">TV</span></td><td>Zobrazí na TV QR kód platný 3 minuty; jeho naskenováním aplikací telefonu a potvrzením se TV přihlásí ke stejnému účtu.</td></tr>
+                <tr><td>Nastavení<br><small>Systém a Profil</small></td><td>Otevře obrazovku nastavení, chcete-li se rozhlédnout před přidáním seznamu.</td></tr>
+            </table>
+            <div class="tip"><p><strong>Tip:</strong> pokud již používáte TiviEase Go na jiném zařízení, nejrychlejší je <strong>Přihlášení přes Google</strong> nebo <strong>Přihlášení QR</strong> — všechny seznamy a nastavení přijdou automaticky.</p></div>
+
+            <h3 id="profil-secimi">Výběr profilu</h3>
+            <p>Je-li na zařízení zadáno více profilů, při spuštění se objeví obrazovka <strong>„Výběr profilu“</strong>. Šipky + <kbd>OK</kbd> pro výběr. Profily s PIN se nejdřív ptají na něj. Každý profil uchovává vlastní <em>oblíbené, obsah „Můj seznam“, historii a osobní nastavení</em>.</p>
+            <ul>
+                <li>Přidávání/úprava profilů: <strong>Nastavení › Profily</strong> (viz <a href="#profiller">Správa profilů</a>).</li>
+                <li>Změna profilu za běhu: stiskněte <strong>ikonu avatara</strong> v horním panelu.</li>
+            </ul>
+
+            <h3 id="qr-giris">Přihlášení QR kódem <span class="plat tv">TV</span> <span class="plat mob">MOBILNÍ</span></h3>
+            <p>Použijte telefon místo zadávání údajů na TV:</p>
+            <ol>
+                <li>Na TV otevřete kartu <strong>Přihlášení QR</strong> (uvítací obrazovka nebo Nastavení › Účty) — objeví se QR kód. Platí <strong>3 minuty</strong>.</li>
+                <li>Na telefonu otevřete aplikaci TiviEase Go a naskenujte kód TV přes QR skener.</li>
+                <li>Na telefonu stiskněte <strong>„Přihlásit“</strong> — uvidíte „Potvrzeno — TV se přihlašuje“.</li>
+                <li>TV se během několika sekund přihlásí k účtu telefonu; seznam a nastavení se synchronizují.</li>
+            </ol>
+            <div class="note"><p>Pokud QR vypršel, zavřete okno a otevřete znovu — vytvoří se nový kód. Přihlášení QR vyžaduje na telefonu otevřenou stejnou aplikaci s provedeným přihlášením.</p></div>
+
+            <h3 id="google-giris">Přihlášení přes Google a synchronizace</h3>
+            <p>Při přihlášení účtem Google se mezi zařízeními synchronizují: nastavení zdrojů/seznamů, oblíbené, „Můj seznam“, historie, profily a prémiová licence. Po prvním přihlášení se zdroje a EPG načtou automaticky — ruční aktualizace není třeba.</p>
+            <ul>
+                <li>Nastavení synchronizace a propojená zařízení: <strong>Nastavení › Účty, Synchronizace a Zařízení</strong>.</li>
+                <li>Aplikaci lze používat i bez účtu — data zůstávají na zařízení.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── ZDROJE ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Přidání playlistu</h2>
+            <p>Podporovány jsou dva typy zdrojů: <strong>M3U</strong> (URL nebo lokální soubor) a <strong>Xtream Codes</strong> (server + přihlašovací údaje). Při přidání se obsah automaticky dělí na <em>Živé vysílání / Filmy / Seriály</em>.</p>
+
+            <h3>Kam přidávat?</h3>
+            <ul>
+                <li>Z karty <strong>Přidat seznam</strong> na uvítací obrazovce,</li>
+                <li>nebo přes <strong>Nastavení › Playlisty › Přidat seznam</strong>.</li>
+            </ul>
+
+            <h3>Přidání seznamu M3U</h3>
+            <ol>
+                <li>Otevřete <strong>Přidat seznam</strong>, vyberte kartu <strong>M3U / XMLTV</strong>.</li>
+                <li>Do pole <strong>Název</strong> zadejte název seznamu (např. „Hlavní seznam“).</li>
+                <li>Do pole <strong>URL / Cesta k souboru</strong> zadejte odkaz M3U <em>nebo</em> vyberte soubor ze zařízení ikonou složky. Podporované přípony: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li>Stiskněte <strong>Přidat</strong> — seznam se stáhne a zpracuje; průběh je vidět na spodním pruhu stahování.</li>
+            </ol>
+            <div class="note"><p>Při výběru souboru se jeho název doplní automaticky, je-li pole názvu prázdné. URL musí začínat http/https.</p></div>
+
+            <h3>Přidání účtu Xtream Codes</h3>
+            <ol>
+                <li>Vyberte kartu <strong>Xtream</strong>.</li>
+                <li><strong>Název zdroje</strong>: libovolný název (např. „Hlavní Xtream“).</li>
+                <li><strong>URL serveru</strong>: adresa vašeho poskytovatele, např. <code>http://server.com:8080</code></li>
+                <li><strong>Uživatelské jméno</strong> a <strong>Heslo</strong>: údaje od poskytovatele. Ikona oka u pole hesla ukazuje zadané.</li>
+                <li><strong>Přidat</strong> — aplikace se připojí k API Xtream; vysílání, filmy a seriály se stahují zvlášť.</li>
+            </ol>
+            <div class="warn"><p><strong>Ve verzi zdarma</strong> lze přidat jen <strong>1 seznam</strong> (M3U nebo Xtream — ne obojí). Neomezeně: <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">Správa seznamů</h3>
+            <p>Prvky v <strong>Nastavení › Playlisty</strong>:</p>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>Existující seznamy</td><td>Zobrazuje zadané zdroje M3U a Xtream; na každé kartě — poslední aktualizace a stav aktivní/neaktivní. Zdroj vyberte pro úpravu, smazání či obnovu. Karta souhrnů ukazuje rozložení vysílání/seriály/filmy.</td></tr>
+                <tr><td>Frekvence aktualizace</td><td>Interval automatické aktualizace seznamů: <strong>Ručně, 6, 12, 24, 48, 72 nebo 168 hodin</strong>. Při „Ručně“ se seznamy obnovují jen na požádání.</td></tr>
+                <tr><td>Aktualizovat všechny seznamy</td><td>Načte všechny zdroje najednou. Zpracovávají se na pozadí v pořadí; sledujte průběh na pruhu stahování.</td></tr>
+                <tr><td>Zdroje EPG</td><td>Výběr zdroje EPG přiřazovaného každému seznamu („Přiřadit seznamu“).</td></tr>
+                <tr><td>Skupiny kanálů</td><td>Skrývání, přejmenování a přeřazování skupin ze seznamu (sport, zprávy…).</td></tr>
+                <tr><td>Řazení</td><td>Pořadí kanálů: <strong>Podle názvu, Podle čísla, Ručně, Původní pořadí, Podle skupin</strong>.</td></tr>
+                <tr><td>Filtry názvů kanálů</td><td>Pravidla automaticky odstraňují předpony/přípony z názvů kanálů (např. „TR:“, „|4K“). Podporuje se zástupný znak <code>*</code>; pole „Příklad převodu“ ukazuje výsledek.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">Přidání zdroje EPG (XMLTV)</h3>
+            <p>Pro televizní program přidejte adresu XMLTV/EPG svého poskytovatele IPTV:</p>
+            <ol>
+                <li>Otevřete <strong>Nastavení › Televizní průvodce › Přidat zdroj EPG</strong>.</li>
+                <li>Zadejte název a <strong>URL / Adresu</strong>, uložte.</li>
+                <li>Po stažení se kanály přiřadí automaticky podle podobnosti názvů; zbylé přiřaďte ručně přes <a href="#epg-rehberi">Přiřazení EPG kanálů</a>.</li>
+            </ol>
+            <div class="warn"><p>Verze zdarma dovoluje <strong>1 zdroj EPG</strong>. Někteří poskytovatelé Xtream posílají vlastní EPG — při přidání zdroje Xtream EPG obvykle přijde automaticky.</p></div>
+
+            <h3 id="grup-siralama">Skupiny, řazení a filtry názvů</h3>
+            <ul>
+                <li><strong>Skupiny kanálů:</strong> řídí záhlaví skupin z M3U/Xtream. Skryté skupiny se v TV seznamu nezobrazují; řazení určuje pořadí skupin.</li>
+                <li><strong>Řazení:</strong> s „Ručně“ vytvoříte vlastní pořadí v seznamu kanálů; „Původní pořadí“ zachovává pořadí souboru.</li>
+                <li><strong>Filtry názvů:</strong> odstraňují vzorce na začátku/konci názvů kanálů (např. předpony zemí) — seznam je čitelnější. Samostatný filtr pro názvy VOD: <strong>Nastavení › Údaje o médiích › Filtry názvů VOD</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── HLAVNÍ OBRAZOVKA A EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Hlavní obrazovka a Televizní průvodce <span class="plat tv">TV</span></h2>
+
+            <h3>Horní panel a menu</h3>
+            <p>Na hlavní obrazovce TV je nahoře vodorovné menu. Navigace <kbd>◀</kbd><kbd>▶</kbd>, výběr <kbd>OK</kbd>, vstup do obsahu <kbd>▼</kbd>.</p>
+            <table class="tbl">
+                <tr><th>Menu</th><th>Obsah</th></tr>
+                <tr><td>Hledat</td><td>Obrazovka chytrého vyhledávání — kanály, filmy, seriály a pořady; podporuje hlasové vyhledávání.</td></tr>
+                <tr><td>TV</td><td>Seznam kanálů + mřížka EPG a karta živého náhledu.</td></tr>
+                <tr><td>Filmy</td><td>Sloupec kategorií (Akční, Komedie, Drama, Sci-Fi, Horor, Rodinné, Oblíbené, Novinky, Pokračovat ve sledování) + galerie plakátů.</td></tr>
+                <tr><td>Seriály</td><td>Kategorie jako Domácí/Zahraniční seriály, Denní vysílání, Hlavní vysílací čas + galerie plakátů.</td></tr>
+                <tr><td>Můj seznam</td><td>Oblíbené, Mé filmy, Mé seriály, Pokračovat ve sledování, Nahrávky, Připomínky, Stažené, Offline obsah.</td></tr>
+                <tr><td>Nastavení</td><td>Ikona ozubeného kola vpravo — otevírá panel nastavení se 13 kategoriemi.</td></tr>
+            </table>
+            <p>Ikony vpravo horního panelu: <strong>avatar profilu</strong> (změna profilu), <strong>ozubené kolo nastavení</strong> a tlačítko <strong>zařízení</strong> (DLNA/cast).</p>
+            <div class="note"><p>V dlouhých seznamech <kbd>Kanál+</kbd>/<kbd>Kanál−</kbd> (nebo Page Up/Down) skáčou o 10 řádků. <kbd>Zpět</kbd> zvedá o úroveň; na hlavní obrazovce žádá potvrzení výstupu.</p></div>
+
+            <h3>Galerie plakátů a náhled</h3>
+            <ul>
+                <li>Na stránkách Filmy/Seriály jsou plakáty zobrazeny mřížkou; při setrvání se karta zvětší a — je-li zapnuto — hraje <strong>náhled traileru</strong> (nastavení: Údaje o médiích › Autonáhled).</li>
+                <li>Dlouhé <kbd>OK</kbd> na plakátu: otevře <a href="#vod-context">kontextové menu</a>.</li>
+                <li>Na stránce TV při setrvání na řádku kanálu okno <strong>živého náhledu</strong> vpravo nahoře hraje tento kanál v miniaturce.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">Používání Televizního průvodce (EPG)</h3>
+            <p>Menu TV přepíná mezi dvěma pohledy: <strong>seznam kanálů</strong> a <strong>mřížka EPG</strong> („Přejít na seznam EPG“ / „Přejít na seznam kanálů“).</p>
+            <ul>
+                <li><strong>Levý sloupec:</strong> loga a názvy kanálů. <kbd>▲</kbd><kbd>▼</kbd> mění kanál; vpravo jsou vidět jeho pořady.</li>
+                <li><strong>Pravá mřížka:</strong> časová osa — karty pořadů s délkou trvání. <kbd>◀</kbd><kbd>▶</kbd> se pohybují časem.</li>
+                <li><strong>Výběr dne:</strong> tlačítky Včera / Dnes / Zítra a šipkami „předchozí / další den“ lze dívat zpět tolik, kolik dovoluje nastavení <em>EPG data za minulé dny</em>.</li>
+                <li><strong>Dlouhé <kbd>OK</kbd> na řádku kanálu:</strong> otevře <a href="#epg-context">kontextové menu EPG</a> (oblíbené, nahrávání, připomínka, skrýt…).</li>
+                <li>Krátké <kbd>OK</kbd> na kanálu: sleduje ho na celou obrazovku.</li>
+            </ul>
+            <div class="tip"><p>Žádné EPG na kanálu? Nejprve ověřte, že je zdroj EPG zadán a aktualizován (Nastavení › Televizní průvodce › Aktualizovat EPG), pak kanál přiřaďte ručně přes „Přiřadit EPG“.</p></div>
+
+            <h3 id="arama">Hledání a hlasové vyhledávání</h3>
+            <ul>
+                <li>Menu <strong>Hledat</strong> (nebo „Hledat“ v kontextových nabídkách) otevře chytré vyhledávání. Hledá hned ve filmech, seriálech, názvech kanálů a pořadech EPG („Shody pořadů“, „TV pořady“).</li>
+                <li>Ikona mikrofonu spustí <strong>Hlasové vyhledávání</strong> — mluvte, dokud svítí „Poslouchám…“; při prvním použití se ptá na povolení mikrofonu.</li>
+                <li><strong>Historie vyhledávání</strong> ukazuje minulé dotazy; „Vymazat“ ji smaže.</li>
+                <li>Na mobilu záložka vyhledávání plní stejnou roli; zadávání — dotykem.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── KONTEXTOVÁ MENU ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Kontextová menu</h2>
+
+            <h3>Kontextové menu EPG <span class="plat tv">TV</span></h3>
+            <p><strong>Otevření:</strong> na řádku kanálu v Televizním průvodci <strong>dlouze stiskněte <kbd>OK</kbd></strong> — menu vyjede zprava. <kbd>▲</kbd><kbd>▼</kbd> pro navigaci, <kbd>OK</kbd> pro výběr, <kbd>Zpět</kbd> pro zavření.</p>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Funkce</th></tr>
+                <tr><td>Otevřít kanál</td><td>Spustí vybraný kanál na celou obrazovku.</td></tr>
+                <tr><td>Hledat</td><td>Otevře chytré vyhledávání.</td></tr>
+                <tr><td>TV / Filmy / Seriály / Můj seznam / Nastavení</td><td>Rychlé přechody do jiných hlavních sekcí kromě aktuální.</td></tr>
+                <tr><td>Do oblíbených / Odebrat z oblíbených</td><td>Přidá nebo odebere kanál z oblíbených; viditelné v TV seznamu a Mém seznamu.</td></tr>
+                <tr><td>Otevřít v externím přehrávači</td><td>Pošle stream kanálu do jiné přehrávající aplikace zařízení (VLC, MX Player…).</td></tr>
+                <tr><td>Nahrát</td><td>Přidá vybraný pořad (nebo ruční záznam na 2 h bez pořadu) do seznamu nahrávek. Dodatečné minuty z nastavení se aplikují automaticky.</td></tr>
+                <tr><td>Vlastní záznam</td><td>Nejdřív ukáže okno výběru dod. minut začátku/konce (+0/+1/+5/+10 min).</td></tr>
+                <tr><td>Přidat / odebrat připomínku</td><td>Upozorní před začátkem pořadu; se zapnutým „autootevřením kanálu“ se kanál otevře sám.</td></tr>
+                <tr><td>Přiřadit EPG</td><td>Ručně sváže programová data kanálu se správným názvem kanálu zdroje EPG.</td></tr>
+                <tr><td>Aktualizovat EPG</td><td>Znovu načte zadané zdroje EPG.</td></tr>
+                <tr><td>Vyčistit EPG</td><td>Smaže data pořadů v mezipaměti; při další aktualizaci se stáhnou znovu.</td></tr>
+                <tr><td>Aktualizovat loga</td><td>Znovu načte loga kanálů (podle nastavení zdroje log).</td></tr>
+                <tr><td>Zamknout / odemknout kanál</td><td>Schová kanál za PIN v rámci rodičovské kontroly; otevření vyžaduje PIN.</td></tr>
+                <tr><td>Skrýt / zobrazit kanál</td><td>Skryje kanál ze seznamu; vrácení: „Zobrazit skryté kanály“ nebo Nastavení › Rodičovská kontrola › Skryté kanály.</td></tr>
+                <tr><td>Zobrazit skryté kanály</td><td>Dočasně vrátí skryté kanály do seznamu.</td></tr>
+            </table>
+
+            <h3 id="vod-context">Kontextové menu filmu / seriálu</h3>
+            <p><strong>Otevření:</strong> dlouhé <kbd>OK</kbd> na plakátu (mobil: dlouhé podržení / ikona ☰).</p>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Funkce</th></tr>
+                <tr><td>Pokračovat</td><td>Pokračuje z místa zastavení (viditelné jen při existenci postupu).</td></tr>
+                <tr><td>Přehrát</td><td>Přehrává obsah od začátku.</td></tr>
+                <tr><td>Externí přehrávání</td><td>Pošle do jiné přehrávající aplikace.</td></tr>
+                <tr><td>Trailer</td><td>Otevře na TMDB nalezený trailer.</td></tr>
+                <tr><td>Plakát na celou obrazovku / Zobrazit banner <span class="plat tv">TV</span></td><td>Přepíná galerii mezi mřížkou plakátů a bannerovým rozložením.</td></tr>
+                <tr><td>Řazení / Filtr</td><td>Otevře možnosti řazení a filtrování galerie.</td></tr>
+                <tr><td>Rok vydání</td><td>Filtruje obsah podle roku.</td></tr>
+                <tr><td>Kategorie</td><td>Filtruje podle žánru (akční, komedie…).</td></tr>
+                <tr><td>Více detailů</td><td>Otevře panel detailů: popis, herci, režisér, hodnocení a seznam dílů.</td></tr>
+                <tr><td>Do Mého seznamu / Odebrat</td><td>Přidá nebo odebere obsah z „Můj seznam › Mé filmy/Mé seriály“.</td></tr>
+                <tr><td>Odebrat z historie</td><td>Smaže zapamatovanou pozici; obsah zmizí z „pokračovat ve sledování“.</td></tr>
+                <tr><td>Odebrat ze zhlédnutých / Vyčistit zhlédnuté</td><td>Sundá značku „zhlédnuto“ nebo vyčistí celou historii sledování.</td></tr>
+                <tr><td>Odebrat z offline obsahu</td><td>Smaže stažený obsah (viditelné jen na stažených).</td></tr>
+                <tr><td>Najít a přiřadit obsah</td><td>Pokud je přiřazení TMDB chybné/chybí, najděte a přiřaďte správný film/seriál ručně.</td></tr>
+                <tr><td>Výběr více položek <span class="plat mob">MOBILNÍ</span></td><td>Otevře režim výběru více plakátů pro skupinové akce.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── PŘEHRÁVAČ ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Celoobrazový přehrávač</h2>
+
+            <h3>Celá obrazovka — živé vysílání <span class="plat tv">TV</span></h3>
+            <p>Po otevření kanálu hraje video na celou obrazovku. Všechny panely se otevírají z ovladače a po nečinnosti se samy zavírají (seznam kanálů ~8 s, tok pořadů ~15 s).</p>
+
+            <h4 id="fs-tuslar">Klávesy ovladače — živé vysílání</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> krátké</div><div>Otevře/zavře OSD (infopanel).</div>
+                <div><kbd>OK</kbd> dlouhé</div><div>Otevře kartu nastavení přehrávače (níže).</div>
+                <div><kbd>▶</kbd> doprava</div><div>Otevře seznam kanálů u pravého okraje. S otevřeným seznamem další doprava → do sloupce kategorií (skupin).</div>
+                <div><kbd>◀</kbd> doleva</div><div>Otevře „Tok pořadů“ EPG z levého okraje; je-li otevřený — zavře.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Mění kanál; posouvají výběr v otevřeném seznamu.</div>
+                <div><kbd>0–9</kbd></div><div>Zadávání čísla kanálu — přepne po dokončení zadávání.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> nebo <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>Další/předchozí kanál (posouvá se v otevřeném seznamu).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>Otevře/zavře tok pořadů EPG.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>Vrací se na posledně sledovaný kanál.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Předchozí/další kanál.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>Pozastaví/obnoví živé vysílání.</div>
+                <div><kbd>●</kbd> Klávesa Record</div><div>Otevře/zavře seznam kanálů.</div>
+                <div><kbd>Zpět</kbd></div><div>Zavře otevřený panel → zavře OSD → opustí přehrávač.</div>
+            </div>
+
+            <h4 id="fs-paneller">Panely a karta nastavení</h4>
+            <table class="tbl">
+                <tr><th>Panel</th><th>Otevření</th><th>Obsah</th></tr>
+                <tr><td>OSD (infopanel)</td><td><kbd>OK</kbd> krátké</td><td>Název/logo kanálu, aktuální a další pořad, postup, hodiny (je-li zapnuté hodiny na celou obrazovku).</td></tr>
+                <tr><td>Seznam kanálů</td><td><kbd>▶</kbd> nebo <kbd>●</kbd></td><td>Seznam vyjíždějící zprava; nahoru/dolů pro výběr, <kbd>OK</kbd> pro přepnutí. Další <kbd>▶</kbd> otevře sloupec skupin/kategorií — <kbd>OK</kbd> aplikuje skupinu.</td></tr>
+                <tr><td>Tok pořadů EPG</td><td><kbd>◀</kbd> nebo <kbd>Info</kbd></td><td>Seznam pořadů vyjíždějící zleva: pořady dne. <kbd>▲</kbd><kbd>▼</kbd> pro prohlížení; dlouhé <kbd>OK</kbd> na pořadu → akce připomínky/nahrání.</td></tr>
+                <tr><td>Karta nastavení přehrávače</td><td><kbd>OK</kbd> dlouhé</td><td>Karta rychlých nastavení s 8 ikonami (tabulka níže).</td></tr>
+            </table>
+
+            <h4>Karta nastavení přehrávače (živé vysílání)</h4>
+            <p>S otevřenou kartou se pohybujte mezi ikonami <kbd>◀</kbd><kbd>▶</kbd>, s otevřeným panelem — mezi možnostmi; <kbd>OK</kbd> aplikuje.</p>
+            <table class="tbl">
+                <tr><th>Záložka</th><th>Popis</th></tr>
+                <tr><td>Přechod k VOD</td><td>Rychlý přechod do sekce Filmy nebo Seriály.</td></tr>
+                <tr><td>Jazyk vysílání</td><td>Výběr zvukové stopy, má-li stream více (jinak preference jazyka: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>Velikost obrazu</td><td>Formát: Originál, Oříznout/Vyplnit, Roztáhnout vodorovně, Roztáhnout svisle, Vyplnit vše, 4:3, 16:9 — s možností „aplikovat na všechny kanály“.</td></tr>
+                <tr><td>Titulky</td><td>Výběr stopy titulků + barva textu (10 barev) a velikost.</td></tr>
+                <tr><td>PIP</td><td>Otevře režim multiobrazu (<a href="#coklu-ekran">viz níže</a>).</td></tr>
+                <tr><td>Info o streamu</td><td>Technická data streamu (rozlišení, kodek…).</td></tr>
+                <tr><td>Přehrávač</td><td>Dekodér a základní možnosti chování přehrávače.</td></tr>
+                <tr><td>Nastavení</td><td>Otevře hlavní obrazovku nastavení („Otevřít všechna nastavení“).</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">Multiobraz (PIP)</h4>
+            <p>Přes <strong>PIP</strong> na kartě nebo funkci multiobrazu se sleduje několik kanálů najednou (až 4 obrazovky). Možnosti menu multiobrazu:</p>
+            <ul>
+                <li><strong>Přidat obrazovku / Zavřít obrazovku:</strong> otevře novou buňku streamu nebo zavře vybranou.</li>
+                <li><strong>Rovnoměrný pohled / Velká obrazovka:</strong> rozdělí obrazovky rovnoměrně nebo jednu zvětší.</li>
+                <li><strong>Změnit kanál:</strong> změní kanál v buňce ve fokusu.</li>
+                <li><strong>Celá obrazovka / Zpět k obrazovkám / Jedna obrazovka:</strong> rozvine buňku nebo vrátí pohled více.</li>
+                <li><strong>Přehrávání/Pauza, Vypnout/zapnout zvuk, Znovu načíst:</strong> přehrávání a zvuk po buňkách (zvuk jde z jedné obrazovky najednou).</li>
+            </ul>
+            <div class="warn"><p>Multiobraz zatěžuje procesor; na slabších TV se doporučují 2 obrazovky.</p></div>
+
+            <h3 id="fs-vod">Celá obrazovka — film / seriál</h3>
+            <p>Ve VOD přehrávači se OSD otevře jako ovládací panel dole: <strong>Předchozí díl/obsah, zpět, Přehrát/Pauza, vpřed, Další, Jazyk a Titulky, Info, Nastavení, Od začátku</strong> a pruh postupu.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>Otevře OSD; otevřené — aktivuje tlačítko ve fokusu (výchozí Přehrát/Pauza).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>Krokové posouvání po pruhu postupu; při zavřeném OSD ho nejdřív otevře. V řadě ovládání posouvá po tlačítkách.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Svislý pohyb mezi pruhem postupu ↔ řadou ovládání ↔ kartou nastavení.</div>
+                <div><kbd>0–9</kbd></div><div>Zadávání minut — přejde na zadanou minutu.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Zpět/vpřed o 30 sekund (na obrazovce se objeví indikátor).</div>
+                <div><kbd>Info</kbd></div><div>Otevře informační kartu filmu/seriálu (popis, herci, hodnocení — TMDB).</div>
+                <div><kbd>Zpět</kbd></div><div>Zavře panel/OSD; opakovaný stisk odejde a postup se uloží.</div>
+            </div>
+            <ul>
+                <li><strong>Karta Další díl:</strong> u seriálů ~30 sekund před koncem se dole objeví karta „Přejít na další díl“; stiskněte <kbd>OK</kbd> pro přechod.</li>
+                <li><strong>Pokračovat od místa:</strong> nedokoukaný obsah při opětovném otevření pokračuje z uložené sekundy („Pokračovat“). Postup se ukládá při odchodu.</li>
+                <li><strong>Menu Jazyk a Titulky:</strong> okamžitě mění stopy zvuku a titulků.</li>
+                <li><strong>Mobilní gesta</strong> <span class="plat mob">MOBILNÍ</span>: svislé přejetí levého okraje = hlasitost, pravého = jas; dotyk otevře OSD.</li>
+            </ul>
+            <p>Karta nastavení VOD je podobná kartě živého vysílání; navíc obsahuje <strong>Posun zvuku</strong> (posuvník + Reset) a <strong>Přechod k TV</strong>.</p>
+        </section>
+
+        <!-- ───────────── NAHRÁVÁNÍ A PŘIPOMÍNKY ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Nahrávání a připomínky <span class="plat pro">PRO</span></h2>
+
+            <h3>Nahrávání pořadů</h3>
+            <ol>
+                <li>V EPG dlouze stiskněte <kbd>OK</kbd> na <strong>řádku kanálu</strong> pořadu, který chcete nahrát.</li>
+                <li><strong>Nahrát</strong>: přidá pořad do seznamu nahrávek s dod. minutami z nastavení. Bez pořadu se plánuje ruční záznam na 2 h od teď.</li>
+                <li><strong>Vlastní záznam</strong>: otevře okno výběru dod. minut začátku/konce (0/+1/+5/+10 min) před vytvořením nahrávky.</li>
+                <li>V určenou hodinu nahrávání začne automaticky; na kartě pořadu v toku bliká ikona REC.</li>
+            </ol>
+            <p>Prvky v <strong>Nastavení › Nahrávání</strong>:</p>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>Složka nahrávek</td><td>Kam se nahrávky ukládají: interní paměť nebo síťová složka (SMB — „Prohledat síť“ najde prostředky a připojí se s přihlašovacím jménem/heslem).</td></tr>
+                <tr><td>Čas před / po nahrávce</td><td>Dodatečný čas na začátku a konci každé nahrávky: 0, 1, 5 nebo 10 minut. Pomáhá neztratit začátek/konec při zpoždění či prodloužení pořadu.</td></tr>
+                <tr><td>Seznam nahrávek</td><td>Počítadla všech/dokončených/naplánovaných a všechny nahrávky: dokončenou přehrajte <kbd>OK</kbd>, čekající rušte, mažte.</td></tr>
+            </table>
+            <div class="note"><p>Nahrávky se zapisují do vybrané složky; ujistěte se, že je dost volného místa. Podporuje se výběr USB/SD karty.</p></div>
+
+            <h3 id="hatirlatici">Připomínky</h3>
+            <ul>
+                <li>Vytvořte připomínku na pořad položkou <strong>Přidat připomínku</strong> kontextového menu EPG; vyberte znovu pro odstranění.</li>
+                <li>Čas upozornění: <strong>1, 2, 5 nebo 10 minut</strong> před začátkem pořadu.</li>
+                <li><strong>Nastavení › Připomínky</strong>: možnosti upozornění a <strong>„Autootevření kanálu“</strong> (TV se samo přepne na kanál v termínu); tu se řídí i celý seznam připomínek.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── PROFILY A RODIČOVSKÁ ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profily a rodičovská kontrola <span class="plat pro">PRO</span></h2>
+
+            <h3>Správa profilů</h3>
+            <p>V <strong>Nastavení › Profily</strong>:</p>
+            <ul>
+                <li><strong>Přidat profil:</strong> vytvoří nový profil s názvem, výběrem avatara a nepovinným PINem.</li>
+                <li><strong>Seznam profilů:</strong> ukazuje existující profily; tu se upravují a mažou.</li>
+                <li>Každý profil uchovává své <em>oblíbené, obsah „Můj seznam“, historii a osobní nastavení</em>. Aktivní profil se ptá při spuštění; mění se okamžitě přes avatar v horním panelu.</li>
+            </ul>
+
+            <h3 id="ebeveyn">Rodičovská kontrola</h3>
+            <p>Prvky v <strong>Nastavení › Rodičovská kontrola</strong> (se zadaným PINem vstup do panelu na něj zodpoví):</p>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>Ochrana PINem</td><td>Stav 4místného PIN kódu.</td></tr>
+                <tr><td>Změnit PIN</td><td>Nastaví nový 4místný PIN (smazání PINu také zde).</td></tr>
+                <tr><td>Požadavky PIN</td><td>Určuje, v jakých situacích se PIN ptá.</td></tr>
+                <tr><td>Zámek nastavení</td><td>Je-li zapnutý, vstup do nastavení vyžaduje PIN.</td></tr>
+                <tr><td>Zámek obsahu 18+</td><td>Skrývá obsah pro dospělé za PIN.</td></tr>
+                <tr><td>Zámek kanálů</td><td>Otevření zamknutých kanálů vyžaduje PIN (zamykání kanálů: kontextové menu EPG).</td></tr>
+                <tr><td>Věkový limit</td><td>Věkové omezení — obsah pod zvoleným věkem vyžaduje PIN. Vedle „Průvodce věkových hodnocení“ vysvětluje věkové značky národních systémů.</td></tr>
+                <tr><td>Skryté kanály</td><td>Ukazuje skryté kanály a činí je znovu viditelnými.</td></tr>
+            </table>
+            <div class="tip"><p>Zapomněli jste PIN? Udělejte zálohu před vytvořením nového profilu či přeinstalací; data PINu se na zařízení uchovávají šifrovaně.</p></div>
+        </section>
+
+        <!-- ───────────── NASTAVENÍ ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Průvodce nastaveními</h2>
+            <p>Obrazovka nastavení se skládá ze tří sloupců: <strong>levý</strong> — 13 kategorií, <strong>prostřední</strong> — prvky kategorie, <strong>pravý</strong> — panel popisu/nastavení vybraného prvku. Ikona <strong>lupy</strong> v záhlaví otevře vyhledávání v nastaveních. <kbd>Kanál+</kbd>/<kbd>−</kbd> skáčou o 10 řádků v seznamu kategorií.</p>
+            <div class="warn"><p>Ve verzi zdarma je část kategorií zamčena (ikona zámku): Přehrávač, Vzhled, Údaje o médiích, Nahrávání, Připomínky, Profily, Rodičovská kontrola, Stahování a Ostatní. Zamčená kategorie otevře panel přechodu na Pro.</p></div>
+
+            <h3 id="ayar-listeler">1 · Playlisty</h3>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>Přidat seznam</td><td>Přidá nový seznam M3U (URL/soubor) nebo Xtream (server+přihl. jméno+heslo).</td></tr>
+                <tr><td>Frekvence aktualizace</td><td>Interval autoaktualizace: Ručně, 6, 12, 24, 48, 72, 168 hodin.</td></tr>
+                <tr><td>Aktualizovat všechny seznamy</td><td>Načte všechny zdroje najednou.</td></tr>
+                <tr><td>Existující seznamy</td><td>Úprava, smazání, obnova zdrojů; stav aktivní/neaktivní a poslední aktualizace.</td></tr>
+                <tr><td>Skupiny kanálů</td><td>Skrývání, přejmenování, přeřazování skupin.</td></tr>
+                <tr><td>Zdroje EPG</td><td>Přiřazení zdroje EPG seznamům („Přiřadit seznamu“).</td></tr>
+                <tr><td>Řazení</td><td>Pořadí kanálů: podle názvu/čísla, ručně, původní nebo podle skupin.</td></tr>
+                <tr><td>Filtry názvů kanálů</td><td>Odstranění předpon/přípon z názvů; pravidla se zástupným <code>*</code> a náhled příkladu převodu.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · Televizní průvodce</h3>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>Přidat zdroj EPG</td><td>Přidá zdroj EPG ve formátu XMLTV (dává programová data kanálů).</td></tr>
+                <tr><td>Existující zdroje EPG</td><td>Úprava/smazání zdrojů EPG; počet kanálů a poslední aktualizace po každém.</td></tr>
+                <tr><td>Přiřazení EPG kanálů</td><td>Přiřazuje kanály datům EPG — automaticky nebo ručním přiřazením; nepřiřazené kanály jsou vypsány.</td></tr>
+                <tr><td>Frekvence aktualizace</td><td>Interval aktualizace EPG na pozadí: Ručně, 1, 2, 4, 6, 12, 24 hodin.</td></tr>
+                <tr><td>Aktualizovat při spuštění</td><td>Je-li zapnuto, EPG se aktualizuje automaticky při každém startu aplikace.</td></tr>
+                <tr><td>Aktualizovat při změně seznamu</td><td>Automaticky aktualizuje i EPG, když se playlist mění/aktualizuje.</td></tr>
+                <tr><td>EPG data za minulé dny</td><td>Kolik dní minulých programových dat se uchovává: ne, 1, 2, 3, 5 nebo 7 dní. Více dní = více paměti.</td></tr>
+                <tr><td>Časový posun</td><td>Posouvá čas pořadů vpřed/vzad o hodiny/minuty, globálně nebo po kanálech (pro zdroje s nesouladem časových pásem).</td></tr>
+                <tr><td>Aktualizovat EPG</td><td>Spustí ruční aktualizaci; zobrazují se postup a počet zpracovaných kanálů.</td></tr>
+                <tr><td>Vyčistit EPG</td><td>Smaže programová data v mezipaměti a mezipaměť obrázků; znovu načtení při další aktualizaci.</td></tr>
+                <tr><td>Poslední aktualizace</td><td>Zpracované kanály a datum aktualizace po zdrojích.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · Přehrávač <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>Obraz</td><td>Formát: Originál, Oříznout/Vyplnit, Roztáhnout vodorovně, Roztáhnout svisle, Vyplnit vše, 4:3, 16:9; aplikuje se na všechny kanály dle přání.</td></tr>
+                <tr><td>Výstup videa</td><td>Výběr dekodéru: hardwarový (doporučen, méně baterie/CPU) nebo softwarový (při problémech kompatibility).</td></tr>
+                <tr><td>Výstup zvuku</td><td>Zvukový dekodér (hardwarový/softwarový), <strong>Passthrough zvuku (Bitstream)</strong> — surový zvukový tok na surround systémy, <strong>Posun zvuku</strong> (posuvník v ms + Reset) a výchozí jazyk zvuku.</td></tr>
+                <tr><td>Titulky</td><td>Velikost textu, barva (10 barev), poloha (nahoře/uprostřed/dole) a kódování (UTF-8…).</td></tr>
+                <tr><td>Změna kanálu</td><td>Chování zappingu: <strong>Prodleva změny</strong> (ms do skutečného přepnutí — zabraňuje zbytečným načítáním při rychlém zappingu) a <strong>Černá obrazovka při změně</strong> (černá, než se načte nový kanál; vypnuto — předchozí kanál zůstává na obrazovce).</td></tr>
+                <tr><td>Ukládání do vyrovnávací paměti</td><td>Velikost bufferu: Auto, Žádný, Malý (~1 s), Střední (~3 s, doporučen), Velký (~8 s), Velmi velký (~15+ s). Zvětšete pro trhající se streamy; zmenšete pro rychlejší zapping.</td></tr>
+                <tr><td>VOD</td><td>Preference filmů/seriálů: výběr externího přehrávače (Autovýběr / Vybrat aplikaci / Externí přehrávač 1-2), autotitulky atd.</td></tr>
+                <tr><td>Hodiny na celou obrazovku</td><td>Hodiny na celou obrazovku: zap/vyp, poloha, velikost (malá/střední/velká), formát 24 h, ukazovat datum.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · Vzhled <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>Jazyk</td><td>Jazyk rozhraní — výběr ze 24 jazyků nebo „Jazyk systému“; filtruje se polem vyhledávání.</td></tr>
+                <tr><td>Barvy</td><td>Motiv aplikace (Tmavý, Modrý, Šedý, Zelený, Fialový, Červený, Jantarový, Noc, Oceán, Uhlí, Víno, Námořní modř, Smaragd, Západ slunce, Vesmír, Grafit), barva akcentu (18 barev) a neprůhlednost OSD (s náhledem).</td></tr>
+                <tr><td>Televizní průvodce</td><td>Vzhled EPG: formát 24 h, výška řádku (malá/střední/velká), rozložení (seznam/mřížka).</td></tr>
+                <tr><td>Seznam kanálů</td><td>Vzhled seznamu kanálů a rozložení karet.</td></tr>
+                <tr><td>Loga</td><td>Priorita zdroje log: <strong>XMLTV/EPG</strong>, <strong>Seznam (M3U)</strong> nebo <strong>Místní složka</strong>; použijte vlastní soubory log (PNG/JPG/WebP) výběrem složky.</td></tr>
+                <tr><td>Doba trvání OSD</td><td>Kolik sekund infopanel zůstává na obrazovce — zvlášť pro TV a VOD.</td></tr>
+                <tr><td>Spořič obrazovky</td><td>Čas do aktivace při nečinnosti: vyp, 1, 2, 5, 10, 15 nebo 30 minut.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · Údaje o médiích <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>API klíče</td><td>Zadejte své API klíče TMDB a OMDb — získávají se zdarma na stránkách služeb. Plakáty, popisy, herci a hodnocení IMDb filmů/seriálů přicházejí z těchto služeb.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>Zapíná/vypíná službu. TMDB: plakát+popis+trailer; OMDb: hodnocení IMDb, žánr, režisér.</td></tr>
+                <tr><td>Chytrá mezipaměť</td><td>Zapnuto — načítají se jen metadata obsahu viditelného na obrazovce; rychlejší první spuštění.</td></tr>
+                <tr><td>Pouze ruční obohacování</td><td>Vypíná automatické načítání metadat; obohacování proběhne jen na vaše spuštění.</td></tr>
+                <tr><td>Složka mezipaměti</td><td>Složka, kde se ukládá mezipaměť metadat.</td></tr>
+                <tr><td>Obohatit veškerý obsah</td><td>Hromadně stáhne data TMDB veškerého VOD obsahu (může trvat).</td></tr>
+                <tr><td>Obohatit podle kategorií</td><td>Obohatí jen vybrané kategorie.</td></tr>
+                <tr><td>Vyčistit mezipaměť</td><td>Smaže celou mezipaměť metadat (zobrazují se počet a velikost).</td></tr>
+                <tr><td>Filtry názvů VOD</td><td>Pravidla odstranění předpon/přípon názvů filmů/seriálů — zlepšuje přiřazení TMDB.</td></tr>
+            </table>
+            <p>Také nastavení náhledu plakátů (trailer při setrvání): <strong>Autonáhled</strong> (hraje trailer při setrvání na plakátu), <strong>Zvuk traileru</strong>, počáteční bod a čekací doba.</p>
+
+            <h3 id="ayar-diger">6–9, 11 · Nahrávání, Připomínky, Profily, Rodičovská kontrola, Stahování, Ostatní</h3>
+            <ul>
+                <li><strong>Nahrávání</strong> <span class="plat pro">PRO</span> — složka, dod. čas, seznam nahrávek (<a href="#kayit">více</a>).</li>
+                <li><strong>Připomínky</strong> <span class="plat pro">PRO</span> — upozornění a autootevření kanálu + seznam (<a href="#hatirlatici">více</a>).</li>
+                <li><strong>Profily</strong> <span class="plat pro">PRO</span> — seznam profilů a nový profil (<a href="#profiller">více</a>).</li>
+                <li><strong>Rodičovská kontrola</strong> <span class="plat pro">PRO</span> — PIN, zámky, věkový limit, skryté kanály (<a href="#ebeveyn">více</a>).</li>
+                <li><strong>Stahování</strong> <span class="plat pro">PRO</span> — složka, souběžná stahování, jen Wi-Fi, seznam (<a href="#indirilenler">více</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>Prvek Ostatní <span class="plat pro">PRO</span></th><th>Popis</th></tr>
+                <tr><td>Zvuk kláves ovladače</td><td>Přehrává lehké cvaknutí při navigaci D-pad.</td></tr>
+                <tr><td>Klávesnice aplikace</td><td>Používat při zadávání vlastní obrazovkovou klávesnici nebo systémovou.</td></tr>
+                <tr><td>Autospuštění</td><td>Aplikace se spustí sama při zapnutí zařízení (TV).</td></tr>
+                <tr><td>Zastavit přehrávání při odchodu</td><td>Přehrávání se automaticky zastaví při odchodu z aplikace.</td></tr>
+                <tr><td>Statistika sledování</td><td>Váš čas sledování filmů, seriálů a živého vysílání (posledních 7/30 dnů, celkem); resetovatelná.</td></tr>
+                <tr><td>Spotřeba dat</td><td>Spotřeba síťových dat: přijato/odesláno a celkem.</td></tr>
+                <tr><td>Záloha / Obnovení</td><td>Uložení všech nastavení, oblíbených, profilů a historie do souboru / obnovení ze souboru.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 a 12 · Účty a synchronizace · O aplikaci</h3>
+            <table class="tbl">
+                <tr><th>Prvek</th><th>Popis</th></tr>
+                <tr><td>Účty, Synchronizace a Zařízení</td><td>Stav účtu Google, vytvoření anonymního účtu, autosynchronizace, synchronizace prémiové licence, seznam propojených zařízení a odebrání, odhlášení a <strong>Smazat účet</strong> (trvalé smazání včetně cloudových dat).</td></tr>
+                <tr><td>O aplikaci</td><td>Verze, typ předplatného a platnost licence, seznam funkcí (Živé vysílání, VOD a IPTV, EPG, Multiobraz, Nahrávání, Připomínky, Profily, Rodičovská kontrola, Chytré vyhledávání, DLNA, Cloudová synchronizace, Seznamy oblíbených, Metadata) a kontakty.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── MOBILNÍ ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mobilní aplikace <span class="plat mob">MOBILNÍ</span></h2>
+            <p>Mobilní rozhraní je navrženo pro dotyk; používá stejný účet a seznamy.</p>
+            <ul>
+                <li><strong>Spodní panel záložek:</strong> TV, Filmy, Seriály, Můj seznam. V režimu na šířku se u levého okraje objeví svislé menu (lišta).</li>
+                <li><strong>Horní panel:</strong> logo, <strong>ovladač</strong>, <strong>hledání</strong>, <strong>DLNA/zařízení</strong>, ozubené kolo <strong>nastavení</strong> a <strong>avatar profilu</strong>.</li>
+                <li><strong>Záložka TV:</strong> nahoře zóna náhledu + filtr „Vše“/skupiny; níže karty kanálů (logo, název, časový slot, aktuální pořad + postup, hvězda oblíbených, menu ☰).</li>
+                <li><strong>Obrazovka EPG:</strong> denní tok pořadů; klepnutím na kanál uvidíte jeho pořady.</li>
+                <li><strong>Stažené / Offline obsah:</strong> stažené filmy a díly se sledují bez internetu; přehrávání a mazání ze seznamu.</li>
+                <li>Spodní <strong>pruh stahování</strong> je viditelný na všech záložkách během stahování zdrojů.</li>
+            </ul>
+
+            <h3 id="kumanda">Ovladač TV z telefonu <span class="plat pro">PRO</span></h3>
+            <p>Použijte aplikaci telefonu jako ovladač k Android TV ve stejné síti:</p>
+            <ol>
+                <li>Nechte TiviEase Go otevřené na TV; na telefonu klepněte na <strong>ikonu ovladače</strong> v horním panelu.</li>
+                <li>Vyberte svou TV v seznamu „Zařízení sítě“ (nenachází se? prohledejte znovu tlačítkem „Znovu“).</li>
+                <li>Obrazovka ovladače: <strong>D-pad + OK</strong>, číselné klávesy, kyvadla hlasitosti/kanálů, <strong>Zpět / Domů</strong>, <strong>Spánek / Průvodce / Možnosti</strong>, <strong>barevné klávesy</strong>, mediální tlačítka a tlačítko <strong>obrazovkové klávesnice</strong> pro zadávání textu.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA a streamování <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Prohledat síť</strong> najde zařízení DLNA/UPnP; vyberte zařízení a procházejte jeho složky médií („Složky“, počet položek).</li>
+                <li><strong>Streamování na TV / zařízení Cast:</strong> přehrávaný obsah se posílá na zařízení v síti; obrazovka streamování má pruh pozice, přehrávání/pauzu a „Zastavit streamování“.</li>
+                <li>„Změnit zařízení“ přenese streamování na jiný přístroj.</li>
+            </ul>
+
+            <h3 id="indirilenler">Stahování a offline <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Nastavení › Stahování:</strong> složka stahování (interní paměť nebo SMB), maximální počet souběžných stahování, <strong>Pouze Wi-Fi</strong> (šetří mobilní data) a seznam stahování.</li>
+                <li>Stavy seznamu: Stahuje se, Čeká, Staženo, Chyba/Zrušeno — rušte čekající, přehrávejte nebo mažte dokončené.</li>
+                <li>Na mobilu obrazovka „Offline obsah“ vypisuje stažené a přehrává je bez internetu.</li>
+            </ul>
+
+            <h3 id="yedekleme">Zálohování, obnovení a synchronizace</h3>
+            <ul>
+                <li><strong>Záloha</strong> (Nastavení › Ostatní): uloží všechna nastavení, oblíbené, profily a historii do jednoho souboru — užitečné při výměně zařízení či resetu.</li>
+                <li><strong>Obnovení dat:</strong> vyberte soubor přes „Otevřít soubor zálohy“ pro navrácení instalace.</li>
+                <li><strong>Cloudová synchronizace:</strong> při přihlášení přes Google se data synchronizují na pozadí; „Autosynchronizaci“ lze vypnout. Propojená zařízení jsou viditelná/odstranitelná v panelu Účty.</li>
+                <li>Na hlavní obrazovce Android TV řada <strong>„Pokračovat ve sledování“</strong> ukazuje naposledy sledované.</li>
+            </ul>
+
+            <h3 id="premium">Předplatné Premium (Pro)</h3>
+            <p>Verze zdarma pokrývá 1 seznam + 1 zdroj EPG a základní nastavení. Přejděte na Pro přes <strong>Nastavení</strong> stisknutím zamčené kategorie, nebo z obrazovky Pro.</p>
+            <table class="tbl">
+                <tr><th>Tarif</th><th>Cena</th><th>Zařízení</th></tr>
+                <tr><td>Pro Měsíční</td><td>₺9,99 / měs.</td><td>1 zařízení</td></tr>
+                <tr><td>Pro Roční</td><td>₺89,99 / rok</td><td>1 zařízení</td></tr>
+                <tr><td>Pro Doživotní</td><td>₺249,99 (jednorázově)</td><td>až 5 zařízení</td></tr>
+            </table>
+            <ul>
+                <li>Pro odemyká <strong>neomezené seznamy a zdroje EPG</strong>, všechny kategorie nastavení, nahrávání, připomínky, profily, rodičovskou kontrolu, stahování, ovladač z telefonu a DLNA.</li>
+                <li><strong>Aktivační kód:</strong> premium se aktivuje zadáním kódu do „Použít aktivační kód“.</li>
+                <li>Licence je vázána na cloud — při přihlášení stejným účtem na jiném zařízení se synchronizuje sama; při překročení limitu odeberte staré zařízení ze seznamu.</li>
+                <li>Pro offline použití platí tolerance 7 dnů po poslední ověření.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── FAQ ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>Řešení potíží a FAQ</h2>
+
+            <details class="faq"><summary>Kanály nepřicházejí / seznam se nenačte</summary><div class="faq-body"><p>Ověřte, že je URL správná a začíná <code>http(s)://</code>. V Nastavení › Playlisty › Existující seznamy vyberte zdroj a znovu načtěte „aktualizovat“; u Xtream zkontrolujte absenci mezer v přihl. jméně/hesle. Zkontrolujte internetové připojení a že je poskytovatel online.</p></div></details>
+
+            <details class="faq"><summary>EPG (televizní program) je prázdné</summary><div class="faq-body"><p>Nejprve přidejte zdroj XMLTV přes <strong>Nastavení › Televizní průvodce › Přidat zdroj EPG</strong> a stáhněte tlačítkem <strong>Aktualizovat EPG</strong>. Pokud kanál stále nemá data, vyberte správný EPG kanál ručně přes <strong>Přiřadit EPG</strong> kontextového menu. Posunutý čas? Napravte <strong>Časovým posunem</strong>.</p></div></details>
+
+            <details class="faq"><summary>Stream se neotevře nebo se zamrzá</summary><div class="faq-body"><p>Nastavte <strong>Ukládání do vyrovnávací paměti</strong> na „Střední/Velký“ v Nastavení › Přehrávač; nepomůže-li, zkuste softwarový dekodér ve <strong>Výstupu videa</strong>. Streamy 4K zatěžují slabé TV — preferována je verze HD/FHD kanálu.</p></div></details>
+
+            <details class="faq"><summary>Žádný zvuk nebo zvuk a video nejsou synchronní</summary><div class="faq-body"><p>Zkuste vypnout <strong>Passthrough zvuku</strong> v Nastavení › Přehrávač › Výstup zvuku (bitstream je problematický na některých přístrojích). Pro nesoulad použijte posuvník <strong>Posun zvuku</strong>; má-li stream jiný jazyk, vyberte stopu v <strong>Jazyku vysílání</strong> na kartě přehrávače.</p></div></details>
+
+            <details class="faq"><summary>Titulky se neobjevují nebo jsou poškozené znaky</summary><div class="faq-body"><p>Vyberte správnou stopu na kartě přehrávače nebo v Nastavení › Přehrávač › Titulky; při poškozených znacích změňte <strong>kódování</strong> (UTF-8…). Velikost/barva/poloha se nastavují ve stejném panelu.</p></div></details>
+
+            <details class="faq"><summary>Nepřicházejí plakáty a informace o filmech</summary><div class="faq-body"><p>Ověřte v Nastavení › Údaje o médiích, že jsou vaše klíče TMDB/OMDb zadány a služby zapnuté (klíče jsou zdarma). Data získejte hromadně přes „Obohatit veškerý obsah“; napravte chybné přiřazení položkou <strong>Najít a přiřadit obsah</strong> menu obsahu.</p></div></details>
+
+            <details class="faq"><summary>Koupil jsem Premium, ale neotevřelo se / není vidět na jiném zařízení</summary><div class="faq-body"><p>Ujistěte se, že jste přihlášeni stejným účtem Google — licence se synchronizuje. Je-li limit zařízení plný, odeberte staré v <strong>Nastavení › Účty, Synchronizace a Zařízení</strong>. V případě potřeby použijte aktivační kód.</p></div></details>
+
+            <details class="faq"><summary>Po dlouhém spánku TV se neotevře žádný kanál</summary><div class="faq-body"><p>Zcela zavřete aplikaci a znovu ji otevřete. Aplikace automaticky zavírá přehrávače při přechodu do spánku; pokud se přesto zasekla — restart řeší.</p></div></details>
+
+            <details class="faq"><summary>Jak přenést nastavení na jiné zařízení?</summary><div class="faq-body"><p>Vytvořte soubor přes <strong>Nastavení › Ostatní › Záloha</strong> a naimportujte ho na novém zařízení přes <strong>Obnovení dat</strong> — nebo se přihlaste přes Google a použijte synchronizaci.</p></div></details>
+
+            <details class="faq"><summary>Nejde vrátit kanál / není v seznamu</summary><div class="faq-body"><p>Možná je skrytý: <strong>Zobrazit skryté kanály</strong> v kontextovém menu EPG nebo <strong>Nastavení › Rodičovská kontrola › Skryté kanály</strong> pro vrácení. Je-li zamčený — otevře se po PINu. Je-li skrytá skupina, zkontrolujte Nastavení › Playlisty › Skupiny kanálů.</p></div></details>
+
+            <details class="faq"><summary>Jak smazat svůj účet?</summary><div class="faq-body"><p><strong>Nastavení › Účty, Synchronizace a Zařízení › Smazat účet</strong> trvale smaže účet i s cloudovými daty. Podrobnosti: stránka <a href="account-deletion.cs.html">Smazání účtu</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>Stále potřebujete pomoc?</h4>
+                <p>Napište nám: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — uveďte svůj problém, model zařízení a verzi aplikace (Nastavení › O aplikaci).</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.cs.html">Domů</a> · <a href="privacy.cs.html">Soukromí</a> · <a href="account-deletion.cs.html">Smazání účtu</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('cs');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('cs');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

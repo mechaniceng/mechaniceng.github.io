@@ -1,0 +1,2455 @@
+{
+  "generatedAt": "2026-10-02T20:59:26.899Z",
+  "regions": {
+    "AE": {
+      "monthly": {
+        "currency": "AED",
+        "micros": "5690000"
+      },
+      "yearly": {
+        "currency": "AED",
+        "micros": "18990000"
+      },
+      "lifetime": {
+        "currency": "AED",
+        "micros": "38990000"
+      }
+    },
+    "AR": {
+      "monthly": {
+        "currency": "ARS",
+        "micros": "2227550000"
+      },
+      "yearly": {
+        "currency": "ARS",
+        "micros": "7460050000"
+      },
+      "lifetime": {
+        "currency": "ARS",
+        "micros": "14950000000"
+      }
+    },
+    "AT": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "AU": {
+      "monthly": {
+        "currency": "AUD",
+        "micros": "2290000"
+      },
+      "yearly": {
+        "currency": "AUD",
+        "micros": "7990000"
+      },
+      "lifetime": {
+        "currency": "AUD",
+        "micros": "15990000"
+      }
+    },
+    "AZ": {
+      "monthly": {
+        "currency": "AZN",
+        "micros": "2530000"
+      },
+      "yearly": {
+        "currency": "AZN",
+        "micros": "8480000"
+      },
+      "lifetime": {
+        "currency": "AZN",
+        "micros": "17000000"
+      }
+    },
+    "BD": {
+      "monthly": {
+        "currency": "BDT",
+        "micros": "220000000"
+      },
+      "yearly": {
+        "currency": "BDT",
+        "micros": "700000000"
+      },
+      "lifetime": {
+        "currency": "BDT",
+        "micros": "1400000000"
+      }
+    },
+    "BE": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "BG": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "BH": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10990000"
+      }
+    },
+    "BM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "BO": {
+      "monthly": {
+        "currency": "BOB",
+        "micros": "9990000"
+      },
+      "yearly": {
+        "currency": "BOB",
+        "micros": "33990000"
+      },
+      "lifetime": {
+        "currency": "BOB",
+        "micros": "68990000"
+      }
+    },
+    "BR": {
+      "monthly": {
+        "currency": "BRL",
+        "micros": "7490000"
+      },
+      "yearly": {
+        "currency": "BRL",
+        "micros": "24990000"
+      },
+      "lifetime": {
+        "currency": "BRL",
+        "micros": "50990000"
+      }
+    },
+    "CA": {
+      "monthly": {
+        "currency": "CAD",
+        "micros": "2090000"
+      },
+      "yearly": {
+        "currency": "CAD",
+        "micros": "6990000"
+      },
+      "lifetime": {
+        "currency": "CAD",
+        "micros": "13990000"
+      }
+    },
+    "CH": {
+      "monthly": {
+        "currency": "CHF",
+        "micros": "1200000"
+      },
+      "yearly": {
+        "currency": "CHF",
+        "micros": "4000000"
+      },
+      "lifetime": {
+        "currency": "CHF",
+        "micros": "8000000"
+      }
+    },
+    "CI": {
+      "monthly": {
+        "currency": "XOF",
+        "micros": "1000000000"
+      },
+      "yearly": {
+        "currency": "XOF",
+        "micros": "3300000000"
+      },
+      "lifetime": {
+        "currency": "XOF",
+        "micros": "6700000000"
+      }
+    },
+    "CL": {
+      "monthly": {
+        "currency": "CLP",
+        "micros": "1600000000"
+      },
+      "yearly": {
+        "currency": "CLP",
+        "micros": "5300000000"
+      },
+      "lifetime": {
+        "currency": "CLP",
+        "micros": "10700000000"
+      }
+    },
+    "CM": {
+      "monthly": {
+        "currency": "XAF",
+        "micros": "1000000000"
+      },
+      "yearly": {
+        "currency": "XAF",
+        "micros": "3400000000"
+      },
+      "lifetime": {
+        "currency": "XAF",
+        "micros": "6800000000"
+      }
+    },
+    "CO": {
+      "monthly": {
+        "currency": "COP",
+        "micros": "5000000000"
+      },
+      "yearly": {
+        "currency": "COP",
+        "micros": "17500000000"
+      },
+      "lifetime": {
+        "currency": "COP",
+        "micros": "35000000000"
+      }
+    },
+    "CR": {
+      "monthly": {
+        "currency": "CRC",
+        "micros": "680000000"
+      },
+      "yearly": {
+        "currency": "CRC",
+        "micros": "2300000000"
+      },
+      "lifetime": {
+        "currency": "CRC",
+        "micros": "4600000000"
+      }
+    },
+    "CY": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "CZ": {
+      "monthly": {
+        "currency": "CZK",
+        "micros": "37990000"
+      },
+      "yearly": {
+        "currency": "CZK",
+        "micros": "129990000"
+      },
+      "lifetime": {
+        "currency": "CZK",
+        "micros": "249990000"
+      }
+    },
+    "DE": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "DK": {
+      "monthly": {
+        "currency": "DKK",
+        "micros": "12000000"
+      },
+      "yearly": {
+        "currency": "DKK",
+        "micros": "40000000"
+      },
+      "lifetime": {
+        "currency": "DKK",
+        "micros": "79000000"
+      }
+    },
+    "DZ": {
+      "monthly": {
+        "currency": "DZD",
+        "micros": "200000000"
+      },
+      "yearly": {
+        "currency": "DZD",
+        "micros": "675000000"
+      },
+      "lifetime": {
+        "currency": "DZD",
+        "micros": "1325000000"
+      }
+    },
+    "EC": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "EE": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "EG": {
+      "monthly": {
+        "currency": "EGP",
+        "micros": "87990000"
+      },
+      "yearly": {
+        "currency": "EGP",
+        "micros": "299990000"
+      },
+      "lifetime": {
+        "currency": "EGP",
+        "micros": "589990000"
+      }
+    },
+    "ES": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "ET": {
+      "monthly": {
+        "currency": "ETB",
+        "micros": "236140000"
+      },
+      "yearly": {
+        "currency": "ETB",
+        "micros": "790820000"
+      },
+      "lifetime": {
+        "currency": "ETB",
+        "micros": "1584800000"
+      }
+    },
+    "FI": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "FM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "FR": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "GB": {
+      "monthly": {
+        "currency": "GBP",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "GBP",
+        "micros": "4490000"
+      },
+      "lifetime": {
+        "currency": "GBP",
+        "micros": "8990000"
+      }
+    },
+    "GE": {
+      "monthly": {
+        "currency": "GEL",
+        "micros": "5000000"
+      },
+      "yearly": {
+        "currency": "GEL",
+        "micros": "14000000"
+      },
+      "lifetime": {
+        "currency": "GEL",
+        "micros": "29000000"
+      }
+    },
+    "GH": {
+      "monthly": {
+        "currency": "GHS",
+        "micros": "20000000"
+      },
+      "yearly": {
+        "currency": "GHS",
+        "micros": "65000000"
+      },
+      "lifetime": {
+        "currency": "GHS",
+        "micros": "130000000"
+      }
+    },
+    "GI": {
+      "monthly": {
+        "currency": "GBP",
+        "micros": "1090000"
+      },
+      "yearly": {
+        "currency": "GBP",
+        "micros": "3690000"
+      },
+      "lifetime": {
+        "currency": "GBP",
+        "micros": "7490000"
+      }
+    },
+    "GR": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "HK": {
+      "monthly": {
+        "currency": "HKD",
+        "micros": "13000000"
+      },
+      "yearly": {
+        "currency": "HKD",
+        "micros": "39900000"
+      },
+      "lifetime": {
+        "currency": "HKD",
+        "micros": "78000000"
+      }
+    },
+    "HR": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "HU": {
+      "monthly": {
+        "currency": "HUF",
+        "micros": "590000000"
+      },
+      "yearly": {
+        "currency": "HUF",
+        "micros": "1899000000"
+      },
+      "lifetime": {
+        "currency": "HUF",
+        "micros": "3890000000"
+      }
+    },
+    "ID": {
+      "monthly": {
+        "currency": "IDR",
+        "micros": "27000000000"
+      },
+      "yearly": {
+        "currency": "IDR",
+        "micros": "89000000000"
+      },
+      "lifetime": {
+        "currency": "IDR",
+        "micros": "179000000000"
+      }
+    },
+    "IE": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "IL": {
+      "monthly": {
+        "currency": "ILS",
+        "micros": "4400000"
+      },
+      "yearly": {
+        "currency": "ILS",
+        "micros": "14900000"
+      },
+      "lifetime": {
+        "currency": "ILS",
+        "micros": "29000000"
+      }
+    },
+    "IN": {
+      "monthly": {
+        "currency": "INR",
+        "micros": "170000000"
+      },
+      "yearly": {
+        "currency": "INR",
+        "micros": "550000000"
+      },
+      "lifetime": {
+        "currency": "INR",
+        "micros": "1100000000"
+      }
+    },
+    "IQ": {
+      "monthly": {
+        "currency": "IQD",
+        "micros": "1950000000"
+      },
+      "yearly": {
+        "currency": "IQD",
+        "micros": "6550000000"
+      },
+      "lifetime": {
+        "currency": "IQD",
+        "micros": "13100000000"
+      }
+    },
+    "IT": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "JO": {
+      "monthly": {
+        "currency": "JOD",
+        "micros": "1050000"
+      },
+      "yearly": {
+        "currency": "JOD",
+        "micros": "3550000"
+      },
+      "lifetime": {
+        "currency": "JOD",
+        "micros": "7100000"
+      }
+    },
+    "JP": {
+      "monthly": {
+        "currency": "JPY",
+        "micros": "260000000"
+      },
+      "yearly": {
+        "currency": "JPY",
+        "micros": "880000000"
+      },
+      "lifetime": {
+        "currency": "JPY",
+        "micros": "1760000000"
+      }
+    },
+    "KE": {
+      "monthly": {
+        "currency": "KES",
+        "micros": "200000000"
+      },
+      "yearly": {
+        "currency": "KES",
+        "micros": "700000000"
+      },
+      "lifetime": {
+        "currency": "KES",
+        "micros": "1500000000"
+      }
+    },
+    "KH": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "KR": {
+      "monthly": {
+        "currency": "KRW",
+        "micros": "2500000000"
+      },
+      "yearly": {
+        "currency": "KRW",
+        "micros": "8500000000"
+      },
+      "lifetime": {
+        "currency": "KRW",
+        "micros": "17000000000"
+      }
+    },
+    "KW": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "KY": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "KZ": {
+      "monthly": {
+        "currency": "KZT",
+        "micros": "890000000"
+      },
+      "yearly": {
+        "currency": "KZT",
+        "micros": "2790000000"
+      },
+      "lifetime": {
+        "currency": "KZT",
+        "micros": "5690000000"
+      }
+    },
+    "LI": {
+      "monthly": {
+        "currency": "CHF",
+        "micros": "1300000"
+      },
+      "yearly": {
+        "currency": "CHF",
+        "micros": "4300000"
+      },
+      "lifetime": {
+        "currency": "CHF",
+        "micros": "8600000"
+      }
+    },
+    "LK": {
+      "monthly": {
+        "currency": "LKR",
+        "micros": "500000000"
+      },
+      "yearly": {
+        "currency": "LKR",
+        "micros": "1675000000"
+      },
+      "lifetime": {
+        "currency": "LKR",
+        "micros": "3350000000"
+      }
+    },
+    "LT": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "LU": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "LV": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "MA": {
+      "monthly": {
+        "currency": "MAD",
+        "micros": "16990000"
+      },
+      "yearly": {
+        "currency": "MAD",
+        "micros": "54990000"
+      },
+      "lifetime": {
+        "currency": "MAD",
+        "micros": "109990000"
+      }
+    },
+    "MC": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "MM": {
+      "monthly": {
+        "currency": "MMK",
+        "micros": "3000000000"
+      },
+      "yearly": {
+        "currency": "MMK",
+        "micros": "10000000000"
+      },
+      "lifetime": {
+        "currency": "MMK",
+        "micros": "21000000000"
+      }
+    },
+    "MN": {
+      "monthly": {
+        "currency": "MNT",
+        "micros": "5320000000"
+      },
+      "yearly": {
+        "currency": "MNT",
+        "micros": "17800000000"
+      },
+      "lifetime": {
+        "currency": "MNT",
+        "micros": "35700000000"
+      }
+    },
+    "MO": {
+      "monthly": {
+        "currency": "MOP",
+        "micros": "11990000"
+      },
+      "yearly": {
+        "currency": "MOP",
+        "micros": "39990000"
+      },
+      "lifetime": {
+        "currency": "MOP",
+        "micros": "80880000"
+      }
+    },
+    "MX": {
+      "monthly": {
+        "currency": "MXN",
+        "micros": "30000000"
+      },
+      "yearly": {
+        "currency": "MXN",
+        "micros": "99000000"
+      },
+      "lifetime": {
+        "currency": "MXN",
+        "micros": "199000000"
+      }
+    },
+    "MY": {
+      "monthly": {
+        "currency": "MYR",
+        "micros": "6490000"
+      },
+      "yearly": {
+        "currency": "MYR",
+        "micros": "21990000"
+      },
+      "lifetime": {
+        "currency": "MYR",
+        "micros": "43990000"
+      }
+    },
+    "NG": {
+      "monthly": {
+        "currency": "NGN",
+        "micros": "2180000000"
+      },
+      "yearly": {
+        "currency": "NGN",
+        "micros": "7300000000"
+      },
+      "lifetime": {
+        "currency": "NGN",
+        "micros": "14500000000"
+      }
+    },
+    "NL": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "9990000"
+      }
+    },
+    "NO": {
+      "monthly": {
+        "currency": "NOK",
+        "micros": "18000000"
+      },
+      "yearly": {
+        "currency": "NOK",
+        "micros": "59000000"
+      },
+      "lifetime": {
+        "currency": "NOK",
+        "micros": "119000000"
+      }
+    },
+    "NZ": {
+      "monthly": {
+        "currency": "NZD",
+        "micros": "2890000"
+      },
+      "yearly": {
+        "currency": "NZD",
+        "micros": "9990000"
+      },
+      "lifetime": {
+        "currency": "NZD",
+        "micros": "19990000"
+      }
+    },
+    "OM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10990000"
+      }
+    },
+    "PA": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "PE": {
+      "monthly": {
+        "currency": "PEN",
+        "micros": "4990000"
+      },
+      "yearly": {
+        "currency": "PEN",
+        "micros": "16990000"
+      },
+      "lifetime": {
+        "currency": "PEN",
+        "micros": "33990000"
+      }
+    },
+    "PH": {
+      "monthly": {
+        "currency": "PHP",
+        "micros": "100000000"
+      },
+      "yearly": {
+        "currency": "PHP",
+        "micros": "340000000"
+      },
+      "lifetime": {
+        "currency": "PHP",
+        "micros": "680000000"
+      }
+    },
+    "PK": {
+      "monthly": {
+        "currency": "PKR",
+        "micros": "410000000"
+      },
+      "yearly": {
+        "currency": "PKR",
+        "micros": "1400000000"
+      },
+      "lifetime": {
+        "currency": "PKR",
+        "micros": "2800000000"
+      }
+    },
+    "PL": {
+      "monthly": {
+        "currency": "PLN",
+        "micros": "6690000"
+      },
+      "yearly": {
+        "currency": "PLN",
+        "micros": "22990000"
+      },
+      "lifetime": {
+        "currency": "PLN",
+        "micros": "44990000"
+      }
+    },
+    "PT": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "PY": {
+      "monthly": {
+        "currency": "PYG",
+        "micros": "10000000000"
+      },
+      "yearly": {
+        "currency": "PYG",
+        "micros": "30000000000"
+      },
+      "lifetime": {
+        "currency": "PYG",
+        "micros": "60000000000"
+      }
+    },
+    "QA": {
+      "monthly": {
+        "currency": "QAR",
+        "micros": "5500000"
+      },
+      "yearly": {
+        "currency": "QAR",
+        "micros": "18000000"
+      },
+      "lifetime": {
+        "currency": "QAR",
+        "micros": "36000000"
+      }
+    },
+    "RO": {
+      "monthly": {
+        "currency": "RON",
+        "micros": "7990000"
+      },
+      "yearly": {
+        "currency": "RON",
+        "micros": "26990000"
+      },
+      "lifetime": {
+        "currency": "RON",
+        "micros": "54990000"
+      }
+    },
+    "RS": {
+      "monthly": {
+        "currency": "RSD",
+        "micros": "199000000"
+      },
+      "yearly": {
+        "currency": "RSD",
+        "micros": "599000000"
+      },
+      "lifetime": {
+        "currency": "RSD",
+        "micros": "1199000000"
+      }
+    },
+    "RU": {
+      "monthly": {
+        "currency": "RUB",
+        "micros": "109000000"
+      },
+      "yearly": {
+        "currency": "RUB",
+        "micros": "359000000"
+      },
+      "lifetime": {
+        "currency": "RUB",
+        "micros": "699000000"
+      }
+    },
+    "SA": {
+      "monthly": {
+        "currency": "SAR",
+        "micros": "6390000"
+      },
+      "yearly": {
+        "currency": "SAR",
+        "micros": "21990000"
+      },
+      "lifetime": {
+        "currency": "SAR",
+        "micros": "42990000"
+      }
+    },
+    "SE": {
+      "monthly": {
+        "currency": "SEK",
+        "micros": "18000000"
+      },
+      "yearly": {
+        "currency": "SEK",
+        "micros": "59000000"
+      },
+      "lifetime": {
+        "currency": "SEK",
+        "micros": "119000000"
+      }
+    },
+    "SG": {
+      "monthly": {
+        "currency": "SGD",
+        "micros": "1990000"
+      },
+      "yearly": {
+        "currency": "SGD",
+        "micros": "6990000"
+      },
+      "lifetime": {
+        "currency": "SGD",
+        "micros": "13990000"
+      }
+    },
+    "SI": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "SK": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1590000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5490000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10990000"
+      }
+    },
+    "SM": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4290000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8490000"
+      }
+    },
+    "SN": {
+      "monthly": {
+        "currency": "XOF",
+        "micros": "1000000000"
+      },
+      "yearly": {
+        "currency": "XOF",
+        "micros": "3300000000"
+      },
+      "lifetime": {
+        "currency": "XOF",
+        "micros": "6700000000"
+      }
+    },
+    "SV": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "TC": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "TH": {
+      "monthly": {
+        "currency": "THB",
+        "micros": "52000000"
+      },
+      "yearly": {
+        "currency": "THB",
+        "micros": "175000000"
+      },
+      "lifetime": {
+        "currency": "THB",
+        "micros": "350000000"
+      }
+    },
+    "TR": {
+      "monthly": {
+        "currency": "TRY",
+        "micros": "82990000"
+      },
+      "yearly": {
+        "currency": "TRY",
+        "micros": "274990000"
+      },
+      "lifetime": {
+        "currency": "TRY",
+        "micros": "559990000"
+      }
+    },
+    "TW": {
+      "monthly": {
+        "currency": "TWD",
+        "micros": "49000000"
+      },
+      "yearly": {
+        "currency": "TWD",
+        "micros": "170000000"
+      },
+      "lifetime": {
+        "currency": "TWD",
+        "micros": "330000000"
+      }
+    },
+    "TZ": {
+      "monthly": {
+        "currency": "TZS",
+        "micros": "3900000000"
+      },
+      "yearly": {
+        "currency": "TZS",
+        "micros": "13000000000"
+      },
+      "lifetime": {
+        "currency": "TZS",
+        "micros": "26000000000"
+      }
+    },
+    "UA": {
+      "monthly": {
+        "currency": "UAH",
+        "micros": "79990000"
+      },
+      "yearly": {
+        "currency": "UAH",
+        "micros": "269990000"
+      },
+      "lifetime": {
+        "currency": "UAH",
+        "micros": "539990000"
+      }
+    },
+    "US": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "UZ": {
+      "monthly": {
+        "currency": "UZS",
+        "micros": "20040000000"
+      },
+      "yearly": {
+        "currency": "UZS",
+        "micros": "67080000000"
+      },
+      "lifetime": {
+        "currency": "UZS",
+        "micros": "134400000000"
+      }
+    },
+    "VA": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4290000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8490000"
+      }
+    },
+    "VG": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "VN": {
+      "monthly": {
+        "currency": "VND",
+        "micros": "39000000000"
+      },
+      "yearly": {
+        "currency": "VND",
+        "micros": "131000000000"
+      },
+      "lifetime": {
+        "currency": "VND",
+        "micros": "263000000000"
+      }
+    },
+    "ZA": {
+      "monthly": {
+        "currency": "ZAR",
+        "micros": "27990000"
+      },
+      "yearly": {
+        "currency": "ZAR",
+        "micros": "92990000"
+      },
+      "lifetime": {
+        "currency": "ZAR",
+        "micros": "184990000"
+      }
+    },
+    "AG": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "AL": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1790000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "5990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "12000000"
+      }
+    },
+    "AM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "AO": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "AW": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "BA": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "BF": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4310000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8640000"
+      }
+    },
+    "BJ": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4310000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8640000"
+      }
+    },
+    "BS": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "BW": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "BY": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1790000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "5990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "12000000"
+      }
+    },
+    "BZ": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "CD": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "CF": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4310000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8640000"
+      }
+    },
+    "CG": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "CV": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "DJ": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "DM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "DO": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "ER": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "FJ": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "GA": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4310000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8640000"
+      }
+    },
+    "GD": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "GM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "GN": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "9990000"
+      }
+    },
+    "GT": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "GW": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4310000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8640000"
+      }
+    },
+    "HN": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "HT": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "IS": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1600000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5340000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10710000"
+      }
+    },
+    "JM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "KG": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "KM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "KN": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "LA": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "LB": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "LC": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "LR": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "LY": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "MD": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1790000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "5990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "12000000"
+      }
+    },
+    "MK": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "ML": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4310000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8640000"
+      }
+    },
+    "MT": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1520000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "5090000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "10200000"
+      }
+    },
+    "MU": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "MV": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "MZ": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "NA": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "NE": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4310000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8640000"
+      }
+    },
+    "NI": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "NP": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1680000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "5640000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "11300000"
+      }
+    },
+    "PG": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "RW": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "SB": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "SC": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "SL": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "SO": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "SR": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "TD": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "TG": {
+      "monthly": {
+        "currency": "EUR",
+        "micros": "1290000"
+      },
+      "yearly": {
+        "currency": "EUR",
+        "micros": "4310000"
+      },
+      "lifetime": {
+        "currency": "EUR",
+        "micros": "8640000"
+      }
+    },
+    "TJ": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "TM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "TN": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "TO": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "TT": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "UG": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1760000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "5890000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "11800000"
+      }
+    },
+    "UY": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "VE": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "VU": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "WS": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "YE": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "ZM": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "ZW": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    },
+    "DEFAULT": {
+      "monthly": {
+        "currency": "USD",
+        "micros": "1490000"
+      },
+      "yearly": {
+        "currency": "USD",
+        "micros": "4990000"
+      },
+      "lifetime": {
+        "currency": "USD",
+        "micros": "10000000"
+      }
+    }
+  }
+}

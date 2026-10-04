@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hjälpcenter — TiviEase Go</title>
+    <meta name="description" content="TiviEase Go användarguide: installation, tillägg av listor, EPG, helskärmspelare, inställningar och felsökning.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="Hjälpcenter — TiviEase Go">
+    <meta property="og:description" content="TiviEase Go användarguide: installation, tillägg av listor, EPG, helskärmspelare, inställningar och felsökning.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.sv.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="sv_SE">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.sv.html">
+            <img src="assets/logo.png?v=2" alt="TiviEase Go logotyp">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Meny">☰</button>
+        <nav class="site-nav">
+            <a href="index.sv.html">Hem</a>
+            <a href="index.sv.html#ozellikler">Funktioner</a>
+            <a href="satin-al.en.html">Köp</a>
+            <a class="active" href="yardim.sv.html">Hjälpcenter</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">Hjälpcenter</span>
+            <h1 style="font-size:34px">Hur använder man?</h1>
+            <p>Varje skärm förklaras steg för steg — från första uppstarten till sista inställningen. Välj ett ämne i menyn till vänster eller använd sökningen.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">Märken: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">MOBIL</span> Telefon/Surfplatta &nbsp; <span class="plat pro">PRO</span> Betald funktion</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ SIDOMENY ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="Sök i hjälpen..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ Ämnen</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Komma igång<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">Första uppstart</a>
+                        <a href="#profil-secimi">Val av profil</a>
+                        <a href="#qr-giris">QR-kodinloggning</a>
+                        <a href="#google-giris">Google-inloggning</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Källor<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">Lägga till lista</a>
+                        <a href="#liste-yonetimi">Hantera listor</a>
+                        <a href="#epg-kaynagi">Lägga till EPG-källa</a>
+                        <a href="#grup-siralama">Grupper, sortering, filter</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Hemskärm och EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">Hemskärm (TV)</a>
+                        <a href="#epg-rehberi">Använda TV-guiden</a>
+                        <a href="#arama">Sök och röstsökning</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Kontextmenyer<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">EPG-kontextmeny</a>
+                        <a href="#vod-context">Filmer/Serier-meny</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Spelare<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">Helskärm — livesändning</a>
+                        <a href="#fs-tuslar">Fjärrkontrollsknappar</a>
+                        <a href="#fs-paneller">Paneler och inställningskort</a>
+                        <a href="#coklu-ekran">Multi-skärm (PIP)</a>
+                        <a href="#fs-vod">Helskärm — Filmer/Serier</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Inspelning och påminnelser<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">Spela in program</a>
+                        <a href="#hatirlatici">Påminnelser</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profiler och föräldrakontroll<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">Hantera profiler</a>
+                        <a href="#ebeveyn">Föräldrakontroll</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Inställningsguide<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">Inställningsskärm</a>
+                        <a href="#ayar-listeler">Spellistor</a>
+                        <a href="#ayar-epg">TV-guide</a>
+                        <a href="#ayar-oynatici">Spelare</a>
+                        <a href="#ayar-gorunum">Utseende</a>
+                        <a href="#ayar-medya">Mediadata</a>
+                        <a href="#ayar-diger">Inspelning / Påminnelser / Övrigt</a>
+                        <a href="#ayar-hesap">Konto och Om appen</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mobil och övrigt<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">Mobilappen</a>
+                        <a href="#kumanda">Fjärrkontroll från telefon</a>
+                        <a href="#dlna">DLNA och casting</a>
+                        <a href="#indirilenler">Nedladdningar</a>
+                        <a href="#yedekleme">Säkerhetskopia och synk</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">Felsökning / FAQ</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">Inget hittades.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ INNEHÅLL ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── KOMMA IGÅNG ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Komma igång</h2>
+            <p>TiviEase Go fungerar både på <strong>Android TV</strong> och på <strong>telefon/surfplatta</strong> i en app. Appen tillhandahåller inte kanaler eller innehåll — du lägger till en <strong>M3U-lista</strong> eller ett <strong>Xtream Codes</strong>-konto från din IPTV-leverantör.</p>
+
+            <h3>Skärmen vid första uppstarten</h3>
+            <p>Om ingen lista är definierad när appen öppnas visas <strong>välkomstskärmen</strong>. Den erbjuder fyra kort:</p>
+            <table class="tbl">
+                <tr><th>Kort</th><th>Vad gör det?</th></tr>
+                <tr><td>Lägg till lista<br><small>M3U / Xtream</small></td><td>Tar dig till hemskärmen och öppnar tilläggsformuläret. Detaljer: <a href="#kaynak-ekleme">Lägga till lista</a>.</td></tr>
+                <tr><td>Google-inloggning<br><small>Molnsynkronisering</small></td><td>Inloggning med Google-konto; dina källor, favoriter och molnhistorik laddas, sedan uppdateras listorna automatiskt.</td></tr>
+                <tr><td>QR-inloggning<br><small>Skanna från telefonen</small> <span class="plat tv">TV</span></td><td>Visar en QR-kod på TV:n som är giltig i 3 minuter; skanna den med telefonappens QR-läsare och bekräfta — TV:n loggar in på samma konto.</td></tr>
+                <tr><td>Inställningar<br><small>System och Profil</small></td><td>Öppnar inställningsskärmen om du vill titta runt innan du lägger till en lista.</td></tr>
+            </table>
+            <div class="tip"><p><strong>Tips:</strong> om du redan använder TiviEase Go på en annan enhet är <strong>Google-inloggning</strong> eller <strong>QR-inloggning</strong> snabbast — alla listor och inställningar kommer automatiskt.</p></div>
+
+            <h3 id="profil-secimi">Val av profil</h3>
+            <p>Om flera profiler är definierade på enheten visas skärmen <strong>"Välj profil"</strong> vid start. Pilar + <kbd>OK</kbd> för val. Profiler med PIN frågar först efter det. Varje profil lagrar egna <em>favoriter, innehåll i "Min lista", historik och personliga inställningar</em>.</p>
+            <ul>
+                <li>Lägga till/redigera profiler: <strong>Inställningar › Profiler</strong> (se <a href="#profiller">Hantera profiler</a>).</li>
+                <li>Ändra profil medan appen körs: tryck på <strong>avatar-ikonen</strong> i överstapeln.</li>
+            </ul>
+
+            <h3 id="qr-giris">QR-kodinloggning <span class="plat tv">TV</span> <span class="plat mob">MOBIL</span></h3>
+            <p>Använd telefonen istället för att ange inloggningsuppgifter på TV:n:</p>
+            <ol>
+                <li>På TV:n öppna kortet <strong>QR-inloggning</strong> (välkomstskärmen eller Inställningar › Konton) — en QR-kod visas. Den är giltig i <strong>3 minuter</strong>.</li>
+                <li>På telefonen öppna TiviEase Go-appen och skanna TV:ns kod via QR-läsaren.</li>
+                <li>Tryck på <strong>"Logga in"</strong> på telefonen — du ser "Bekräftat — TV:n loggar in".</li>
+                <li>TV:n loggar in på telefonens konto inom några sekunder; listan och inställningarna synkroniseras.</li>
+            </ol>
+            <div class="note"><p>Om QR-koden har löpt ut, stäng fönstret och öppna det igen — en ny kod skapas. QR-inloggning kräver att samma app är öppen på telefonen med inloggning redan utförd.</p></div>
+
+            <h3 id="google-giris">Google-inloggning och synkronisering</h3>
+            <p>Vid inloggning med Google-konto synkroniseras mellan enheter: käll-/listinställningar, favoriter, "Min lista", historik, profiler och premiumlicens. Efter första inloggningen laddas källor och EPG automatiskt — ingen manuell uppdatering behövs.</p>
+            <ul>
+                <li>Synkroniseringsinställningar och länkade enheter: <strong>Inställningar › Konton, Synkronisering och Enheter</strong>.</li>
+                <li>Appen kan användas utan konto — data stannar på enheten.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── KÄLLOR ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Lägga till spellista</h2>
+            <p>Två typer av källor stöds: <strong>M3U</strong> (URL eller lokal fil) och <strong>Xtream Codes</strong> (server + inloggningsuppgifter). Vid tillägg delas innehållet automatiskt upp i <em>Livesändning / Filmer / Serier</em>.</p>
+
+            <h3>Var lägger man till?</h3>
+            <ul>
+                <li>Från kortet <strong>Lägg till lista</strong> på välkomstskärmen,</li>
+                <li>eller via <strong>Inställningar › Spellistor › Lägg till lista</strong>.</li>
+            </ul>
+
+            <h3>Lägga till M3U-lista</h3>
+            <ol>
+                <li>Öppna <strong>Lägg till lista</strong>, välj kortet <strong>M3U / XMLTV</strong>.</li>
+                <li>I fältet <strong>Namn</strong> ge listan ett namn (t.ex. "Huvudlista").</li>
+                <li>I fältet <strong>URL / Filsökväg</strong> ange M3U-länken <em>eller</em> välj en fil från enheten med mapp-ikonen. Filändelser som stöds: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li>Tryck på <strong>Lägg till</strong> — listan laddas ner och bearbetas; förloppet syns på nedre nedladdningsfältet.</li>
+            </ol>
+            <div class="note"><p>Vid val av fil fylls dess namn i automatiskt om namnfältet är tomt. URL måste börja med http/https.</p></div>
+
+            <h3>Lägga till Xtream Codes-konto</h3>
+            <ol>
+                <li>Välj kortet <strong>Xtream</strong>.</li>
+                <li><strong>Källnamn</strong>: valfritt namn (t.ex. "Huvud-Xtream").</li>
+                <li><strong>Server-URL</strong>: din leverantörs adress, t.ex. <code>http://server.com:8080</code></li>
+                <li><strong>Användarnamn</strong> och <strong>Lösenord</strong>: uppgifter från leverantören. Ögonikonen vid lösenordsfältet visar det inmatade.</li>
+                <li><strong>Lägg till</strong> — appen ansluter till Xtream-API:t; sändningar, filmer och serier laddas separat.</li>
+            </ol>
+            <div class="warn"><p><strong>I gratisversionen</strong> kan endast <strong>1 lista</strong> läggas till (M3U eller Xtream — inte båda). Obegränsat: <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">Hantera listor</h3>
+            <p>Element i <strong>Inställningar › Spellistor</strong>:</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>Befintliga listor</td><td>Visar definierade M3U- och Xtream-källor; på varje kort — senaste uppdatering och status aktiv/inaktiv. Välj källa för att redigera, ta bort eller uppdatera. Sammanfattningskortet visar fördelningen sändningar/serier/filmer.</td></tr>
+                <tr><td>Uppdateringsfrekvens</td><td>Intervall för automatisk uppdatering av listor: <strong>Manuellt, 6, 12, 24, 48, 72 eller 168 timmar</strong>. Vid "Manuellt" uppdateras listor endast på begäran.</td></tr>
+                <tr><td>Uppdatera alla listor</td><td>Laddar om alla källor samtidigt. Bearbetas i bakgrunden i turordning; följ förloppet på nedladdningsfältet.</td></tr>
+                <tr><td>EPG-källor</td><td>Val av EPG-källa som tilldelas varje lista ("Tilldela till lista").</td></tr>
+                <tr><td>Kanalgrupper</td><td>Dölja, byta namn på och omordna grupper från listan (sport, nyheter…).</td></tr>
+                <tr><td>Sortering</td><td>Kanalordning: <strong>Efter namn, Efter nummer, Manuellt, Ursprunglig ordning, Efter grupp</strong>.</td></tr>
+                <tr><td>Filter för kanalnamn</td><td>Regler som automatiskt tar bort prefix/suffix från kanalnamn (t.ex. "TR:", "|4K"). Jokertecken <code>*</code> stöds; fältet "Exempel på omvandling" visar resultatet.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">Lägga till EPG-källa (XMLTV)</h3>
+            <p>För TV-program, lägg till din IPTV-leverantörs XMLTV/EPG-adress:</p>
+            <ol>
+                <li>Öppna <strong>Inställningar › TV-guide › Lägg till EPG-källa</strong>.</li>
+                <li>Ange namn och <strong>URL / Adress</strong>, spara.</li>
+                <li>Efter nedladdning matchas kanaler automatiskt efter namnlikhet; matcha resterande manuellt via <a href="#epg-rehberi">EPG-matchning av kanaler</a>.</li>
+            </ol>
+            <div class="warn"><p>Gratisversionen tillåter <strong>1 EPG-källa</strong>. Vissa Xtream-leverantörer skickar med egen EPG — vid tillägg av Xtream-källa kommer EPG vanligtvis automatiskt.</p></div>
+
+            <h3 id="grup-siralama">Grupper, sortering och namnfilter</h3>
+            <ul>
+                <li><strong>Kanalgrupper:</strong> styr grupp-rubrikerna från M3U/Xtream. Dolda grupper visas inte i TV-listan; sorteringen anger gruppordningen.</li>
+                <li><strong>Sortering:</strong> med "Manuellt" skapar du din egen ordning i kanallistan; "Ursprunglig ordning" bevarar filens ordning.</li>
+                <li><strong>Namnfilter:</strong> tar bort mönster i början/slutet av kanalnamn (t.ex. landsprefix) — listan blir mer läsbar. Separat filter för VOD-namn: <strong>Inställningar › Mediadata › VOD-namnfilter</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── HEMSKÄRM OCH EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Hemskärm och TV-guide <span class="plat tv">TV</span></h2>
+
+            <h3>Överstapel och meny</h3>
+            <p>På TV:ns hemskärm finns en horisontell meny högst upp. Navigering <kbd>◀</kbd><kbd>▶</kbd>, val <kbd>OK</kbd>, in i innehållet <kbd>▼</kbd>.</p>
+            <table class="tbl">
+                <tr><th>Meny</th><th>Innehåll</th></tr>
+                <tr><td>Sök</td><td>Smart-sökskärmen — kanaler, filmer, serier och program; stöder röstsökning.</td></tr>
+                <tr><td>TV</td><td>Kanallista + EPG-rutnät och kort för livförhandsvisning.</td></tr>
+                <tr><td>Filmer</td><td>Kategorikolumn (Action, Komedi, Drama, Sci-Fi, Skräck, Familj, Favoriter, Nyheter, Fortsätt titta) + affischgalleri.</td></tr>
+                <tr><td>Serier</td><td>Kategorier som Inhemska/Utländska serier, Dagtidssändningar, Primetime + affischgalleri.</td></tr>
+                <tr><td>Min lista</td><td>Favoriter, Mina filmer, Mina serier, Fortsätt titta, Inspelningar, Påminnelser, Nedladdningar, Offline-innehåll.</td></tr>
+                <tr><td>Inställningar</td><td>Kugghjulsikon till höger — öppnar inställningspanelen med 13 kategorier.</td></tr>
+            </table>
+            <p>Ikoner till höger i överstapeln: <strong>profilavatar</strong> (byt profil), <strong>inställningskugghjul</strong> och knapp för <strong>enheter</strong> (DLNA/cast).</p>
+            <div class="note"><p>I långa listor hoppar <kbd>Kanal+</kbd>/<kbd>Kanal−</kbd> (eller Page Up/Down) 10 rader. <kbd>Tillbaka</kbd> höjer en nivå; på hemskärmen ber den om bekräftelse för utgång.</p></div>
+
+            <h3>Affischgalleri och förhandsvisning</h3>
+            <ul>
+                <li>På Filmer/Serier-sidor visas affischer i rutnät; vid fördröjning förstoras kortet och — om aktiverat — spelar <strong>trailerförhandsvisning</strong> (inställning: Mediadata › Autoförhandsvisning).</li>
+                <li>Långt <kbd>OK</kbd> på affisch: öppnar <a href="#vod-context">kontextmenyn</a>.</li>
+                <li>På TV-sidan vid fördröjning på en kanalrad spelar fönstret för <strong>livförhandsvisning</strong> uppe till höger kanalen i miniatyr.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">Använda TV-guiden (EPG)</h3>
+            <p>TV-menyn växlar mellan två vyer: <strong>kanallista</strong> och <strong>EPG-rutnät</strong> ("Gå till EPG-lista" / "Gå till kanallista").</p>
+            <ul>
+                <li><strong>Vänsterkolumn:</strong> kanallogotyper och namn. <kbd>▲</kbd><kbd>▼</kbd> byter kanal; till höger syns dess program.</li>
+                <li><strong>Höger rutnät:</strong> tidslinje — programkort med varaktighet. <kbd>◀</kbd><kbd>▶</kbd> rör sig i tid.</li>
+                <li><strong>Val av dag:</strong> med knapparna Igår / Idag / Imorgon och pilarna "föregående / nästa dag" kan man titta bakåt så långt som inställningen <em>EPG-data för tidigare dagar</em> tillåter.</li>
+                <li><strong>Långt <kbd>OK</kbd> på kanalrad:</strong> öppnar <a href="#epg-context">EPG-kontextmenyn</a> (favoriter, inspelning, påminnelse, dölj…).</li>
+                <li>Kort <kbd>OK</kbd> på kanal: tittar på den i helskärm.</li>
+            </ul>
+            <div class="tip"><p>Ingen EPG på kanal? Kontrollera först att EPG-källan är definierad och uppdaterad (Inställningar › TV-guide › Uppdatera EPG), matcha sedan kanalen manuellt via "Matcha EPG".</p></div>
+
+            <h3 id="arama">Sök och röstsökning</h3>
+            <ul>
+                <li>Menyn <strong>Sök</strong> (eller "Sök" i kontextmenyer) öppnar smart-sökningen. Den söker direkt i filmer, serier, kanalnamn och EPG-program ("Programträffar", "TV-program").</li>
+                <li>Mikrofonikonen startar <strong>Röstsökning</strong> — tala medan "Lyssnar…" lyser; vid första användningen efterfrågas mikrofontillstånd.</li>
+                <li><strong>Sökhistorik</strong> visar tidigare frågor; "Rensa" tar bort den.</li>
+                <li>På mobilen fyller sökfliken samma funktion; inmatning sker via pekning.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── KONTEXTMENYER ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Kontextmenyer</h2>
+
+            <h3>EPG-kontextmeny <span class="plat tv">TV</span></h3>
+            <p><strong>Öppna:</strong> på en kanalrad i TV-guiden <strong>långtryck <kbd>OK</kbd></strong> — menyn glider in från höger. <kbd>▲</kbd><kbd>▼</kbd> för navigering, <kbd>OK</kbd> för val, <kbd>Tillbaka</kbd> för stängning.</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Funktion</th></tr>
+                <tr><td>Öppna kanal</td><td>Startar den valda kanalen i helskärm.</td></tr>
+                <tr><td>Sök</td><td>Öppnar smart-sökningen.</td></tr>
+                <tr><td>TV / Filmer / Serier / Min lista / Inställningar</td><td>Snabba hopp till andra huvudavsnitt utom det nuvarande.</td></tr>
+                <tr><td>Lägg till i favoriter / Ta bort ur favoriter</td><td>Lägger till eller tar bort kanalen ur favoriter; synliga i TV-listan och Min lista.</td></tr>
+                <tr><td>Öppna i extern spelare</td><td>Skickar kanalens ström till en annan uppspelningsapp på enheten (VLC, MX Player…).</td></tr>
+                <tr><td>Spela in</td><td>Lägger det valda programmet (eller manuell inspelning på 2 h utan program) i inspelningslistan. Extra minuter från inställningar tillämpas automatiskt.</td></tr>
+                <tr><td>Anpassad inspelning</td><td>Visar först fönster för val av extra minuter före/efter (+0/+1/+5/+10 min).</td></tr>
+                <tr><td>Lägg till / ta bort påminnelse</td><td>Aviserar före programstart; med aktiverad "autoöppning av kanal" öppnas kanalen själv.</td></tr>
+                <tr><td>Matcha EPG</td><td>Kopplar kanalens programdata manuellt till rätt kanalnamn i EPG-källan.</td></tr>
+                <tr><td>Uppdatera EPG</td><td>Laddar om definierade EPG-källor.</td></tr>
+                <tr><td>Rensa EPG</td><td>Tar bort cachade programdata; laddas om vid nästa uppdatering.</td></tr>
+                <tr><td>Uppdatera logotyper</td><td>Laddar om kanallogotyper (enligt inställning för logotypkälla).</td></tr>
+                <tr><td>Lås / lås upp kanal</td><td>Gömmer kanalen bakom PIN inom föräldrakontrollen; öppning kräver PIN.</td></tr>
+                <tr><td>Dölj / visa kanal</td><td>Döljer kanalen ur listan; återställning: "Visa dolda kanaler" eller Inställningar › Föräldrakontroll › Dolda kanaler.</td></tr>
+                <tr><td>Visa dolda kanaler</td><td>Återställer tillfälligt dolda kanaler i listan.</td></tr>
+            </table>
+
+            <h3 id="vod-context">Kontextmeny för film / serie</h3>
+            <p><strong>Öppna:</strong> långt <kbd>OK</kbd> på affisch (mobil: långtryck / ikon ☰).</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Funktion</th></tr>
+                <tr><td>Fortsätt</td><td>Fortsätter från stoppplatsen (synlig bara om det finns framsteg).</td></tr>
+                <tr><td>Spela upp</td><td>Spelar innehållet från början.</td></tr>
+                <tr><td>Extern uppspelning</td><td>Skickar till en annan uppspelningsapp.</td></tr>
+                <tr><td>Trailer</td><td>Öppnar trailern hittad på TMDB.</td></tr>
+                <tr><td>Affisch i helskärm / Visa banderoll <span class="plat tv">TV</span></td><td>Växlar galleriet mellan affischnät och banderollayout.</td></tr>
+                <tr><td>Sortering / Filter</td><td>Öppnar alternativ för sortering och filtrering av galleriet.</td></tr>
+                <tr><td>Utgivningsår</td><td>Filtrerar innehåll efter år.</td></tr>
+                <tr><td>Kategori</td><td>Filtrerar efter genre (action, komedi…).</td></tr>
+                <tr><td>Mer information</td><td>Öppnar detaljpanelen: beskrivning, skådespelare, regissör, betyg och avsnittslista.</td></tr>
+                <tr><td>Till Min lista / Ta bort</td><td>Lägger till eller tar bort innehållet ur "Min lista › Mina filmer/Mina serier".</td></tr>
+                <tr><td>Ta bort ur historik</td><td>Raderar den sparade positionen; innehållet försvinner ur "fortsätt titta".</td></tr>
+                <tr><td>Ta bort ur sedda / Rensa sedda</td><td>Tar bort märket "sedda" eller rensar hela tittarhistoriken.</td></tr>
+                <tr><td>Ta bort ur offline-innehåll</td><td>Tar bort det nedladdade innehållet (synligt bara på nedladdningar).</td></tr>
+                <tr><td>Hitta och matcha innehåll</td><td>Om TMDB-matchningen är fel/saknas, hitta och matcha rätt film/serie manuellt.</td></tr>
+                <tr><td>Markera flera <span class="plat mob">MOBIL</span></td><td>Öppnar läget för att markera flera affischer för gruppåtgärder.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── SPELARE ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Helskärmspelare</h2>
+
+            <h3>Helskärm — livesändning <span class="plat tv">TV</span></h3>
+            <p>När kanalen öppnas spelas videon i helskärm. Alla paneler öppnas med fjärrkontrollen och stängs av sig själva efter inaktivitet (kanallista ~8 s, programflöde ~15 s).</p>
+
+            <h4 id="fs-tuslar">Fjärrkontrollsknappar — livesändning</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> kort</div><div>Öppnar/stänger OSD (informationspanelen).</div>
+                <div><kbd>OK</kbd> långt</div><div>Öppnar spelarens inställningskort (nedan).</div>
+                <div><kbd>▶</kbd> höger</div><div>Öppnar kanallistan vid högra kanten. Med öppen lista en höger till → kategorikolumnen (grupper).</div>
+                <div><kbd>◀</kbd> vänster</div><div>Öppnar EPG "Programflöde" från vänster kant; om öppen — stänger.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Byter kanal; flyttar urvalet i öppen lista.</div>
+                <div><kbd>0–9</kbd></div><div>Ange kanalnummer — växlar när inmatningen är klar.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> eller <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>Nästa/föregående kanal (rör sig i öppen lista).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>Öppnar/stänger EPG-programflöde.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>Återgår till senast sedda kanalen.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Föregående/nästa kanal.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>Pausar/återupptar livesändningen.</div>
+                <div><kbd>●</kbd> Record-knapp</div><div>Öppnar/stänger kanallistan.</div>
+                <div><kbd>Tillbaka</kbd></div><div>Stänger öppen panel → stänger OSD → lämnar spelaren.</div>
+            </div>
+
+            <h4 id="fs-paneller">Paneler och inställningskort</h4>
+            <table class="tbl">
+                <tr><th>Panel</th><th>Öppna</th><th>Innehåll</th></tr>
+                <tr><td>OSD (informationspanel)</td><td><kbd>OK</kbd> kort</td><td>Kanalnamn/logotyp, aktuellt och nästa program, framsteg, klocka (om helskärmsklocka är på).</td></tr>
+                <tr><td>Kanallista</td><td><kbd>▶</kbd> eller <kbd>●</kbd></td><td>Lista som glider in från höger; upp/ner för val, <kbd>OK</kbd> för byte. Ytterligare <kbd>▶</kbd> öppnar grupp-/kategorikolumnen — <kbd>OK</kbd> tillämpar gruppen.</td></tr>
+                <tr><td>EPG-programflöde</td><td><kbd>◀</kbd> eller <kbd>Info</kbd></td><td>Programlista som glider in från vänster: dagens sändningar. <kbd>▲</kbd><kbd>▼</kbd> för att bläddra; långt <kbd>OK</kbd> på program → åtgärder för påminnelse/inspelning.</td></tr>
+                <tr><td>Spelarens inställningskort</td><td><kbd>OK</kbd> långt</td><td>Snabbinställningskort med 8 ikoner (tabellen nedan).</td></tr>
+            </table>
+
+            <h4>Spelarens inställningskort (livesändning)</h4>
+            <p>Med öppet kort, rör dig mellan ikonerna med <kbd>◀</kbd><kbd>▶</kbd>, med öppen panel — mellan alternativen; <kbd>OK</kbd> tillämpar.</p>
+            <table class="tbl">
+                <tr><th>Flik</th><th>Beskrivning</th></tr>
+                <tr><td>Gå till VOD</td><td>Snabbt hopp till avsnittet Filmer eller Serier.</td></tr>
+                <tr><td>Sändningsspråk</td><td>Val av ljudspår om strömmen har flera (annars språkpreferens: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>Bildstorlek</td><td>Format: Original, Beskär/Fyll, Sträck horisontellt, Sträck vertikalt, Fyll allt, 4:3, 16:9 — med alternativet "tillämpa på alla kanaler".</td></tr>
+                <tr><td>Undertexter</td><td>Val av undertextspår + textfärg (10 färger) och storlek.</td></tr>
+                <tr><td>PIP</td><td>Öppnar multi-skärmsläget (<a href="#coklu-ekran">se nedan</a>).</td></tr>
+                <tr><td>Ströminfo</td><td>Tekniska data om strömmen (upplösning, codec…).</td></tr>
+                <tr><td>Spelare</td><td>Avkodare och grundläggande alternativ för spelarbeteende.</td></tr>
+                <tr><td>Inställningar</td><td>Öppnar huvudinställningsskärmen ("Öppna alla inställningar").</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">Multi-skärm (PIP)</h4>
+            <p>Via <strong>PIP</strong> på kortet eller multi-skärmsfunktionen tittar man på flera kanaler samtidigt (upp till 4 skärmar). Alternativ i multi-skärmsmenyn:</p>
+            <ul>
+                <li><strong>Lägg till skärm / Stäng skärm:</strong> öppnar en ny strömcell eller stänger den valda.</li>
+                <li><strong>Jämn vy / Stor skärm:</strong> delar skärmar jämnt eller förstorar en.</li>
+                <li><strong>Byt kanal:</strong> byter kanal i fokuserad cell.</li>
+                <li><strong>Helskärm / Tillbaka till skärmar / En skärm:</strong> expanderar cellen eller återgår till flervyn.</li>
+                <li><strong>Uppspelning/Paus, Stäng av/slå på ljud, Ladda om:</strong> uppspelning och ljud per cell (ljudet kommer från en skärm i taget).</li>
+            </ul>
+            <div class="warn"><p>Multi-skärm belastar processorn; på svaga TV-apparater rekommenderas 2 skärmar.</p></div>
+
+            <h3 id="fs-vod">Helskärm — film / serie</h3>
+            <p>I VOD-spelaren öppnas OSD som en kontrollpanel längst ner: <strong>Föregående avsnitt/innehåll, bakåt, Spela/Paus, framåt, Nästa, Språk och Undertexter, Info, Inställningar, Från början</strong> och framstegsfältet.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>Öppnar OSD; öppen — aktiverar knappen i fokus (standard Spela/Paus).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>Stegvis spolning på framstegsfältet; med stängd OSD öppnar den först. I kontrollraden flyttar den över knappar.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Vertikal rörelse mellan framstegsfält ↔ kontrollrad ↔ inställningskort.</div>
+                <div><kbd>0–9</kbd></div><div>Minutinmatning — hoppar till angiven minut.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Bakåt/framåt 30 sekunder (indikator visas på skärmen).</div>
+                <div><kbd>Info</kbd></div><div>Öppnar filmens/seriens informationskort (beskrivning, skådespelare, betyg — TMDB).</div>
+                <div><kbd>Tillbaka</kbd></div><div>Stänger panel/OSD; ytterligare tryck avslutar och sparar framstegen.</div>
+            </div>
+            <ul>
+                <li><strong>Kortet Nästa avsnitt:</strong> i serier visas ~30 sekunder före slutet kortet "Gå till nästa avsnitt" längst ner; tryck <kbd>OK</kbd> för att gå vidare.</li>
+                <li><strong>Fortsätt från plats:</strong> halvtittat innehåll fortsätter vid återöppning från den sparade sekunden ("Fortsätt"). Framsteg sparas vid utgång.</li>
+                <li><strong>Menyn Språk och Undertexter:</strong> byter omedelbart ljud- och undertextspår.</li>
+                <li><strong>Mobilgester</strong> <span class="plat mob">MOBIL</span>: vertikalt svep på vänster kant = volym, höger = ljusstyrka; pekning öppnar OSD.</li>
+            </ul>
+            <p>VOD-inställningskortet liknar livesändningens; det innehåller dessutom <strong>Ljudförskjutning</strong> (reglage + Återställ) och <strong>Gå till TV</strong>.</p>
+        </section>
+
+        <!-- ───────────── INSPELNING OCH PÅMINNELSER ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Inspelning och påminnelser <span class="plat pro">PRO</span></h2>
+
+            <h3>Spela in program</h3>
+            <ol>
+                <li>I EPG, långtryck <kbd>OK</kbd> på <strong>kanalraden</strong> för programmet du vill spela in.</li>
+                <li><strong>Spela in</strong>: lägger programmet i inspelningslistan med extra minuter från inställningarna. Utan program planeras en manuell inspelning på 2 h från nu.</li>
+                <li><strong>Anpassad inspelning</strong>: öppnar fönster för val av extra minuter före/efter (0/+1/+5/+10 min) innan inspelningen skapas.</li>
+                <li>Vid utsatt tid startar inspelningen automatiskt; på programkortet i flödet blinkar REC-ikonen.</li>
+            </ol>
+            <p>Element i <strong>Inställningar › Inspelning</strong>:</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>Inspelningsmapp</td><td>Var inspelningar sparas: internminne eller nätverksmapp (SMB — "Skanna nätverk" hittar resurser och ansluter med användarnamn/lösenord).</td></tr>
+                <tr><td>Tid före / efter inspelning</td><td>Extra tid i början och slutet av varje inspelning: 0, 1, 5 eller 10 minuter. Hjälper att inte missa början/slutet vid försening eller förlängd sändning.</td></tr>
+                <tr><td>Inspelningslista</td><td>Räknare för totalt/avslutade/schemalagda och alla inspelningar: spela avslutade med <kbd>OK</kbd>, avbryt väntande, radera.</td></tr>
+            </table>
+            <div class="note"><p>Inspelningar skrivs till den valda mappen; se till att det finns tillräckligt med ledigt utrymme. Val av USB/SD-kort stöds.</p></div>
+
+            <h3 id="hatirlatici">Påminnelser</h3>
+            <ul>
+                <li>Skapa påminnelse på program med <strong>Lägg till påminnelse</strong> i EPG-kontextmenyn; välj igen för att ta bort.</li>
+                <li>Aviseringstid: <strong>1, 2, 5 eller 10 minuter</strong> före programstart.</li>
+                <li><strong>Inställningar › Påminnelser</strong>: aviseringsalternativ och <strong>"Autoöppning av kanal"</strong> (TV:n växlar själv till kanalen i tid); här hanteras också hela påminnelselistan.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── PROFILER OCH FÖRÄLDRAKONTROLL ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profiler och föräldrakontroll <span class="plat pro">PRO</span></h2>
+
+            <h3>Hantera profiler</h3>
+            <p>I <strong>Inställningar › Profiler</strong>:</p>
+            <ul>
+                <li><strong>Lägg till profil:</strong> skapar ny profil med namn, avatarval och valfritt PIN.</li>
+                <li><strong>Profillista:</strong> visar befintliga profiler; här redigeras och raderas de.</li>
+                <li>Varje profil lagrar sina <em>favoriter, innehåll i "Min lista", historik och personliga inställningar</em>. Aktiv profil efterfrågas vid start; byts direkt via avatar i överstapeln.</li>
+            </ul>
+
+            <h3 id="ebeveyn">Föräldrakontroll</h3>
+            <p>Element i <strong>Inställningar › Föräldrakontroll</strong> (med angiven PIN frågar panelinträdet efter den):</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>PIN-skydd</td><td>Status för 4-siffrig PIN-kod.</td></tr>
+                <tr><td>Ändra PIN</td><td>Anger ny 4-siffrig PIN (borttagning av PIN också här).</td></tr>
+                <tr><td>PIN-krav</td><td>Anger i vilka situationer PIN efterfrågas.</td></tr>
+                <tr><td>Inställningslås</td><td>Om aktiverat krävs PIN för inträde i inställningar.</td></tr>
+                <tr><td>Låsning av 18+-innehåll</td><td>Gömmer vuxeninnehåll bakom PIN.</td></tr>
+                <tr><td>Kanallåsning</td><td>Öppning av låsta kanaler kräver PIN (kanallåsning: EPG-kontextmeny).</td></tr>
+                <tr><td>Åldersgräns</td><td>Åldersbegränsning — innehåll under vald ålder kräver PIN. Bredvid "Guide till åldersbetyg" förklaras åldersmärken i nationella system.</td></tr>
+                <tr><td>Dolda kanaler</td><td>Visar dolda kanaler och gör dem synliga igen.</td></tr>
+            </table>
+            <div class="tip"><p>Glömt PIN? Gör en säkerhetskopia innan du skapar ny profil eller installerar om; PIN-data lagras krypterat på enheten.</p></div>
+        </section>
+
+        <!-- ───────────── INSTÄLLNINGAR ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Inställningsguide</h2>
+            <p>Inställningsskärmen består av tre kolumner: <strong>vänster</strong> — 13 kategorier, <strong>mitten</strong> — kategoriens element, <strong>höger</strong> — beskrivnings-/inställningspanel för valt element. <strong>Förstoringsglas-ikonen</strong> i rubriken öppnar sökning bland inställningar. <kbd>Kanal+</kbd>/<kbd>−</kbd> hoppar 10 rader i kategorilistan.</p>
+            <div class="warn"><p>I gratisversionen är en del kategorier låsta (hänglås-ikon): Spelare, Utseende, Mediadata, Inspelning, Påminnelser, Profiler, Föräldrakontroll, Nedladdningar och Övrigt. En låst kategori öppnar uppgraderingspanelen för Pro.</p></div>
+
+            <h3 id="ayar-listeler">1 · Spellistor</h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>Lägg till lista</td><td>Lägger till ny M3U-lista (URL/fil) eller Xtream (server+användarnamn+lösenord).</td></tr>
+                <tr><td>Uppdateringsfrekvens</td><td>Intervall för automatisk uppdatering: Manuellt, 6, 12, 24, 48, 72, 168 timmar.</td></tr>
+                <tr><td>Uppdatera alla listor</td><td>Laddar om alla källor samtidigt.</td></tr>
+                <tr><td>Befintliga listor</td><td>Redigering, borttagning, uppdatering av källor; status aktiv/inaktiv och senaste uppdatering.</td></tr>
+                <tr><td>Kanalgrupper</td><td>Dölja, byta namn på, omordna grupper.</td></tr>
+                <tr><td>EPG-källor</td><td>Tilldela EPG-källa till listor ("Tilldela till lista").</td></tr>
+                <tr><td>Sortering</td><td>Kanalordning: efter namn/nummer, manuellt, ursprunglig eller efter grupp.</td></tr>
+                <tr><td>Filter för kanalnamn</td><td>Borttagning av prefix/suffix från namn; regler med jokertecken <code>*</code> och förhandsvisning av omvandlingsexempel.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · TV-guide</h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>Lägg till EPG-källa</td><td>Lägger till EPG-källa i XMLTV-format (ger kanalernas programdata).</td></tr>
+                <tr><td>Befintliga EPG-källor</td><td>Redigera/ta bort EPG-källor; antal kanaler och senaste uppdatering per källa.</td></tr>
+                <tr><td>EPG-matchning av kanaler</td><td>Matchar kanaler till EPG-data — automatiskt eller med manuell tilldelning; omatchade kanaler listas.</td></tr>
+                <tr><td>Uppdateringsfrekvens</td><td>Bakgrundsintervall för EPG-uppdatering: Manuellt, 1, 2, 4, 6, 12, 24 timmar.</td></tr>
+                <tr><td>Uppdatera vid uppstart</td><td>Om aktiverat uppdateras EPG automatiskt vid varje appstart.</td></tr>
+                <tr><td>Uppdatera vid listbyte</td><td>Uppdaterar automatiskt även EPG när spellistan ändras/uppdateras.</td></tr>
+                <tr><td>EPG-data för tidigare dagar</td><td>Hur många dagar av tidigare programdata som lagras: nej, 1, 2, 3, 5 eller 7 dagar. Fler dagar = mer minne.</td></tr>
+                <tr><td>Tidsförskjutning</td><td>Skiftar programtider framåt/bakåt med timmar/minuter, globalt eller per kanal (för källor med tidsskillnad).</td></tr>
+                <tr><td>Uppdatera EPG</td><td>Startar manuell uppdatering; framsteg och antal bearbetade kanaler visas.</td></tr>
+                <tr><td>Rensa EPG</td><td>Tar bort cachade programdata och bildcache; laddas om vid nästa uppdatering.</td></tr>
+                <tr><td>Senaste uppdatering</td><td>Bearbetade kanaler och uppdateringsdatum per källa.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · Spelare <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>Bild</td><td>Format: Original, Beskär/Fyll, Sträck horisontellt, Sträck vertikalt, Fyll allt, 4:3, 16:9; tillämpas på alla kanaler vid behov.</td></tr>
+                <tr><td>Videoutgång</td><td>Val av avkodare: hårdvara (rekommenderas, mindre batteri/CPU) eller mjukvara (vid kompatibilitetsproblem).</td></tr>
+                <tr><td>Ljudutgång</td><td>Ljudavkodare (hårdvara/mjukvara), <strong>Ljudgenomsläpp (Bitstream)</strong> — rå ljudström till surroundsystem, <strong>Ljudförskjutning</strong> (reglage i ms + Återställ) och standardspråk för ljud.</td></tr>
+                <tr><td>Undertexter</td><td>Textstorlek, färg (10 färger), position (upp/mitt/ner) och kodning (UTF-8…).</td></tr>
+                <tr><td>Kanalbyte</td><td>Zapping-beteende: <strong>Fördröjning vid byte</strong> (ms till verklig växling — undviker onödiga laddningar vid snabb zapping) och <strong>Svart skärm vid byte</strong> (svart medan ny kanal laddar; avstängt — föregående kanal ligger kvar på skärmen).</td></tr>
+                <tr><td>Buffring</td><td>Buffertstorlek: Auto, Ingen, Liten (~1 s), Medel (~3 s, rekommenderas), Stor (~8 s), Mycket stor (~15+ s). Öka för strömmar som hackar; minska för snabbare zapping.</td></tr>
+                <tr><td>VOD</td><td>Preferenser för filmer/serier: val av extern spelare (Autoval / Välj app / Extern spelare 1-2), autoundertexter m.m.</td></tr>
+                <tr><td>Helskärmsklocka</td><td>Klocka i helskärm: på/av, position, storlek (liten/mellan/stor), 24-timmarsformat, visa datum.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · Utseende <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>Språk</td><td>Gränssnittsspråk — val bland 24 språk eller "Systemspråk"; filtreras med sökfältet.</td></tr>
+                <tr><td>Färger</td><td>Apptema (Mörkt, Blått, Grått, Grönt, Lila, Rött, Bärnsten, Natt, Ocean, Kol, Vin, Marinblått, Smaragd, Solnedgång, Rymd, Grafit), accentfärg (18 färger) och OSD-opacitet (med förhandsvisning).</td></tr>
+                <tr><td>TV-guide</td><td>EPG-utseende: 24-timmarsformat, radhöjd (liten/mellan/stor), layout (lista/rutnät).</td></tr>
+                <tr><td>Kanallista</td><td>Kanallistans utseende och kortlayout.</td></tr>
+                <tr><td>Logotyper</td><td>Prioritet för logotypkälla: <strong>XMLTV/EPG</strong>, <strong>Lista (M3U)</strong> eller <strong>Lokal mapp</strong>; använd egna logotypfiler (PNG/JPG/WebP) genom att välja mapp.</td></tr>
+                <tr><td>OSD-varaktighet</td><td>Hur många sekunder informationspanelen stannar kvar på skärmen — separat för TV och VOD.</td></tr>
+                <tr><td>Skärmsläckare</td><td>Tid till aktivering vid inaktivitet: av, 1, 2, 5, 10, 15 eller 30 minuter.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · Mediadata <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>API-nycklar</td><td>Ange dina API-nycklar för TMDB och OMDb — de skaffas gratis på tjänsternas webbplatser. Affischer, beskrivningar, skådespelare och IMDb-betyg för filmer/serier kommer från dessa tjänster.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>Slår på/av tjänsten. TMDB: affisch+beskrivning+trailer; OMDb: IMDb-betyg, genre, regissör.</td></tr>
+                <tr><td>Smart cache</td><td>Påslagen — endast metadata för innehåll som syns på skärmen laddas; snabbare första uppstart.</td></tr>
+                <tr><td>Endast manuell berikning</td><td>Stänger av automatisk laddning av metadata; berikning sker bara när du startar den.</td></tr>
+                <tr><td>Cachemapp</td><td>Mapp där metadatacachen lagras.</td></tr>
+                <tr><td>Berika allt innehåll</td><td>Laddar massvis TMDB-data för allt VOD-innehåll (kan ta tid).</td></tr>
+                <tr><td>Berika efter kategorier</td><td>Berikar bara valda kategorier.</td></tr>
+                <tr><td>Rensa cache</td><td>Tar bort hela metadatacachen (antal och storlek visas).</td></tr>
+                <tr><td>VOD-namnfilter</td><td>Regler för borttagning av prefix/suffix i film-/serienamn — förbättrar TMDB-matchning.</td></tr>
+            </table>
+            <p>Även inställningar för affischförhandsvisning (trailer vid fördröjning): <strong>Autoförhandsvisning</strong> (spelar trailer vid fördröjning på affisch), <strong>Trailerljud</strong>, startpunkt och väntetid.</p>
+
+            <h3 id="ayar-diger">6–9, 11 · Inspelning, Påminnelser, Profiler, Föräldrakontroll, Nedladdningar, Övrigt</h3>
+            <ul>
+                <li><strong>Inspelning</strong> <span class="plat pro">PRO</span> — mapp, extra tid, inspelningslista (<a href="#kayit">mer</a>).</li>
+                <li><strong>Påminnelser</strong> <span class="plat pro">PRO</span> — avisering och autoöppning av kanal + lista (<a href="#hatirlatici">mer</a>).</li>
+                <li><strong>Profiler</strong> <span class="plat pro">PRO</span> — profillista och ny profil (<a href="#profiller">mer</a>).</li>
+                <li><strong>Föräldrakontroll</strong> <span class="plat pro">PRO</span> — PIN, låsningar, åldersgräns, dolda kanaler (<a href="#ebeveyn">mer</a>).</li>
+                <li><strong>Nedladdningar</strong> <span class="plat pro">PRO</span> — mapp, samtidiga nedladdningar, endast Wi-Fi, lista (<a href="#indirilenler">mer</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>Element Övrigt <span class="plat pro">PRO</span></th><th>Beskrivning</th></tr>
+                <tr><td>Ljud för fjärrkontrollsknappar</td><td>Spelar ett lätt klick vid D-pad-navigering.</td></tr>
+                <tr><td>Appens tangentbord</td><td>Använd vid inmatning appens eget skärmtangentbord eller systemets.</td></tr>
+                <tr><td>Autostart</td><td>Appen startar själv när enheten slås på (TV).</td></tr>
+                <tr><td>Stoppa uppspelning vid utgång</td><td>Uppspelningen stoppas automatiskt när appen lämnas.</td></tr>
+                <tr><td>Tittarstatistik</td><td>Din tittartid för filmer, serier och livesändningar (senaste 7/30 dagar, totalt); återställbar.</td></tr>
+                <tr><td>Dataförbrukning</td><td>Nätverksdataförbrukning: mottaget/skickat och totalt.</td></tr>
+                <tr><td>Säkerhetskopia / Återställning</td><td>Sparar alla inställningar, favoriter, profiler och historik till fil / återställer från fil.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 och 12 · Konton och synkronisering · Om appen</h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beskrivning</th></tr>
+                <tr><td>Konton, Synkronisering och Enheter</td><td>Status för Google-konto, skapande av anonymt konto, autosynkronisering, synkronisering av premiumlicens, lista över länkade enheter och borttagning, utloggning och <strong>Radera konto</strong> (permanent radering inklusive molndata).</td></tr>
+                <tr><td>Om appen</td><td>Version, prenumerationstyp och licensgiltighet, funktionslista (Livesändning, VOD och IPTV, EPG, Multi-skärm, Inspelning, Påminnelser, Profiler, Föräldrakontroll, Smart sökning, DLNA, Molnsynk., Favoritlistor, Metadata) och kontakter.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── MOBIL ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mobilappen <span class="plat mob">MOBIL</span></h2>
+            <p>Mobilgränssnittet är designat för pekning; använder samma konto och listor.</p>
+            <ul>
+                <li><strong>Nedre flikfält:</strong> TV, Filmer, Serier, Min lista. I liggande läge visas en vertikal meny (skena) vid vänster kant.</li>
+                <li><strong>Överstapel:</strong> logotyp, <strong>fjärrkontroll</strong>, <strong>sök</strong>, <strong>DLNA/enheter</strong>, inställningskugghjul och <strong>profilavatar</strong>.</li>
+                <li><strong>TV-fliken:</strong> överst förhandsvisningszon + "Alla"/gruppfilter; nedan kanalkort (logotyp, namn, tidsspår, aktuellt program + framsteg, favoritstjärna, meny ☰).</li>
+                <li><strong>EPG-skärm:</strong> dagens programflöde; peka på en kanal för att se dess sändningar.</li>
+                <li><strong>Nedladdningar / Offline-innehåll:</strong> nedladdade filmer och avsnitt tittas utan internet; uppspelning och radering från listan.</li>
+                <li>Nedre <strong>nedladdningsfält</strong> synligt på alla flikar under källnedladdning.</li>
+            </ul>
+
+            <h3 id="kumanda">TV-fjärrkontroll från telefon <span class="plat pro">PRO</span></h3>
+            <p>Använd telefonappen som fjärrkontroll till Android TV i samma nätverk:</p>
+            <ol>
+                <li>Lämna TiviEase Go öppet på TV:n; på telefonen peka på <strong>fjärrkontrollsikonen</strong> i överstapeln.</li>
+                <li>Välj din TV i listan "Nätverksenheter" (hittas den inte? skanna om med "Upprepa").</li>
+                <li>Fjärrkontrollsskärmen: <strong>D-pad + OK</strong>, siffertangenter, volym-/kanalrockers, <strong>Tillbaka / Hem</strong>, <strong>Sömn / Guide / Alternativ</strong>, <strong>färgknappar</strong>, mediaknappar och knapp för <strong>skärmtangentbord</strong> för textinmatning.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA och casting <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Skanna nätverk</strong> hittar DLNA/UPnP-enheter; välj enhet och bläddra i dess mediamappar ("Mappar", antal element).</li>
+                <li><strong>Casting till TV / Cast-enhet:</strong> innehåll som spelas skickas till enheten i nätverket; casting-skärmen har positionsfält, uppspelning/paus och "Stoppa casting".</li>
+                <li>"Byt enhet" flyttar castingen till en annan apparat.</li>
+            </ul>
+
+            <h3 id="indirilenler">Nedladdningar och offline <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Inställningar › Nedladdningar:</strong> nedladdningsmapp (internminne eller SMB), max antal samtidiga nedladdningar, <strong>Endast Wi-Fi</strong> (sparar mobildata) och nedladdningslistan.</li>
+                <li>Liststatusar: Laddar ner, Väntar, Nedladdad, Fel/Avbruten — avbryt väntande, spela upp eller radera slutförda.</li>
+                <li>På mobilen listar skärmen "Offline-innehåll" nedladdningarna och spelar dem utan internet.</li>
+            </ul>
+
+            <h3 id="yedekleme">Säkerhetskopiering, återställning och synkronisering</h3>
+            <ul>
+                <li><strong>Säkerhetskopia</strong> (Inställningar › Övrigt): sparar alla inställningar, favoriter, profiler och historik i en fil — användbart vid enhetsbyte eller återställning.</li>
+                <li><strong>Återställning av data:</strong> välj fil via "Öppna säkerhetskopiefil" för att återföra installationen.</li>
+                <li><strong>Molnsynkronisering:</strong> vid inloggning via Google synkas data i bakgrunden; "Autosynkronisering" kan stängas av. Länkade enheter syns/tas bort i panelen Konton.</li>
+                <li>På Android TV:s hemskärm visar raden <strong>"Fortsätt titta"</strong> de senast sedda.</li>
+            </ul>
+
+            <h3 id="premium">Premium-abonnemang (Pro)</h3>
+            <p>Gratisversionen täcker 1 lista + 1 EPG-källa och grundinställningar. Uppgradera till Pro via <strong>Inställningar</strong> genom att trycka på en låst kategori, eller från Pro-skärmen.</p>
+            <table class="tbl">
+                <tr><th>Plan</th><th>Pris</th><th>Enheter</th></tr>
+                <tr><td>Pro Månadsvis</td><td>₺9,99 / mån.</td><td>1 enhet</td></tr>
+                <tr><td>Pro Årsvis</td><td>₺89,99 / år</td><td>1 enhet</td></tr>
+                <tr><td>Pro Livstid</td><td>₺249,99 (engångs)</td><td>upp till 5 enheter</td></tr>
+            </table>
+            <ul>
+                <li>Pro låser upp <strong>obegränsade listor och EPG-källor</strong>, alla inställningskategorier, inspelning, påminnelser, profiler, föräldrakontroll, nedladdningar, fjärrkontroll från telefon och DLNA.</li>
+                <li><strong>Aktiveringskod:</strong> premium aktiveras genom att ange kod i "Använd aktiveringskod".</li>
+                <li>Licensen är bunden till molnet — vid inloggning med samma konto på annan enhet synkar den automatiskt; vid överskridande av gränsen, ta bort gammal enhet ur listan.</li>
+                <li>För offline-användning gäller en tolerans på 7 dagar efter senaste verifieringen.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── FAQ ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>Felsökning och FAQ</h2>
+
+            <details class="faq"><summary>Kanaler kommer inte / listan laddar inte</summary><div class="faq-body"><p>Kontrollera att URL:en är korrekt och börjar med <code>http(s)://</code>. I Inställningar › Spellistor › Befintliga listor, välj källa och ladda om "uppdatera"; för Xtream kontrollera att inga mellanslag finns i användarnamn/lösenord. Kontrollera internetanslutningen och att leverantören är online.</p></div></details>
+
+            <details class="faq"><summary>EPG (TV-program) är tom</summary><div class="faq-body"><p>Lägg först till en XMLTV-källa via <strong>Inställningar › TV-guide › Lägg till EPG-källa</strong> och ladda med knappen <strong>Uppdatera EPG</strong>. Om kanalen fortfarande saknar data, välj rätt EPG-kanal manuellt via <strong>Matcha EPG</strong> i kontextmenyn. Förskjuten tid? Korrigera med <strong>Tidsförskjutning</strong>.</p></div></details>
+
+            <details class="faq"><summary>Strömmen öppnar inte eller hänger</summary><div class="faq-body"><p>Ställ in <strong>Buffring</strong> på "Medel/Stor" i Inställningar › Spelare; hjälper det inte, prova mjukvaruavkodare i <strong>Videoutgång</strong>. 4K-strömmar belastar svaga TV-apparater — HD/FHD-versionen av kanalen föredras.</p></div></details>
+
+            <details class="faq"><summary>Inget ljud eller ljud och video är inte synkroniserade</summary><div class="faq-body"><p>Prova att stänga av <strong>Ljudgenomsläpp</strong> i Inställningar › Spelare › Ljudutgång (bitstream är problematiskt på vissa apparater). För avvikelse använd reglaget <strong>Ljudförskjutning</strong>; om strömmen har annat språk, välj spår i <strong>Sändningsspråk</strong> på spelarkortet.</p></div></details>
+
+            <details class="faq"><summary>Undertexter visas inte eller tecken är trasiga</summary><div class="faq-body"><p>Välj rätt spår på spelarkortet eller i Inställningar › Spelare › Undertexter; vid trasiga tecken, ändra <strong>kodningen</strong> (UTF-8…). Storlek/färg/position ställs in i samma panel.</p></div></details>
+
+            <details class="faq"><summary>Affischer och filminformation kommer inte</summary><div class="faq-body"><p>Kontrollera i Inställningar › Mediadata att dina TMDB/OMDb-nycklar är angivna och tjänsterna aktiverade (nycklarna är gratis). Hämta data massvis via "Berika allt innehåll"; korrigera felaktig matchning med <strong>Hitta och matcha innehåll</strong> i innehållsmenyn.</p></div></details>
+
+            <details class="faq"><summary>Köpte Premium men det öppnade inte / syns inte på annan enhet</summary><div class="faq-body"><p>Se till att du är inloggad med samma Google-konto — licensen synkroniseras. Om enhetsgränsen är full, ta bort gammal i <strong>Inställningar › Konton, Synkronisering och Enheter</strong>. Vid behov, använd aktiveringskoden.</p></div></details>
+
+            <details class="faq"><summary>Efter lång viloläge öppnar TV:n ingen kanal</summary><div class="faq-body"><p>Stäng appen helt och öppna den igen. Appen stänger automatiskt spelare vid övergång till viloläge; om den ändå hänger — omstart löser.</p></div></details>
+
+            <details class="faq"><summary>Hur flyttar man inställningar till en annan enhet?</summary><div class="faq-body"><p>Skapa en fil via <strong>Inställningar › Övrigt › Säkerhetskopia</strong> och importera den på den nya enheten via <strong>Återställning av data</strong> — eller logga in via Google och använd synkroniseringen.</p></div></details>
+
+            <details class="faq"><summary>Kan inte återställa kanal / den finns inte i listan</summary><div class="faq-body"><p>Den kan vara dold: <strong>Visa dolda kanaler</strong> i EPG-kontextmenyn eller <strong>Inställningar › Föräldrakontroll › Dolda kanaler</strong> för återställning. Om låst — öppnas med PIN. Om gruppen är dold, kontrollera Inställningar › Spellistor › Kanalgrupper.</p></div></details>
+
+            <details class="faq"><summary>Hur raderar man sitt konto?</summary><div class="faq-body"><p><strong>Inställningar › Konton, Synkronisering och Enheter › Radera konto</strong> raderar kontot permanent tillsammans med molndata. Detaljer: sidan <a href="account-deletion.sv.html">Radering av konto</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>Behöver du fortfarande hjälp?</h4>
+                <p>Skriv till oss: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — ange ditt problem, enhetsmodell och appversion (Inställningar › Om appen).</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.sv.html">Hem</a> · <a href="privacy.sv.html">Integritet</a> · <a href="account-deletion.sv.html">Radering av konto</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('sv');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('sv');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

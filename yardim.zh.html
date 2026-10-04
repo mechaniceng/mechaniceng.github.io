@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>帮助中心 — TiviEase Go</title>
+    <meta name="description" content="TiviEase Go 用户指南：安装、添加播放列表、EPG、全屏播放器、设置与故障排除。">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="帮助中心 — TiviEase Go">
+    <meta property="og:description" content="TiviEase Go 用户指南：安装、添加播放列表、EPG、全屏播放器、设置与故障排除。">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.zh.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.zh.html">
+            <img src="assets/logo.png?v=2" alt="TiviEase Go 标志">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="菜单">☰</button>
+        <nav class="site-nav">
+            <a href="index.zh.html">首页</a>
+            <a href="index.zh.html#ozellikler">功能</a>
+            <a href="satin-al.en.html">购买</a>
+            <a class="active" href="yardim.zh.html">帮助中心</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">帮助中心</span>
+            <h1 style="font-size:34px">如何使用？</h1>
+            <p>从首次启动到最后一个设置——每个界面都逐步说明。从侧边栏选择主题或使用搜索。</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">徽章：<span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">移动端</span> 手机/平板 &nbsp; <span class="plat pro">PRO</span> 付费功能</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ 侧边栏 ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="搜索帮助…" autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ 主题</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>入门<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">首次启动</a>
+                        <a href="#profil-secimi">选择个人资料</a>
+                        <a href="#qr-giris">二维码登录</a>
+                        <a href="#google-giris">Google 登录</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>播放源<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">添加播放列表</a>
+                        <a href="#liste-yonetimi">播放列表管理</a>
+                        <a href="#epg-kaynagi">添加 EPG 源</a>
+                        <a href="#grup-siralama">分组、排序、过滤</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>主界面与 EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">主界面（TV）</a>
+                        <a href="#epg-rehberi">使用电视指南</a>
+                        <a href="#arama">搜索与语音搜索</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>上下文菜单<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">EPG 上下文菜单</a>
+                        <a href="#vod-context">电影/剧集菜单</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>播放器<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">全屏 — 直播</a>
+                        <a href="#fs-tuslar">遥控器按键</a>
+                        <a href="#fs-paneller">面板与设置卡</a>
+                        <a href="#coklu-ekran">多屏（PIP）</a>
+                        <a href="#fs-vod">全屏 — 点播</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>录制与提醒<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">节目录制</a>
+                        <a href="#hatirlatici">提醒</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>个人资料与家长<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">个人资料管理</a>
+                        <a href="#ebeveyn">家长控制</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>设置指南<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">设置界面</a>
+                        <a href="#ayar-listeler">播放列表</a>
+                        <a href="#ayar-epg">电视指南</a>
+                        <a href="#ayar-oynatici">播放器</a>
+                        <a href="#ayar-gorunum">外观</a>
+                        <a href="#ayar-medya">媒体信息</a>
+                        <a href="#ayar-diger">录制 / 提醒 / 其他</a>
+                        <a href="#ayar-hesap">账户与关于</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>移动端与其他<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">移动应用</a>
+                        <a href="#kumanda">手机遥控</a>
+                        <a href="#dlna">DLNA 与投屏</a>
+                        <a href="#indirilenler">下载</a>
+                        <a href="#yedekleme">备份与同步</a>
+                        <a href="#premium">Premium（Pro）</a>
+                        <a href="#sss">故障排除 / 常见问题</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">未找到结果。</p>
+        </div>
+    </aside>
+
+    <!-- ═══ 内容 ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── 入门 ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>入门</h2>
+            <p>TiviEase Go 在一个应用中同时支持 <strong>Android TV</strong> 和<strong>手机/平板</strong>。应用本身不提供频道或内容——您需要添加来自自己 IPTV 服务商的 <strong>M3U 播放列表</strong>或 <strong>Xtream Codes</strong> 账户。</p>
+
+            <h3>首次启动界面</h3>
+            <p>如果尚未配置任何播放列表，打开应用时会显示<strong>欢迎屏幕</strong>。共有四张卡片：</p>
+            <table class="tbl">
+                <tr><th>卡片</th><th>功能</th></tr>
+                <tr><td>添加播放列表<br><small>M3U / Xtream</small></td><td>带您进入主界面并打开添加表单。详见：<a href="#kaynak-ekleme">添加播放列表</a>。</td></tr>
+                <tr><td>Google 登录<br><small>云端同步</small></td><td>使用 Google 账户登录；加载云端保存的源、收藏和历史记录，然后自动更新播放列表。</td></tr>
+                <tr><td>二维码登录<br><small>用手机扫描</small> <span class="plat tv">TV</span></td><td>在电视上显示有效期 3 分钟的二维码；用手机应用扫码并确认，电视即登录同一账户。</td></tr>
+                <tr><td>设置<br><small>系统与个人资料</small></td><td>如果您想在添加播放列表前先浏览，可打开设置界面。</td></tr>
+            </table>
+            <div class="tip"><p><strong>提示：</strong>如果您已在其他设备上使用 TiviEase Go，最快的方式是 <strong>Google 登录</strong>或<strong>二维码登录</strong>——所有列表和设置会自动同步过来。</p></div>
+
+            <h3 id="profil-secimi">选择个人资料</h3>
+            <p>如果设备上配置了多个个人资料，启动时会显示<strong>「选择个人资料」</strong>界面。用方向键 + <kbd>OK</kbd> 选择。带 PIN 的资料会先要求输入密码。每个资料拥有独立的<em>收藏、「我的列表」内容、历史记录和个人设置</em>。</p>
+            <ul>
+                <li>添加/编辑资料：<strong>设置 › 个人资料</strong>（见<a href="#profiller">个人资料管理</a>）。</li>
+                <li>使用中切换资料：点击顶部栏的<strong>个人资料头像</strong>。</li>
+            </ul>
+
+            <h3 id="qr-giris">二维码登录 <span class="plat tv">TV</span> <span class="plat mob">移动端</span></h3>
+            <p>无需在电视上输入凭据，用手机操作：</p>
+            <ol>
+                <li>在电视上打开<strong>二维码登录</strong>卡片（欢迎屏幕或设置 › 账户）——出现二维码，有效期 <strong>3 分钟</strong>。</li>
+                <li>在手机上打开 TiviEase Go 应用，用扫码器扫描电视上的二维码。</li>
+                <li>在手机上点击<strong>「登录」</strong>——您会看到「已确认——电视正在登录」。</li>
+                <li>电视会在几秒内登录手机的账户；播放列表和设置随之同步。</li>
+            </ol>
+            <div class="note"><p>如果二维码过期，关闭并重新打开窗口即可生成新码。二维码登录要求手机上的应用已打开并已登录。</p></div>
+
+            <h3 id="google-giris">Google 登录与同步</h3>
+            <p>使用 Google 账户登录后，以下内容会在设备间同步：源/列表配置、收藏、「我的列表」、历史记录、个人资料和高级版许可。首次登录后，源和 EPG 会自动下载——无需手动更新。</p>
+            <ul>
+                <li>同步设置与已连接设备：<strong>设置 › 账户、同步与设备</strong>。</li>
+                <li>也可以不使用账户——数据保留在设备本地。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── 播放源 ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>添加播放列表</h2>
+            <p>支持两种源类型：<strong>M3U</strong>（URL 或本地文件）和 <strong>Xtream Codes</strong>（服务器 + 凭据）。添加后内容自动分为<em>直播 / 电影 / 剧集</em>。</p>
+
+            <h3>从哪里添加？</h3>
+            <ul>
+                <li>欢迎屏幕上的<strong>添加播放列表</strong>卡片，</li>
+                <li>或从<strong>设置 › 播放列表 › 添加播放列表</strong>。</li>
+            </ul>
+
+            <h3>添加 M3U 播放列表</h3>
+            <ol>
+                <li>打开<strong>添加播放列表</strong>，选择 <strong>M3U / XMLTV</strong> 卡片。</li>
+                <li>在<strong>名称</strong>字段中为列表命名（例如「主列表」）。</li>
+                <li>在<strong>URL / 文件路径</strong>字段中输入 M3U 链接，<em>或</em>点击文件夹图标从设备选择文件。支持的扩展名：<code>.m3u</code>、<code>.m3u8</code>、<code>.xml</code>、<code>.txt</code>。</li>
+                <li>点击<strong>添加</strong>——列表开始下载和处理；进度显示在底部下载栏中。</li>
+            </ol>
+            <div class="note"><p>选择文件时，如果名称字段为空，会自动填入文件名。URL 必须以 http/https 开头。</p></div>
+
+            <h3>添加 Xtream Codes 账户</h3>
+            <ol>
+                <li>选择 <strong>Xtream</strong> 卡片。</li>
+                <li><strong>源名称</strong>：任意名称（如「主 Xtream」）。</li>
+                <li><strong>服务器 URL</strong>：服务商地址，例如 <code>http://server.com:8080</code></li>
+                <li><strong>用户名</strong>和<strong>密码</strong>：来自服务商的凭据。密码字段旁的眼睛图标可显示输入内容。</li>
+                <li><strong>添加</strong>——应用连接 Xtream API；直播、电影和剧集分别下载。</li>
+            </ol>
+            <div class="warn"><p><strong>免费版</strong>仅允许 <strong>1 个播放列表</strong>（M3U 或 Xtream——二者选一）。无限制：<a href="#premium">Pro</a>。</p></div>
+
+            <h3 id="liste-yonetimi">播放列表管理</h3>
+            <p><strong>设置 › 播放列表</strong>中的项目：</p>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>现有播放列表</td><td>显示已配置的 M3U/Xtream 源；每张卡片显示最后更新时间和启用/停用状态。选择源可编辑、删除或更新。摘要卡片显示直播/剧集/电影分布。</td></tr>
+                <tr><td>更新频率</td><td>列表自动更新周期：<strong>手动、6、12、24、48、72 或 168 小时</strong>。选「手动」则只在您要求时更新。</td></tr>
+                <tr><td>更新所有列表</td><td>同时重新下载所有源。后台依次处理；在下载栏中查看进度。</td></tr>
+                <tr><td>EPG 源</td><td>选择分配给每个播放列表的 EPG 源（「分配给列表」）。</td></tr>
+                <tr><td>频道分组</td><td>隐藏、重命名和重新排序来自播放列表的分组（体育、新闻…）。</td></tr>
+                <tr><td>排序</td><td>频道顺序：<strong>按名称、按编号、手动、原始顺序、按分组</strong>。</td></tr>
+                <tr><td>频道名称过滤</td><td>自动去除频道名前后缀的规则（如「TR:」「|4K」）。支持通配符 <code>*</code>；「转换示例」字段显示效果。</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">添加 EPG 源（XMLTV）</h3>
+            <p>要获得节目表，请添加服务商的 XMLTV/EPG 地址：</p>
+            <ol>
+                <li>打开<strong>设置 › 电视指南 › 添加 EPG 源</strong>。</li>
+                <li>输入名称和 <strong>URL/地址</strong>并保存。</li>
+                <li>下载后频道按名称相似度自动匹配；其余通过 <a href="#epg-rehberi">EPG 频道匹配</a>手动配对。</li>
+            </ol>
+            <div class="warn"><p>免费版允许 <strong>1 个 EPG 源</strong>。部分 Xtream 服务商会自带 EPG——添加 Xtream 源后 EPG 通常会自动导入。</p></div>
+
+            <h3 id="grup-siralama">分组、排序与名称过滤</h3>
+            <ul>
+                <li><strong>频道分组：</strong>管理来自 M3U/Xtream 的分组名。隐藏的分组不会出现在电视列表中；排序决定分组顺序。</li>
+                <li><strong>排序：</strong>选「手动」可在频道列表中创建自定义顺序；「原始顺序」保持文件原样。</li>
+                <li><strong>名称过滤：</strong>去除频道名前后的模式（如国家前缀）——列表更整洁。VOD 名称有单独过滤器：<strong>设置 › 媒体信息 › VOD 名称过滤</strong>。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── 主界面与 EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>主界面与电视指南 <span class="plat tv">TV</span></h2>
+
+            <h3>顶部栏与菜单</h3>
+            <p>电视主界面顶部有水平菜单栏。<kbd>◀</kbd><kbd>▶</kbd> 导航，<kbd>OK</kbd> 选择，<kbd>▼</kbd> 进入内容区。</p>
+            <table class="tbl">
+                <tr><th>菜单</th><th>内容</th></tr>
+                <tr><td>搜索</td><td>智能搜索界面——频道、电影、剧集和节目；支持语音搜索。</td></tr>
+                <tr><td>电视</td><td>频道列表 + EPG 节目表和直播预览卡片。</td></tr>
+                <tr><td>电影</td><td>分类栏（动作、喜剧、剧情、科幻、恐怖、家庭、收藏、最新、继续观看）+ 海报墙。</td></tr>
+                <tr><td>剧集</td><td>分类如国内/海外剧集、日播剧、黄金档 + 海报墙。</td></tr>
+                <tr><td>我的列表</td><td>收藏、我的电影、我的剧集、继续观看、录制、提醒、下载、离线内容。</td></tr>
+                <tr><td>设置</td><td>右侧齿轮图标——打开包含 13 个类别的设置面板。</td></tr>
+            </table>
+            <p>顶部栏右侧的图标：<strong>个人资料头像</strong>（切换资料）、<strong>设置齿轮</strong>和<strong>设备</strong>按钮（DLNA/投屏）。</p>
+            <div class="note"><p>在长列表中 <kbd>CH+</kbd>/<kbd>CH−</kbd>（或 Page Up/Down）可跳 10 行。<kbd>返回</kbd>返回上一级；在主界面会询问确认退出。</p></div>
+
+            <h3>海报墙与预览</h3>
+            <ul>
+                <li>在电影/剧集页面，海报以网格显示；停留时卡片放大，如已启用还会播放<strong>预告片预览</strong>（设置：媒体信息 › 自动预览）。</li>
+                <li>在海报上长按 <kbd>OK</kbd>：打开<a href="#vod-context">上下文菜单</a>。</li>
+                <li>在电视页面停留在频道行上时，左上角的<strong>直播预览</strong>窗口会小窗播放该频道。</li>
+            </ul>
+
+            <h3 id="epg-rehberi">使用电视指南（EPG）</h3>
+            <p>电视列表在两种视图间切换：<strong>频道列表</strong>和 <strong>EPG 网格</strong>（「切换到 EPG 列表」/「切换到频道列表」）。</p>
+            <ul>
+                <li><strong>侧栏：</strong>频道台标和名称。<kbd>▲</kbd><kbd>▼</kbd>切换频道；节目显示在另一侧。</li>
+                <li><strong>网格：</strong>时间轴——带时长的节目卡片。<kbd>◀</kbd><kbd>▶</kbd>在时间中移动。</li>
+                <li><strong>日期选择：</strong>用昨天/今天/明天按钮和「前一天/后一天」箭头回看，最多可回溯至<em>过往 EPG 数据天数</em>设置的值。</li>
+                <li><strong>在频道行上长按 <kbd>OK</kbd>：</strong>打开 <a href="#epg-context">EPG 上下文菜单</a>（收藏、录制、提醒、隐藏…）。</li>
+                <li>在频道上短按 <kbd>OK</kbd>：全屏观看。</li>
+            </ul>
+            <div class="tip"><p>频道没有 EPG？先检查 EPG 源已分配并更新（设置 › 电视指南 › 更新 EPG），然后通过「EPG 匹配」手动配对频道。</p></div>
+
+            <h3 id="arama">搜索与语音搜索</h3>
+            <ul>
+                <li><strong>搜索</strong>菜单（或上下文菜单中的「搜索」）打开智能搜索。同时搜索电影、剧集、频道名和 EPG 节目（「节目匹配」「电视节目」）。</li>
+                <li>麦克风图标启动<strong>语音搜索</strong>——「正在聆听…」亮起时说话；首次会请求麦克风权限。</li>
+                <li><strong>搜索历史</strong>显示此前的查询；「清除」可删除。</li>
+                <li>在移动端，搜索标签页功能相同；通过触摸输入。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── 上下文菜单 ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>上下文菜单</h2>
+
+            <h3>EPG 上下文菜单 <span class="plat tv">TV</span></h3>
+            <p><strong>打开方式：</strong>在电视指南的频道行上<strong>长按 <kbd>OK</kbd></strong>——菜单从侧边滑入。<kbd>▲</kbd><kbd>▼</kbd> 导航，<kbd>OK</kbd> 选择，<kbd>返回</kbd>关闭。</p>
+            <table class="tbl">
+                <tr><th>项目</th><th>功能</th></tr>
+                <tr><td>打开频道</td><td>全屏开始播放所选频道。</td></tr>
+                <tr><td>搜索</td><td>打开智能搜索。</td></tr>
+                <tr><td>电视 / 电影 / 剧集 / 我的列表 / 设置</td><td>快速跳转到其他主要板块。</td></tr>
+                <tr><td>添加 / 移出收藏</td><td>将频道加入或移出收藏；显示在电视列表和「我的列表」中。</td></tr>
+                <tr><td>用外部播放器打开</td><td>将频道流发送到设备上的其他播放应用（VLC、MX Player…）。</td></tr>
+                <tr><td>录制</td><td>将所选节目（若无节目则为 2 小时手动录制）加入录制列表。自动应用设置中的附加分钟数。</td></tr>
+                <tr><td>自定义录制</td><td>先弹出选择首尾附加分钟的窗口（+0/+1/+5/+10 分钟）。</td></tr>
+                <tr><td>添加 / 删除提醒</td><td>节目开始前通知；若开启「自动打开频道」，频道会自动打开。</td></tr>
+                <tr><td>EPG 匹配</td><td>将频道的节目数据手动链接到正确的 EPG 源频道名。</td></tr>
+                <tr><td>更新 EPG</td><td>重新下载已分配的 EPG 源。</td></tr>
+                <tr><td>清除 EPG</td><td>删除已保存的节目数据；下次更新时重新下载。</td></tr>
+                <tr><td>更新台标</td><td>重新获取频道台标（按台标源设置）。</td></tr>
+                <tr><td>锁定 / 解锁频道</td><td>在家长控制中将频道隐藏在 PIN 之后；解锁需要 PIN。</td></tr>
+                <tr><td>隐藏 / 显示频道</td><td>将频道从列表中隐藏；恢复：「显示隐藏频道」或设置 › 家长控制 › 隐藏频道。</td></tr>
+                <tr><td>显示隐藏频道</td><td>将隐藏的频道暂时恢复到列表中。</td></tr>
+            </table>
+
+            <h3 id="vod-context">电影 / 剧集上下文菜单</h3>
+            <p><strong>打开方式：</strong>在海报上长按 <kbd>OK</kbd>（移动端：长按 / ☰ 图标）。</p>
+            <table class="tbl">
+                <tr><th>项目</th><th>功能</th></tr>
+                <tr><td>继续播放</td><td>从上次位置继续（仅在有进度时显示）。</td></tr>
+                <tr><td>播放</td><td>从头播放内容。</td></tr>
+                <tr><td>外部播放</td><td>发送到其他播放应用。</td></tr>
+                <tr><td>预告片</td><td>打开 TMDB 上的预告片。</td></tr>
+                <tr><td>全屏海报 / 横幅显示 <span class="plat tv">TV</span></td><td>在海报网格与横幅布局之间切换。</td></tr>
+                <tr><td>排序 / 筛选</td><td>打开海报墙的排序和筛选选项。</td></tr>
+                <tr><td>发行年份</td><td>按年份筛选内容。</td></tr>
+                <tr><td>分类</td><td>按类型筛选（动作、喜剧…）。</td></tr>
+                <tr><td>更多详情</td><td>打开详情面板：简介、演员、导演、评分、剧集列表。</td></tr>
+                <tr><td>加入 / 移出我的列表</td><td>将内容加入或移出「我的列表 › 我的电影/我的剧集」。</td></tr>
+                <tr><td>从历史中删除</td><td>清除已保存的位置；内容从「继续观看」中消失。</td></tr>
+                <tr><td>从已看删除 / 清除已看</td><td>取消「已看」标记或清除全部观看历史。</td></tr>
+                <tr><td>从离线内容删除</td><td>删除已下载的内容（仅在下载项上显示）。</td></tr>
+                <tr><td>搜索并匹配内容</td><td>若 TMDB 匹配错误/缺失，手动搜索并匹配正确的电影/剧集。</td></tr>
+                <tr><td>多选 <span class="plat mob">移动端</span></td><td>开启多选海报的批量操作模式。</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── 播放器 ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>全屏播放器</h2>
+
+            <h3>全屏 — 直播 <span class="plat tv">TV</span></h3>
+            <p>打开频道后视频全屏播放。所有面板通过遥控器打开，闲置时自动关闭（频道列表约 8 秒，节目流约 15 秒）。</p>
+
+            <h4 id="fs-tuslar">遥控器按键 — 直播</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> 短按</div><div>打开/关闭 OSD（信息面板）。</div>
+                <div><kbd>OK</kbd> 长按</div><div>打开播放器设置卡（见下）。</div>
+                <div><kbd>▶</kbd></div><div>从边缘打开频道列表。列表已打开时再按 → 分类（分组）栏。</div>
+                <div><kbd>◀</kbd></div><div>从另一侧打开 EPG「节目流」；若已打开则关闭。</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>切换频道；列表打开时移动选择。</div>
+                <div><kbd>0–9</kbd></div><div>输入频道号——输入完成即切换。</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> 或 <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>下一个/上一个频道（列表打开时滚动）。</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>打开/关闭 EPG 节目流。</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>回到最近观看的频道。</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>上一个/下一个频道。</div>
+                <div><kbd>⏯</kbd> 播放/暂停</div><div>暂停/恢复直播。</div>
+                <div><kbd>●</kbd> 录制键</div><div>打开/关闭频道列表。</div>
+                <div><kbd>返回</kbd></div><div>关闭已打开的面板 → 关闭 OSD → 退出播放器。</div>
+            </div>
+
+            <h4 id="fs-paneller">面板与设置卡</h4>
+            <table class="tbl">
+                <tr><th>面板</th><th>打开方式</th><th>内容</th></tr>
+                <tr><td>OSD（信息面板）</td><td><kbd>OK</kbd> 短按</td><td>频道名/台标、当前与下个节目、进度、时钟（若开启全屏时钟）。</td></tr>
+                <tr><td>频道列表</td><td><kbd>▶</kbd> 或 <kbd>●</kbd></td><td>从侧边滑入的列表；上下选择，<kbd>OK</kbd> 切换。第二次按 <kbd>▶</kbd> 打开分组/分类栏——<kbd>OK</kbd> 应用分组。</td></tr>
+                <tr><td>EPG 节目流</td><td><kbd>◀</kbd> 或 <kbd>Info</kbd></td><td>从侧边滑入的节目列表：今日节目。<kbd>▲</kbd><kbd>▼</kbd> 浏览；在节目上长按 <kbd>OK</kbd> → 提醒/录制操作。</td></tr>
+                <tr><td>播放器设置卡</td><td><kbd>OK</kbd> 长按</td><td>含 8 个图标的快捷设置卡（下表）。</td></tr>
+            </table>
+
+            <h4>播放器设置卡（直播）</h4>
+            <p>卡片打开后，用 <kbd>◀</kbd><kbd>▶</kbd> 在图标间移动，在已打开的面板内移动选项；<kbd>OK</kbd> 应用。</p>
+            <table class="tbl">
+                <tr><th>标签</th><th>说明</th></tr>
+                <tr><td>前往点播</td><td>快速跳转到电影或剧集板块。</td></tr>
+                <tr><td>播放语言</td><td>若流中有多条音轨可选择（否则为语言偏好：Auto/TR/ENG/DE/FR/AR/RU）。</td></tr>
+                <tr><td>画面尺寸</td><td>宽高比：原始、裁切/填充、横向拉伸、纵向拉伸、全屏填充、4:3、16:9——附带「应用到所有频道」选项。</td></tr>
+                <tr><td>字幕</td><td>选择字幕轨 + 文字颜色（10 种）和大小。</td></tr>
+                <tr><td>PIP</td><td>打开多屏模式（<a href="#coklu-ekran">见下</a>）。</td></tr>
+                <tr><td>流信息</td><td>技术流信息（分辨率、编码…）。</td></tr>
+                <tr><td>播放器</td><td>解码和基本播放行为选项。</td></tr>
+                <tr><td>设置</td><td>打开主设置界面（「打开全部设置」）。</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">多屏（PIP）</h4>
+            <p>通过卡片中的 <strong>PIP</strong> 或多屏功能，可同时观看多个频道（最多 4 屏）。多屏菜单选项：</p>
+            <ul>
+                <li><strong>添加屏幕 / 关闭屏幕：</strong>打开新的播放格或关闭所选格。</li>
+                <li><strong>均分显示 / 大屏幕：</strong>均分屏幕或放大其中一格。</li>
+                <li><strong>切换频道：</strong>更改当前焦点格的频道。</li>
+                <li><strong>全屏 / 返回多屏 / 单屏：</strong>放大某格或返回多屏视图。</li>
+                <li><strong>播放/暂停、静音/取消、重新加载：</strong>每个格的播放与音频（音频始终只来自一个屏幕）。</li>
+            </ul>
+            <div class="warn"><p>多屏对处理器负担较大；低配置设备建议用两屏。</p></div>
+
+            <h3 id="fs-vod">全屏 — 电影 / 剧集</h3>
+            <p>在点播播放器中，OSD 打开为底部控制面板：<strong>上一集/上一内容、后退、播放/暂停、快进、下一个、语言与字幕、信息、设置、从头播放</strong>和进度条。</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>打开 OSD；已打开时激活焦点按钮（默认播放/暂停）。</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>在进度条上按步快进/后退；OSD 关闭时先打开。控制行中在按钮间移动。</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>在进度条 ↔ 控制行 ↔ 设置卡之间垂直移动。</div>
+                <div><kbd>0–9</kbd></div><div>输入分钟数——跳转到所输入的分钟。</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>后退/快进 30 秒（屏幕上出现指示器）。</div>
+                <div><kbd>Info</kbd></div><div>打开电影/剧集信息卡（简介、演员、评分——TMDB）。</div>
+                <div><kbd>返回</kbd></div><div>关闭面板/OSD；再按一次保存进度并退出。</div>
+            </div>
+            <ul>
+                <li><strong>下一集卡片：</strong>剧集中结束前约 30 秒，底部出现「进入下一集」卡片；按 <kbd>OK</kbd> 切换。</li>
+                <li><strong>从位置继续：</strong>未看完的内容再次打开时从已保存的秒数继续（「继续播放」）。退出时保存进度。</li>
+                <li><strong>语言与字幕菜单：</strong>即时切换音轨和字幕。</li>
+                <li><strong>移动端手势</strong> <span class="plat mob">移动端</span>：一侧边缘竖向滑动 = 音量，另一侧 = 亮度；点击打开 OSD。</li>
+            </ul>
+            <p>点播设置卡与直播卡片类似；另外还有<strong>音频偏移</strong>（滑块 + 重置）和<strong>前往电视</strong>。</p>
+        </section>
+
+        <!-- ───────────── 录制与提醒 ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>录制与提醒 <span class="plat pro">PRO</span></h2>
+
+            <h3>节目录制</h3>
+            <ol>
+                <li>在 EPG 中要录制节目的<strong>频道行</strong>上长按 <kbd>OK</kbd>。</li>
+                <li><strong>录制</strong>：将节目连同设置中的附加分钟加入录制列表。若无节目，则安排从现在起的 2 小时手动录制。</li>
+                <li><strong>自定义录制</strong>：在创建录制前打开选择首尾附加分钟（0/+1/+5/+10 分钟）的窗口。</li>
+                <li>到时间后录制自动开始；节目流中该节目卡上的 REC 图标闪烁。</li>
+            </ol>
+            <p><strong>设置 › 录制</strong>中的项目：</p>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>录制文件夹</td><td>录制保存位置：内部存储或网络文件夹（SMB——「扫描网络」查找资源并用用户名/密码连接）。</td></tr>
+                <tr><td>录制前 / 后附加时间</td><td>每次录制开头和结尾附加的时间：0、1、5 或 10 分钟。节目延迟开始或超时时不会错过首尾。</td></tr>
+                <tr><td>录制列表</td><td>全部/已完成/已排期计数及所有录制：用 <kbd>OK</kbd> 播放已完成项，取消待录制项，删除。</td></tr>
+            </table>
+            <div class="note"><p>录制写入所选文件夹；请确保有足够的可用空间。支持选择 USB/SD 卡。</p></div>
+
+            <h3 id="hatirlatici">提醒</h3>
+            <ul>
+                <li>用 EPG 上下文菜单中的<strong>添加提醒</strong>为节目创建提醒；再次选择可删除。</li>
+                <li>通知时间：节目开始前 <strong>1、2、5 或 10 分钟</strong>。</li>
+                <li><strong>设置 › 提醒</strong>：通知选项和<strong>「自动打开频道」</strong>（到时间电视自动切换到该频道）；完整提醒列表也在此管理。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── 个人资料与家长 ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>个人资料与家长控制 <span class="plat pro">PRO</span></h2>
+
+            <h3>个人资料管理</h3>
+            <p>在<strong>设置 › 个人资料</strong>中：</p>
+            <ul>
+                <li><strong>添加资料：</strong>以名称、头像和可选 PIN 创建新资料。</li>
+                <li><strong>资料列表：</strong>显示现有资料；编辑和删除在此进行。</li>
+                <li>每个资料拥有独立的<em>收藏、「我的列表」内容、历史和个人设置</em>。启动时询问活动资料；通过顶部栏头像可立即切换。</li>
+            </ul>
+
+            <h3 id="ebeveyn">家长控制</h3>
+            <p><strong>设置 › 家长控制</strong>中的项目（若已设 PIN，进入面板需输入 PIN）：</p>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>PIN 保护</td><td>4 位数字 PIN 码的状态。</td></tr>
+                <tr><td>更改 PIN</td><td>设置新的 4 位 PIN（删除 PIN 也在此）。</td></tr>
+                <tr><td>PIN 要求</td><td>决定哪些情况需要输入 PIN。</td></tr>
+                <tr><td>设置锁定</td><td>开启后进入设置需要 PIN。</td></tr>
+                <tr><td>18+ 内容锁定</td><td>将成人内容隐藏在 PIN 之后。</td></tr>
+                <tr><td>频道锁定</td><td>打开被锁频道需要 PIN（锁定频道：EPG 上下文菜单）。</td></tr>
+                <tr><td>年龄限制</td><td>年龄限制——超过所选年龄的内容需要 PIN。旁边的「年龄分级指南」解释各国分级标签。</td></tr>
+                <tr><td>隐藏频道</td><td>查看被隐藏的频道并将其恢复显示。</td></tr>
+            </table>
+            <div class="tip"><p>忘记 PIN？在创建新资料或重装前先备份；PIN 数据在设备上加密存储。</p></div>
+        </section>
+
+        <!-- ───────────── 设置 ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>设置指南</h2>
+            <p>设置界面为三栏布局：<strong>侧边</strong>——13 个类别，<strong>中间</strong>——该类别下的项目，<strong>另一侧</strong>——所选项目的说明/设置面板。标题栏的<strong>放大镜</strong>图标可打开设置内搜索。类别列表中 <kbd>CH+</kbd>/<kbd>−</kbd> 可跳 10 行。</p>
+            <div class="warn"><p>免费版中部分类别被锁定（锁形图标）：播放器、外观、媒体信息、录制、提醒、个人资料、家长控制、下载和其他。锁定的类别会打开 Pro 升级面板。</p></div>
+
+            <h3 id="ayar-listeler">1 · 播放列表</h3>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>添加播放列表</td><td>添加新的 M3U 列表（URL/文件）或 Xtream（服务器+用户名+密码）。</td></tr>
+                <tr><td>更新频率</td><td>自动更新周期：手动、6、12、24、48、72、168 小时。</td></tr>
+                <tr><td>更新所有列表</td><td>同时重新下载所有源。</td></tr>
+                <tr><td>现有播放列表</td><td>编辑、删除和更新源；启用/停用状态和最后更新时间。</td></tr>
+                <tr><td>频道分组</td><td>隐藏、重命名和重新排序分组。</td></tr>
+                <tr><td>EPG 源</td><td>为播放列表分配 EPG 源（「分配给列表」）。</td></tr>
+                <tr><td>排序</td><td>频道顺序：名称/编号、手动、原始或按分组。</td></tr>
+                <tr><td>频道名称过滤</td><td>去除名称前后缀；通配符 <code>*</code> 规则和转换示例预览。</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · 电视指南</h3>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>添加 EPG 源</td><td>添加 XMLTV 格式的 EPG 源（为频道提供节目数据）。</td></tr>
+                <tr><td>现有 EPG 源</td><td>编辑/删除 EPG 源；每个源的频道数和最后更新时间。</td></tr>
+                <tr><td>EPG 频道匹配</td><td>将频道与 EPG 数据匹配——自动或手动指定；列出未匹配的频道。</td></tr>
+                <tr><td>更新频率</td><td>后台 EPG 更新周期：手动、1、2、4、6、12、24 小时。</td></tr>
+                <tr><td>启动时更新</td><td>开启后每次启动应用自动更新 EPG。</td></tr>
+                <tr><td>列表变化时更新</td><td>播放列表变化/更新时，EPG 也自动更新。</td></tr>
+                <tr><td>过往 EPG 数据天数</td><td>节目数据向前保存多少天：无、1、2、3、5 或 7 天。天数越多占用内存越大。</td></tr>
+                <tr><td>时移</td><td>将节目时间按时/分前后偏移——整体或按频道（适用于不同时区的源）。</td></tr>
+                <tr><td>更新 EPG</td><td>手动启动更新；显示进度和已处理频道数。</td></tr>
+                <tr><td>清除 EPG</td><td>删除已保存的节目数据和图片缓存；下次更新时重新下载。</td></tr>
+                <tr><td>最后更新</td><td>每个源已处理的频道数和更新日期。</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · 播放器 <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>画面</td><td>宽高比：原始、裁切/填充、横向拉伸、纵向拉伸、全屏填充、4:3、16:9；可应用到所有频道。</td></tr>
+                <tr><td>视频输出</td><td>解码选择：硬件（推荐，省电/省 CPU）或软件（兼容问题发生时）。</td></tr>
+                <tr><td>音频输出</td><td>音频解码（硬解/软解）、<strong>音频透传（Bitstream）</strong>——为环绕音响输出原始音频流、<strong>音频偏移</strong>（毫秒滑块 + 重置）和默认音频语言。</td></tr>
+                <tr><td>字幕</td><td>文字大小和颜色（10 种）、位置（上/中/下）和编码（UTF-8…）。</td></tr>
+                <tr><td>频道切换</td><td>换台行为：<strong>切换延迟</strong>（实际换台前等待毫秒数——避免快速换台时多余加载）和<strong>切换时黑屏</strong>（新频道加载时黑屏；关闭——上一频道画面保留）。</td></tr>
+                <tr><td>缓冲</td><td>缓冲大小：自动、无、小（~1秒）、中（~3秒，推荐）、大（~8秒）、特大（~15秒+）。卡顿的流调大；换台更快调小。</td></tr>
+                <tr><td>点播</td><td>电影/剧集选项：外部播放器选择（自动选择 / 选择应用 / 外部播放器 1-2）、自动字幕等。</td></tr>
+                <tr><td>全屏时钟</td><td>全屏上的时钟：开/关、位置、大小（小/中/大）、24 小时制、显示日期。</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · 外观 <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>语言</td><td>界面语言——从 24 种语言中选择或「系统语言」；用搜索框筛选。</td></tr>
+                <tr><td>颜色</td><td>应用主题（深色、蓝色、灰色、绿色、紫色、红色、琥珀、暗夜、海洋、炭黑、酒红、深蓝、翡翠、落日、宇宙、石墨）、强调色（18 种）和 OSD 不透明度（带预览）。</td></tr>
+                <tr><td>电视指南</td><td>EPG 外观：24 小时制、行高（小/中/大）、布局（列表/网格）。</td></tr>
+                <tr><td>频道列表</td><td>频道列表外观和卡片布局。</td></tr>
+                <tr><td>台标</td><td>台标源优先级：<strong>XMLTV/EPG</strong>、<strong>播放列表（M3U）</strong>或<strong>本地文件夹</strong>；选择文件夹使用自己的台标文件（PNG/JPG/WebP）。</td></tr>
+                <tr><td>OSD 停留时间</td><td>信息面板在屏幕停留的秒数——电视和点播分别设置。</td></tr>
+                <tr><td>屏保</td><td>无操作时启动屏保前的等待时间：关、1、2、5、10、15 或 30 分钟。</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · 媒体信息 <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>API 密钥</td><td>为 TMDB 和 OMDb 输入您自己的 API 密钥——可在两个服务网站免费获取。电影/剧集的海报、简介、演员和 IMDb 评分来自这些服务。</td></tr>
+                <tr><td>TMDB / OMDb</td><td>服务开关。TMDB：海报+简介+预告片；OMDb：IMDb 评分、类型、导演。</td></tr>
+                <tr><td>智能缓存</td><td>开启——仅加载屏幕上可见内容的数据；启动更快。</td></tr>
+                <tr><td>仅手动丰富</td><td>关闭自动数据下载；仅在您触发时进行数据丰富。</td></tr>
+                <tr><td>缓存文件夹</td><td>媒体信息缓存保存的文件夹。</td></tr>
+                <tr><td>丰富所有内容</td><td>为全部点播内容批量下载 TMDB 数据（可能需要一些时间）。</td></tr>
+                <tr><td>按分类丰富</td><td>仅丰富所选分类。</td></tr>
+                <tr><td>清除缓存</td><td>删除全部媒体信息缓存（显示数量和大小）。</td></tr>
+                <tr><td>VOD 名称过滤</td><td>去除电影/剧集名前后缀的规则——改善 TMDB 匹配。</td></tr>
+            </table>
+            <p>海报预览设置（悬停播放预告片）：<strong>自动预览</strong>（停留在海报上时播放预告片）、<strong>预告片音频</strong>、起始位置和等待时间。</p>
+
+            <h3 id="ayar-diger">6–9, 11 · 录制、提醒、个人资料、家长控制、下载、其他</h3>
+            <ul>
+                <li><strong>录制</strong> <span class="plat pro">PRO</span> — 文件夹、附加时间、录制列表（<a href="#kayit">详情</a>）。</li>
+                <li><strong>提醒</strong> <span class="plat pro">PRO</span> — 通知与自动打开频道 + 列表（<a href="#hatirlatici">详情</a>）。</li>
+                <li><strong>个人资料</strong> <span class="plat pro">PRO</span> — 资料列表与新资料（<a href="#profiller">详情</a>）。</li>
+                <li><strong>家长控制</strong> <span class="plat pro">PRO</span> — PIN、锁定、年龄限制、隐藏频道（<a href="#ebeveyn">详情</a>）。</li>
+                <li><strong>下载</strong> <span class="plat pro">PRO</span> — 文件夹、同时下载数、仅 Wi-Fi、列表（<a href="#indirilenler">详情</a>）。</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>其他项目 <span class="plat pro">PRO</span></th><th>说明</th></tr>
+                <tr><td>遥控器按键音</td><td>方向键导航时播放轻微点击声。</td></tr>
+                <tr><td>应用键盘</td><td>输入时使用应用内键盘或系统键盘。</td></tr>
+                <tr><td>自动启动</td><td>设备开机时应用自动启动（TV）。</td></tr>
+                <tr><td>退出时停止播放</td><td>退出应用时播放自动停止。</td></tr>
+                <tr><td>观看统计</td><td>您的电影、剧集和直播观看时长（最近 7/30 天、总计）；可重置。</td></tr>
+                <tr><td>数据用量</td><td>网络数据用量：接收/发送和总计。</td></tr>
+                <tr><td>备份 / 恢复</td><td>将所有设置、收藏、个人资料和历史保存到一个文件 / 从文件恢复。</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 &amp; 12 · 账户与同步 · 关于</h3>
+            <table class="tbl">
+                <tr><th>项目</th><th>说明</th></tr>
+                <tr><td>账户、同步与设备</td><td>Google 账户状态、创建匿名账户、自动同步、高级版许可同步、已连接设备列表与删除、登出以及<strong>删除账户</strong>（含云端数据的永久删除）。</td></tr>
+                <tr><td>应用信息</td><td>版本、订阅类型与许可期限、功能列表（直播、点播与 IPTV、EPG、多屏、录制、提醒、个人资料、家长控制、智能搜索、DLNA、云同步、收藏列表、媒体信息）和联系信息。</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── 移动端 ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>移动应用 <span class="plat mob">移动端</span></h2>
+            <p>移动界面为触摸设计；使用相同的账户和播放列表。</p>
+            <ul>
+                <li><strong>底部标签栏：</strong>电视、电影、剧集、我的列表。横屏模式下侧边出现竖向列表。</li>
+                <li><strong>顶部栏：</strong>标志、<strong>遥控器</strong>、<strong>搜索</strong>、<strong>DLNA/设备</strong>、<strong>设置</strong>齿轮和<strong>个人资料头像</strong>。</li>
+                <li><strong>电视标签页：</strong>顶部为预览区 +「全部」/分组筛选；下方为频道卡片（台标、名称、时段、当前节目 + 进度、收藏星标、☰ 菜单）。</li>
+                <li><strong>EPG 界面：</strong>当天的节目流；点击频道查看节目。</li>
+                <li><strong>下载 / 离线内容：</strong>已下载的电影和剧集可离线观看；从列表中播放或删除。</li>
+                <li>源加载时<strong>下载栏</strong>显示在所有标签页上。</li>
+            </ul>
+
+            <h3 id="kumanda">用手机遥控电视 <span class="plat pro">PRO</span></h3>
+            <p>把手机应用当作同一网络中 Android TV 的遥控器：</p>
+            <ol>
+                <li>让电视上保持 TiviEase Go 打开；在手机上点击顶部栏的<strong>遥控器图标</strong>。</li>
+                <li>从「网络设备」列表中选择您的电视（没找到？用「重试」按钮重新扫描）。</li>
+                <li>遥控器界面：<strong>方向键 + OK</strong>、数字键、音量/频道、<strong>返回 / 主页</strong>、<strong>休眠 / 指南 / 选项</strong>、<strong>彩色按钮</strong>、媒体键和用于文本输入的<strong>键盘</strong>按钮。</li>
+            </ol>
+
+            <h3 id="dlna">DLNA 与投屏 <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>网络扫描</strong>查找 DLNA/UPnP 设备；选择设备并浏览媒体文件夹（「文件夹」、项目数）。</li>
+                <li><strong>发送到电视 / Cast 设备：</strong>将正在播放的内容发送到网络中的设备；投屏界面有位置条、播放/暂停和「停止投屏」。</li>
+                <li>「更换设备」把投屏转移到另一台设备。</li>
+            </ul>
+
+            <h3 id="indirilenler">下载与离线 <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>设置 › 下载：</strong>下载文件夹（内部存储或 SMB）、最大同时下载数、<strong>仅 Wi-Fi</strong>（节省移动数据）和下载列表。</li>
+                <li>列表状态：下载中、排队中、已下载、错误/已取消——取消排队项、播放或删除已完成项。</li>
+                <li>在移动端，「离线内容」界面显示下载并支持离线播放。</li>
+            </ul>
+
+            <h3 id="yedekleme">备份、恢复与同步</h3>
+            <ul>
+                <li><strong>备份</strong>（设置 › 其他）：将所有设置、收藏、个人资料和历史保存到一个文件——换设备或重置时很有用。</li>
+                <li><strong>恢复数据：</strong>通过「打开备份文件」选择文件恢复设置。</li>
+                <li><strong>云同步：</strong>Google 登录后数据在后台同步；「自动同步」可关闭。已连接设备在账户面板中显示/删除。</li>
+                <li>Android TV 主界面上的<strong>「继续观看」</strong>行显示最近观看的内容。</li>
+            </ul>
+
+            <h3 id="premium">Premium（Pro）订阅</h3>
+            <p>免费版包含 1 个播放列表 + 1 个 EPG 源和基础设置。通过在<strong>设置</strong>中点击锁定类别或 Pro 界面升级到 Pro。</p>
+            <table class="tbl">
+                <tr><th>方案</th><th>价格</th><th>设备</th></tr>
+                <tr><td>Pro 月付</td><td>₺9.99 / 月</td><td>1 台</td></tr>
+                <tr><td>Pro 年付</td><td>₺89.99 / 年</td><td>1 台</td></tr>
+                <tr><td>Pro 终身版</td><td>₺249.99（一次性）</td><td>最多 5 台</td></tr>
+            </table>
+            <ul>
+                <li>Pro 解锁：<strong>无限播放列表和 EPG 源</strong>、全部设置类别、录制、提醒、个人资料、家长控制、下载、手机遥控和 DLNA。</li>
+                <li><strong>激活码：</strong>在「使用激活码」中输入代码即可激活高级版。</li>
+                <li>许可绑定云端——在其他设备登录同一账户即可自动同步；达上限时从列表删除旧设备。</li>
+                <li>离线使用有 7 天宽限期（自上次验证起）。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── 常见问题 ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>故障排除与常见问题</h2>
+
+            <details class="faq"><summary>频道不出现 / 播放列表无法加载</summary><div class="faq-body"><p>确认 URL 正确且以 <code>http(s)://</code> 开头。在设置 › 播放列表 › 现有播放列表中选择源并用「更新」重新加载；Xtream 检查用户名/密码中没有空格。同时检查网络连接和服务商是否在线。</p></div></details>
+
+            <details class="faq"><summary>EPG（节目表）为空</summary><div class="faq-body"><p>先通过<strong>设置 › 电视指南 › 添加 EPG 源</strong>添加 XMLTV 源，并点<strong>更新 EPG</strong>按钮下载。若频道仍无数据，用上下文菜单中的<strong>EPG 匹配</strong>手动选择正确的 EPG 频道。时间偏移？用<strong>时移</strong>修正。</p></div></details>
+
+            <details class="faq"><summary>流打不开或卡顿</summary><div class="faq-body"><p>在设置 › 播放器中将<strong>缓冲</strong>设为「中/大」；不行的话在<strong>视频输出</strong>中试试软件解码。4K 流对低配设备负担重——频道的 HD/FHD 版本更流畅。</p></div></details>
+
+            <details class="faq"><summary>没有声音或音画不同步</summary><div class="faq-body"><p>尝试在设置 › 播放器 › 音频输出中关闭<strong>音频透传</strong>（bitstream 在部分设备上有问题）。不同步用<strong>音频偏移</strong>滑块调整；若流中有其他语言，在播放器卡片的<strong>播放语言</strong>中选择音轨。</p></div></details>
+
+            <details class="faq"><summary>字幕不显示或字符乱码</summary><div class="faq-body"><p>在播放器卡片或设置 › 播放器 › 字幕中选择正确的字幕轨；乱码则更改<strong>编码</strong>（UTF-8…）。大小/颜色/位置在同一面板设置。</p></div></details>
+
+            <details class="faq"><summary>海报和电影信息不加载</summary><div class="faq-body"><p>检查设置 › 媒体信息中 TMDB/OMDb 密钥已输入且服务已开启（密钥免费）。用「丰富所有内容」批量拉取数据；匹配错误用内容菜单中的<strong>搜索并匹配内容</strong>修正。</p></div></details>
+
+            <details class="faq"><summary>购买了 Premium 但未激活 / 其他设备上看不到</summary><div class="faq-body"><p>确认已用同一 Google 账户登录——许可会同步。若设备数已达上限，在<strong>设置 › 账户、同步与设备</strong>中删除旧设备。必要时使用激活码。</p></div></details>
+
+            <details class="faq"><summary>电视长时间休眠后所有频道都打不开</summary><div class="faq-body"><p>完全关闭应用再重新打开。应用进入休眠时会自动关闭播放器；若仍卡住，重启可解决。</p></div></details>
+
+            <details class="faq"><summary>如何把设置迁移到另一台设备？</summary><div class="faq-body"><p>用<strong>设置 › 其他 › 备份</strong>生成文件，然后在新设备上用<strong>恢复数据</strong>导入——或登录 Google 账户使用同步。</p></div></details>
+
+            <details class="faq"><summary>频道找不回来 / 不在列表中</summary><div class="faq-body"><p>可能被隐藏了：用 EPG 上下文菜单中的<strong>显示隐藏频道</strong>或<strong>设置 › 家长控制 › 隐藏频道</strong>恢复。若被锁定——用 PIN 解锁。若分组被隐藏，检查设置 › 播放列表 › 频道分组。</p></div></details>
+
+            <details class="faq"><summary>如何删除账户？</summary><div class="faq-body"><p><strong>设置 › 账户、同步与设备 › 删除账户</strong>可将账户连同云端数据永久删除。详见：<a href="account-deletion.zh.html">删除账户</a>页面。</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>仍需要帮助？</h4>
+                <p>联系我们：<a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — 请说明问题、设备型号和应用版本（设置 › 关于）。</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.zh.html">首页</a> · <a href="privacy.zh.html">隐私</a> · <a href="account-deletion.zh.html">删除账户</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('zh');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('zh');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

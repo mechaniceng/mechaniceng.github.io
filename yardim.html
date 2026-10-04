@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yardım Merkezi — TiviEase Go</title>
+    <meta name="description" content="TiviEase Go kullanım kılavuzu: kurulum, liste ekleme, EPG, tam ekran oynatıcı, ayarlar ve sorun giderme.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="Yardım Merkezi — TiviEase Go">
+    <meta property="og:description" content="TiviEase Go kullanım kılavuzu: kurulum, liste ekleme, EPG, tam ekran oynatıcı, ayarlar ve sorun giderme.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="tr_TR">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.html">
+            <img src="assets/logo.png?v=2" alt="TiviEase Go logosu">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Menü">☰</button>
+        <nav class="site-nav">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="index.html#ozellikler">Özellikler</a>
+            <a href="satin-al.html">Satın Al</a>
+            <a class="active" href="yardim.html">Yardım Merkezi</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">Yardım Merkezi</span>
+            <h1 style="font-size:34px">Nasıl kullanılır?</h1>
+            <p>İlk kurulumdan en ince ayara kadar tüm ekranların adım adım anlatımı. Sol menüden konu seçin veya arama kutusunu kullanın.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">Rozetler: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">MOBİL</span> Telefon/Tablet &nbsp; <span class="plat pro">PRO</span> Ücretli özellik</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ SOL MENÜ ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="Yardımda ara..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ Konular</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Başlarken<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">İlk Açılış</a>
+                        <a href="#profil-secimi">Profil Seçimi</a>
+                        <a href="#qr-giris">Karekod ile Giriş</a>
+                        <a href="#google-giris">Google ile Giriş</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Kaynaklar<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">Oynatma Listesi Ekleme</a>
+                        <a href="#liste-yonetimi">Liste Yönetimi</a>
+                        <a href="#epg-kaynagi">EPG Kaynağı Ekleme</a>
+                        <a href="#grup-siralama">Gruplar, Sıralama, Filtreler</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Ana Ekran &amp; EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">Ana Ekran (TV)</a>
+                        <a href="#epg-rehberi">TV Rehberi Kullanımı</a>
+                        <a href="#arama">Arama &amp; Sesli Arama</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Bağlam Menüleri<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">EPG Bağlam Menüsü</a>
+                        <a href="#vod-context">Film/Dizi Bağlam Menüsü</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Oynatıcı<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">Tam Ekran — Canlı TV</a>
+                        <a href="#fs-tuslar">Kumanda Tuşları</a>
+                        <a href="#fs-paneller">Paneller &amp; Ayar Kartı</a>
+                        <a href="#coklu-ekran">Çoklu Ekran (PIP)</a>
+                        <a href="#fs-vod">Tam Ekran — Film/Dizi</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Kayıt &amp; Hatırlatıcı<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">Program Kaydı</a>
+                        <a href="#hatirlatici">Hatırlatıcılar</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profil &amp; Ebeveyn<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">Profil Yönetimi</a>
+                        <a href="#ebeveyn">Ebeveyn Kontrolü</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Ayarlar Rehberi<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">Ayarlar Ekranı</a>
+                        <a href="#ayar-listeler">Oynatma Listeleri</a>
+                        <a href="#ayar-epg">TV Rehberi</a>
+                        <a href="#ayar-oynatici">Oynatıcı</a>
+                        <a href="#ayar-gorunum">Görünüm</a>
+                        <a href="#ayar-medya">Medya Bilgileri</a>
+                        <a href="#ayar-diger">Kayıt / Hatırlatıcı / Diğer</a>
+                        <a href="#ayar-hesap">Hesap &amp; Hakkında</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mobil &amp; Diğer<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">Mobil Uygulama</a>
+                        <a href="#kumanda">Telefondan Kumanda</a>
+                        <a href="#dlna">DLNA &amp; Yayın</a>
+                        <a href="#indirilenler">İndirilenler</a>
+                        <a href="#yedekleme">Yedekleme &amp; Senkron</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">Sorun Giderme / SSS</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">Sonuç bulunamadı.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ İÇERİK ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── BAŞLARKEN ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Başlarken</h2>
+            <p>TiviEase Go, tek uygulama ile hem <strong>Android TV</strong>'de hem de <strong>telefon/tablet</strong>'te çalışır. Uygulama kendisi hiçbir kanal veya içerik sağlamaz — kendi IPTV sağlayıcınızın <strong>M3U listesini</strong> veya <strong>Xtream Codes</strong> hesabını eklersiniz.</p>
+
+            <h3>İlk açılış ekranı</h3>
+            <p>Uygulama açıldığında hiçbir oynatma listesi tanımlı değilse <strong>karşılama ekranı</strong> gelir. Dört kart sunar:</p>
+            <table class="tbl">
+                <tr><th>Kart</th><th>Ne yapar?</th></tr>
+                <tr><td>Oynatma Listesi Ekle<br><small>M3U / Xtream</small></td><td>Ana ekrana geçer ve liste ekleme formunu açar. Ayrıntı için: <a href="#kaynak-ekleme">Oynatma Listesi Ekleme</a>.</td></tr>
+                <tr><td>Google ile Giriş<br><small>Bulut Senkronizasyonu</small></td><td>Google hesabınızla giriş yapar; buluttaki kaynak ayarlarınız, favorileriniz ve izleme geçmişiniz indirilir, ardından listeler otomatik güncellenir.</td></tr>
+                <tr><td>Karekod ile Giriş<br><small>Telefondan okut</small> <span class="plat tv">TV</span></td><td>TV ekranına 3 dakika geçerli bir karekod açar; telefondaki uygulamayla okutup onayladığınızda TV aynı hesaba giriş yapar.</td></tr>
+                <tr><td>Ayarlar<br><small>Sistem &amp; Profil</small></td><td>Liste eklemeden önce ayarlara göz atmak isterseniz ayarlar ekranını açar.</td></tr>
+            </table>
+            <div class="tip"><p><strong>İpucu:</strong> Başka bir cihazda zaten TiviEase Go kullanıyorsanız en hızlı yol <strong>Google ile Giriş</strong> veya <strong>Karekod ile Giriş</strong> — tüm listeleriniz ve ayarlarınız otomatik gelir.</p></div>
+
+            <h3 id="profil-secimi">Profil seçimi</h3>
+            <p>Cihazda birden fazla profil tanımlıysa açılışta <strong>“Profil Seç”</strong> ekranı gösterilir. Kumandayla ok tuşları + <kbd>OK</kbd> ile profili seçin. PIN tanımlı profilde önce PIN sorulur. Her profilin kendi <em>favorileri, “Listem” içeriği, izleme geçmişi ve kişisel ayarları</em> vardır.</p>
+            <ul>
+                <li>Profil eklemek/düzenlemek için: <strong>Ayarlar › Profiller</strong> (bkz. <a href="#profiller">Profil Yönetimi</a>).</li>
+                <li>Çalışma sırasında profil değiştirmek için üst bardaki <strong>avatar simgesi</strong>ne basın.</li>
+            </ul>
+
+            <h3 id="qr-giris">Karekod ile giriş <span class="plat tv">TV</span> <span class="plat mob">MOBİL</span></h3>
+            <p>TV'ye hesap bilgisi yazmak yerine telefonunuzu kullanın:</p>
+            <ol>
+                <li>TV'de karşılama ekranından <strong>Karekod ile Giriş</strong> kartını (veya Ayarlar › Hesaplar içinden) açın — ekrana bir karekod gelir. Kod <strong>3 dakika</strong> geçerlidir.</li>
+                <li>Telefonunuzda TiviEase Go mobil uygulamasını açın ve QR tarayıcı ekranından TV'deki kodu okutun.</li>
+                <li>Telefonda <strong>“Giriş yap”</strong> butonuna basın — “Onaylandı — TV giriş yapıyor” mesajını görürsünüz.</li>
+                <li>TV birkaç saniye içinde telefonunuzdaki hesapla giriş yapar; listeniz ve ayarlarınız senkronize olur.</li>
+            </ol>
+            <div class="note"><p>Karekodun süresi dolarsa diyaloğu kapatıp yeniden açın; yeni kod üretilir. QR giriş için telefonunuzda aynı uygulamanın açık ve hesabınızla giriş yapılmış olması gerekir.</p></div>
+
+            <h3 id="google-giris">Google ile giriş ve senkronizasyon</h3>
+            <p>Google hesabıyla giriş yaptığınızda şu veriler cihazlar arasında senkronize edilir: kaynak/liste ayarları, favoriler, “Listem”, izleme geçmişi, profiller ve premium lisans. İlk girişten sonra kaynaklarınız ve EPG'niz otomatik indirilir — elle güncelleme gerekmez.</p>
+            <ul>
+                <li>Senkronizasyon ayarları ve bağlı cihazlar: <strong>Ayarlar › Hesaplar, Senk. &amp; Cihazlar</strong>.</li>
+                <li>Hesap olmadan da kullanabilirsiniz — veriler yalnızca cihazda saklanır.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── KAYNAKLAR ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Oynatma Listesi Ekleme</h2>
+            <p>İki kaynak türü desteklenir: <strong>M3U</strong> (URL veya yerel dosya) ve <strong>Xtream Codes</strong> (sunucu + hesap bilgileri). Liste eklendiğinde içerik otomatik olarak <em>Canlı TV / Film / Dizi</em> olarak sınıflandırılır.</p>
+
+            <h3>Nereden eklenir?</h3>
+            <ul>
+                <li>Karşılama ekranındaki <strong>Oynatma Listesi Ekle</strong> kartından,</li>
+                <li>veya <strong>Ayarlar › Oynatma Listeleri › Çalma Listesi Ekle</strong> yolundan.</li>
+            </ul>
+
+            <h3>M3U listesi ekleme</h3>
+            <ol>
+                <li><strong>Çalma Listesi Ekle</strong>'yi açın, <strong>M3U / XMLTV</strong> kartını seçin.</li>
+                <li><strong>Ad</strong> alanına listeye bir isim verin (örn. “Ana Liste”).</li>
+                <li><strong>URL / Dosya Yolu</strong> alanına M3U bağlantısını yazın <em>veya</em> klasör simgesiyle cihazdan dosya seçin. Desteklenen uzantılar: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li><strong>Ekle</strong>'ye basın — liste indirilip işlenir; durum alttaki yükleme bandında gösterilir.</li>
+            </ol>
+            <div class="note"><p>Dosya seçerken ad alanı boşsa dosya adı otomatik isim olur. URL'ler http/https ile başlamalıdır.</p></div>
+
+            <h3>Xtream Codes hesabı ekleme</h3>
+            <ol>
+                <li><strong>Xtream</strong> kartını seçin.</li>
+                <li><strong>Kaynak Adı</strong>: istediğiniz isim (örn. “Ana Xtream”).</li>
+                <li><strong>Sunucu URL</strong>: sağlayıcınızın adresi, örn. <code>http://sunucu.com:8080</code></li>
+                <li><strong>Kullanıcı Adı</strong> ve <strong>Şifre</strong>: sağlayıcınızın verdiği bilgiler. Şifre alanındaki göz simgesiyle yazdığınızı görebilirsiniz.</li>
+                <li><strong>Ekle</strong> — uygulama Xtream API'ye bağlanır; canlı yayınlar, filmler ve diziler ayrı ayrı çekilir.</li>
+            </ol>
+            <div class="warn"><p><strong>Ücretsiz sürümde</strong> toplam <strong>1 liste</strong> eklenebilir (M3U veya Xtream — ikisi birden değil). Sınırsız liste için <a href="#premium">Pro</a> gerekir.</p></div>
+
+            <h3 id="liste-yonetimi">Liste yönetimi</h3>
+            <p><strong>Ayarlar › Oynatma Listeleri</strong> altındaki öğeler:</p>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>Mevcut Listeler</td><td>Tanımlı M3U ve Xtream kaynaklarını gösterir; her kaynağın kartında son güncelleme tarihi ve aktif/pasif durumu vardır. Kaynağı seçerek düzenleyebilir, silebilir veya yenileyebilirsiniz. Toplam kanal kartında canlı/dizi/film dağılımı görülür.</td></tr>
+                <tr><td>Güncelleme Sıklığı</td><td>Listelerin otomatik yenilenme aralığı: <strong>Manuel, 6, 12, 24, 48, 72 veya 168 saat</strong>. Manuel seçilirse listeler yalnızca siz güncellediğinizde yenilenir.</td></tr>
+                <tr><td>Tüm Listeleri Güncelle</td><td>Tüm kaynakları tek seferde yeniden indirir. Kaynaklar arka planda sırayla işlenir; yükleme bandından ilerlemeyi takip edebilirsiniz.</td></tr>
+                <tr><td>EPG Kaynakları</td><td>Her çalma listesine hangi EPG kaynağının atanacağını seçersiniz (“Listeye Ata”).</td></tr>
+                <tr><td>Kanal Grupları</td><td>Listeden gelen grupları (spor, haber vb.) gizleme, yeniden adlandırma ve yeniden sıralama.</td></tr>
+                <tr><td>Sıralama</td><td>Kanal sırasını belirler: <strong>İsme Göre, Numaraya Göre, Manuel Sıralama, Orijinal Sıra, Gruba Göre</strong>.</td></tr>
+                <tr><td>Kanal Adı Filtreleri</td><td>Kanal adlarından otomatik ön ek/son ek kaldırma kuralları (örn. “TR:”, “|4K” gibi). <code>*</code> joker karakteri desteklenir; “Örnek Dönüşüm” alanı sonucu önizler.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">EPG kaynağı ekleme (XMLTV)</h3>
+            <p>Program rehberi için IPTV sağlayıcınızın XMLTV/EPG adresini ekleyin:</p>
+            <ol>
+                <li><strong>Ayarlar › TV Rehberi › EPG Kaynağı Ekle</strong>'yi açın.</li>
+                <li>İsim ve <strong>URL / Adres</strong> girin, kaydedin.</li>
+                <li>Kaynak indirildikten sonra kanallar ad benzerliğine göre otomatik eşleştirilir; eşleşmeyenleri <a href="#epg-rehberi">Kanal EPG Eşleştirme</a> ile elle bağlayabilirsiniz.</li>
+            </ol>
+            <div class="warn"><p>Ücretsiz sürümde <strong>1 EPG kaynağı</strong> eklenebilir. Bazı Xtream sağlayıcıları kendi EPG'sini sunar — Xtream kaynağı eklendiğinde EPG çoğu zaman otomatik gelir.</p></div>
+
+            <h3 id="grup-siralama">Gruplar, sıralama ve isim filtreleri</h3>
+            <ul>
+                <li><strong>Kanal Grupları:</strong> M3U/Xtream'den gelen grup başlıklarını yönetir. Gizlenen gruplar TV listesinde görünmez; sıralama kanal listesindeki grup dizilimini belirler.</li>
+                <li><strong>Sıralama:</strong> “Manuel Sıralama” seçilirse kanal listesinde kendi sıralamanızı oluşturabilirsiniz; “Orijinal Sıra” liste dosyasındaki dizilimi korur.</li>
+                <li><strong>İsim filtreleri:</strong> Kanal adlarının başındaki/sonundaki kalıpları (örn. ülke ön ekleri) temizler — liste daha okunaklı olur. VOD isimleri için ayrı filtre: <strong>Ayarlar › Medya Bilgileri › VOD Adı Filtreleri</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── ANA EKRAN & EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Ana Ekran &amp; TV Rehberi <span class="plat tv">TV</span></h2>
+
+            <h3>Üst bar ve menüler</h3>
+            <p>TV ana ekranının en üstünde yatay menü vardır. <kbd>◀</kbd><kbd>▶</kbd> ile menüde gezinin, <kbd>OK</kbd> ile seçin, <kbd>▼</kbd> ile içerik alanına inin.</p>
+            <table class="tbl">
+                <tr><th>Menü</th><th>İçerik</th></tr>
+                <tr><td>Arama</td><td>Akıllı arama ekranı — kanal, film, dizi ve program araması; sesli arama destekler.</td></tr>
+                <tr><td>TV</td><td>Kanal listesi + EPG ızgarası ve canlı önizleme kartı.</td></tr>
+                <tr><td>Filmler</td><td>Kategori sütunu (Aksiyon, Komedi, Dram, Bilim Kurgu, Korku, Aile, Favoriler, Yeni Gelenler, İzlemeye Devam Et) + poster galerisi.</td></tr>
+                <tr><td>Diziler</td><td>Yerli/Yabancı Diziler, Gündüz Kuşağı, Prime Time gibi kategoriler + poster galerisi.</td></tr>
+                <tr><td>Listem</td><td>Favoriler, Filmlerim, Dizilerim, İzlemeye Devam Et, Kayıtlar, Hatırlatıcılar, İndirilenler, Çevrimdışı İçerik.</td></tr>
+                <tr><td>Ayarlar</td><td>Sağ taraftaki dişli simgesi — 13 kategorili ayarlar panelini açar.</td></tr>
+            </table>
+            <p>Üst barın sağındaki simgeler: <strong>profil avatarı</strong> (profil değiştirme), <strong>ayarlar dişlisi</strong> ve <strong>cihazlar</strong> (DLNA/yayın) butonu.</p>
+            <div class="note"><p>Uzun listelerde <kbd>Kanal+</kbd>/<kbd>Kanal−</kbd> (veya Page Up/Down) tuşları 10'ar satır atlar. <kbd>Geri</kbd> bir önceki seviyeye döner; ana ekranda çıkış onayı sorar.</p></div>
+
+            <h3>Poster galerisi ve önizleme</h3>
+            <ul>
+                <li>Film/Dizi sayfalarında posterler ızgara düzeninde listelenir; üzerinde duraksayınca kart büyür ve — açıksa — <strong>fragman önizlemesi</strong> oynar (ayar: Medya Bilgileri › Otomatik Önizleme).</li>
+                <li>Poster üzerinde <kbd>OK</kbd> uzun basış <a href="#vod-context">bağlam menüsünü</a> açar.</li>
+                <li>TV sayfasında kanal satırında bekleyince sağ üstte <strong>canlı önizleme</strong> penceresi o kanalı küçük oynatır.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">TV Rehberi (EPG) kullanımı</h3>
+            <p>TV menüsünde iki görünüm arasında geçiş yapılır: <strong>kanal listesi</strong> ve <strong>EPG ızgarası</strong> (“EPG listesine geç” / “Kanal listesine geç”).</p>
+            <ul>
+                <li><strong>Sol sütun:</strong> kanal logoları ve adları. <kbd>▲</kbd><kbd>▼</kbd> kanal değiştirir; sağda o kanalın programları görünür.</li>
+                <li><strong>Sağ ızgara:</strong> zaman çizelgesi — program kartları süreleriyle birlikte. <kbd>◀</kbd><kbd>▶</kbd> zaman içinde ilerler.</li>
+                <li><strong>Gün seçimi:</strong> Dün / Bugün / Yarın ve “Önceki gün / Sonraki gün” oklarıyla <em>Geçmiş EPG Verisi</em> ayarının izin verdiği kadar geriye bakılabilir.</li>
+                <li><strong>Kanal satırında uzun <kbd>OK</kbd>:</strong> <a href="#epg-context">EPG bağlam menüsünü</a> açar (favori, kayıt, hatırlatıcı, gizleme vb.).</li>
+                <li>Kanala kısa <kbd>OK</kbd>: o kanalı tam ekranda izlemeye başlar.</li>
+            </ul>
+            <div class="tip"><p>EPG verisi kanalda görünmüyorsa: önce EPG kaynağının tanımlı ve güncel olduğundan emin olun (Ayarlar › TV Rehberi › EPG Güncelleme), sonra kanalı “EPG Eşleştir” ile elle eşleştirin.</p></div>
+
+            <h3 id="arama">Arama &amp; sesli arama</h3>
+            <ul>
+                <li><strong>Arama</strong> menüsü (veya bağlam menüsündeki “Arama”) akıllı arama ekranını açar. Film, dizi, kanal adı ve EPG programı (“Program Eşleşmeleri”, “TV Yayınları”) arasında birlikte arar.</li>
+                <li>Mikrofon simgesi <strong>Sesli Arama</strong>'yı başlatır — “Dinliyorum…” durumunda konuşun; ilk kullanımda mikrofon izni istenir.</li>
+                <li><strong>Geçmiş Aramalar</strong> önceki aramaları listeler; “Temizle” ile silinir.</li>
+                <li>Mobilde arama sekmesi aynı işlevi görür; dokunarak yazılır.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── CONTEXT MENÜLER ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Bağlam Menüleri</h2>
+
+            <h3>EPG bağlam menüsü <span class="plat tv">TV</span></h3>
+            <p><strong>Nasıl açılır:</strong> TV Rehberinde bir kanal satırının üzerinde <kbd>OK</kbd> tuşuna <strong>uzun basın</strong> — sağdan menü kayar. <kbd>▲</kbd><kbd>▼</kbd> ile gezinin, <kbd>OK</kbd> ile seçin, <kbd>Geri</kbd> ile kapatın.</p>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>İşlevi</th></tr>
+                <tr><td>Kanalı aç</td><td>Seçili kanalı tam ekranda oynatmaya başlar.</td></tr>
+                <tr><td>Arama</td><td>Akıllı arama ekranını açar.</td></tr>
+                <tr><td>TV / Filmler / Diziler / Listem / Ayarlar</td><td>Bulunduğunuz bölüm hariç diğer ana bölümlere hızlı geçiş kısayolları.</td></tr>
+                <tr><td>Favorilere ekle / Favorilerden çıkar</td><td>Kanalı favori listesine ekler veya çıkarır; favoriler TV listesinde ve Listem'de görünür.</td></tr>
+                <tr><td>Harici Oynatıcıda Aç</td><td>Kanal yayınını cihazdaki başka bir oynatıcı uygulamasına gönderir (VLC, MX Player vb.).</td></tr>
+                <tr><td>Kayıt</td><td>Seçili programı (veya program yoksa 2 saatlik manuel kaydı) kayıt listesine ekler. Ayarlardaki ek süreler otomatik uygulanır.</td></tr>
+                <tr><td>Özelleştirilmiş Kayıt</td><td>Aynı kaydı açmadan önce başlangıç/bitişe ek süre seçtiren diyalog gösterir (+0/+1/+5/+10 dk).</td></tr>
+                <tr><td>Hatırlatma ekle / Hatırlatmayı kaldır</td><td>Program başlamadan önce bildirim alırsınız; “otomatik kanal aç” açıksa kanal kendiliğinden açılır.</td></tr>
+                <tr><td>EPG Eşleştir</td><td>Kanalın program verisini EPG kaynağındaki doğru kanal adıyla elle eşleştirmenizi sağlar.</td></tr>
+                <tr><td>EPG güncelle</td><td>Tanımlı EPG kaynaklarını yeniden indirir.</td></tr>
+                <tr><td>EPG Temizle</td><td>Önbellekteki program verisini siler; bir sonraki güncellemede yeniden yüklenir.</td></tr>
+                <tr><td>Logoları güncelle</td><td>Kanal logolarını yeniden indirir (logo kaynağı ayarına göre).</td></tr>
+                <tr><td>Kanalı engelle / Engeli kaldır</td><td>Ebeveyn kilidi kapsamında kanalı PIN arkasına alır; açmak PIN ister.</td></tr>
+                <tr><td>Kanalı gizle / Kanalı göster</td><td>Kanalı listeden gizler; geri getirmek için “Gizli kanalları göster” veya Ayarlar › Ebeveyn Kontrolü › Gizli Kanallar.</td></tr>
+                <tr><td>Gizli kanalları göster</td><td>Gizli kanalları geçici olarak listeye geri getirir.</td></tr>
+            </table>
+
+            <h3 id="vod-context">Film / dizi bağlam menüsü</h3>
+            <p><strong>Nasıl açılır:</strong> Posterin üzerinde uzun <kbd>OK</kbd> basılı tutun (mobilde uzun dokunun / ☰ simgesi).</p>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>İşlevi</th></tr>
+                <tr><td>Devam Et</td><td>Kalan yerden oynatır (yalnızca izleme geçmişi varsa görünür).</td></tr>
+                <tr><td>Oynat</td><td>İçeriği baştan oynatır.</td></tr>
+                <tr><td>Harici Oynat</td><td>Başka bir oynatıcı uygulamasına gönderir.</td></tr>
+                <tr><td>Fragman</td><td>TMDB'den bulunan tanıtım videosunu açar.</td></tr>
+                <tr><td>Tam ekran poster / Banner göster <span class="plat tv">TV</span></td><td>Galeri görünümünü poster ızgarası ile banner düzeni arasında değiştirir.</td></tr>
+                <tr><td>Sırala / Filtrele</td><td>Galeriyi sıralama ve filtreleme seçeneklerini açar.</td></tr>
+                <tr><td>Yapım Yılı</td><td>İçerikleri yıla göre filtreler.</td></tr>
+                <tr><td>Kategori</td><td>Türe (aksiyon, komedi…) göre filtreler.</td></tr>
+                <tr><td>Daha Fazla Bilgi</td><td>Özet, oyuncular, yönetmen, puan ve bölüm listesini içeren detay panelini açar.</td></tr>
+                <tr><td>Listeme Ekle / Listeden Çıkar</td><td>İçeriği “Listem › Filmlerim/Dizilerim”e ekler veya çıkarır.</td></tr>
+                <tr><td>İzleme Geçmişinden Kaldır</td><td>Kaldığı konumu siler; içerik “devam et” listesinden düşer.</td></tr>
+                <tr><td>İzlenenlerden Kaldır / İzlenenleri Temizle</td><td>“İzlenmiş” işaretini kaldırır veya tüm izlenen geçmişini temizler.</td></tr>
+                <tr><td>Çevrimdışı içeriklerden kaldır</td><td>İndirilmiş içeriği siler (yalnızca indirilmiş içerikte görünür).</td></tr>
+                <tr><td>İçerik Ara ve Eşle</td><td>TMDB eşleşmesi yanlış/bulunamadıysa elle doğru filmi/diziyi arayıp eşleştirir.</td></tr>
+                <tr><td>Çoklu Seç <span class="plat mob">MOBİL</span></td><td>Toplu işlem için birden çok poster seçme modunu açar.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── OYNATICI ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Tam Ekran Oynatıcı</h2>
+
+            <h3>Canlı TV tam ekran <span class="plat tv">TV</span></h3>
+            <p>Kanal açıldığında video tam ekran oynar. Tüm paneller kumandayla açılır ve bir süre işlem yapılmazsa kendiliğinden kapanır (kanal listesi ~8 sn, yayın akışı ~15 sn).</p>
+
+            <h4 id="fs-tuslar">Kumanda tuşları — canlı TV</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> kısa bas</div><div>OSD'yi (bilgi çubuğunu) açar / kapatır.</div>
+                <div><kbd>OK</kbd> uzun bas</div><div>Oynatıcı ayarları kartını açar (aşağıda).</div>
+                <div><kbd>▶</kbd> sağ ok</div><div>Sağ kenardan kanal listesini açar. Liste açıkken tekrar sağ → kategori (grup) paneline geçer.</div>
+                <div><kbd>◀</kbd> sol ok</div><div>Sol kenardan EPG “Yayın Akışı”nı açar; açık panel varsa kapatır.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Kanal değiştirir; kanal listesi açıkken listede seçimi hareket ettirir.</div>
+                <div><kbd>0–9</kbd></div><div>Rakam tuşlarıyla kanal numarası girişi — giriş tamamlanınca o kanala atlar.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> veya <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>Sonraki/önceki kanal (liste açıkken listede hareket).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>EPG yayın akışını açar/kapatır.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>Son izlenen kanala geri döner.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Önceki/sonraki kanal.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>Yayını duraklatır/devam ettirir.</div>
+                <div><kbd>●</kbd> Record tuşu</div><div>Kanal listesini açar/kapatır.</div>
+                <div><kbd>Geri</kbd></div><div>Açık paneli kapatır → OSD'yi kapatır → oynatıcıdan çıkar.</div>
+            </div>
+
+            <h4 id="fs-paneller">Paneller ve ayar kartı</h4>
+            <table class="tbl">
+                <tr><th>Panel</th><th>Nasıl açılır</th><th>İçerik</th></tr>
+                <tr><td>OSD (bilgi çubuğu)</td><td><kbd>OK</kbd> kısa</td><td>Kanal adı/logosu, şu anki ve sonraki program, ilerleme, saat (tam ekran saati açıksa).</td></tr>
+                <tr><td>Kanal Listesi</td><td><kbd>▶</kbd> veya <kbd>●</kbd></td><td>Sağdan açılan kanal listesi; yukarı/aşağı ile seçim, <kbd>OK</kbd> ile kanala geç. Tekrar <kbd>▶</kbd> ile grup/kategori sütunu açılır — <kbd>OK</kbd> grubu uygular.</td></tr>
+                <tr><td>EPG Yayın Akışı</td><td><kbd>◀</kbd> veya <kbd>Info</kbd></td><td>Soldan açılan program listesi: günün yayın akışı. <kbd>▲</kbd><kbd>▼</kbd> gezinme; programda <kbd>OK</kbd> uzun bas → hatırlatma/kayıt aksiyonları.</td></tr>
+                <tr><td>Oynatıcı Ayarları kartı</td><td><kbd>OK</kbd> uzun bas</td><td>8 simgeli hızlı ayar kartı (aşağıdaki tablo).</td></tr>
+            </table>
+
+            <h4>Oynatıcı ayarları kartı (canlı TV)</h4>
+            <p>Kart açıkken <kbd>◀</kbd><kbd>▶</kbd> simgeler arasında, panel açıkken seçenekler arasında gezinin; <kbd>OK</kbd> uygular.</p>
+            <table class="tbl">
+                <tr><th>Sekme</th><th>Açıklama</th></tr>
+                <tr><td>VOD Kısayolu</td><td>Filmler veya Diziler bölümüne hızlı geçiş.</td></tr>
+                <tr><td>Yayın Dili</td><td>Yayında birden fazla ses parçası varsa seçim (yoksa dil tercihi: Otomatik/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>Ekran Boyutu</td><td>Görüntü oranı: Orijinal, Kırp/Doldur, Yatay Uzat, Dikey Uzat, Tamamını Doldur, 4:3, 16:9 — “tüm kanallara uygula” seçeneğiyle.</td></tr>
+                <tr><td>Altyazı</td><td>Altyazı parçası seçimi + yazı rengi (10 renk) ve boyutu.</td></tr>
+                <tr><td>PIP</td><td>Çoklu ekran modunu açar (<a href="#coklu-ekran">aşağıya bakın</a>).</td></tr>
+                <tr><td>Yayın Özellikleri</td><td>Akışın teknik bilgileri (çözünürlük, codec vb.).</td></tr>
+                <tr><td>Oynatıcı</td><td>Dekoder ve temel oynatıcı davranışı seçenekleri.</td></tr>
+                <tr><td>Ayarlar</td><td>Ana ayarlar ekranını açar (“Tüm Ayarları Aç”).</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">Çoklu ekran (PIP)</h4>
+            <p>Ayar kartındaki <strong>PIP</strong> veya çoklu ekran özelliğiyle aynı anda birden fazla kanal izlenir (en fazla 4 ekran). Çoklu ekran menüsündeki seçenekler:</p>
+            <ul>
+                <li><strong>Ekran Ekle / Ekranı Kapat:</strong> yeni yayın hücresi açar veya seçili hücreyi kapatır.</li>
+                <li><strong>Eşit Görünüm / Büyük Ekran:</strong> ekranları eşit böler veya birini büyütür.</li>
+                <li><strong>Kanal Değiştir:</strong> odaklı hücrenin kanalını değiştirir.</li>
+                <li><strong>Tam Ekran / Ekranlara Dön / Tek Ekran:</strong> hücreyi büyütür veya çoklu görünüme döner.</li>
+                <li><strong>Oynat/Duraklat, Sesi Kapat/Aç, Yeniden Yükle:</strong> hücre başına oynatma ve ses kontrolü (ses tek seferde bir ekrandan gelir).</li>
+            </ul>
+            <div class="warn"><p>Çoklu ekran cihazın işlemcisini zorlar; düşük güçlü TV'lerde 2 ekran önerilir.</p></div>
+
+            <h3 id="fs-vod">Film / dizi tam ekran</h3>
+            <p>VOD oynatıcıda OSD altta kontrol çubuğu olarak açılır: <strong>Önceki bölüm/içerik, geri sar, Oynat/Duraklat, ileri sar, Sonraki, Dil &amp; Altyazı, Bilgi, Ayarlar, Başa Al</strong> ve ilerleme çubuğu.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>OSD'yi açar; açıkken odaktaki düğmeyi çalıştırır (varsayılan Oynat/Duraklat).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>İlerleme çubuğunda kademeli sarma; OSD kapalıyken önce OSD'yi açar. Kontrol satırında düğmeler arasında gezinir.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>İlerleme çubuğu ↔ kontrol satırı ↔ ayarlar kartı arasında dikey geçiş.</div>
+                <div><kbd>0–9</kbd></div><div>Dakika girişi — yazılan dakikaya sarar.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>30 saniye geri/ileri sarar (ekranda gösterge çıkar).</div>
+                <div><kbd>Info</kbd></div><div>Film/dizi bilgi kartını açar (özet, oyuncular, puan — TMDB).</div>
+                <div><kbd>Geri</kbd></div><div>Paneli/OSD'yi kapatır; tekrar basılınca çıkıp ilerlemeyi kaydeder.</div>
+            </div>
+            <ul>
+                <li><strong>Sonraki Bölüm kartı:</strong> dizilerde bölüm bitimine ~30 saniye kala altta “Sonraki Bölüme Geç” kartı çıkar; <kbd>OK</kbd> ile geçilir.</li>
+                <li><strong>Kaldığı yerden devam:</strong> yarıda bırakılan içerik bir sonraki açılışta kaldığı saniyeden sürer (“Devam Et”). İlerleme çıkarken otomatik kaydedilir.</li>
+                <li><strong>Dil &amp; Altyazı menüsü:</strong> ses ve altyazı parçalarını anında değiştirir.</li>
+                <li><strong>Mobil jestler</strong> <span class="plat mob">MOBİL</span>: sol kenarda dikey kaydırma = ses, sağ kenarda = parlaklık; dokunma OSD'yi açar.</li>
+            </ul>
+            <p>VOD ayar kartı canlı TV'dekine benzer; ek olarak <strong>Ses Gecikmesi</strong> (kaydırıcı + Sıfırla) ve <strong>TV Kısayolu</strong> içerir.</p>
+        </section>
+
+        <!-- ───────────── KAYIT & HATIRLATICI ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Kayıt &amp; Hatırlatıcılar <span class="plat pro">PRO</span></h2>
+
+            <h3>Program kaydı</h3>
+            <ol>
+                <li>EPG'de kaydetmek istediğiniz programın bulunduğu <strong>kanal satırında</strong> uzun <kbd>OK</kbd> basın.</li>
+                <li><strong>Kayıt</strong>: seçili programı, ayarlardaki ek sürelerle birlikte kayıt listesine ekler. Program yoksa şu andan itibaren 2 saatlik manuel kayıt planlanır.</li>
+                <li><strong>Özelleştirilmiş Kayıt</strong>: kaydı oluşturmadan önce başlangıç/bitiş için ek süre seçtiren diyalog açar (0/+1/+5/+10 dk).</li>
+                <li>Zamanı gelince kayıt otomatik başlar; yayın akışındaki program kartında yanıp sönen REC simgesi görünür.</li>
+            </ol>
+            <p><strong>Ayarlar › Kayıt</strong> altındaki öğeler:</p>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>Kayıt Klasörü</td><td>Kayıtların kaydedileceği yer: dahili depolama veya ağ klasörü (SMB — “Ağı Tara” ile ağdaki paylaşım bulunur, kullanıcı adı/şifre ile bağlanılır).</td></tr>
+                <tr><td>Kayıt Öncesi / Sonrası Süre</td><td>Her kaydın başına ve sonuna eklenecek ek süre: 0, 1, 5 veya 10 dakika. Programın geç başlaması/uzaması durumunda kaydın kaçmasını önler.</td></tr>
+                <tr><td>Kayıt Listesi</td><td>Toplam/tamamlanan/planlanan kayıt sayıları ve tüm kayıtlar: tamamlananı <kbd>OK</kbd> ile oynatın, bekleyenleri iptal edin, silin.</td></tr>
+            </table>
+            <div class="note"><p>Kayıt dosyaları seçilen klasöre yazılır; yeterli boş alan olduğundan emin olun. USB/SD kart seçimi de desteklenir.</p></div>
+
+            <h3 id="hatirlatici">Hatırlatıcılar</h3>
+            <ul>
+                <li>EPG bağlam menüsünden <strong>Hatırlatma ekle</strong> ile programa hatırlatıcı kurulur; menüde tekrar seçerek kaldırılır.</li>
+                <li>Hatırlatma zamanı: program başlamadan <strong>1, 2, 5 veya 10 dakika önce</strong>.</li>
+                <li><strong>Ayarlar › Hatırlatıcılar</strong>: bildirim gönderme ve <strong>“Otomatik kanal aç”</strong> (zamanı gelince TV'nin kendiliğinden o kanala geçmesi) seçenekleri; ayrıca tüm hatırlatıcıların listesi buradan yönetilir.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── PROFİL & EBEVEYN ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profiller &amp; Ebeveyn Kontrolü <span class="plat pro">PRO</span></h2>
+
+            <h3>Profil yönetimi</h3>
+            <p><strong>Ayarlar › Profiller</strong> altından:</p>
+            <ul>
+                <li><strong>Profil Ekle:</strong> isim, avatar seçimi ve isteğe bağlı PIN ile yeni profil oluşturur.</li>
+                <li><strong>Profil Listesi:</strong> mevcut profilleri gösterir; düzenleme ve silme buradan yapılır.</li>
+                <li>Her profil kendi <em>favorilerini, “Listem” içeriğini, izleme geçmişini ve kişisel ayarlarını</em> tutar. Aktif profil açılışta sorulur; üst bardaki avatarla anında değiştirilebilir.</li>
+            </ul>
+
+            <h3 id="ebeveyn">Ebeveyn kontrolü</h3>
+            <p><strong>Ayarlar › Ebeveyn Kontrolü</strong> altındaki öğeler (PIN ayarlıysa panele giriş PIN ister):</p>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>PIN Koruma</td><td>4 haneli PIN durumunu gösterir.</td></tr>
+                <tr><td>PIN Kodunu Değiştir</td><td>Yeni 4 haneli PIN belirler (PIN kaldırma da buradan).</td></tr>
+                <tr><td>PIN Gereksinimleri</td><td>PIN'in hangi durumlarda sorulacağını belirler.</td></tr>
+                <tr><td>Ayarlar Kilidi</td><td>Açıkken ayarlar ekranına giriş PIN ister.</td></tr>
+                <tr><td>Yetişkin İçerik Kilidi</td><td>Yetişkin içeriklerini PIN arkasına alır.</td></tr>
+                <tr><td>Kanal Kilidi</td><td>Engellenen kanalların açılması PIN ister (kanal engelleme: EPG bağlam menüsünden).</td></tr>
+                <tr><td>Yaş Sınırı</td><td>Yaş sınırı kısıtlaması — belirlenen yaş altı içerikler PIN ister. Yanındaki “Yaş Sınıflandırma Rehberi” farklı ülke sistemlerindeki yaş etiketlerini açıklar.</td></tr>
+                <tr><td>Gizli Kanallar</td><td>Gizlenen kanalları listeler ve görünürlüğünü geri açar.</td></tr>
+            </table>
+            <div class="tip"><p>PIN'i unutursanız yeni profil oluşturup uygulamayı yeniden kurmadan önce yedek almayı unutmayın; PIN verileri cihazda şifreli tutulur.</p></div>
+        </section>
+
+        <!-- ───────────── AYARLAR ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Ayarlar Rehberi</h2>
+            <p>Ayarlar ekranı üç sütundan oluşur: <strong>sol sütun</strong> 13 kategori, <strong>orta sütun</strong> kategori öğeleri, <strong>sağ sütun</strong> seçili öğenin açıklama/ayar paneli. Başlıktaki <strong>büyüteç simgesi</strong> ayar arama penceresini açar. <kbd>Kanal+</kbd>/<kbd>−</kbd> kategori listesinde 10'ar satır atlar.</p>
+            <div class="warn"><p>Ücretsiz sürümde bazı kategoriler kilitlidir (kilit rozeti görünür): Oynatıcı, Görünüm, Medya Bilgileri, Kayıt, Hatırlatıcılar, Profiller, Ebeveyn Kontrolü, İndirilenler ve Diğer. Kilitli kategori Pro'ya yükseltme panelini açar.</p></div>
+
+            <h3 id="ayar-listeler">1 · Oynatma Listeleri</h3>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>Çalma Listesi Ekle</td><td>Yeni M3U (URL/dosya) veya Xtream (sunucu+kullanıcı+şifre) listesi ekler.</td></tr>
+                <tr><td>Güncelleme Sıklığı</td><td>Listelerin otomatik yenilenme aralığı: Manuel, 6, 12, 24, 48, 72, 168 saat.</td></tr>
+                <tr><td>Tüm Listeleri Güncelle</td><td>Tüm kaynakları tek seferde yeniden indirir.</td></tr>
+                <tr><td>Mevcut Listeler</td><td>Kaynakları düzenleme, silme, yenileme; aktif/pasif durumu ve son güncelleme tarihi.</td></tr>
+                <tr><td>Kanal Grupları</td><td>Grupları gizleme, yeniden adlandırma, yeniden sıralama.</td></tr>
+                <tr><td>EPG Kaynakları</td><td>Listelere EPG kaynağı atama (“Listeye Ata”).</td></tr>
+                <tr><td>Sıralama</td><td>İsme/numaraya göre, manuel, orijinal sıra veya gruba göre kanal dizilimi.</td></tr>
+                <tr><td>Kanal Adı Filtreleri</td><td>Kanal adlarından ön ek/son ek kaldırma; <code>*</code> jokerli kurallar ve örnek dönüşüm önizlemesi.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · TV Rehberi</h3>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>EPG Kaynağı Ekle</td><td>Yeni XMLTV formatında EPG kaynağı ekler (kanalların program verisini sağlar).</td></tr>
+                <tr><td>Mevcut EPG Kaynakları</td><td>Tanımlı EPG kaynaklarını düzenleme/silme; her kaynak için kanal sayısı ve son güncelleme bilgisi.</td></tr>
+                <tr><td>Kanal EPG Eşleştirme</td><td>Kanalları EPG verileriyle eşleştirir — otomatik eşleştirme veya manuel kanal atama; eşleşmemiş kanallar listelenir.</td></tr>
+                <tr><td>Güncelleme Sıklığı</td><td>EPG'nin arka planda güncellenme aralığı: Manuel, 1, 2, 4, 6, 12, 24 saat.</td></tr>
+                <tr><td>Başlangıçta Güncelle</td><td>Açıkken uygulama her açılışta EPG'yi otomatik yeniler.</td></tr>
+                <tr><td>Liste Değişince Güncelle</td><td>Çalma listesi değiştiğinde/güncellendiğinde EPG'yi de otomatik günceller.</td></tr>
+                <tr><td>Geçmiş EPG Verisi</td><td>Geçmiş program verisinin kaç gün saklanacağı: yok, 1, 2, 3, 5 veya 7 gün. Daha fazla gün = daha fazla bellek.</td></tr>
+                <tr><td>Zaman Kayması</td><td>Program saatlerini global veya kanal bazında saat/dakika ileri-geri kaydırır (saat dilimi farkı olan kaynaklar için).</td></tr>
+                <tr><td>EPG Güncelleme</td><td>Manuel güncelleme tetikler; ilerleme ve işlenen kanal sayısı gösterilir.</td></tr>
+                <tr><td>EPG Temizle</td><td>Önbellekteki program verisini ve resim önbelleğini siler; sonraki güncellemede yeniden yüklenir.</td></tr>
+                <tr><td>Son Güncelleme Bilgisi</td><td>Kaynak başına işlenen kanal sayısı ve güncelleme tarihi.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · Oynatıcı <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>Görüntü</td><td>Görüntü oranı: Orijinal, Kırp/Doldur, Yatay Uzat, Dikey Uzat, Tamamını Doldur, 4:3, 16:9; istenirse tüm kanallara uygulanır.</td></tr>
+                <tr><td>Video Çıkışı</td><td>Dekoder seçimi: donanım (önerilen, az pil/CPU) veya yazılım (uyumluluk sorunlarında).</td></tr>
+                <tr><td>Ses Çıkışı</td><td>Ses çözücü (donanım/yazılım), <strong>Ses Passthrough (Bitstream)</strong> — surround sistemlerde ham ses akışı, <strong>Ses Gecikmesi</strong> (ms kaydırıcı + Sıfırla) ve varsayılan ses dili.</td></tr>
+                <tr><td>Altyazılar</td><td>Yazı boyutu, metin rengi (10 renk), konum (üst/orta/alt) ve karakter kodlaması (UTF-8 vb.).</td></tr>
+                <tr><td>Kanal Değiştirme</td><td>Zapping davranışı: <strong>Geçiş Gecikmesi</strong> (tuşa bastıktan kaç ms sonra kanal değişsin — hızlı gezintide gereksiz yükleme yapılmaz) ve <strong>Kanal Geçişinde Siyah Ekran</strong> (açıkken yeni kanal yüklenene kadar siyah gösterilir; kapalıyken önceki kanal ekranda kalır).</td></tr>
+                <tr><td>Tamponlama</td><td>Buffer boyutu: Otomatik, Yok, Küçük (~1 sn), Orta (~3 sn, önerilen), Büyük (~8 sn), Çok Büyük (~15+ sn). Takılan yayınlarda büyütün; hızlı kanal değişimi istiyorsanız küçültün.</td></tr>
+                <tr><td>VOD</td><td>Film/dizi tercihleri: harici oynatıcı seçimi (Otomatik Seç / Uygulama Seç / Harici Oynatıcı 1-2), otomatik altyazı vb.</td></tr>
+                <tr><td>Tam Ekran Saati</td><td>Tam ekranda saat gösterimi: aç/kapat, konum, boyut (küçük/orta/büyük), 24 saat formatı, tarihi göster.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · Görünüm <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>Dil</td><td>Arayüz dili — 24 dil arasından seçim veya “Sistem Dili”; arama kutusuyla filtrelenir.</td></tr>
+                <tr><td>Renkler</td><td>Uygulama teması (Koyu, Mavi, Gri, Yeşil, Mor, Kırmızı, Kehribar, Gece, Okyanus, Kömür, Şarap, Lacivert, Emerald, Sunset, Cosmos, Graphite), vurgu rengi (18 renk) ve OSD opaklığı (önizlemeli).</td></tr>
+                <tr><td>TV Rehberi</td><td>EPG görünümü: 24 saat formatı, satır yüksekliği (küçük/orta/büyük), liste düzeni (liste/ızgara).</td></tr>
+                <tr><td>Kanal Listesi</td><td>Kanal listesi görünümü ve kart düzeni.</td></tr>
+                <tr><td>Logolar</td><td>Logo kaynağı önceliği: <strong>XMLTV/EPG</strong>, <strong>Playlist (M3U)</strong> veya <strong>Yerel Klasör</strong>; klasör yolu seçimi ile kendi logo dosyalarınızı (PNG/JPG/WebP) kullanma.</td></tr>
+                <tr><td>OSD Süresi</td><td>Bilgi çubuğunun ekranda kalma süresi (saniye) — TV ve VOD için ayrı.</td></tr>
+                <tr><td>Ekran Koruyucu</td><td>Hareketsizlik sonrası devreye girme süresi: kapalı, 1, 2, 5, 10, 15 veya 30 dakika.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · Medya Bilgileri <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>API Anahtarları</td><td>TMDB ve OMDb API anahtarlarınızı girin — anahtarlar ilgili servislerin web sitesinden ücretsiz alınır. Film/dizi posteri, özet, oyuncu ve IMDb puanı bu servislerden gelir.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>İlgili servisi açar/kapatır. TMDB: poster+özet+fragman; OMDb: IMDb puanı, tür, yönetmen.</td></tr>
+                <tr><td>Akıllı Önbellek</td><td>Açıkken yalnızca ekranda görünen içeriklerin meta verisi yüklenir — ilk açılış hızlanır.</td></tr>
+                <tr><td>Sadece Manuel Zenginleştir</td><td>Otomatik meta yüklemeyi kapatır; zenginleştirme yalnızca siz başlattığınızda yapılır.</td></tr>
+                <tr><td>Önbellek Kayıt Klasörü</td><td>Meta veri önbelleğinin kaydedileceği klasör.</td></tr>
+                <tr><td>Tüm İçerikleri Zenginleştir</td><td>Tüm VOD içeriklerinin TMDB verisini toplu çeker (uzun sürebilir).</td></tr>
+                <tr><td>Kategoriye Göre Zenginleştir</td><td>Yalnızca seçilen kategorileri zenginleştirir.</td></tr>
+                <tr><td>Önbelleği Temizle</td><td>Tüm meta veri önbelleğini siler (önbellek: içerik sayısı ve boyutu gösterilir).</td></tr>
+                <tr><td>VOD Adı Filtreleri</td><td>Film/dizi adlarından ön ek/son ek kaldırma kuralları — TMDB eşleşmesini iyileştirir.</td></tr>
+            </table>
+            <p>Ayrıca poster önizleme (hover fragman) ayarları: <strong>Otomatik Önizleme</strong> (posterde duraksayınca fragman oynar), <strong>Fragman Sesi</strong>, başlangıç noktası ve bekleme süresi.</p>
+
+            <h3 id="ayar-diger">6–9, 11 · Kayıt, Hatırlatıcılar, Profiller, Ebeveyn, İndirilenler, Diğer</h3>
+            <ul>
+                <li><strong>Kayıt</strong> <span class="plat pro">PRO</span> — kayıt klasörü, ek süreler, kayıt listesi (<a href="#kayit">detay</a>).</li>
+                <li><strong>Hatırlatıcılar</strong> <span class="plat pro">PRO</span> — bildirim ve otomatik kanal açma ayarları + hatırlatıcı listesi (<a href="#hatirlatici">detay</a>).</li>
+                <li><strong>Profiller</strong> <span class="plat pro">PRO</span> — profil listesi ve yeni profil (<a href="#profiller">detay</a>).</li>
+                <li><strong>Ebeveyn Kontrolü</strong> <span class="plat pro">PRO</span> — PIN, kilitler, yaş sınırı, gizli kanallar (<a href="#ebeveyn">detay</a>).</li>
+                <li><strong>İndirilenler</strong> <span class="plat pro">PRO</span> — indirme klasörü, eş zamanlı indirme sayısı, yalnızca Wi-Fi, indirme listesi (<a href="#indirilenler">detay</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>Diğer öğesi <span class="plat pro">PRO</span></th><th>Açıklama</th></tr>
+                <tr><td>Kumanda Tuş Sesi</td><td>D-pad hareketlerinde hafif tık sesi çalar.</td></tr>
+                <tr><td>Uygulama Klavyesi</td><td>Metin girişinde uygulama içi ekran klavyesi mi sistem klavyesi mi kullanılsın.</td></tr>
+                <tr><td>Otomatik Başlatma</td><td>Cihaz (TV) açıldığında uygulamanın kendiliğinden başlaması.</td></tr>
+                <tr><td>Kapanışta Oynatmayı Durdur</td><td>Uygulamadan çıkınca oynatmanın otomatik durması.</td></tr>
+                <tr><td>İzlenme İstatistikleri</td><td>Film, dizi ve canlı TV izleme süreleriniz (son 7/30 gün, tüm zamanlar); sıfırlanabilir.</td></tr>
+                <tr><td>Veri Kullanımı</td><td>Ağ veri tüketimi: indirilen/yüklenen ve toplam miktarlar.</td></tr>
+                <tr><td>Verileri Yedekle / Geri Yükle</td><td>Tüm ayarları, favorileri, profilleri ve geçmişi bir yedek dosyasına kaydetme / dosyadan geri yükleme.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 &amp; 12 · Hesaplar ve Senkronizasyon · Hakkında</h3>
+            <table class="tbl">
+                <tr><th>Öğe</th><th>Açıklama</th></tr>
+                <tr><td>Hesaplar, Senk. &amp; Cihazlar</td><td>Google hesabı durumu, anonim hesap oluşturma, otomatik senkronizasyon, premium lisans senkronu, bağlı cihaz listesi ve cihaz kaldırma, çıkış yap ve <strong>Hesabı Sil</strong> (bulut verileri dahil kalıcı silme).</td></tr>
+                <tr><td>Hakkında</td><td>Sürüm bilgisi, abonelik türü ve lisans bitiş tarihi, özellik listesi (Canlı TV, VOD &amp; IPTV, EPG, Çoklu Ekran, Kayıt, Hatırlatıcılar, Profiller, Ebeveyn Kontrolü, Akıllı Arama, DLNA, Bulut Senkronizasyonu, Favori Listeleri, Meta Veri) ve iletişim.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── MOBİL ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mobil Uygulama <span class="plat mob">MOBİL</span></h2>
+            <p>Mobil arayüz dokunmatik için tasarlanmıştır; aynı hesap ve listeleri kullanır.</p>
+            <ul>
+                <li><strong>Alt sekme çubuğu:</strong> TV, Filmler, Diziler, Listem. Yatay modda sol kenarda dikey menü (rail) gösterilir.</li>
+                <li><strong>Üst bar:</strong> logo, <strong>uzaktan kumanda</strong>, <strong>arama</strong>, <strong>DLNA/cihazlar</strong>, <strong>ayarlar</strong> dişlisi ve <strong>profil avatarı</strong>.</li>
+                <li><strong>TV sekmesi:</strong> üstte önizleme alanı + “Tümü”/grup filtresi; altta kanal kartları (logo, kanal adı, saat aralığı, şu anki program + ilerleme çubuğu, favori yıldızı, ☰ menü).</li>
+                <li><strong>EPG ekranı:</strong> günlük program akışı; kanala dokunup yayın akışını görün.</li>
+                <li><strong>İndirilenler / Çevrimdışı İçerik:</strong> indirilen film ve bölümler internetsiz oynatılır; listeden oynatma ve silme.</li>
+                <li>Kaynaklar yüklenirken alttaki <strong>yükleme bandı</strong> tüm sekmelerde görünür.</li>
+            </ul>
+
+            <h3 id="kumanda">Telefondan TV kumandası <span class="plat pro">PRO</span></h3>
+            <p>Telefondaki uygulamayı aynı ağdaki Android TV'nin kumandası olarak kullanın:</p>
+            <ol>
+                <li>TV'de TiviEase Go açık olsun; telefonda üst bardaki <strong>kumanda simgesine</strong> dokunun.</li>
+                <li>“Ağdaki Cihazlar” listesinden TV'nizi seçin (bulunamazsa “Tekrar dene” ile yeniden tarayın).</li>
+                <li>Kumanda ekranı: <strong>D-pad + OK</strong>, rakam tuşları, ses/kanal rocker'ları, <strong>Geri / Ana Sayfa</strong>, <strong>Uyku / Rehber / Seçenekler</strong>, <strong>renkli tuşlar</strong>, medya kontrolleri ve metin girişi için <strong>ekran klavyesi</strong> butonu.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA &amp; yayın <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Ağı Tara</strong> ağdaki DLNA/UPnP cihazlarını bulur; cihaz seçilip medya klasörlerinde gezilebilir (“Klasörler”, “öğe” sayıları).</li>
+                <li><strong>TV'ye Yayınla / Cast cihazı:</strong> oynatılan içerik ağdaki cihaza gönderilir; cast ekranında konum çubuğu, oynat/duraklat ve “Yayını Durdur” bulunur.</li>
+                <li>“Cihazı Değiştir” ile yayın başka cihaza taşınır.</li>
+            </ul>
+
+            <h3 id="indirilenler">İndirilenler &amp; çevrimdışı <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Ayarlar › İndirilenler:</strong> indirme klasörü (dahili depolama veya SMB), maksimum eş zamanlı indirme sayısı, <strong>Yalnızca Wi-Fi</strong> (mobil veriyi korur) ve indirme listesi.</li>
+                <li>İndirme listesinde durumlar: İndiriliyor, Bekliyor, İndirildi, Başarısız/İptal — bekleyeni iptal edebilir, biteni oynatabilir veya silebilirsiniz.</li>
+                <li>Mobilde “Çevrimdışı İçerik” ekranı indirilenleri listeler ve internetsiz oynatır.</li>
+            </ul>
+
+            <h3 id="yedekleme">Yedekleme, geri yükleme ve senkronizasyon</h3>
+            <ul>
+                <li><strong>Verileri Yedekle</strong> (Ayarlar › Diğer): tüm ayarları, favorileri, profilleri ve izleme geçmişini tek dosyaya kaydeder — cihaz değişiminde veya sıfırlamada kullanılır.</li>
+                <li><strong>Verileri Geri Yükle:</strong> “Yedek Dosyasını Aç” ile dosyayı seçip kurulumu geri yükler.</li>
+                <li><strong>Bulut senkronizasyonu:</strong> Google girişi yapılıysa veriler arka planda senkronize edilir; “Otomatik senkronize” kapatılabilir. Bağlı cihazlar Hesaplar panelinden görülür/kaldırılır.</li>
+                <li>Android TV ana ekranında <strong>“İzlemeye Devam Et”</strong> satırı son izlenen içerikleri gösterir.</li>
+            </ul>
+
+            <h3 id="premium">Premium (Pro) üyelik</h3>
+            <p>Ücretsiz sürümle 1 liste + 1 EPG kaynağı ve temel ayarlar kullanılır. <strong>Ayarlar</strong> içinden kilitli kategoriye dokunarak veya Pro ekranından yükseltin.</p>
+            <table class="tbl">
+                <tr><th>Plan</th><th>Fiyat</th><th>Cihaz</th></tr>
+                <tr><td>Pro Aylık</td><td>₺9.99 / ay</td><td>1 cihaz</td></tr>
+                <tr><td>Pro Yıllık</td><td>₺89.99 / yıl</td><td>1 cihaz</td></tr>
+                <tr><td>Pro Ömür Boyu</td><td>₺249.99 (tek seferlik)</td><td>5 cihaza kadar</td></tr>
+            </table>
+            <ul>
+                <li>Pro ile <strong>sınırsız liste ve EPG kaynağı</strong>, tüm ayar kategorileri, kayıt, hatırlatıcı, profiller, ebeveyn kontrolü, indirilenler, telefondan kumanda ve DLNA açılır.</li>
+                <li><strong>Aktivasyon kodu:</strong> “Aktivasyon kodu kullan” ile kod girerek premium etkinleştirilir.</li>
+                <li>Lisans buluta bağlıdır — başka cihazda aynı hesapla giriş yapınca lisans otomatik senkronize olur; cihaz limiti aşılırsa cihaz listesinden eski cihazı kaldırın.</li>
+                <li>Çevrimdışı kullanım için son doğrulamadan sonra 7 günlük tolerans vardır.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── SSS ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>Sorun Giderme &amp; SSS</h2>
+
+            <details class="faq"><summary>Kanallar gelmiyor / liste yüklenmiyor</summary><div class="faq-body"><p>URL'nin doğru olduğundan ve <code>http(s)://</code> ile başladığından emin olun. Ayarlar › Oynatma Listeleri › Mevcut Listeler'de kaynağı seçip “yenile” ile tekrar indirin; Xtream'de kullanıcı adı/şifrede boşluk kalmadığına bakın. İnternet bağlantısını ve sağlayıcının yayında olduğunu kontrol edin.</p></div></details>
+
+            <details class="faq"><summary>EPG (program rehberi) boş görünüyor</summary><div class="faq-body"><p>Önce <strong>Ayarlar › TV Rehberi › EPG Kaynağı Ekle</strong> ile XMLTV kaynağı ekleyip <strong>EPG Güncelleme</strong> ile indirin. Kanalda hâlâ veri yoksa bağlam menüsünden <strong>EPG Eşleştir</strong> ile doğru EPG kanalını elle seçin. Saatler kaymışsa <strong>Zaman Kayması</strong> ile düzeltin.</p></div></details>
+
+            <details class="faq"><summary>Yayın açılmıyor veya donuyor</summary><div class="faq-body"><p>Ayarlar › Oynatıcı'dan <strong>Tamponlama</strong>'yı “Orta/Büyük” yapın, sorun sürerse <strong>Video Çıkışı</strong>nda yazılım dekoderini deneyin. 4K yayınlar düşük güçlü TV'lerde zorlanabilir — aynı kanalın HD/FHD sürümünü tercih edin.</p></div></details>
+
+            <details class="faq"><summary>Ses gelmiyor veya sesle görüntü uyuşmuyor</summary><div class="faq-body"><p>Ayarlar › Oynatıcı › Ses Çıkışı'nda <strong>Ses Passthrough</strong>'u kapatıp deneyin (bazı cihazlarda bitstream sorun çıkarır). Senkron kayması için <strong>Ses Gecikmesi</strong> kaydırıcısını kullanın; yayında başka dil varsa oynatıcı kartındaki <strong>Yayın Dili</strong>'nden parça seçin.</p></div></details>
+
+            <details class="faq"><summary>Altyazı görünmüyor veya bozuk karakter çıkıyor</summary><div class="faq-body"><p>Oynatıcı kartı veya Ayarlar › Oynatıcı › Altyazılar'dan doğru parçayı seçin; karakterler bozuksa <strong>kodlamayı</strong> (UTF-8 vb.) değiştirin. Boyut/renk/konum aynı panelden ayarlanır.</p></div></details>
+
+            <details class="faq"><summary>Poster ve film bilgileri gelmiyor</summary><div class="faq-body"><p>Ayarlar › Medya Bilgileri'nde TMDB/OMDb anahtarlarınızın girili olduğundan ve servislerin açık olduğundan emin olun (anahtarlar ücretsiz alınır). “Tüm İçerikleri Zenginleştir” ile toplu çekin; yanlış eşleşmeyi içerik menüsündeki <strong>İçerik Ara ve Eşle</strong> ile düzeltin.</p></div></details>
+
+            <details class="faq"><summary>Premium satın aldım ama açılmadı / başka cihazda görünmüyor</summary><div class="faq-body"><p>Aynı Google hesabıyla giriş yaptığınızdan emin olun — lisans senkronize edilir. Cihaz limiti dolduysa <strong>Ayarlar › Hesaplar, Senk. &amp; Cihazlar</strong>'dan eski cihazı kaldırın. Gerekirse aktivasyon kodunu kullanın.</p></div></details>
+
+            <details class="faq"><summary>TV uzun süre uyku modunda kaldıktan sonra kanallar açılmıyor</summary><div class="faq-body"><p>Uygulamayı tamamen kapatıp yeniden açın. Uygulama uykuya girerken oynatıcıları otomatik kapatır; yine de takılırsa yeniden başlatma sorunu çözer.</p></div></details>
+
+            <details class="faq"><summary>Ayarlarımı başka cihaza nasıl taşırım?</summary><div class="faq-body"><p><strong>Ayarlar › Diğer › Verileri Yedekle</strong> ile dosyayı oluşturun, yeni cihazda <strong>Verileri Geri Yükle</strong> ile içe aktarın — veya Google ile giriş yapıp senkronizasyonu kullanın.</p></div></details>
+
+            <details class="faq"><summary>Bir kanalı geri getiremiyorum / listede görünmüyor</summary><div class="faq-body"><p>Kanal gizlenmiş olabilir: EPG bağlam menüsünde <strong>Gizli kanalları göster</strong> ya da <strong>Ayarlar › Ebeveyn Kontrolü › Gizli Kanallar</strong>'dan tekrar görünür yapın. Kanal engelliyse PIN ile açılır. Grup gizliyse Ayarlar › Oynatma Listeleri › Kanal Grupları'ndan kontrol edin.</p></div></details>
+
+            <details class="faq"><summary>Hesabımı nasıl silerim?</summary><div class="faq-body"><p><strong>Ayarlar › Hesaplar, Senk. &amp; Cihazlar › Hesabı Sil</strong> bulut verilerinizle birlikte hesabı kalıcı siler. Ayrıntılar: <a href="account-deletion.tr.html">Hesap Silme</a> sayfası.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>Hâlâ yardıma mı ihtiyacınız var?</h4>
+                <p>Bize yazın: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — sorununuzu, cihaz modelinizi ve uygulama sürümünüzü (Ayarlar › Hakkında) eklemeyi unutmayın.</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.html">Ana Sayfa</a> · <a href="privacy.tr.html">Gizlilik</a> · <a href="account-deletion.tr.html">Hesap Silme</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+// ── Sol menü: grup aç/kapa ─────────────────────────────────────────────
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+
+// ── Yardım araması: bölüm başlıkları + metinlerde ara ───────────────────
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('tr');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('tr');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(
+                g.querySelectorAll('.nav-items a'),
+                function (a) { return a.style.display !== 'none'; }
+            );
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+
+// ── Scrollspy: görünen bölümü menüde işaretle ──────────────────────────
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

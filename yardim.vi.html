@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trung tâm Trợ giúp — TiviEase Go</title>
+    <meta name="description" content="Hướng dẫn người dùng TiviEase Go: cài đặt, thêm danh sách phát, EPG, trình phát toàn màn hình, cài đặt và khắc phục sự cố.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="Trung tâm Trợ giúp — TiviEase Go">
+    <meta property="og:description" content="Hướng dẫn người dùng TiviEase Go: cài đặt, thêm danh sách phát, EPG, trình phát toàn màn hình, cài đặt và khắc phục sự cố.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.vi.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="vi_VN">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.vi.html">
+            <img src="assets/logo.png?v=2" alt="Logo TiviEase Go">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Menu">☰</button>
+        <nav class="site-nav">
+            <a href="index.vi.html">Trang chủ</a>
+            <a href="index.vi.html#ozellikler">Tính năng</a>
+            <a href="satin-al.en.html">Mua</a>
+            <a class="active" href="yardim.vi.html">Trung tâm trợ giúp</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">Trung tâm trợ giúp</span>
+            <h1 style="font-size:34px">Cách sử dụng?</h1>
+            <p>Mọi màn hình được giải thích từng bước — từ lần mở đầu tiên đến cài đặt cuối cùng. Chọn chủ đề từ thanh bên hoặc dùng tìm kiếm.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">Huy hiệu: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">DI ĐỘNG</span> điện thoại/máy tính bảng &nbsp; <span class="plat pro">PRO</span> tính năng trả phí</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ Thanh bên ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="Tìm trong trợ giúp..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ Chủ đề</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Bắt đầu<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">Lần mở đầu tiên</a>
+                        <a href="#profil-secimi">Chọn hồ sơ</a>
+                        <a href="#qr-giris">Đăng nhập QR</a>
+                        <a href="#google-giris">Đăng nhập Google</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Nguồn<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">Thêm danh sách phát</a>
+                        <a href="#liste-yonetimi">Quản lý danh sách phát</a>
+                        <a href="#epg-kaynagi">Thêm nguồn EPG</a>
+                        <a href="#grup-siralama">Nhóm, sắp xếp, bộ lọc</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Màn hình chính &amp; EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">Màn hình chính (TV)</a>
+                        <a href="#epg-rehberi">Dùng hướng dẫn TV</a>
+                        <a href="#arama">Tìm kiếm &amp; tìm kiếm giọng nói</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Menu ngữ cảnh<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">Menu ngữ cảnh EPG</a>
+                        <a href="#vod-context">Menu phim/series</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Trình phát<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">Toàn màn hình — trực tiếp</a>
+                        <a href="#fs-tuslar">Phím remote</a>
+                        <a href="#fs-paneller">Bảng &amp; thẻ cài đặt</a>
+                        <a href="#coklu-ekran">Đa màn hình (PIP)</a>
+                        <a href="#fs-vod">Toàn màn hình — VOD</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Ghi &amp; nhắc lịch<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">Ghi chương trình</a>
+                        <a href="#hatirlatici">Nhắc lịch</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Hồ sơ &amp; cha mẹ<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">Quản lý hồ sơ</a>
+                        <a href="#ebeveyn">Kiểm soát của cha mẹ</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Hướng dẫn cài đặt<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">Màn hình cài đặt</a>
+                        <a href="#ayar-listeler">Danh sách phát</a>
+                        <a href="#ayar-epg">Hướng dẫn TV</a>
+                        <a href="#ayar-oynatici">Trình phát</a>
+                        <a href="#ayar-gorunum">Giao diện</a>
+                        <a href="#ayar-medya">Dữ liệu media</a>
+                        <a href="#ayar-diger">Ghi / Nhắc / Khác</a>
+                        <a href="#ayar-hesap">Tài khoản &amp; giới thiệu</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Di động &amp; khác<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">Ứng dụng di động</a>
+                        <a href="#kumanda">Remote từ điện thoại</a>
+                        <a href="#dlna">DLNA &amp; truyền</a>
+                        <a href="#indirilenler">Tải xuống</a>
+                        <a href="#yedekleme">Sao lưu &amp; đồng bộ</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">Khắc phục sự cố / FAQ</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">Không tìm thấy kết quả.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ Nội dung ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── Bắt đầu ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Bắt đầu</h2>
+            <p>TiviEase Go chạy trên cả <strong>Android TV</strong> và <strong>điện thoại/máy tính bảng</strong> trong một ứng dụng. Ứng dụng không cung cấp kênh hay nội dung — bạn thêm <strong>danh sách phát M3U</strong> hoặc tài khoản <strong>Xtream Codes</strong> từ nhà cung cấp IPTV của riêng mình.</p>
+
+            <h3>Màn hình mở đầu tiên</h3>
+            <p>Nếu chưa có danh sách phát nào được cấu hình, khi mở ứng dụng <strong>màn hình chào mừng</strong> xuất hiện. Có bốn thẻ:</p>
+            <table class="tbl">
+                <tr><th>Thẻ</th><th>Làm gì?</th></tr>
+                <tr><td>Thêm danh sách phát<br><small>M3U / Xtream</small></td><td>Đưa bạn đến màn hình chính và mở biểu mẫu thêm. Chi tiết: <a href="#kaynak-ekleme">Thêm danh sách phát</a>.</td></tr>
+                <tr><td>Đăng nhập Google<br><small>đồng bộ đám mây</small></td><td>Đăng nhập bằng tài khoản Google; nguồn, yêu thích và lịch sử đám mây được tải, sau đó danh sách phát tự cập nhật.</td></tr>
+                <tr><td>Đăng nhập QR<br><small>quét từ điện thoại</small> <span class="plat tv">TV</span></td><td>Hiển thị mã QR có hiệu lực 3 phút trên TV; quét bằng ứng dụng điện thoại và xác nhận, TV đăng nhập cùng tài khoản.</td></tr>
+                <tr><td>Cài đặt<br><small>hệ thống &amp; hồ sơ</small></td><td>Mở màn hình cài đặt nếu bạn muốn khám phá trước khi thêm danh sách phát.</td></tr>
+            </table>
+            <div class="tip"><p><strong>Mẹo:</strong> Nếu bạn đã dùng TiviEase Go trên thiết bị khác, cách nhanh nhất là <strong>Đăng nhập Google</strong> hoặc <strong>Đăng nhập QR</strong> — mọi danh sách và cài đặt tự động đến.</p></div>
+
+            <h3 id="profil-secimi">Chọn hồ sơ</h3>
+            <p>Nếu nhiều hồ sơ được cấu hình trên thiết bị, khi mở bạn thấy màn hình <strong>«Chọn hồ sơ»</strong>. Chọn bằng phím mũi tên + <kbd>OK</kbd>. Hồ sơ có PIN hỏi mã trước. Mỗi hồ sơ lưu <em>yêu thích, nội dung «Danh sách», lịch sử và cài đặt cá nhân</em> riêng.</p>
+            <ul>
+                <li>Thêm/sửa hồ sơ: <strong>Cài đặt › Hồ sơ</strong> (xem <a href="#profiller">Quản lý hồ sơ</a>).</li>
+                <li>Đổi hồ sơ khi đang dùng: chạm <strong>biểu tượng ảnh hồ sơ</strong> trên thanh trên.</li>
+            </ul>
+
+            <h3 id="qr-giris">Đăng nhập QR <span class="plat tv">TV</span> <span class="plat mob">DI ĐỘNG</span></h3>
+            <p>Dùng điện thoại thay vì nhập thông tin trên TV:</p>
+            <ol>
+                <li>Trên TV mở thẻ <strong>Đăng nhập QR</strong> (màn hình chào mừng hoặc Cài đặt › Tài khoản) — mã QR xuất hiện và có hiệu lực <strong>3 phút</strong>.</li>
+                <li>Trên điện thoại mở ứng dụng TiviEase Go và quét mã QR của TV bằng trình quét.</li>
+                <li>Trên điện thoại nhấn <strong>«Đăng nhập»</strong> — bạn sẽ thấy «Đã xác nhận — TV đang đăng nhập».</li>
+                <li>TV đăng nhập tài khoản điện thoại trong vài giây; danh sách phát và cài đặt đồng bộ.</li>
+            </ol>
+            <div class="note"><p>Nếu mã QR hết hạn, đóng và mở lại cửa sổ — mã mới được tạo. Đăng nhập QR yêu cầu ứng dụng trên điện thoại đang mở và đã đăng nhập.</p></div>
+
+            <h3 id="google-giris">Đăng nhập Google và đồng bộ</h3>
+            <p>Khi đăng nhập bằng tài khoản Google, những thứ này đồng bộ giữa các thiết bị: cài đặt nguồn/danh sách, yêu thích, «Danh sách», lịch sử, hồ sơ và giấy phép premium. Sau lần đăng nhập đầu, nguồn và EPG tự tải xuống — không cần cập nhật thủ công.</p>
+            <ul>
+                <li>Cài đặt đồng bộ và thiết bị liên kết: <strong>Cài đặt › Tài khoản, đồng bộ &amp; thiết bị</strong>.</li>
+                <li>Có thể dùng không cần tài khoản — dữ liệu ở lại trên thiết bị.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Nguồn ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Thêm danh sách phát</h2>
+            <p>Hai loại nguồn được hỗ trợ: <strong>M3U</strong> (URL hoặc file cục bộ) và <strong>Xtream Codes</strong> (server + thông tin đăng nhập). Khi thêm, nội dung tự động phân tách thành <em>trực tiếp / phim / series</em>.</p>
+
+            <h3>Thêm từ đâu?</h3>
+            <ul>
+                <li>Từ thẻ <strong>Thêm danh sách phát</strong> trên màn hình chào mừng,</li>
+                <li>hoặc từ <strong>Cài đặt › Danh sách phát › Thêm danh sách phát</strong>.</li>
+            </ul>
+
+            <h3>Thêm danh sách phát M3U</h3>
+            <ol>
+                <li>Mở <strong>Thêm danh sách phát</strong>, chọn thẻ <strong>M3U / XMLTV</strong>.</li>
+                <li>Trong trường <strong>Tên</strong> đặt tên danh sách (vd. «Danh sách chính»).</li>
+                <li>Trong trường <strong>URL / Đường dẫn file</strong> nhập liên kết M3U <em>hoặc</em> chọn file từ thiết bị bằng biểu tượng thư mục. Phần mở rộng hỗ trợ: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li>Nhấn <strong>Thêm</strong> — danh sách được tải xuống và xử lý; tiến trình hiển thị trong thanh tải xuống dưới.</li>
+            </ol>
+            <div class="note"><p>Khi chọn file, nếu trường tên trống, tên file được điền tự động. URL phải bắt đầu bằng http/https.</p></div>
+
+            <h3>Thêm tài khoản Xtream Codes</h3>
+            <ol>
+                <li>Chọn thẻ <strong>Xtream</strong>.</li>
+                <li><strong>Tên nguồn</strong>: tên bất kỳ (vd. «Xtream chính»).</li>
+                <li><strong>URL server</strong>: địa chỉ nhà cung cấp, vd. <code>http://server.com:8080</code></li>
+                <li><strong>Tên người dùng</strong> và <strong>Mật khẩu</strong>: thông tin từ nhà cung cấp. Biểu tượng mắt cạnh trường mật khẩu hiển thị nội dung gõ.</li>
+                <li><strong>Thêm</strong> — ứng dụng kết nối API Xtream; trực tiếp, phim và series tải riêng.</li>
+            </ol>
+            <div class="warn"><p><strong>Phiên bản miễn phí</strong> chỉ cho phép <strong>1 danh sách phát</strong> (M3U hoặc Xtream — không phải cả hai). Không giới hạn: <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">Quản lý danh sách phát</h3>
+            <p>Mục trong <strong>Cài đặt › Danh sách phát</strong>:</p>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>Danh sách phát hiện có</td><td>Hiển thị nguồn M3U/Xtream đã cấu hình; trên mỗi thẻ — cập nhật gần nhất và trạng thái hoạt động/không hoạt động. Chọn nguồn để sửa, xóa hoặc cập nhật. Thẻ tóm tắt cho thấy phân bố trực tiếp/series/phim.</td></tr>
+                <tr><td>Tần suất cập nhật</td><td>Chu kỳ cập nhật danh sách tự động: <strong>thủ công, 6, 12, 24, 48, 72 hoặc 168 giờ</strong>. Với «thủ công» danh sách chỉ cập nhật khi bạn yêu cầu.</td></tr>
+                <tr><td>Cập nhật tất cả danh sách</td><td>Tải lại tất cả nguồn cùng lúc. Xử lý tuần tự trong nền; theo dõi tiến trình trong thanh tải xuống.</td></tr>
+                <tr><td>Nguồn EPG</td><td>Chọn nguồn EPG gán cho từng danh sách phát («gán cho danh sách»).</td></tr>
+                <tr><td>Nhóm kênh</td><td>Ẩn, đổi tên và sắp xếp lại nhóm từ danh sách phát (thể thao, tin tức…).</td></tr>
+                <tr><td>Sắp xếp</td><td>Thứ tự kênh: <strong>theo tên, theo số, thủ công, thứ tự gốc, theo nhóm</strong>.</td></tr>
+                <tr><td>Bộ lọc tên kênh</td><td>Quy tắc tự động xóa tiền tố/hậu tố tên kênh (vd. «TR:», «|4K»). Ký tự đại diện <code>*</code> được hỗ trợ; trường «ví dụ biến đổi» cho thấy kết quả.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">Thêm nguồn EPG (XMLTV)</h3>
+            <p>Để có lịch chương trình, thêm địa chỉ XMLTV/EPG của nhà cung cấp:</p>
+            <ol>
+                <li>Mở <strong>Cài đặt › Hướng dẫn TV › Thêm nguồn EPG</strong>.</li>
+                <li>Nhập tên và <strong>URL/địa chỉ</strong> rồi lưu.</li>
+                <li>Sau khi tải, kênh tự động ghép nối theo độ tương đồng tên; phần còn lại ghép thủ công qua <a href="#epg-rehberi">ghép nối kênh EPG</a>.</li>
+            </ol>
+            <div class="warn"><p>Phiên bản miễn phí cho phép <strong>1 nguồn EPG</strong>. Một số nhà cung cấp Xtream gửi EPG riêng — khi bạn thêm nguồn Xtream, EPG thường tự động đến.</p></div>
+
+            <h3 id="grup-siralama">Nhóm, sắp xếp và bộ lọc tên</h3>
+            <ul>
+                <li><strong>Nhóm kênh:</strong> Quản lý tên nhóm từ M3U/Xtream. Nhóm ẩn không hiển thị trong danh sách TV; sắp xếp xác định thứ tự nhóm.</li>
+                <li><strong>Sắp xếp:</strong> Với «thủ công» bạn tạo thứ tự riêng trong danh sách kênh; «thứ tự gốc» giữ nguyên thứ tự file.</li>
+                <li><strong>Bộ lọc tên:</strong> Xóa mẫu ở đầu/cuối tên kênh (vd. tiền tố quốc gia) — danh sách sạch hơn. Bộ lọc riêng cho tên VOD: <strong>Cài đặt › Dữ liệu media › Bộ lọc tên VOD</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Màn hình chính & EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Màn hình chính và hướng dẫn TV <span class="plat tv">TV</span></h2>
+
+            <h3>Thanh trên và menu</h3>
+            <p>Trên màn hình chính TV có thanh menu ngang ở trên. Điều hướng <kbd>◀</kbd><kbd>▶</kbd>, chọn <kbd>OK</kbd>, xuống nội dung <kbd>▼</kbd>.</p>
+            <table class="tbl">
+                <tr><th>Menu</th><th>Nội dung</th></tr>
+                <tr><td>Tìm kiếm</td><td>Màn hình tìm kiếm thông minh — kênh, phim, series và chương trình; hỗ trợ tìm kiếm giọng nói.</td></tr>
+                <tr><td>TV</td><td>Danh sách kênh + lịch EPG và thẻ xem trước trực tiếp.</td></tr>
+                <tr><td>Phim</td><td>Cột danh mục (hành động, hài, chính kịch, khoa học viễn tưởng, kinh dị, gia đình, yêu thích, mới, xem tiếp) + thư viện poster.</td></tr>
+                <tr><td>Series</td><td>Danh mục như series trong nước/nước ngoài, hàng ngày, giờ vàng + thư viện poster.</td></tr>
+                <tr><td>Danh sách</td><td>Yêu thích, phim của tôi, series của tôi, xem tiếp, bản ghi, nhắc lịch, tải xuống, nội dung ngoại tuyến.</td></tr>
+                <tr><td>Cài đặt</td><td>Biểu tượng bánh răng bên phải — mở bảng cài đặt 13 danh mục.</td></tr>
+            </table>
+            <p>Biểu tượng bên phải thanh trên: <strong>ảnh hồ sơ</strong> (đổi hồ sơ), <strong>bánh răng cài đặt</strong> và nút <strong>thiết bị</strong> (DLNA/truyền).</p>
+            <div class="note"><p>Trong danh sách dài <kbd>CH+</kbd>/<kbd>CH−</kbd> (hoặc Page Up/Down) nhảy 10 hàng. <kbd>Quay lại</kbd> lên một cấp; trên màn hình chính hỏi xác nhận thoát.</p></div>
+
+            <h3>Thư viện poster và xem trước</h3>
+            <ul>
+                <li>Trên trang phim/series, poster hiển thị dạng lưới; khi dừng lại thẻ phóng to và — nếu bật — <strong>xem trước trailer</strong> phát (cài đặt: Dữ liệu media › xem trước tự động).</li>
+                <li>Nhấn giữ <kbd>OK</kbd> trên poster: mở <a href="#vod-context">menu ngữ cảnh</a>.</li>
+                <li>Trên trang TV, khi dừng trên hàng kênh, cửa sổ <strong>xem trước trực tiếp</strong> góc trên-trái phát kênh đó thu nhỏ.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">Dùng hướng dẫn TV (EPG)</h3>
+            <p>Danh sách TV chuyển đổi giữa hai chế độ: <strong>danh sách kênh</strong> và <strong>lưới EPG</strong> («chuyển sang danh sách EPG» / «chuyển sang danh sách kênh»).</p>
+            <ul>
+                <li><strong>Cột bên:</strong> logo và tên kênh. <kbd>▲</kbd><kbd>▼</kbd> đổi kênh; chương trình hiển thị bên kia.</li>
+                <li><strong>Lưới:</strong> dòng thời gian — thẻ chương trình với thời lượng. <kbd>◀</kbd><kbd>▶</kbd> di chuyển qua thời gian.</li>
+                <li><strong>Chọn ngày:</strong> với nút hôm qua / hôm nay / ngày mai và mũi tên «ngày trước / ngày sau» xem lùi lại đến giới hạn cài đặt <em>dữ liệu EPG ngày trước</em>.</li>
+                <li><strong>Nhấn giữ <kbd>OK</kbd> trên hàng kênh:</strong> mở <a href="#epg-context">menu ngữ cảnh EPG</a> (yêu thích, ghi, nhắc, ẩn…).</li>
+                <li><kbd>OK</kbd> ngắn trên kênh: xem toàn màn hình.</li>
+            </ul>
+            <div class="tip"><p>Không có EPG trên kênh? Trước tiên kiểm tra nguồn EPG đã gán và cập nhật (Cài đặt › Hướng dẫn TV › Cập nhật EPG), rồi ghép kênh thủ công qua «ghép nối EPG».</p></div>
+
+            <h3 id="arama">Tìm kiếm và tìm kiếm giọng nói</h3>
+            <ul>
+                <li>Menu <strong>Tìm kiếm</strong> (hoặc «tìm kiếm» trong menu ngữ cảnh) mở tìm kiếm thông minh. Tìm đồng thời trong phim, series, tên kênh và chương trình EPG («khớp chương trình», «chương trình TV»).</li>
+                <li>Biểu tượng micro bắt đầu <strong>tìm kiếm giọng nói</strong> — nói khi «Đang nghe…» sáng; quyền micro được hỏi lần đầu.</li>
+                <li><strong>Lịch sử tìm kiếm</strong> hiển thị truy vấn trước; «xóa» xóa chúng.</li>
+                <li>Trên di động, tab tìm kiếm làm điều tương tự; nhập bằng chạm.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Menu ngữ cảnh ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Menu ngữ cảnh</h2>
+
+            <h3>Menu ngữ cảnh EPG <span class="plat tv">TV</span></h3>
+            <p><strong>Mở:</strong> Trên hàng kênh trong hướng dẫn TV <strong>nhấn giữ <kbd>OK</kbd></strong> — menu trượt vào từ cạnh. <kbd>▲</kbd><kbd>▼</kbd> điều hướng, <kbd>OK</kbd> chọn, <kbd>Quay lại</kbd> đóng.</p>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Chức năng</th></tr>
+                <tr><td>Mở kênh</td><td>Bắt đầu kênh đã chọn toàn màn hình.</td></tr>
+                <tr><td>Tìm kiếm</td><td>Mở tìm kiếm thông minh.</td></tr>
+                <tr><td>TV / Phim / Series / Danh sách / Cài đặt</td><td>Nhảy nhanh sang phần chính khác không phải hiện tại.</td></tr>
+                <tr><td>Thêm / xóa khỏi yêu thích</td><td>Thêm hoặc xóa kênh khỏi yêu thích; hiển thị trong danh sách TV và Danh sách.</td></tr>
+                <tr><td>Mở bằng trình phát ngoài</td><td>Gửi luồng kênh sang ứng dụng phát khác trên thiết bị (VLC, MX Player…).</td></tr>
+                <tr><td>Ghi</td><td>Thêm chương trình đã chọn (hoặc ghi thủ công 2 giờ nếu không có chương trình) vào danh sách ghi. Phút bổ sung từ cài đặt được áp dụng tự động.</td></tr>
+                <tr><td>Ghi tùy chỉnh</td><td>Hiển thị cửa sổ chọn phút bổ sung đầu/cuối trước (+0/+1/+5/+10 phút).</td></tr>
+                <tr><td>Thêm / xóa nhắc lịch</td><td>Thông báo trước khi chương trình bắt đầu; nếu «mở kênh tự động» bật, kênh tự mở.</td></tr>
+                <tr><td>Ghép nối EPG</td><td>Liên kết dữ liệu chương trình kênh với tên kênh nguồn EPG đúng thủ công.</td></tr>
+                <tr><td>Cập nhật EPG</td><td>Tải lại nguồn EPG đã gán.</td></tr>
+                <tr><td>Xóa EPG</td><td>Xóa dữ liệu chương trình đã lưu; tải lại ở lần cập nhật tiếp.</td></tr>
+                <tr><td>Cập nhật logo</td><td>Tải lại logo kênh (theo cài đặt nguồn logo).</td></tr>
+                <tr><td>Khóa / mở khóa kênh</td><td>Ẩn kênh sau PIN trong kiểm soát cha mẹ; mở cần PIN.</td></tr>
+                <tr><td>Ẩn / hiện kênh</td><td>Ẩn kênh khỏi danh sách; khôi phục: «hiện kênh ẩn» hoặc Cài đặt › Kiểm soát cha mẹ › Kênh ẩn.</td></tr>
+                <tr><td>Hiện kênh ẩn</td><td>Đưa kênh ẩn lại vào danh sách tạm thời.</td></tr>
+            </table>
+
+            <h3 id="vod-context">Menu ngữ cảnh phim / series</h3>
+            <p><strong>Mở:</strong> Nhấn giữ <kbd>OK</kbd> trên poster (di động: nhấn giữ / biểu tượng ☰).</p>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Chức năng</th></tr>
+                <tr><td>Tiếp tục</td><td>Tiếp tục từ điểm dừng (chỉ hiện khi có tiến trình).</td></tr>
+                <tr><td>Phát</td><td>Phát nội dung từ đầu.</td></tr>
+                <tr><td>Phát ngoài</td><td>Gửi sang ứng dụng phát khác.</td></tr>
+                <tr><td>Trailer</td><td>Mở trailer có trên TMDB.</td></tr>
+                <tr><td>Poster toàn màn hình / hiện banner <span class="plat tv">TV</span></td><td>Chuyển thư viện giữa lưới poster và bố cục banner.</td></tr>
+                <tr><td>Sắp xếp / lọc</td><td>Mở tùy chọn sắp xếp và lọc của thư viện.</td></tr>
+                <tr><td>Năm phát hành</td><td>Lọc nội dung theo năm.</td></tr>
+                <tr><td>Danh mục</td><td>Lọc theo thể loại (hành động, hài…).</td></tr>
+                <tr><td>Chi tiết thêm</td><td>Mở bảng chi tiết: tóm tắt, diễn viên, đạo diễn, điểm, danh sách tập.</td></tr>
+                <tr><td>Vào danh sách / xóa</td><td>Thêm hoặc xóa nội dung khỏi «Danh sách › phim của tôi/series của tôi».</td></tr>
+                <tr><td>Xóa khỏi lịch sử</td><td>Xóa vị trí đã lưu; nội dung ra khỏi «xem tiếp».</td></tr>
+                <tr><td>Xóa khỏi đã xem / xóa đã xem</td><td>Bỏ dấu «đã xem» hoặc xóa toàn bộ lịch sử xem.</td></tr>
+                <tr><td>Xóa khỏi nội dung ngoại tuyến</td><td>Xóa nội dung đã tải (chỉ hiện trên tải xuống).</td></tr>
+                <tr><td>Tìm &amp; ghép nội dung</td><td>Nếu ghép TMDB sai/thiếu, tìm và ghép phim/series đúng thủ công.</td></tr>
+                <tr><td>Chọn nhiều <span class="plat mob">DI ĐỘNG</span></td><td>Bật chế độ chọn nhiều poster cho thao tác hàng loạt.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── Trình phát ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Trình phát toàn màn hình</h2>
+
+            <h3>Toàn màn hình — trực tiếp <span class="plat tv">TV</span></h3>
+            <p>Khi kênh mở, video phát toàn màn hình. Tất cả bảng mở bằng remote và tự đóng khi không dùng (danh sách kênh ~8 giây, luồng chương trình ~15 giây).</p>
+
+            <h4 id="fs-tuslar">Phím remote — trực tiếp</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> ngắn</div><div>Mở/đóng OSD (bảng thông tin).</div>
+                <div><kbd>OK</kbd> giữ</div><div>Mở thẻ cài đặt trình phát (bên dưới).</div>
+                <div><kbd>▶</kbd></div><div>Mở danh sách kênh từ cạnh. Khi danh sách mở, nhấn lại → cột danh mục (nhóm).</div>
+                <div><kbd>◀</kbd></div><div>Mở «luồng chương trình» EPG từ cạnh kia; nếu đang mở — đóng.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Đổi kênh; trên danh sách mở di chuyển lựa chọn.</div>
+                <div><kbd>0–9</kbd></div><div>Nhập số kênh — đổi khi nhập xong.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> hoặc <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>Kênh tiếp/trước (cuộn trên danh sách mở).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>Mở/đóng luồng chương trình EPG.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>Về kênh xem gần nhất.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Kênh trước/tiếp.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>Tạm dừng/tiếp tục phát trực tiếp.</div>
+                <div><kbd>●</kbd> nút Record</div><div>Mở/đóng danh sách kênh.</div>
+                <div><kbd>Quay lại</kbd></div><div>Đóng bảng mở → đóng OSD → thoát trình phát.</div>
+            </div>
+
+            <h4 id="fs-paneller">Bảng và thẻ cài đặt</h4>
+            <table class="tbl">
+                <tr><th>Bảng</th><th>Mở</th><th>Nội dung</th></tr>
+                <tr><td>OSD (bảng thông tin)</td><td><kbd>OK</kbd> ngắn</td><td>Tên/logo kênh, chương trình hiện tại và tiếp theo, tiến trình, đồng hồ (nếu đồng hồ toàn màn hình bật).</td></tr>
+                <tr><td>Danh sách kênh</td><td><kbd>▶</kbd> hoặc <kbd>●</kbd></td><td>Danh sách trượt vào từ cạnh; lên/xuống chọn, <kbd>OK</kbd> đổi. <kbd>▶</kbd> thứ hai mở cột nhóm/danh mục — <kbd>OK</kbd> áp dụng nhóm.</td></tr>
+                <tr><td>Luồng chương trình EPG</td><td><kbd>◀</kbd> hoặc <kbd>Info</kbd></td><td>Danh sách chương trình trượt vào từ cạnh: chương trình hôm nay. <kbd>▲</kbd><kbd>▼</kbd> duyệt; nhấn giữ <kbd>OK</kbd> trên chương trình → hành động nhắc/ghi.</td></tr>
+                <tr><td>Thẻ cài đặt trình phát</td><td><kbd>OK</kbd> giữ</td><td>Thẻ cài đặt nhanh 8 biểu tượng (bảng bên dưới).</td></tr>
+            </table>
+
+            <h4>Thẻ cài đặt trình phát (trực tiếp)</h4>
+            <p>Khi thẻ mở, di chuyển giữa các biểu tượng bằng <kbd>◀</kbd><kbd>▶</kbd> và giữa các tùy chọn trong bảng mở; <kbd>OK</kbd> áp dụng.</p>
+            <table class="tbl">
+                <tr><th>Tab</th><th>Mô tả</th></tr>
+                <tr><td>Sang VOD</td><td>Nhảy nhanh sang phần phim hoặc series.</td></tr>
+                <tr><td>Ngôn ngữ phát</td><td>Chọn track âm thanh nếu luồng có nhiều hơn một (nếu không, tùy chọn ngôn ngữ: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>Kích thước hình</td><td>Tỷ lệ khung hình: gốc, cắt/đầy, kéo ngang, kéo dọc, đầy toàn bộ, 4:3, 16:9 — kèm tùy chọn «áp dụng cho tất cả kênh».</td></tr>
+                <tr><td>Phụ đề</td><td>Chọn track phụ đề + màu chữ (10 màu) và kích thước.</td></tr>
+                <tr><td>PIP</td><td>Mở chế độ đa màn hình (<a href="#coklu-ekran">xem bên dưới</a>).</td></tr>
+                <tr><td>Thông tin luồng</td><td>Thông tin luồng kỹ thuật (độ phân giải, codec…).</td></tr>
+                <tr><td>Trình phát</td><td>Tùy chọn giải mã và hành vi trình phát cơ bản.</td></tr>
+                <tr><td>Cài đặt</td><td>Mở màn hình cài đặt chính («mở tất cả cài đặt»).</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">Đa màn hình (PIP)</h4>
+            <p>Qua <strong>PIP</strong> trong thẻ hoặc tính năng đa màn hình, nhiều kênh xem cùng nhau (tối đa 4 màn hình). Tùy chọn menu đa màn hình:</p>
+            <ul>
+                <li><strong>Thêm màn hình / đóng màn hình:</strong> mở ô phát mới hoặc đóng ô đã chọn.</li>
+                <li><strong>Hiển thị bằng nhau / màn hình lớn:</strong> chia màn hình đều hoặc phóng to một ô.</li>
+                <li><strong>Đổi kênh:</strong> đổi kênh của ô đang focus.</li>
+                <li><strong>Toàn màn hình / về các màn hình / màn hình đơn:</strong> phóng to ô hoặc trở lại chế độ đa màn hình.</li>
+                <li><strong>Phát/dừng, tắt/bật tiếng, tải lại:</strong> phát và âm thanh từng ô (âm thanh chỉ từ một màn hình mỗi lúc).</li>
+            </ul>
+            <div class="warn"><p>Đa màn hình nặng vi xử lý; hai màn hình khuyến nghị cho thiết bị yếu.</p></div>
+
+            <h3 id="fs-vod">Toàn màn hình — phim / series</h3>
+            <p>Trong trình phát VOD, OSD mở thành bảng điều khiển dưới: <strong>tập/nội dung trước, tua lại, phát/dừng, tua đi, tiếp theo, ngôn ngữ &amp; phụ đề, thông tin, cài đặt, phát lại từ đầu</strong> và thanh tiến trình.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>Mở OSD; khi mở — kích hoạt nút đang focus (mặc định phát/dừng).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>Tua theo bước trên thanh tiến trình; nếu OSD đóng mở nó trước. Trong hàng điều khiển di chuyển giữa các nút.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Di chuyển dọc giữa thanh tiến trình ↔ hàng điều khiển ↔ thẻ cài đặt.</div>
+                <div><kbd>0–9</kbd></div><div>Nhập phút — nhảy đến phút đã nhập.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Tua lại/đi 30 giây (chỉ báo xuất hiện trên màn hình).</div>
+                <div><kbd>Info</kbd></div><div>Mở thẻ thông tin phim/series (tóm tắt, diễn viên, điểm — TMDB).</div>
+                <div><kbd>Quay lại</kbd></div><div>Đóng bảng/OSD; nhấn lại thoát và lưu tiến trình.</div>
+            </div>
+            <ul>
+                <li><strong>Thẻ tập tiếp theo:</strong> trong series ~30 giây trước khi kết thúc, thẻ «sang tập tiếp theo» xuất hiện dưới; nhấn <kbd>OK</kbd> để chuyển.</li>
+                <li><strong>Tiếp tục từ vị trí:</strong> nội dung chưa xem hết tiếp tục từ giây đã lưu khi mở lại («tiếp tục»). Tiến trình lưu khi thoát.</li>
+                <li><strong>Menu ngôn ngữ &amp; phụ đề:</strong> đổi track âm thanh và phụ đề ngay lập tức.</li>
+                <li><strong>Cử chỉ di động</strong> <span class="plat mob">DI ĐỘNG</span>: vuốt dọc một cạnh = âm lượng, cạnh kia = độ sáng; chạm mở OSD.</li>
+            </ul>
+            <p>Thẻ cài đặt VOD giống thẻ trực tiếp; ngoài ra có <strong>độ trễ âm thanh</strong> (thanh trượt + đặt lại) và <strong>sang TV</strong>.</p>
+        </section>
+
+        <!-- ───────────── Ghi & nhắc lịch ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Ghi lại và nhắc lịch <span class="plat pro">PRO</span></h2>
+
+            <h3>Ghi chương trình</h3>
+            <ol>
+                <li>Trong EPG nhấn giữ <kbd>OK</kbd> trên <strong>hàng kênh</strong> của chương trình muốn ghi.</li>
+                <li><strong>Ghi</strong>: thêm chương trình vào danh sách ghi với phút bổ sung từ cài đặt. Nếu không có chương trình, ghi thủ công 2 giờ từ bây giờ được lên lịch.</li>
+                <li><strong>Ghi tùy chỉnh</strong>: mở cửa sổ chọn phút bổ sung đầu/cuối (0/+1/+5/+10 phút) trước khi tạo bản ghi.</li>
+                <li>Khi đến giờ, ghi tự bắt đầu; biểu tượng REC nhấp nháy trên thẻ chương trình trong luồng.</li>
+            </ol>
+            <p>Mục trong <strong>Cài đặt › Ghi lại</strong>:</p>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>Thư mục ghi</td><td>Bản ghi lưu ở đâu: bộ nhớ trong hoặc thư mục mạng (SMB — «quét mạng» tìm tài nguyên và kết nối bằng tên người dùng/mật khẩu).</td></tr>
+                <tr><td>Thời gian trước / sau ghi</td><td>Thời gian bổ sung ở đầu và cuối mỗi bản ghi: 0, 1, 5 hoặc 10 phút. Giúp không bỏ lỡ đầu/cuối khi chương trình bắt đầu muộn hoặc kéo dài.</td></tr>
+                <tr><td>Danh sách ghi</td><td>Bộ đếm tất cả/hoàn thành/đã lên lịch và mọi bản ghi: phát bản hoàn thành bằng <kbd>OK</kbd>, hủy bản đang chờ, xóa.</td></tr>
+            </table>
+            <div class="note"><p>Bản ghi được ghi vào thư mục đã chọn; đảm bảo đủ dung lượng trống. Hỗ trợ chọn USB/thẻ SD.</p></div>
+
+            <h3 id="hatirlatici">Nhắc lịch</h3>
+            <ul>
+                <li>Tạo nhắc lịch cho chương trình bằng <strong>thêm nhắc lịch</strong> trong menu ngữ cảnh EPG; chọn lại để xóa.</li>
+                <li>Thời gian thông báo: <strong>1, 2, 5 hoặc 10 phút trước</strong> khi chương trình bắt đầu.</li>
+                <li><strong>Cài đặt › Nhắc lịch</strong>: tùy chọn thông báo và <strong>«mở kênh tự động»</strong> (TV tự chuyển sang kênh đó khi đến giờ); toàn bộ danh sách nhắc lịch cũng quản lý ở đây.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Hồ sơ & cha mẹ ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Hồ sơ và kiểm soát của cha mẹ <span class="plat pro">PRO</span></h2>
+
+            <h3>Quản lý hồ sơ</h3>
+            <p>Trong <strong>Cài đặt › Hồ sơ</strong>:</p>
+            <ul>
+                <li><strong>Thêm hồ sơ:</strong> tạo hồ sơ mới với tên, chọn ảnh và PIN tùy chọn.</li>
+                <li><strong>Danh sách hồ sơ:</strong> hiển thị hồ sơ hiện có; sửa và xóa ở đây.</li>
+                <li>Mỗi hồ sơ lưu <em>yêu thích, nội dung «Danh sách», lịch sử và cài đặt cá nhân</em> riêng. Hồ sơ hoạt động được hỏi khi mở; đổi ngay qua ảnh trong thanh trên.</li>
+            </ul>
+
+            <h3 id="ebeveyn">Kiểm soát của cha mẹ</h3>
+            <p>Mục trong <strong>Cài đặt › Kiểm soát của cha mẹ</strong> (nếu PIN đã đặt, vào bảng hỏi PIN):</p>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>Bảo vệ PIN</td><td>Trạng thái mã PIN 4 chữ số.</td></tr>
+                <tr><td>Đổi PIN</td><td>Đặt PIN 4 chữ số mới (xóa PIN cũng ở đây).</td></tr>
+                <tr><td>Yêu cầu PIN</td><td>Xác định tình huống nào hỏi PIN.</td></tr>
+                <tr><td>Khóa cài đặt</td><td>Nếu bật, vào cài đặt cần PIN.</td></tr>
+                <tr><td>Khóa nội dung 18+</td><td>Ẩn nội dung người lớn sau PIN.</td></tr>
+                <tr><td>Khóa kênh</td><td>Mở kênh khóa cần PIN (khóa kênh: menu ngữ cảnh EPG).</td></tr>
+                <tr><td>Giới hạn tuổi</td><td>Hạn chế tuổi — nội dung trên tuổi đã chọn cần PIN. «Hướng dẫn phân loại tuổi» bên cạnh giải thích nhãn hệ thống quốc gia.</td></tr>
+                <tr><td>Kênh ẩn</td><td>Hiển thị kênh ẩn và làm chúng hiện lại.</td></tr>
+            </table>
+            <div class="tip"><p>Quên PIN? Sao lưu trước khi tạo hồ sơ mới hoặc cài lại; dữ liệu PIN lưu mã hóa trên thiết bị.</p></div>
+        </section>
+
+        <!-- ───────────── Cài đặt ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Hướng dẫn cài đặt</h2>
+            <p>Màn hình cài đặt gồm ba cột: <strong>bên</strong> — 13 danh mục, <strong>giữa</strong> — mục của danh mục, <strong>bên kia</strong> — bảng mô tả/cài đặt của mục đã chọn. Biểu tượng <strong>kính lúp</strong> trong tiêu đề mở tìm kiếm trong cài đặt. <kbd>CH+</kbd>/<kbd>−</kbd> nhảy 10 hàng trong danh sách danh mục.</p>
+            <div class="warn"><p>Trong phiên bản miễn phí một số danh mục bị khóa (biểu tượng ổ khóa): trình phát, giao diện, dữ liệu media, ghi lại, nhắc lịch, hồ sơ, kiểm soát cha mẹ, tải xuống và khác. Danh mục khóa mở bảng nâng cấp Pro.</p></div>
+
+            <h3 id="ayar-listeler">1 · Danh sách phát</h3>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>Thêm danh sách phát</td><td>Thêm danh sách M3U mới (URL/file) hoặc Xtream (server+người dùng+mật khẩu).</td></tr>
+                <tr><td>Tần suất cập nhật</td><td>Chu kỳ cập nhật tự động: thủ công, 6, 12, 24, 48, 72, 168 giờ.</td></tr>
+                <tr><td>Cập nhật tất cả danh sách</td><td>Tải lại mọi nguồn cùng lúc.</td></tr>
+                <tr><td>Danh sách phát hiện có</td><td>Sửa, xóa và cập nhật nguồn; trạng thái hoạt động/không và cập nhật gần nhất.</td></tr>
+                <tr><td>Nhóm kênh</td><td>Ẩn, đổi tên và sắp xếp lại nhóm.</td></tr>
+                <tr><td>Nguồn EPG</td><td>Gán nguồn EPG cho danh sách («gán cho danh sách»).</td></tr>
+                <tr><td>Sắp xếp</td><td>Thứ tự kênh: tên/số, thủ công, gốc hoặc theo nhóm.</td></tr>
+                <tr><td>Bộ lọc tên kênh</td><td>Xóa tiền tố/hậu tố khỏi tên; quy tắc ký tự đại diện <code>*</code> và xem trước ví dụ biến đổi.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · Hướng dẫn TV</h3>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>Thêm nguồn EPG</td><td>Thêm nguồn EPG định dạng XMLTV (cung cấp dữ liệu chương trình kênh).</td></tr>
+                <tr><td>Nguồn EPG hiện có</td><td>Sửa/xóa nguồn EPG; số kênh và cập nhật gần nhất mỗi nguồn.</td></tr>
+                <tr><td>Ghép nối kênh EPG</td><td>Ghép kênh với dữ liệu EPG — tự động hoặc gán thủ công; kênh chưa ghép được liệt kê.</td></tr>
+                <tr><td>Tần suất cập nhật</td><td>Chu kỳ cập nhật EPG nền: thủ công, 1, 2, 4, 6, 12, 24 giờ.</td></tr>
+                <tr><td>Cập nhật khi mở</td><td>Nếu bật, EPG cập nhật tự động mỗi khi khởi động ứng dụng.</td></tr>
+                <tr><td>Cập nhật khi danh sách đổi</td><td>Khi danh sách phát đổi/cập nhật, EPG cũng cập nhật tự động.</td></tr>
+                <tr><td>Dữ liệu EPG ngày trước</td><td>Lưu dữ liệu chương trình lùi bao nhiêu ngày: không, 1, 2, 3, 5 hoặc 7 ngày. Nhiều ngày = nhiều bộ nhớ.</td></tr>
+                <tr><td>Dịch chuyển thời gian</td><td>Dịch giờ chương trình tới/lui theo giờ/phút — tổng thể hoặc từng kênh (cho nguồn khác múi giờ).</td></tr>
+                <tr><td>Cập nhật EPG</td><td>Khởi động cập nhật thủ công; tiến trình và số kênh xử lý hiển thị.</td></tr>
+                <tr><td>Xóa EPG</td><td>Xóa dữ liệu chương trình đã lưu và cache ảnh; tải lại ở lần cập nhật tiếp.</td></tr>
+                <tr><td>Cập nhật gần nhất</td><td>Kênh đã xử lý và ngày cập nhật mỗi nguồn.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · Trình phát <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>Hình ảnh</td><td>Tỷ lệ khung hình: gốc, cắt/đầy, kéo ngang, kéo dọc, đầy toàn bộ, 4:3, 16:9; có thể áp dụng cho tất cả kênh.</td></tr>
+                <tr><td>Đầu ra video</td><td>Chọn giải mã: phần cứng (khuyến nghị, tiết kiệm pin/CPU) hoặc phần mềm (khi có vấn đề tương thích).</td></tr>
+                <tr><td>Đầu ra âm thanh</td><td>Giải mã âm thanh (phần cứng/phần mềm), <strong>passthrough âm thanh (Bitstream)</strong> — luồng âm thanh thô cho hệ thống surround, <strong>độ trễ âm thanh</strong> (thanh trượt mili giây + đặt lại) và ngôn ngữ âm thanh mặc định.</td></tr>
+                <tr><td>Phụ đề</td><td>Kích thước và màu chữ (10 màu), vị trí (trên/giữa/dưới) và mã hóa (UTF-8…).</td></tr>
+                <tr><td>Chuyển kênh</td><td>Hành vi zapping: <strong>độ trễ chuyển</strong> (chờ mili giây trước khi chuyển thật — tránh tải dư thừa khi zapping nhanh) và <strong>màn hình đen khi chuyển</strong> (đen khi kênh mới tải; tắt — kênh trước còn trên màn hình).</td></tr>
+                <tr><td>Bộ đệm</td><td>Kích thước bộ đệm: tự động, không, nhỏ (~1s), trung bình (~3s, khuyến nghị), lớn (~8s), rất lớn (~15+s). Tăng cho luồng giật; giảm cho zapping nhanh hơn.</td></tr>
+                <tr><td>VOD</td><td>Tùy chọn phim/series: chọn trình phát ngoài (chọn tự động / chọn ứng dụng / trình phát ngoài 1-2), phụ đề tự động, v.v.</td></tr>
+                <tr><td>Đồng hồ toàn màn hình</td><td>Đồng hồ trên toàn màn hình: bật/tắt, vị trí, kích thước (nhỏ/trung/lớn), định dạng 24 giờ, hiện ngày.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · Giao diện <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>Ngôn ngữ</td><td>Ngôn ngữ giao diện — chọn trong 24 ngôn ngữ hoặc «ngôn ngữ hệ thống»; lọc bằng trường tìm kiếm.</td></tr>
+                <tr><td>Màu sắc</td><td>Chủ đề ứng dụng (tối, xanh dương, xám, xanh lá, tím, đỏ, hổ phách, đêm, đại dương, than chì, rượu vang, xanh đậm, ngọc lục, hoàng hôn, vũ trụ, graphit), màu nhấn (18 màu) và độ mờ OSD (có xem trước).</td></tr>
+                <tr><td>Hướng dẫn TV</td><td>Giao diện EPG: định dạng 24 giờ, chiều cao hàng (nhỏ/trung/lớn), bố cục (danh sách/lưới).</td></tr>
+                <tr><td>Danh sách kênh</td><td>Giao diện danh sách kênh và bố cục thẻ.</td></tr>
+                <tr><td>Logo</td><td>Ưu tiên nguồn logo: <strong>XMLTV/EPG</strong>, <strong>danh sách phát (M3U)</strong> hoặc <strong>thư mục cục bộ</strong>; chọn thư mục để dùng file logo của riêng bạn (PNG/JPG/WebP).</td></tr>
+                <tr><td>Thời lượng OSD</td><td>Bảng thông tin ở trên màn hình bao nhiêu giây — riêng cho TV và VOD.</td></tr>
+                <tr><td>Screensaver</td><td>Thời gian đến khi kích hoạt khi không dùng: tắt, 1, 2, 5, 10, 15 hoặc 30 phút.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · Dữ liệu media <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>API keys</td><td>Nhập API key của riêng bạn cho TMDB và OMDb — lấy miễn phí từ trang của hai dịch vụ. Poster, mô tả, diễn viên và điểm IMDb của phim/series đến từ các dịch vụ này.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>Bật/tắt dịch vụ. TMDB: poster+tóm tắt+trailer; OMDb: điểm IMDb, thể loại, đạo diễn.</td></tr>
+                <tr><td>Cache thông minh</td><td>Bật — chỉ tải dữ liệu nội dung hiển thị trên màn hình; khởi động nhanh hơn.</td></tr>
+                <tr><td>Chỉ làm giàu thủ công</td><td>Tắt tải dữ liệu tự động; làm giàu chỉ khi bạn kích hoạt.</td></tr>
+                <tr><td>Thư mục cache</td><td>Thư mục lưu cache dữ liệu media.</td></tr>
+                <tr><td>Làm giàu tất cả nội dung</td><td>Tải dữ liệu TMDB cho toàn bộ nội dung VOD hàng loạt (có thể mất thời gian).</td></tr>
+                <tr><td>Làm giàu theo danh mục</td><td>Làm giàu chỉ danh mục đã chọn.</td></tr>
+                <tr><td>Xóa cache</td><td>Xóa toàn bộ cache dữ liệu media (số lượng và kích thước hiển thị).</td></tr>
+                <tr><td>Bộ lọc tên VOD</td><td>Quy tắc xóa tiền tố/hậu tố tên phim/series — cải thiện ghép nối TMDB.</td></tr>
+            </table>
+            <p>Và cài đặt xem trước poster (trailer khi hover): <strong>xem trước tự động</strong> (phát trailer khi dừng trên poster), <strong>âm thanh trailer</strong>, điểm bắt đầu và thời gian chờ.</p>
+
+            <h3 id="ayar-diger">6–9, 11 · Ghi, nhắc, hồ sơ, cha mẹ, tải xuống, khác</h3>
+            <ul>
+                <li><strong>Ghi lại</strong> <span class="plat pro">PRO</span> — thư mục, thời gian bổ sung, danh sách ghi (<a href="#kayit">chi tiết</a>).</li>
+                <li><strong>Nhắc lịch</strong> <span class="plat pro">PRO</span> — thông báo và mở kênh tự động + danh sách (<a href="#hatirlatici">chi tiết</a>).</li>
+                <li><strong>Hồ sơ</strong> <span class="plat pro">PRO</span> — danh sách hồ sơ và hồ sơ mới (<a href="#profiller">chi tiết</a>).</li>
+                <li><strong>Kiểm soát cha mẹ</strong> <span class="plat pro">PRO</span> — PIN, khóa, giới hạn tuổi, kênh ẩn (<a href="#ebeveyn">chi tiết</a>).</li>
+                <li><strong>Tải xuống</strong> <span class="plat pro">PRO</span> — thư mục, tải đồng thời, chỉ Wi-Fi, danh sách (<a href="#indirilenler">chi tiết</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>Mục khác <span class="plat pro">PRO</span></th><th>Mô tả</th></tr>
+                <tr><td>Âm thanh phím remote</td><td>Phát tiếng click nhẹ khi điều hướng bằng D-pad.</td></tr>
+                <tr><td>Bàn phím ứng dụng</td><td>Dùng bàn phím của ứng dụng hoặc bàn phím hệ thống khi nhập.</td></tr>
+                <tr><td>Tự khởi động</td><td>Ứng dụng tự khởi động khi bật thiết bị (TV).</td></tr>
+                <tr><td>Dừng phát khi thoát</td><td>Phát dừng tự động khi thoát ứng dụng.</td></tr>
+                <tr><td>Thống kê xem</td><td>Thời gian xem phim, series và trực tiếp của bạn (7/30 ngày gần nhất, tổng); có thể đặt lại.</td></tr>
+                <tr><td>Sử dụng dữ liệu</td><td>Sử dụng dữ liệu mạng: nhận/gửi và tổng.</td></tr>
+                <tr><td>Sao lưu / khôi phục</td><td>Lưu tất cả cài đặt, yêu thích, hồ sơ và lịch sử vào file / khôi phục từ file.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 &amp; 12 · Tài khoản &amp; đồng bộ · Giới thiệu</h3>
+            <table class="tbl">
+                <tr><th>Mục</th><th>Mô tả</th></tr>
+                <tr><td>Tài khoản, đồng bộ &amp; thiết bị</td><td>Trạng thái tài khoản Google, tạo tài khoản ẩn danh, đồng bộ tự động, đồng bộ giấy phép premium, danh sách &amp; xóa thiết bị liên kết, đăng xuất và <strong>xóa tài khoản</strong> (xóa vĩnh viễn gồm dữ liệu đám mây).</td></tr>
+                <tr><td>Giới thiệu ứng dụng</td><td>Phiên bản, loại đăng ký &amp; thời hạn giấy phép, danh sách tính năng (trực tiếp, VOD &amp; IPTV, EPG, đa màn hình, ghi, nhắc, hồ sơ, kiểm soát cha mẹ, tìm kiếm thông minh, DLNA, đồng bộ đám mây, danh sách yêu thích, dữ liệu media) và thông tin liên hệ.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── Di động ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Ứng dụng di động <span class="plat mob">DI ĐỘNG</span></h2>
+            <p>Giao diện di động thiết kế cho cảm ứng; dùng cùng tài khoản và danh sách phát.</p>
+            <ul>
+                <li><strong>Thanh tab dưới:</strong> TV, Phim, Series, Danh sách. Ở chế độ ngang, danh sách dọc xuất hiện ở cạnh.</li>
+                <li><strong>Thanh trên:</strong> logo, <strong>remote</strong>, <strong>tìm kiếm</strong>, <strong>DLNA/thiết bị</strong>, bánh răng <strong>cài đặt</strong> và <strong>ảnh hồ sơ</strong>.</li>
+                <li><strong>Tab TV:</strong> khu vực xem trước + bộ lọc «tất cả»/nhóm ở trên; dưới là thẻ kênh (logo, tên, khung giờ, chương trình hiện tại + tiến trình, sao yêu thích, menu ☰).</li>
+                <li><strong>Màn hình EPG:</strong> luồng chương trình của ngày; chạm kênh để xem chương trình.</li>
+                <li><strong>Tải xuống / nội dung ngoại tuyến:</strong> phim và tập đã tải xem không cần internet; phát và xóa từ danh sách.</li>
+                <li><strong>Thanh tải xuống</strong> dưới hiển thị trên mọi tab khi nguồn đang tải.</li>
+            </ul>
+
+            <h3 id="kumanda">Remote TV từ điện thoại <span class="plat pro">PRO</span></h3>
+            <p>Dùng ứng dụng điện thoại làm remote cho Android TV trong cùng mạng:</p>
+            <ol>
+                <li>Để TiviEase Go mở trên TV; trên điện thoại chạm <strong>biểu tượng remote</strong> trong thanh trên.</li>
+                <li>Chọn TV của bạn từ danh sách «thiết bị mạng» (không thấy? quét lại bằng nút «thử lại»).</li>
+                <li>Màn hình remote: <strong>D-pad + OK</strong>, phím số, âm lượng/kênh, <strong>quay lại / trang chủ</strong>, <strong>ngủ / hướng dẫn / tùy chọn</strong>, <strong>nút màu</strong>, nút media và nút <strong>bàn phím</strong> cho nhập văn bản.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA và truyền <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Quét mạng</strong> tìm thiết bị DLNA/UPnP; chọn thiết bị và duyệt thư mục media («thư mục», số mục).</li>
+                <li><strong>Gửi đến TV / thiết bị Cast:</strong> nội dung đang phát gửi đến thiết bị trong mạng; màn hình truyền có thanh vị trí, phát/dừng và «dừng truyền».</li>
+                <li>«Đổi thiết bị» chuyển truyền sang thiết bị khác.</li>
+            </ul>
+
+            <h3 id="indirilenler">Tải xuống và ngoại tuyến <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Cài đặt › Tải xuống:</strong> thư mục tải (bộ nhớ trong hoặc SMB), tải đồng thời tối đa, <strong>chỉ Wi-Fi</strong> (tiết kiệm dữ liệu di động) và danh sách tải xuống.</li>
+                <li>Trạng thái danh sách: đang tải, đang chờ, đã tải, lỗi/đã hủy — hủy bản chờ, phát hoặc xóa bản hoàn thành.</li>
+                <li>Trên di động màn hình «Nội dung ngoại tuyến» hiển thị tải xuống và phát không cần internet.</li>
+            </ul>
+
+            <h3 id="yedekleme">Sao lưu, khôi phục và đồng bộ</h3>
+            <ul>
+                <li><strong>Sao lưu</strong> (Cài đặt › Khác): lưu tất cả cài đặt, yêu thích, hồ sơ và lịch sử vào một file — hữu ích khi đổi thiết bị hoặc reset.</li>
+                <li><strong>Khôi phục dữ liệu:</strong> chọn file qua «mở file sao lưu» để khôi phục cài đặt.</li>
+                <li><strong>Đồng bộ đám mây:</strong> với đăng nhập Google, dữ liệu đồng bộ trong nền; «đồng bộ tự động» có thể tắt. Thiết bị liên kết hiển thị/xóa trong bảng tài khoản.</li>
+                <li>Trên màn hình chính Android TV, hàng <strong>«Xem tiếp»</strong> hiển thị nội dung xem gần nhất.</li>
+            </ul>
+
+            <h3 id="premium">Đăng ký Premium (Pro)</h3>
+            <p>Phiên bản miễn phí bao gồm một danh sách phát + một nguồn EPG và cài đặt cơ bản. Nâng cấp lên Pro bằng cách chạm danh mục khóa trong <strong>Cài đặt</strong>, hoặc từ màn hình Pro.</p>
+            <table class="tbl">
+                <tr><th>Gói</th><th>Giá</th><th>Thiết bị</th></tr>
+                <tr><td>Pro Hàng tháng</td><td>₺9,99 / tháng</td><td>1 thiết bị</td></tr>
+                <tr><td>Pro Hàng năm</td><td>₺89,99 / năm</td><td>1 thiết bị</td></tr>
+                <tr><td>Pro Trọn đời</td><td>₺249,99 (một lần)</td><td>tối đa 5 thiết bị</td></tr>
+            </table>
+            <ul>
+                <li>Pro mở <strong>danh sách phát và nguồn EPG không giới hạn</strong>, mọi danh mục cài đặt, ghi lại, nhắc lịch, hồ sơ, kiểm soát cha mẹ, tải xuống, remote từ điện thoại và DLNA.</li>
+                <li><strong>Mã kích hoạt:</strong> premium được kích hoạt bằng nhập mã trong «dùng mã kích hoạt».</li>
+                <li>Giấy phép gắn với đám mây — đăng nhập cùng tài khoản trên thiết bị khác đồng bộ tự động; khi giới hạn đầy, xóa thiết bị cũ khỏi danh sách.</li>
+                <li>Cho sử dụng ngoại tuyến, giai đoạn ân hạn 7 ngày áp dụng sau xác minh gần nhất.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── FAQ ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>Khắc phục sự cố và câu hỏi thường gặp</h2>
+
+            <details class="faq"><summary>Kênh không đến / danh sách phát không tải</summary><div class="faq-body"><p>Kiểm tra URL đúng và bắt đầu bằng <code>http(s)://</code>. Trong Cài đặt › Danh sách phát › Danh sách phát hiện có, chọn nguồn và tải lại bằng «cập nhật»; với Xtream kiểm tra tên người dùng/mật khẩu không có khoảng trắng. Kiểm tra cả kết nối internet và nhà cung cấp có online không.</p></div></details>
+
+            <details class="faq"><summary>EPG (lịch chương trình) trống</summary><div class="faq-body"><p>Trước tiên thêm nguồn XMLTV qua <strong>Cài đặt › Hướng dẫn TV › Thêm nguồn EPG</strong> và tải bằng nút <strong>Cập nhật EPG</strong>. Nếu kênh vẫn không có dữ liệu, chọn kênh EPG đúng thủ công qua <strong>ghép nối EPG</strong> trong menu ngữ cảnh. Giờ lệch? Sửa bằng <strong>dịch chuyển thời gian</strong>.</p></div></details>
+
+            <details class="faq"><summary>Luồng không mở hoặc giật</summary><div class="faq-body"><p>Đặt <strong>bộ đệm</strong> thành «trung bình/lớn» trong Cài đặt › Trình phát; nếu không được thử giải mã phần mềm trong <strong>đầu ra video</strong>. Luồng 4K nặng thiết bị yếu — phiên bản HD/FHD của kênh tốt hơn.</p></div></details>
+
+            <details class="faq"><summary>Không có tiếng hoặc âm thanh-hình không đồng bộ</summary><div class="faq-body"><p>Thử tắt <strong>passthrough âm thanh</strong> trong Cài đặt › Trình phát › Đầu ra âm thanh (bitstream có vấn đề trên một số thiết bị). Cho không đồng bộ dùng thanh trượt <strong>độ trễ âm thanh</strong>; nếu luồng có ngôn ngữ khác, chọn track trong <strong>ngôn ngữ phát</strong> trên thẻ trình phát.</p></div></details>
+
+            <details class="faq"><summary>Phụ đề không hiện hoặc ký tự lỗi</summary><div class="faq-body"><p>Chọn track đúng trên thẻ trình phát hoặc Cài đặt › Trình phát › Phụ đề; ký tự lỗi đổi <strong>mã hóa</strong> (UTF-8…). Kích thước/màu/vị trí đặt trong cùng bảng.</p></div></details>
+
+            <details class="faq"><summary>Poster và thông tin phim không đến</summary><div class="faq-body"><p>Kiểm tra key TMDB/OMDb đã nhập và dịch vụ bật trong Cài đặt › Dữ liệu media (key miễn phí). Lấy dữ liệu hàng loạt bằng «làm giàu tất cả nội dung»; sửa ghép sai bằng <strong>tìm &amp; ghép nội dung</strong> trong menu nội dung.</p></div></details>
+
+            <details class="faq"><summary>Mua Premium nhưng không kích hoạt / không hiện trên thiết bị khác</summary><div class="faq-body"><p>Đảm bảo đăng nhập cùng tài khoản Google — giấy phép đồng bộ. Nếu giới hạn thiết bị đầy, xóa cái cũ trong <strong>Cài đặt › Tài khoản, đồng bộ &amp; thiết bị</strong>. Dùng mã kích hoạt nếu cần.</p></div></details>
+
+            <details class="faq"><summary>Sau khi TV ngủ lâu không kênh nào mở</summary><div class="faq-body"><p>Đóng hẳn ứng dụng và mở lại. Ứng dụng tự đóng trình phát khi vào chế độ ngủ; nếu vẫn kẹt, khởi động lại sẽ khắc phục.</p></div></details>
+
+            <details class="faq"><summary>Làm sao chuyển cài đặt sang thiết bị khác?</summary><div class="faq-body"><p>Tạo file bằng <strong>Cài đặt › Khác › Sao lưu</strong> rồi nhập trên thiết bị mới bằng <strong>khôi phục dữ liệu</strong> — hoặc đăng nhập Google và dùng đồng bộ.</p></div></details>
+
+            <details class="faq"><summary>Không lấy lại được kênh / không có trong danh sách</summary><div class="faq-body"><p>Có thể bị ẩn: khôi phục bằng <strong>hiện kênh ẩn</strong> trong menu ngữ cảnh EPG hoặc <strong>Cài đặt › Kiểm soát cha mẹ › Kênh ẩn</strong>. Nếu bị khóa — mở bằng PIN. Nếu nhóm bị ẩn, kiểm tra Cài đặt › Danh sách phát › Nhóm kênh.</p></div></details>
+
+            <details class="faq"><summary>Làm sao xóa tài khoản?</summary><div class="faq-body"><p><strong>Cài đặt › Tài khoản, đồng bộ &amp; thiết bị › Xóa tài khoản</strong> xóa vĩnh viễn tài khoản cùng dữ liệu đám mây. Chi tiết: trang <a href="account-deletion.vi.html">xóa tài khoản</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>Vẫn cần trợ giúp?</h4>
+                <p>Viết cho chúng tôi: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — nêu vấn đề, model thiết bị và phiên bản ứng dụng (Cài đặt › Giới thiệu).</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.vi.html">Trang chủ</a> · <a href="privacy.vi.html">Bảo mật</a> · <a href="account-deletion.vi.html">Xóa tài khoản</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('vi');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('vi');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

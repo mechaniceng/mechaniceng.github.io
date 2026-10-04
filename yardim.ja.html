@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヘルプセンター — TiviEase Go</title>
+    <meta name="description" content="TiviEase Go ユーザーガイド：セットアップ、プレイリスト追加、EPG、全画面プレーヤー、設定、トラブルシューティング。">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="ヘルプセンター — TiviEase Go">
+    <meta property="og:description" content="TiviEase Go ユーザーガイド：セットアップ、プレイリスト追加、EPG、全画面プレーヤー、設定、トラブルシューティング。">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.ja.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.ja.html">
+            <img src="assets/logo.png?v=2" alt="TiviEase Go ロゴ">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="メニュー">☰</button>
+        <nav class="site-nav">
+            <a href="index.ja.html">ホーム</a>
+            <a href="index.ja.html#ozellikler">機能</a>
+            <a href="satin-al.en.html">購入</a>
+            <a class="active" href="yardim.ja.html">ヘルプセンター</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">ヘルプセンター</span>
+            <h1 style="font-size:34px">使い方は？</h1>
+            <p>すべての画面をステップバイステップで説明 — 初回起動から最後の設定まで。サイドバーからトピックを選ぶか検索してください。</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">バッジ：<span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">モバイル</span> スマホ/タブレット &nbsp; <span class="plat pro">PRO</span> 有料機能</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ サイドバー ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="ヘルプを検索..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ トピック</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>はじめに<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">初回起動</a>
+                        <a href="#profil-secimi">プロフィール選択</a>
+                        <a href="#qr-giris">QR ログイン</a>
+                        <a href="#google-giris">Google ログイン</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>ソース<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">プレイリスト追加</a>
+                        <a href="#liste-yonetimi">プレイリスト管理</a>
+                        <a href="#epg-kaynagi">EPG ソース追加</a>
+                        <a href="#grup-siralama">グループ・並替・フィルタ</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>ホームと EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">ホーム画面（TV）</a>
+                        <a href="#epg-rehberi">TV ガイドの使い方</a>
+                        <a href="#arama">検索と音声検索</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>コンテキストメニュー<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">EPG コンテキストメニュー</a>
+                        <a href="#vod-context">映画/ドラマ メニュー</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>プレーヤー<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">全画面 — ライブ</a>
+                        <a href="#fs-tuslar">リモコンキー</a>
+                        <a href="#fs-paneller">パネルと設定カード</a>
+                        <a href="#coklu-ekran">マルチスクリーン（PIP）</a>
+                        <a href="#fs-vod">全画面 — VOD</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>録画とリマインダー<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">番組録画</a>
+                        <a href="#hatirlatici">リマインダー</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>プロフィールと保護者<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">プロフィール管理</a>
+                        <a href="#ebeveyn">ペアレンタルコントロール</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>設定ガイド<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">設定画面</a>
+                        <a href="#ayar-listeler">プレイリスト</a>
+                        <a href="#ayar-epg">TV ガイド</a>
+                        <a href="#ayar-oynatici">プレーヤー</a>
+                        <a href="#ayar-gorunum">外観</a>
+                        <a href="#ayar-medya">メディア情報</a>
+                        <a href="#ayar-diger">録画 / リマインダー / その他</a>
+                        <a href="#ayar-hesap">アカウントと情報</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>モバイルとその他<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">モバイルアプリ</a>
+                        <a href="#kumanda">スマホリモコン</a>
+                        <a href="#dlna">DLNA とキャスト</a>
+                        <a href="#indirilenler">ダウンロード</a>
+                        <a href="#yedekleme">バックアップと同期</a>
+                        <a href="#premium">Premium（Pro）</a>
+                        <a href="#sss">トラブルシューティング / FAQ</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">結果が見つかりません。</p>
+        </div>
+    </aside>
+
+    <!-- ═══ コンテンツ ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── はじめに ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>はじめに</h2>
+            <p>TiviEase Go は 1 つのアプリで <strong>Android TV</strong> と <strong>スマホ/タブレット</strong> の両方で動作します。アプリはチャンネルやコンテンツを提供しません — ご自身の IPTV プロバイダーから <strong>M3U プレイリスト</strong> または <strong>Xtream Codes</strong> アカウントを追加します。</p>
+
+            <h3>初回起動画面</h3>
+            <p>プレイリストがまだ設定されていない場合、アプリを開くと <strong>ウェルカム画面</strong> が表示されます。4 つのカードがあります：</p>
+            <table class="tbl">
+                <tr><th>カード</th><th>何をする？</th></tr>
+                <tr><td>プレイリストを追加<br><small>M3U / Xtream</small></td><td>ホーム画面へ移動し追加フォームを開きます。詳細：<a href="#kaynak-ekleme">プレイリストの追加</a>。</td></tr>
+                <tr><td>Google でログイン<br><small>クラウド同期</small></td><td>Google アカウントでログイン；ソース、お気に入り、クラウド履歴が読み込まれ、プレイリストが自動更新されます。</td></tr>
+                <tr><td>QR でログイン<br><small>スマホでスキャン</small> <span class="plat tv">TV</span></td><td>テレビに 3 分間有効な QR コードを表示；スマホアプリでスキャンして承認するとテレビが同じアカウントにログイン。</td></tr>
+                <tr><td>設定<br><small>システムとプロフィール</small></td><td>プレイリストを追加する前に探索したい場合、設定画面を開きます。</td></tr>
+            </table>
+            <div class="tip"><p><strong>ヒント：</strong>すでに別デバイスで TiviEase Go を使っている場合、最速は <strong>Google ログイン</strong> または <strong>QR ログイン</strong> です — すべてのリストと設定が自動で来ます。</p></div>
+
+            <h3 id="profil-secimi">プロフィール選択</h3>
+            <p>デバイスに複数のプロフィールが設定されている場合、起動時に <strong>「プロフィール選択」</strong> 画面が表示されます。方向キー + <kbd>OK</kbd> で選択します。PIN 付きプロフィールは先にコードを尋ねます。各プロフィールは独自の <em>お気に入り、「マイリスト」コンテンツ、履歴、個人設定</em> を保持します。</p>
+            <ul>
+                <li>プロフィール追加/編集：<strong>設定 › プロフィール</strong>（<a href="#profiller">プロフィール管理</a> を参照）。</li>
+                <li>使用中にプロフィール切替：上部バーの <strong>プロフィール画像アイコン</strong> をタップ。</li>
+            </ul>
+
+            <h3 id="qr-giris">QR ログイン <span class="plat tv">TV</span> <span class="plat mob">モバイル</span></h3>
+            <p>テレビで資格情報を入力する代わりにスマホを使います：</p>
+            <ol>
+                <li>テレビで <strong>QR でログイン</strong> カードを開く（ウェルカム画面または設定 › アカウント）— QR コードが表示され <strong>3 分間</strong> 有効。</li>
+                <li>スマホで TiviEase Go アプリを開き、スキャナーでテレビの QR コードを読み取る。</li>
+                <li>スマホで <strong>「ログイン」</strong> をタップ — 「承認されました — テレビがログインしています」と表示。</li>
+                <li>テレビは数秒でスマホのアカウントにログイン；プレイリストと設定が同期されます。</li>
+            </ol>
+            <div class="note"><p>QR コードが期限切れの場合、ウィンドウを閉じて再度開くと新しいコードが生成されます。QR ログインはスマホのアプリが開いていてログイン済みである必要があります。</p></div>
+
+            <h3 id="google-giris">Google ログインと同期</h3>
+            <p>Google アカウントでログインすると、次がデバイス間で同期されます：ソース/リスト設定、お気に入り、「マイリスト」、履歴、プロフィール、プレミアムライセンス。初回ログイン後、ソースと EPG が自動ダウンロード — 手動更新は不要です。</p>
+            <ul>
+                <li>同期設定と連携デバイス：<strong>設定 › アカウント、同期 &amp; デバイス</strong>。</li>
+                <li>アカウントなしでも使用可能 — データはデバイスに残ります。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── ソース ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>プレイリストの追加</h2>
+            <p>2 種類のソースがサポートされます：<strong>M3U</strong>（URL またはローカルファイル）と <strong>Xtream Codes</strong>（サーバー + 資格情報）。追加するとコンテンツが自動で <em>ライブ / 映画 / ドラマ</em> に分類されます。</p>
+
+            <h3>どこから追加する？</h3>
+            <ul>
+                <li>ウェルカム画面の <strong>プレイリストを追加</strong> カードから、</li>
+                <li>または <strong>設定 › プレイリスト › プレイリストを追加</strong> から。</li>
+            </ul>
+
+            <h3>M3U プレイリストの追加</h3>
+            <ol>
+                <li><strong>プレイリストを追加</strong> を開き、<strong>M3U / XMLTV</strong> カードを選択。</li>
+                <li><strong>名前</strong> フィールドにリスト名を付ける（例：「メインリスト」）。</li>
+                <li><strong>URL / ファイルパス</strong> フィールドに M3U リンクを入力 <em>または</em> フォルダアイコンでデバイスからファイルを選択。対応拡張子：<code>.m3u</code>、<code>.m3u8</code>、<code>.xml</code>、<code>.txt</code>。</li>
+                <li><strong>追加</strong> を押す — リストがダウンロード・処理されます；進行状況は下部のダウンロードバーに表示。</li>
+            </ol>
+            <div class="note"><p>ファイル選択時、名前フィールドが空ならファイル名が自動入力されます。URL は http/https で始める必要があります。</p></div>
+
+            <h3>Xtream Codes アカウントの追加</h3>
+            <ol>
+                <li><strong>Xtream</strong> カードを選択。</li>
+                <li><strong>ソース名</strong>：任意の名前（例：「メイン Xtream」）。</li>
+                <li><strong>サーバー URL</strong>：プロバイダーのアドレス、例 <code>http://server.com:8080</code></li>
+                <li><strong>ユーザー名</strong> と <strong>パスワード</strong>：プロバイダーの資格情報。パスワードフィールド横の目アイコンで入力内容を表示。</li>
+                <li><strong>追加</strong> — アプリが Xtream API に接続；ライブ・映画・ドラマが個別にダウンロードされます。</li>
+            </ol>
+            <div class="warn"><p><strong>無料版</strong>では <strong>1 つのプレイリスト</strong> のみ追加可能（M3U または Xtream — 両方は不可）。無制限：<a href="#premium">Pro</a>。</p></div>
+
+            <h3 id="liste-yonetimi">プレイリスト管理</h3>
+            <p><strong>設定 › プレイリスト</strong> の項目：</p>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>既存のプレイリスト</td><td>設定済み M3U/Xtream ソースを表示；各カードに最終更新とアクティブ/非アクティブ状態。ソースを選択して編集・削除・更新。概要カードはライブ/ドラマ/映画の分布を表示。</td></tr>
+                <tr><td>更新頻度</td><td>プレイリスト自動更新の間隔：<strong>手動、6、12、24、48、72、168 時間</strong>。「手動」ではあなたが要求したときのみ更新。</td></tr>
+                <tr><td>すべてのリストを更新</td><td>すべてのソースを一度に再ダウンロード。バックグラウンドで順次処理；進行状況はダウンロードバーで確認。</td></tr>
+                <tr><td>EPG ソース</td><td>各プレイリストに割り当てる EPG ソースを選択（「リストに割り当て」）。</td></tr>
+                <tr><td>チャンネルグループ</td><td>プレイリストから来るグループの非表示・名前変更・並べ替え（スポーツ、ニュース…）。</td></tr>
+                <tr><td>並べ替え</td><td>チャンネル順序：<strong>名前順、番号順、手動、元の順序、グループ順</strong>。</td></tr>
+                <tr><td>チャンネル名フィルタ</td><td>チャンネル名の前後の余分な文字列を自動削除するルール（例：「TR:」、「|4K」）。ワイルドカード <code>*</code> 対応；「変換例」フィールドで結果を確認。</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">EPG ソースの追加（XMLTV）</h3>
+            <p>番組表を取得するにはプロバイダーの XMLTV/EPG アドレスを追加します：</p>
+            <ol>
+                <li><strong>設定 › TV ガイド › EPG ソースを追加</strong> を開く。</li>
+                <li>名前と <strong>URL/アドレス</strong> を入力して保存。</li>
+                <li>ダウンロード後、チャンネルは名前の類似度で自動マッチング；残りは <a href="#epg-rehberi">EPG チャンネルマッチング</a> で手動マッチング。</li>
+            </ol>
+            <div class="warn"><p>無料版では <strong>1 つの EPG ソース</strong> のみ。Xtream プロバイダーの中には独自 EPG を送るものもあり — Xtream ソースを追加すると EPG が自動で来ることが多い。</p></div>
+
+            <h3 id="grup-siralama">グループ、並べ替え、名前フィルタ</h3>
+            <ul>
+                <li><strong>チャンネルグループ：</strong>M3U/Xtream 由来のグループ名を管理。非表示グループは TV リストに表示されません；並べ替えでグループ順を決定。</li>
+                <li><strong>並べ替え：</strong>「手動」でチャンネルリストに独自順序を作成；「元の順序」はファイル順を維持。</li>
+                <li><strong>名前フィルタ：</strong>チャンネル名の前後のパターンを削除（例：国プレフィックス）— リストがきれいに。VOD 名用の別フィルタ：<strong>設定 › メディア情報 › VOD 名フィルタ</strong>。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── ホームと EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>ホーム画面と TV ガイド <span class="plat tv">TV</span></h2>
+
+            <h3>上部バーとメニュー</h3>
+            <p>テレビのホーム画面には上部に水平メニューバーがあります。ナビゲーション <kbd>◀</kbd><kbd>▶</kbd>、選択 <kbd>OK</kbd>、コンテンツへ降りる <kbd>▼</kbd>。</p>
+            <table class="tbl">
+                <tr><th>メニュー</th><th>内容</th></tr>
+                <tr><td>検索</td><td>スマート検索画面 — チャンネル・映画・ドラマ・番組；音声検索対応。</td></tr>
+                <tr><td>TV</td><td>チャンネルリスト + EPG スケジュールとライブプレビューカード。</td></tr>
+                <tr><td>映画</td><td>カテゴリ列（アクション、コメディ、ドラマ、SF、ホラー、ファミリー、お気に入り、新着、続きを見る）+ ポスターギャラリー。</td></tr>
+                <tr><td>ドラマ</td><td>国内/海外ドラマ、デイリー、プライムタイムなどのカテゴリ + ポスターギャラリー。</td></tr>
+                <tr><td>マイリスト</td><td>お気に入り、マイ映画、マイドラマ、続きを見る、録画、リマインダー、ダウンロード、オフラインコンテンツ。</td></tr>
+                <tr><td>設定</td><td>右の歯車アイコン — 13 カテゴリの設定パネルを開きます。</td></tr>
+            </table>
+            <p>上部バー右のアイコン：<strong>プロフィール画像</strong>（プロフィール切替）、<strong>設定歯車</strong>、<strong>デバイス</strong> ボタン（DLNA/キャスト）。</p>
+            <div class="note"><p>長いリストでは <kbd>CH+</kbd>/<kbd>CH−</kbd>（または Page Up/Down）で 10 行ジャンプ。<kbd>戻る</kbd> で 1 レベル上に；ホーム画面では終了確認を求めます。</p></div>
+
+            <h3>ポスターギャラリーとプレビュー</h3>
+            <ul>
+                <li>映画/ドラマページではポスターがグリッドで表示；カーソルを置くとカードが拡大し — 有効なら — <strong>トレーラープレビュー</strong> が再生（設定：メディア情報 › 自動プレビュー）。</li>
+                <li>ポスターで <kbd>OK</kbd> 長押し：<a href="#vod-context">コンテキストメニュー</a> を開く。</li>
+                <li>TV ページでチャンネル行に止まると、左上の <strong>ライブプレビュー</strong> ウィンドウがそのチャンネルを小さく再生。</li>
+            </ul>
+
+            <h3 id="epg-rehberi">TV ガイド（EPG）の使い方</h3>
+            <p>TV リストは 2 つの表示を切り替え：<strong>チャンネルリスト</strong> と <strong>EPG グリッド</strong>（「EPG リストへ」/「チャンネルリストへ」）。</p>
+            <ul>
+                <li><strong>サイド列：</strong>チャンネルロゴと名前。<kbd>▲</kbd><kbd>▼</kbd> でチャンネル変更；番組は反対側に表示。</li>
+                <li><strong>グリッド：</strong>タイムライン — 長さ付き番組カード。<kbd>◀</kbd><kbd>▶</kbd> で時間を移動。</li>
+                <li><strong>日付選択：</strong>昨日 / 今日 / 明日ボタンと「前の日 / 次の日」矢印で、<em>過去日数 EPG データ</em> 設定の許す限り遡れます。</li>
+                <li><strong>チャンネル行で <kbd>OK</kbd> 長押し：</strong><a href="#epg-context">EPG コンテキストメニュー</a> を開く（お気に入り、録画、リマインダー、非表示…）。</li>
+                <li>チャンネルで <kbd>OK</kbd> 短押し：全画面で視聴。</li>
+            </ul>
+            <div class="tip"><p>チャンネルに EPG が来ない？まず EPG ソースが割り当て・更新されているか確認（設定 › TV ガイド › EPG 更新）、次に「EPG マッチング」でチャンネルを手動マッチング。</p></div>
+
+            <h3 id="arama">検索と音声検索</h3>
+            <ul>
+                <li><strong>検索</strong> メニュー（またはコンテキストメニューの「検索」）でスマート検索を開く。映画・ドラマ・チャンネル名・EPG 番組を同時に検索（「番組マッチ」「TV 番組」）。</li>
+                <li>マイクアイコンで <strong>音声検索</strong> を開始 — 「聞いています…」が光ったら話す；初回にマイク許可を求めます。</li>
+                <li><strong>検索履歴</strong> に過去のクエリが表示；「クリア」で削除。</li>
+                <li>モバイルでは検索タブが同じ役割；入力はタップで。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── コンテキストメニュー ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>コンテキストメニュー</h2>
+
+            <h3>EPG コンテキストメニュー <span class="plat tv">TV</span></h3>
+            <p><strong>開き方：</strong>TV ガイドでチャンネル行の上で <strong><kbd>OK</kbd> 長押し</strong> — メニューが横からスライドイン。<kbd>▲</kbd><kbd>▼</kbd> でナビゲート、<kbd>OK</kbd> で選択、<kbd>戻る</kbd> で閉じる。</p>
+            <table class="tbl">
+                <tr><th>項目</th><th>機能</th></tr>
+                <tr><td>チャンネルを開く</td><td>選択したチャンネルを全画面で開始。</td></tr>
+                <tr><td>検索</td><td>スマート検索を開く。</td></tr>
+                <tr><td>TV / 映画 / ドラマ / マイリスト / 設定</td><td>現在以外の主要セクションへのクイックジャンプ。</td></tr>
+                <tr><td>お気に入りに追加 / 削除</td><td>チャンネルをお気に入りに追加/削除；TV リストとマイリストに表示。</td></tr>
+                <tr><td>外部プレーヤーで開く</td><td>チャンネルストリームをデバイスの他のプレーヤーアプリ（VLC、MX Player…）へ送信。</td></tr>
+                <tr><td>録画</td><td>選択した番組（番組がなければ 2 時間の手動録画）を録画リストに追加。設定の追加分数が自動適用。</td></tr>
+                <tr><td>カスタム録画</td><td>先に開始/終了の追加分数を選択するウィンドウを表示（+0/+1/+5/+10 分）。</td></tr>
+                <tr><td>リマインダー追加 / 削除</td><td>番組開始前に通知；「チャンネルを自動で開く」が有効ならチャンネルが自動で開く。</td></tr>
+                <tr><td>EPG マッチング</td><td>チャンネルの番組データを正しい EPG ソースチャンネル名に手動でリンク。</td></tr>
+                <tr><td>EPG 更新</td><td>割り当てられた EPG ソースを再ダウンロード。</td></tr>
+                <tr><td>EPG をクリア</td><td>保存された番組データを削除；次回更新時に再ダウンロード。</td></tr>
+                <tr><td>ロゴを更新</td><td>チャンネルロゴを再取得（ロゴソース設定に従う）。</td></tr>
+                <tr><td>チャンネルをロック / 解除</td><td>ペアレンタルコントロール内でチャンネルを PIN 後ろに隠す；解除には PIN が必要。</td></tr>
+                <tr><td>チャンネルを非表示 / 表示</td><td>チャンネルをリストから非表示；戻す：「非表示チャンネルを表示」または設定 › ペアレンタルコントロール › 非表示チャンネル。</td></tr>
+                <tr><td>非表示チャンネルを表示</td><td>非表示チャンネルを一時的にリストへ戻す。</td></tr>
+            </table>
+
+            <h3 id="vod-context">映画 / ドラマ コンテキストメニュー</h3>
+            <p><strong>開き方：</strong>ポスターで <kbd>OK</kbd> 長押し（モバイル：長押し / ☰ アイコン）。</p>
+            <table class="tbl">
+                <tr><th>項目</th><th>機能</th></tr>
+                <tr><td>続きを見る</td><td>止めたところから再開（進行があるときのみ表示）。</td></tr>
+                <tr><td>再生</td><td>コンテンツを最初から再生。</td></tr>
+                <tr><td>外部再生</td><td>他のプレーヤーアプリへ送信。</td></tr>
+                <tr><td>トレーラー</td><td>TMDB にあるトレーラーを開く。</td></tr>
+                <tr><td>全画面ポスター / バナー表示 <span class="plat tv">TV</span></td><td>ギャラリーをポスターグリッドとバナーレイアウトで切替。</td></tr>
+                <tr><td>並べ替え / フィルタ</td><td>ギャラリーの並べ替え・フィルタオプションを開く。</td></tr>
+                <tr><td>公開年</td><td>コンテンツを年でフィルタ。</td></tr>
+                <tr><td>カテゴリ</td><td>ジャンルでフィルタ（アクション、コメディ…）。</td></tr>
+                <tr><td>さらに詳しく</td><td>詳細パネルを開く：あらすじ、キャスト、監督、評価、エピソードリスト。</td></tr>
+                <tr><td>マイリストへ / 削除</td><td>コンテンツを「マイリスト › マイ映画/マイドラマ」へ追加/削除。</td></tr>
+                <tr><td>履歴から削除</td><td>保存された位置をクリア；コンテンツが「続きを見る」から消える。</td></tr>
+                <tr><td>視聴済みから削除 / 視聴済みをクリア</td><td>「視聴済み」マークを外すか全視聴履歴をクリア。</td></tr>
+                <tr><td>オフラインコンテンツから削除</td><td>ダウンロード済みコンテンツを削除（ダウンロードでのみ表示）。</td></tr>
+                <tr><td>コンテンツを検索＆マッチ</td><td>TMDB マッチングが間違い/欠落の場合、正しい映画/ドラマを手動で検索・マッチ。</td></tr>
+                <tr><td>複数選択 <span class="plat mob">モバイル</span></td><td>複数ポスター選択で一括操作するモードを開始。</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── プレーヤー ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>全画面プレーヤー</h2>
+
+            <h3>全画面 — ライブ <span class="plat tv">TV</span></h3>
+            <p>チャンネルを開くとビデオが全画面再生。すべてのパネルはリモコンで開き、不使用時に自動で閉じます（チャンネルリスト ~8 秒、番組フロー ~15 秒）。</p>
+
+            <h4 id="fs-tuslar">リモコンキー — ライブ</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> 短押し</div><div>OSD（情報パネル）を開閉。</div>
+                <div><kbd>OK</kbd> 長押し</div><div>プレーヤー設定カードを開く（下記）。</div>
+                <div><kbd>▶</kbd></div><div>端からチャンネルリストを開く。リストが開いているとき再度押す → カテゴリ（グループ）列。</div>
+                <div><kbd>◀</kbd></div><div>もう一方の端から EPG「番組フロー」を開く；開いていれば閉じる。</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>チャンネル変更；開いたリストでは選択を移動。</div>
+                <div><kbd>0–9</kbd></div><div>チャンネル番号入力 — 入力完了で変更。</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> または <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>次/前のチャンネル（開いたリストではスクロール）。</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>EPG 番組フローを開閉。</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>最後に見たチャンネルに戻る。</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>前/次のチャンネル。</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>ライブ放送を一時停止/再開。</div>
+                <div><kbd>●</kbd> Record キー</div><div>チャンネルリストを開閉。</div>
+                <div><kbd>戻る</kbd></div><div>開いたパネルを閉じる → OSD を閉じる → プレーヤーを終了。</div>
+            </div>
+
+            <h4 id="fs-paneller">パネルと設定カード</h4>
+            <table class="tbl">
+                <tr><th>パネル</th><th>開き方</th><th>内容</th></tr>
+                <tr><td>OSD（情報パネル）</td><td><kbd>OK</kbd> 短押し</td><td>チャンネル名/ロゴ、現在と次の番組、進行、時計（全画面時計が有効なら）。</td></tr>
+                <tr><td>チャンネルリスト</td><td><kbd>▶</kbd> または <kbd>●</kbd></td><td>横からスライドするリスト；上下で選択、<kbd>OK</kbd> で変更。2 回目の <kbd>▶</kbd> でグループ/カテゴリ列を開く — <kbd>OK</kbd> でグループ適用。</td></tr>
+                <tr><td>EPG 番組フロー</td><td><kbd>◀</kbd> または <kbd>Info</kbd></td><td>横からスライドする番組リスト：今日の番組。<kbd>▲</kbd><kbd>▼</kbd> で閲覧；番組で <kbd>OK</kbd> 長押し → リマインダー/録画アクション。</td></tr>
+                <tr><td>プレーヤー設定カード</td><td><kbd>OK</kbd> 長押し</td><td>8 アイコンのクイック設定カード（下表）。</td></tr>
+            </table>
+
+            <h4>プレーヤー設定カード（ライブ）</h4>
+            <p>カードが開いたら <kbd>◀</kbd><kbd>▶</kbd> でアイコン間を、開いたパネル内は選択肢を移動；<kbd>OK</kbd> で適用。</p>
+            <table class="tbl">
+                <tr><th>タブ</th><th>説明</th></tr>
+                <tr><td>VOD へ移動</td><td>映画またはドラマセクションへのクイックジャンプ。</td></tr>
+                <tr><td>再生言語</td><td>ストリームに複数音声トラックがあれば選択（なければ言語優先：Auto/TR/ENG/DE/FR/AR/RU）。</td></tr>
+                <tr><td>画像サイズ</td><td>アスペクト比：オリジナル、クロップ/フィル、横伸ばし、縦伸ばし、全画面フィル、4:3、16:9 —「全チャンネルに適用」オプション付き。</td></tr>
+                <tr><td>字幕</td><td>字幕トラック選択 + テキスト色（10 色）とサイズ。</td></tr>
+                <tr><td>PIP</td><td>マルチスクリーンモードを開く（<a href="#coklu-ekran">下記参照</a>）。</td></tr>
+                <tr><td>ストリーム情報</td><td>技術的なストリーム情報（解像度、コーデック…）。</td></tr>
+                <tr><td>プレーヤー</td><td>デコードと基本的なプレーヤー動作オプション。</td></tr>
+                <tr><td>設定</td><td>メイン設定画面を開く（「すべての設定を開く」）。</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">マルチスクリーン（PIP）</h4>
+            <p>カードの <strong>PIP</strong> またはマルチスクリーン機能で複数チャンネルを同時視聴（最大 4 画面）。マルチスクリーンメニューのオプション：</p>
+            <ul>
+                <li><strong>画面を追加 / 画面を閉じる：</strong>新しい再生セルを開くか選択セルを閉じる。</li>
+                <li><strong>均等表示 / 大画面：</strong>画面を均等分割または 1 つを拡大。</li>
+                <li><strong>チャンネル変更：</strong>フォーカス中のセルのチャンネルを変更。</li>
+                <li><strong>全画面 / 画面に戻る / 単一画面：</strong>セルを拡大またはマルチ表示に戻す。</li>
+                <li><strong>再生/一時停止、ミュート/解除、リロード：</strong>各セルの再生と音声（音声は常に 1 画面のみ）。</li>
+            </ul>
+            <div class="warn"><p>マルチスクリーンはプロセッサに負荷；低スペックデバイスでは 2 画面を推奨。</p></div>
+
+            <h3 id="fs-vod">全画面 — 映画 / ドラマ</h3>
+            <p>VOD プレーヤーでは OSD が下部コントロールパネルとして開きます：<strong>前のエピソード/コンテンツ、巻き戻し、再生/一時停止、早送り、次、言語・字幕、情報、設定、最初から</strong> と進行バー。</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>OSD を開く；開いていればフォーカス中のボタンを起動（デフォルト再生/一時停止）。</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>進行バーで段階シーク；OSD が閉じていれば先に開く。コントロール行ではボタン間を移動。</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>進行バー ↔ コントロール行 ↔ 設定カード間を垂直移動。</div>
+                <div><kbd>0–9</kbd></div><div>分数入力 — 入力した分へジャンプ。</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>30 秒巻き戻し/早送り（画面上にインジケーター）。</div>
+                <div><kbd>Info</kbd></div><div>映画/ドラマ情報カードを開く（あらすじ、キャスト、評価 — TMDB）。</div>
+                <div><kbd>戻る</kbd></div><div>パネル/OSD を閉じる；再度押すと進行を保存して終了。</div>
+            </div>
+            <ul>
+                <li><strong>次のエピソードカード：</strong>ドラマで終了 ~30 秒前に「次のエピソードへ」カードが下部に出現；<kbd>OK</kbd> で移行。</li>
+                <li><strong>位置から再開：</strong>未完のコンテンツは再度開くと保存された秒から続く（「続きを見る」）。終了時に進行を保存。</li>
+                <li><strong>言語・字幕メニュー：</strong>音声トラックと字幕を即座に変更。</li>
+                <li><strong>モバイルジェスチャー</strong> <span class="plat mob">モバイル</span>：片端の縦スワイプ = 音量、もう片端 = 輝度；タップで OSD を開く。</li>
+            </ul>
+            <p>VOD 設定カードはライブカードに類似；さらに <strong>音声オフセット</strong>（スライダー + リセット）と <strong>TV へ移動</strong> があります。</p>
+        </section>
+
+        <!-- ───────────── 録画とリマインダー ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>録画とリマインダー <span class="plat pro">PRO</span></h2>
+
+            <h3>番組録画</h3>
+            <ol>
+                <li>EPG で録画したい番組の <strong>チャンネル行</strong> で <kbd>OK</kbd> 長押し。</li>
+                <li><strong>録画</strong>：設定の追加分数付きで番組を録画リストに追加。番組がなければ今から 2 時間の手動録画を予約。</li>
+                <li><strong>カスタム録画</strong>：録画作成前に開始/終了の追加分数（0/+1/+5/+10 分）選択ウィンドウを開く。</li>
+                <li>時間になると録画が自動開始；フロー内の番組カードに REC アイコンが点滅。</li>
+            </ol>
+            <p><strong>設定 › 録画</strong> の項目：</p>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>録画フォルダ</td><td>録画の保存先：内部ストレージまたはネットワークフォルダ（SMB —「ネットワークをスキャン」でリソースを見つけユーザー名/パスワードで接続）。</td></tr>
+                <tr><td>録画前 / 後の時間</td><td>各録画の開始と終了に付ける追加時間：0、1、5、10 分。番組が遅れて開始・延長したときの取りこぼし防止。</td></tr>
+                <tr><td>録画リスト</td><td>全/完了/予定カウンターと全録画：完了を <kbd>OK</kbd> で再生、待機中をキャンセル、削除。</td></tr>
+            </table>
+            <div class="note"><p>録画は選択したフォルダに書き込まれます；十分な空き容量を確認してください。USB/SD カード選択に対応。</p></div>
+
+            <h3 id="hatirlatici">リマインダー</h3>
+            <ul>
+                <li>EPG コンテキストメニューの <strong>リマインダー追加</strong> で番組のリマインダーを作成；再度選択で削除。</li>
+                <li>通知タイミング：番組開始の <strong>1、2、5、10 分前</strong>。</li>
+                <li><strong>設定 › リマインダー</strong>：通知オプションと <strong>「チャンネルを自動で開く」</strong>（時間になればテレビがそのチャンネルへ自動切替）；全リマインダーリストもここで管理。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── プロフィールと保護者 ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>プロフィールとペアレンタルコントロール <span class="plat pro">PRO</span></h2>
+
+            <h3>プロフィール管理</h3>
+            <p><strong>設定 › プロフィール</strong> で：</p>
+            <ul>
+                <li><strong>プロフィールを追加：</strong>名前、画像選択、オプションの PIN で新しいプロフィールを作成。</li>
+                <li><strong>プロフィールリスト：</strong>既存プロフィールを表示；編集・削除はここ。</li>
+                <li>各プロフィールは独自の <em>お気に入り、「マイリスト」コンテンツ、履歴、個人設定</em> を保持。アクティブプロフィールは起動時に尋ねられ；上部バーの画像で即座に切替。</li>
+            </ul>
+
+            <h3 id="ebeveyn">ペアレンタルコントロール</h3>
+            <p><strong>設定 › ペアレンタルコントロール</strong> の項目（PIN が設定されていればパネル入室に PIN を要求）：</p>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>PIN 保護</td><td>4 桁 PIN コードの状態。</td></tr>
+                <tr><td>PIN 変更</td><td>新しい 4 桁 PIN を設定（PIN 削除もここ）。</td></tr>
+                <tr><td>PIN 要件</td><td>どの場面で PIN を求めるかを決定。</td></tr>
+                <tr><td>設定ロック</td><td>有効なら設定入室に PIN が必要。</td></tr>
+                <tr><td>18+ コンテンツロック</td><td>成人向けコンテンツを PIN 後ろに隠す。</td></tr>
+                <tr><td>チャンネルロック</td><td>ロックしたチャンネルのオープンに PIN が必要（チャンネルロック：EPG コンテキストメニュー）。</td></tr>
+                <tr><td>年齢制限</td><td>年齢制限 — 選択年齢を超えるコンテンツは PIN が必要。隣の「年齢レーティングガイド」が各国のシステムラベルを説明。</td></tr>
+                <tr><td>非表示チャンネル</td><td>非表示チャンネルを表示し再び見えるようにする。</td></tr>
+            </table>
+            <div class="tip"><p>PIN を忘れた？新しいプロフィール作成や再インストールの前にバックアップを；PIN データはデバイス上で暗号化保存。</p></div>
+        </section>
+
+        <!-- ───────────── 設定 ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>設定ガイド</h2>
+            <p>設定画面は 3 列：<strong>サイド</strong> — 13 カテゴリ、<strong>中央</strong> — カテゴリの項目、<strong>反対側</strong> — 選択項目の説明/設定パネル。ヘッダーの <strong>虫眼鏡</strong> アイコンで設定内検索を開く。<kbd>CH+</kbd>/<kbd>−</kbd> でカテゴリリストを 10 行ジャンプ。</p>
+            <div class="warn"><p>無料版では一部カテゴリがロック（鍵アイコン）：プレーヤー、外観、メディア情報、録画、リマインダー、プロフィール、ペアレンタルコントロール、ダウンロード、その他。ロック中のカテゴリは Pro アップグレードパネルを開きます。</p></div>
+
+            <h3 id="ayar-listeler">1 · プレイリスト</h3>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>プレイリストを追加</td><td>新しい M3U リスト（URL/ファイル）または Xtream（サーバー+ユーザー+パスワード）を追加。</td></tr>
+                <tr><td>更新頻度</td><td>自動更新間隔：手動、6、12、24、48、72、168 時間。</td></tr>
+                <tr><td>すべてのリストを更新</td><td>全ソースを一度に再ダウンロード。</td></tr>
+                <tr><td>既存のプレイリスト</td><td>ソースの編集・削除・更新；アクティブ/非アクティブ状態と最終更新。</td></tr>
+                <tr><td>チャンネルグループ</td><td>グループの非表示・名前変更・並べ替え。</td></tr>
+                <tr><td>EPG ソース</td><td>プレイリストに EPG ソースを割り当て（「リストに割り当て」）。</td></tr>
+                <tr><td>並べ替え</td><td>チャンネル順序：名前/番号、手動、オリジナル、グループ順。</td></tr>
+                <tr><td>チャンネル名フィルタ</td><td>名前から前後の余分を削除；ワイルドカード <code>*</code> ルールと変換例プレビュー。</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · TV ガイド</h3>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>EPG ソースを追加</td><td>XMLTV 形式の EPG ソースを追加（チャンネルの番組データを提供）。</td></tr>
+                <tr><td>既存の EPG ソース</td><td>EPG ソースの編集/削除；各ソースのチャンネル数と最終更新。</td></tr>
+                <tr><td>EPG チャンネルマッチング</td><td>チャンネルを EPG データにマッチ — 自動または手動割り当て；未マッチのチャンネルを一覧表示。</td></tr>
+                <tr><td>更新頻度</td><td>バックグラウンド EPG 更新間隔：手動、1、2、4、6、12、24 時間。</td></tr>
+                <tr><td>起動時に更新</td><td>有効ならアプリ起動ごとに EPG が自動更新。</td></tr>
+                <tr><td>リスト変更時に更新</td><td>プレイリストが変更/更新されると EPG も自動更新。</td></tr>
+                <tr><td>過去日数 EPG データ</td><td>番組データを何日分遡って保存するか：なし、1、2、3、5、7 日。日数増 = メモリ増。</td></tr>
+                <tr><td>タイムシフト</td><td>番組時刻を時/分単位で前後にずらす — 全体またはチャンネルごと（タイムゾーンの異なるソース向け）。</td></tr>
+                <tr><td>EPG 更新</td><td>手動更新を開始；進行と処理チャンネル数を表示。</td></tr>
+                <tr><td>EPG をクリア</td><td>保存された番組データと画像キャッシュを削除；次回更新時に再ダウンロード。</td></tr>
+                <tr><td>最終更新</td><td>処理済みチャンネルと各ソースの更新日時。</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · プレーヤー <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>画像</td><td>アスペクト比：オリジナル、クロップ/フィル、横伸ばし、縦伸ばし、全画面フィル、4:3、16:9；全チャンネルへの適用可。</td></tr>
+                <tr><td>ビデオ出力</td><td>デコード選択：ハードウェア（推奨、バッテリー/CPU 節約）またはソフトウェア（互換性問題時）。</td></tr>
+                <tr><td>音声出力</td><td>音声デコード（ハード/ソフト）、<strong>音声パススルー（Bitstream）</strong> — サラウンドシステム用の生音声ストリーム、<strong>音声オフセット</strong>（ミリ秒スライダー + リセット）、デフォルト音声言語。</td></tr>
+                <tr><td>字幕</td><td>テキストサイズと色（10 色）、位置（上/中央/下）、エンコーディング（UTF-8…）。</td></tr>
+                <tr><td>チャンネル切替</td><td>ザッピング動作：<strong>切替遅延</strong>（実際の切替前にミリ秒待機 — 高速ザッピング時の余分なロード防止）と <strong>切替時に黒画面</strong>（新チャンネルロード中に黒；オフ — 前のチャンネルが画面に残る）。</td></tr>
+                <tr><td>バッファ</td><td>バッファサイズ：自動、なし、小（~1s）、中（~3s 推奨）、大（~8s）、特大（~15s+）。途切れるストリームは大きく；ザッピング高速化は小さく。</td></tr>
+                <tr><td>VOD</td><td>映画/ドラマの設定：外部プレーヤー選択（自動 / アプリ選択 / 外部プレーヤー 1-2）、自動字幕など。</td></tr>
+                <tr><td>全画面時計</td><td>全画面の時計：オン/オフ、位置、サイズ（小/中/大）、24 時間形式、日付表示。</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · 外観 <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>言語</td><td>インターフェース言語 — 24 言語から選択または「システム言語」；検索フィールドでフィルタ。</td></tr>
+                <tr><td>色</td><td>アプリテーマ（ダーク、青、グレー、緑、紫、赤、アンバー、ナイト、オーシャン、チャコール、ワイン、ダークブルー、エメラルド、サンセット、コズミック、グラファイト）、アクセント色（18 色）、OSD 不透明度（プレビュー付き）。</td></tr>
+                <tr><td>TV ガイド</td><td>EPG 外観：24 時間形式、行の高さ（小/中/大）、レイアウト（リスト/グリッド）。</td></tr>
+                <tr><td>チャンネルリスト</td><td>チャンネルリストの外観とカードレイアウト。</td></tr>
+                <tr><td>ロゴ</td><td>ロゴソース優先度：<strong>XMLTV/EPG</strong>、<strong>プレイリスト（M3U）</strong>、または <strong>ローカルフォルダ</strong>；フォルダを選んで独自ロゴファイル（PNG/JPG/WebP）を使用。</td></tr>
+                <tr><td>OSD 表示時間</td><td>情報パネルが画面に残る秒数 — TV と VOD で個別。</td></tr>
+                <tr><td>スクリーンセーバー</td><td>未使用時の起動までの時間：オフ、1、2、5、10、15、30 分。</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · メディア情報 <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>API キー</td><td>TMDB と OMDb 用のご自身の API キーを入力 — 両サービスのサイトで無料取得。映画/ドラマのポスター・あらすじ・キャスト・IMDb 評価はこれらのサービスから。</td></tr>
+                <tr><td>TMDB / OMDb</td><td>サービスのオン/オフ。TMDB：ポスター+あらすじ+トレーラー；OMDb：IMDb 評価、ジャンル、監督。</td></tr>
+                <tr><td>スマートキャッシュ</td><td>オン — 画面に見えているコンテンツのデータのみロード；起動が速く。</td></tr>
+                <tr><td>手動エンリッチのみ</td><td>自動データダウンロードをオフ；エンリッチはあなたが実行したときのみ。</td></tr>
+                <tr><td>キャッシュフォルダ</td><td>メディア情報キャッシュが保存されるフォルダ。</td></tr>
+                <tr><td>全コンテンツをエンリッチ</td><td>すべての VOD コンテンツの TMDB データを一括ダウンロード（時間がかかる場合あり）。</td></tr>
+                <tr><td>カテゴリでエンリッチ</td><td>選択カテゴリのみエンリッチ。</td></tr>
+                <tr><td>キャッシュをクリア</td><td>全メディア情報キャッシュを削除（件数とサイズを表示）。</td></tr>
+                <tr><td>VOD 名フィルタ</td><td>映画/ドラマ名の前後の余分を削除するルール — TMDB マッチングを改善。</td></tr>
+            </table>
+            <p>ポスタープレビュー設定（ホバーでトレーラー）：<strong>自動プレビュー</strong>（ポスターに止まるとトレーラー再生）、<strong>トレーラー音声</strong>、開始位置、待機時間。</p>
+
+            <h3 id="ayar-diger">6–9, 11 · 録画、リマインダー、プロフィール、保護者、ダウンロード、その他</h3>
+            <ul>
+                <li><strong>録画</strong> <span class="plat pro">PRO</span> — フォルダ、追加時間、録画リスト（<a href="#kayit">詳細</a>）。</li>
+                <li><strong>リマインダー</strong> <span class="plat pro">PRO</span> — 通知とチャンネル自動オープン + リスト（<a href="#hatirlatici">詳細</a>）。</li>
+                <li><strong>プロフィール</strong> <span class="plat pro">PRO</span> — プロフィールリストと新規プロフィール（<a href="#profiller">詳細</a>）。</li>
+                <li><strong>ペアレンタルコントロール</strong> <span class="plat pro">PRO</span> — PIN、ロック、年齢制限、非表示チャンネル（<a href="#ebeveyn">詳細</a>）。</li>
+                <li><strong>ダウンロード</strong> <span class="plat pro">PRO</span> — フォルダ、同時ダウンロード、Wi-Fi のみ、リスト（<a href="#indirilenler">詳細</a>）。</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>その他項目 <span class="plat pro">PRO</span></th><th>説明</th></tr>
+                <tr><td>リモコンキー音</td><td>D-pad ナビゲーション時に小さなクリック音を再生。</td></tr>
+                <tr><td>アプリキーボード</td><td>入力時にアプリ独自キーボードかシステムキーボードを使用。</td></tr>
+                <tr><td>自動起動</td><td>デバイス起動時にアプリが自動で開始（TV）。</td></tr>
+                <tr><td>終了時に再生停止</td><td>アプリ終了時に再生が自動停止。</td></tr>
+                <tr><td>視聴統計</td><td>映画・ドラマ・ライブの視聴時間（直近 7/30 日、合計）；リセット可。</td></tr>
+                <tr><td>データ使用量</td><td>ネットワークデータ使用量：受信/送信と合計。</td></tr>
+                <tr><td>バックアップ / 復元</td><td>すべての設定・お気に入り・プロフィール・履歴を 1 ファイルに保存 / ファイルから復元。</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 &amp; 12 · アカウントと同期 · 情報</h3>
+            <table class="tbl">
+                <tr><th>項目</th><th>説明</th></tr>
+                <tr><td>アカウント、同期 &amp; デバイス</td><td>Google アカウント状態、匿名アカウント作成、自動同期、プレミアムライセンス同期、連携デバイスの一覧＆削除、ログアウト、<strong>アカウント削除</strong>（クラウドデータを含む完全削除）。</td></tr>
+                <tr><td>アプリ情報</td><td>バージョン、サブスクリプション種類とライセンス期間、機能一覧（ライブ、VOD・IPTV、EPG、マルチスクリーン、録画、リマインダー、プロフィール、ペアレンタルコントロール、スマート検索、DLNA、クラウド同期、お気に入りリスト、メディア情報）、連絡先情報。</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── モバイル ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>モバイルアプリ <span class="plat mob">モバイル</span></h2>
+            <p>モバイルインターフェースはタッチ向け設計；同じアカウントとプレイリストを使用。</p>
+            <ul>
+                <li><strong>下部タブバー：</strong>TV、映画、ドラマ、マイリスト。横向きでは端に縦リストが出現。</li>
+                <li><strong>上部バー：</strong>ロゴ、<strong>リモコン</strong>、<strong>検索</strong>、<strong>DLNA/デバイス</strong>、<strong>設定</strong> 歯車、<strong>プロフィール画像</strong>。</li>
+                <li><strong>TV タブ：</strong>上部にプレビュー領域 +「すべて」/グループフィルタ；下部にチャンネルカード（ロゴ、名前、タイムスロット、現在の番組 + 進行、お気に入りスター、☰ メニュー）。</li>
+                <li><strong>EPG 画面：</strong>その日の番組フロー；チャンネルをタップで番組を表示。</li>
+                <li><strong>ダウンロード / オフラインコンテンツ：</strong>ダウンロード済み映画・エピソードをオフライン再生；リストから再生・削除。</li>
+                <li><strong>ダウンロードバー</strong> はソースロード中、すべてのタブに表示。</li>
+            </ul>
+
+            <h3 id="kumanda">スマホから TV リモコン <span class="plat pro">PRO</span></h3>
+            <p>同じネットワーク上の Android TV のリモコンとしてスマホアプリを使用：</p>
+            <ol>
+                <li>テレビで TiviEase Go を開いたまま；スマホで上部バーの <strong>リモコンアイコン</strong> をタップ。</li>
+                <li>「ネットワークデバイス」リストからテレビを選択（見つからない？「再試行」ボタンで再スキャン）。</li>
+                <li>リモコン画面：<strong>D-pad + OK</strong>、数字キー、音量/チャンネル、<strong>戻る / ホーム</strong>、<strong>スリープ / ガイド / オプション</strong>、<strong>カラーボタン</strong>、メディアキー、テキスト入力用 <strong>キーボード</strong> ボタン。</li>
+            </ol>
+
+            <h3 id="dlna">DLNA とキャスト <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>ネットワークスキャン</strong> で DLNA/UPnP デバイスを検出；デバイスを選んでメディアフォルダを閲覧（「フォルダ」、アイテム数）。</li>
+                <li><strong>TV / Cast デバイスへ送信：</strong>再生中のコンテンツをネットワーク上のデバイスへ送信；キャスト画面に位置バー、再生/一時停止、「キャスト停止」。</li>
+                <li>「デバイス変更」でキャスト先を別デバイスに移動。</li>
+            </ul>
+
+            <h3 id="indirilenler">ダウンロードとオフライン <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>設定 › ダウンロード：</strong>ダウンロードフォルダ（内部ストレージまたは SMB）、最大同時ダウンロード、<strong>Wi-Fi のみ</strong>（モバイルデータ節約）、ダウンロードリスト。</li>
+                <li>リストの状態：ダウンロード中、待機中、ダウンロード済み、エラー/キャンセル — 待機中をキャンセル、完了を再生または削除。</li>
+                <li>モバイルでは「オフラインコンテンツ」画面がダウンロードを表示しオフライン再生。</li>
+            </ul>
+
+            <h3 id="yedekleme">バックアップ、復元、同期</h3>
+            <ul>
+                <li><strong>バックアップ</strong>（設定 › その他）：すべての設定・お気に入り・プロフィール・履歴を 1 ファイルに保存 — デバイス移行やリセット時に便利。</li>
+                <li><strong>データを復元：</strong>「バックアップファイルを開く」でファイルを選び設定を戻す。</li>
+                <li><strong>クラウド同期：</strong>Google ログインでデータがバックグラウンド同期；「自動同期」はオフ可能。連携デバイスはアカウントパネルで表示/削除。</li>
+                <li>Android TV ホーム画面の <strong>「続きを見る」</strong> 行に最近視聴したものを表示。</li>
+            </ul>
+
+            <h3 id="premium">Premium（Pro）サブスクリプション</h3>
+            <p>無料版は 1 プレイリスト + 1 EPG ソースと基本設定をカバー。<strong>設定</strong> でロック中のカテゴリをタップして Pro へアップグレード、または Pro 画面から。</p>
+            <table class="tbl">
+                <tr><th>プラン</th><th>価格</th><th>デバイス</th></tr>
+                <tr><td>Pro 月額</td><td>₺9,99 / 月</td><td>1 台</td></tr>
+                <tr><td>Pro 年額</td><td>₺89,99 / 年</td><td>1 台</td></tr>
+                <tr><td>Pro 買い切り</td><td>₺249,99（一回払い）</td><td>最大 5 台</td></tr>
+            </table>
+            <ul>
+                <li>Pro で解除：<strong>無制限のプレイリストと EPG ソース</strong>、全設定カテゴリ、録画、リマインダー、プロフィール、ペアレンタルコントロール、ダウンロード、スマホリモコン、DLNA。</li>
+                <li><strong>アクティベーションコード：</strong>「アクティベーションコードを使用」にコードを入力してプレミアムを有効化。</li>
+                <li>ライセンスはクラウドに紐付け — 別デバイスで同じアカウントにログインすれば自動同期；上限いっぱいなら古いデバイスをリストから削除。</li>
+                <li>オフライン利用には最終確認から 7 日間の猶予期間があります。</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── FAQ ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>トラブルシューティングとよくある質問</h2>
+
+            <details class="faq"><summary>チャンネルが来ない / プレイリストが読み込めない</summary><div class="faq-body"><p>URL が正しく <code>http(s)://</code> で始まるか確認。設定 › プレイリスト › 既存のプレイリストでソースを選択し「更新」で再読み込み；Xtream ではユーザー名/パスワードに空白がないか確認。インターネット接続とプロバイダーのオンライン状態もチェック。</p></div></details>
+
+            <details class="faq"><summary>EPG（番組表）が空</summary><div class="faq-body"><p>まず <strong>設定 › TV ガイド › EPG ソースを追加</strong> で XMLTV ソースを追加し <strong>EPG 更新</strong> ボタンでダウンロード。まだデータがなければコンテキストメニューの <strong>EPG マッチング</strong> で正しい EPG チャンネルを手動選択。時刻がずれる？<strong>タイムシフト</strong> で修正。</p></div></details>
+
+            <details class="faq"><summary>ストリームが開かない・途切れる</summary><div class="faq-body"><p>設定 › プレーヤーで <strong>バッファ</strong> を「中/大」に；駄目なら <strong>ビデオ出力</strong> でソフトウェアデコードを試す。4K ストリームは低スペックデバイスに重い — チャンネルの HD/FHD 版を推奨。</p></div></details>
+
+            <details class="faq"><summary>音が出ない・音声と映像がずれる</summary><div class="faq-body"><p>設定 › プレーヤー › 音声出力で <strong>音声パススルー</strong> をオフにしてみる（bitstream は一部デバイスで問題）。ずれには <strong>音声オフセット</strong> スライダーを使用；ストリームに別言語があればプレーヤーカードの <strong>再生言語</strong> でトラックを選択。</p></div></details>
+
+            <details class="faq"><summary>字幕が表示されない・文字が化ける</summary><div class="faq-body"><p>プレーヤーカードまたは設定 › プレーヤー › 字幕で正しいトラックを選択；文字化けなら <strong>エンコーディング</strong> を変更（UTF-8…）。サイズ/色/位置は同じパネルで設定。</p></div></details>
+
+            <details class="faq"><summary>ポスターや映画情報が来ない</summary><div class="faq-body"><p>設定 › メディア情報で TMDB/OMDb キーが入力済みでサービスがオンか確認（キーは無料）。「全コンテンツをエンリッチ」で一括取得；誤マッチはコンテンツメニューの <strong>検索＆マッチ</strong> で修正。</p></div></details>
+
+            <details class="faq"><summary>Premium を買ったが有効化しない / 他デバイスに反映されない</summary><div class="faq-body"><p>同じ Google アカウントでログインしているか確認 — ライセンスは同期されます。デバイス上限がいっぱいなら <strong>設定 › アカウント、同期 &amp; デバイス</strong> で古いものを削除。必要ならアクティベーションコードを使用。</p></div></details>
+
+            <details class="faq"><summary>テレビが長時間スリープした後チャンネルが開かない</summary><div class="faq-body"><p>アプリを完全に閉じて再度開く。スリープ時にプレーヤーは自動で閉じます；それでも固まるなら再起動で解決。</p></div></details>
+
+            <details class="faq"><summary>設定を別デバイスへ移すには？</summary><div class="faq-body"><p><strong>設定 › その他 › バックアップ</strong> でファイルを作成し、新しいデバイスで <strong>データを復元</strong> でインポート — または Google ログインして同期を使用。</p></div></details>
+
+            <details class="faq"><summary>チャンネルを戻せない / リストにない</summary><div class="faq-body"><p>非表示になった可能性：EPG コンテキストメニューの <strong>非表示チャンネルを表示</strong> または <strong>設定 › ペアレンタルコントロール › 非表示チャンネル</strong> で戻す。ロックなら PIN で解除。グループが非表示なら設定 › プレイリスト › チャンネルグループを確認。</p></div></details>
+
+            <details class="faq"><summary>アカウントを削除するには？</summary><div class="faq-body"><p><strong>設定 › アカウント、同期 &amp; デバイス › アカウント削除</strong> でアカウントをクラウドデータごと完全削除。詳細：<a href="account-deletion.ja.html">アカウント削除</a> ページ。</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>まだ助けが必要？</h4>
+                <p>ご連絡ください：<a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — 問題、デバイスモデル、アプリバージョン（設定 › 情報）をお知らせください。</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.ja.html">ホーム</a> · <a href="privacy.ja.html">プライバシー</a> · <a href="account-deletion.ja.html">アカウント削除</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('ja');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('ja');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

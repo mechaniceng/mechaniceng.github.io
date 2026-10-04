@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز المساعدة — TiviEase Go</title>
+    <meta name="description" content="دليل مستخدم TiviEase Go: الإعداد، إضافة القوائم، EPG، المشغّل بملء الشاشة، الإعدادات وحل المشكلات.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="مركز المساعدة — TiviEase Go">
+    <meta property="og:description" content="دليل مستخدم TiviEase Go: الإعداد، إضافة القوائم، EPG، المشغّل بملء الشاشة، الإعدادات وحل المشكلات.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.ar.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="ar_AR">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.ar.html">
+            <img src="assets/logo.png?v=2" alt="شعار TiviEase Go">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="القائمة">☰</button>
+        <nav class="site-nav">
+            <a href="index.ar.html">الرئيسية</a>
+            <a href="index.ar.html#ozellikler">الميزات</a>
+            <a href="satin-al.en.html">شراء</a>
+            <a class="active" href="yardim.ar.html">مركز المساعدة</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">مركز المساعدة</span>
+            <h1 style="font-size:34px">كيف تستخدم؟</h1>
+            <p>كل شاشة مشروحة خطوة بخطوة — من أول تشغيل إلى آخر إعداد. اختر موضوعًا من القائمة الجانبية أو استخدم البحث.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">الشارات: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">جوال</span> هاتف/لوحي &nbsp; <span class="plat pro">PRO</span> ميزة مدفوعة</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ القائمة الجانبية ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="ابحث في المساعدة..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ المواضيع</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>البدء<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">التشغيل الأول</a>
+                        <a href="#profil-secimi">اختيار الملف الشخصي</a>
+                        <a href="#qr-giris">تسجيل الدخول برمز QR</a>
+                        <a href="#google-giris">تسجيل الدخول عبر Google</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>المصادر<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">إضافة قائمة</a>
+                        <a href="#liste-yonetimi">إدارة القوائم</a>
+                        <a href="#epg-kaynagi">إضافة مصدر EPG</a>
+                        <a href="#grup-siralama">مجموعات وفرز وفلاتر</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>الرئيسية وEPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">الشاشة الرئيسية (TV)</a>
+                        <a href="#epg-rehberi">استخدام الدليل التلفزيوني</a>
+                        <a href="#arama">البحث والبحث الصوتي</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>القوائم السياقية<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">قائمة EPG السياقية</a>
+                        <a href="#vod-context">قائمة الأفلام/المسلسلات</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>المشغّل<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">ملء الشاشة — بث مباشر</a>
+                        <a href="#fs-tuslar">أزرار جهاز التحكم</a>
+                        <a href="#fs-paneller">اللوحات وبطاقة الإعدادات</a>
+                        <a href="#coklu-ekran">الشاشة المتعددة (PIP)</a>
+                        <a href="#fs-vod">ملء الشاشة — أفلام/مسلسلات</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>التسجيل والتذكيرات<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">تسجيل البرامج</a>
+                        <a href="#hatirlatici">التذكيرات</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>الملفات والرقابة الأبوية<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">إدارة الملفات الشخصية</a>
+                        <a href="#ebeveyn">الرقابة الأبوية</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>دليل الإعدادات<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">شاشة الإعدادات</a>
+                        <a href="#ayar-listeler">قوائم التشغيل</a>
+                        <a href="#ayar-epg">الدليل التلفزيوني</a>
+                        <a href="#ayar-oynatici">المشغّل</a>
+                        <a href="#ayar-gorunum">المظهر</a>
+                        <a href="#ayar-medya">بيانات الوسائط</a>
+                        <a href="#ayar-diger">تسجيل / تذكيرات / أخرى</a>
+                        <a href="#ayar-hesap">الحساب وعن التطبيق</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>الجوال وأخرى<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">تطبيق الجوال</a>
+                        <a href="#kumanda">جهاز التحكم من الهاتف</a>
+                        <a href="#dlna">DLNA والبث</a>
+                        <a href="#indirilenler">التنزيلات</a>
+                        <a href="#yedekleme">النسخ الاحتياطي والمزامنة</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">حل المشكلات / الأسئلة الشائعة</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">لم يُعثر على شيء.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ المحتوى ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── البدء ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>البدء</h2>
+            <p>يعمل TiviEase Go على <strong>Android TV</strong> وعلى <strong>الهاتف/الجهاز اللوحي</strong> في تطبيق واحد. التطبيق لا يوفّر قنوات أو محتوى — أنت تضيف <strong>قائمة M3U</strong> أو حساب <strong>Xtream Codes</strong> من مزوّد IPTV الخاص بك.</p>
+
+            <h3>شاشة التشغيل الأول</h3>
+            <p>إذا لم تُعرَّف أي قائمة عند فتح التطبيق تظهر <strong>شاشة الترحيب</strong>. تقدّم أربع بطاقات:</p>
+            <table class="tbl">
+                <tr><th>البطاقة</th><th>ماذا تفعل؟</th></tr>
+                <tr><td>إضافة قائمة<br><small>M3U / Xtream</small></td><td>تنقلك إلى الشاشة الرئيسية وتفتح نموذج الإضافة. التفاصيل: <a href="#kaynak-ekleme">إضافة قائمة</a>.</td></tr>
+                <tr><td>تسجيل الدخول عبر Google<br><small>مزامنة سحابية</small></td><td>تسجيل دخول بحساب Google؛ تُحمَّل مصادرك ومفضلاتك وسجلك السحابي، ثم تُحدَّث القوائم تلقائيًا.</td></tr>
+                <tr><td>تسجيل الدخول برمز QR<br><small>مسح من الهاتف</small> <span class="plat tv">TV</span></td><td>يعرض على التلفزيون رمز QR صالحًا 3 دقائق؛ بمسحه بتطبيق الهاتف والتأكيد يسجّل التلفزيون الدخول إلى نفس الحساب.</td></tr>
+                <tr><td>الإعدادات<br><small>النظام والملف الشخصي</small></td><td>يفتح شاشة الإعدادات إذا أردت الاستطلاع قبل إضافة قائمة.</td></tr>
+            </table>
+            <div class="tip"><p><strong>نصيحة:</strong> إذا كنت تستخدم TiviEase Go على جهاز آخر فالأسرع هو <strong>تسجيل الدخول عبر Google</strong> أو <strong>تسجيل الدخول برمز QR</strong> — تأتي كل القوائم والإعدادات تلقائيًا.</p></div>
+
+            <h3 id="profil-secimi">اختيار الملف الشخصي</h3>
+            <p>إذا عُرِّف عدة ملفات شخصية على الجهاز تظهر عند التشغيل شاشة <strong>«اختيار الملف الشخصي»</strong>. الأسهم + <kbd>OK</kbd> للاختيار. الملفات ذات PIN تسأل عنه أولًا. يحتفظ كل ملف بـ<em>مفضلاته ومحتوى «قائمتي» وسجله وإعداداته الشخصية</em>.</p>
+            <ul>
+                <li>إضافة/تعديل الملفات: <strong>الإعدادات › الملفات الشخصية</strong> (انظر <a href="#profiller">إدارة الملفات الشخصية</a>).</li>
+                <li>تبديل الملف أثناء الاستخدام: اضغط <strong>أيقونة الصورة الرمزية</strong> في الشريط العلوي.</li>
+            </ul>
+
+            <h3 id="qr-giris">تسجيل الدخول برمز QR <span class="plat tv">TV</span> <span class="plat mob">جوال</span></h3>
+            <p>استخدم هاتفك بدل إدخال بيانات الاعتماد على التلفزيون:</p>
+            <ol>
+                <li>على التلفزيون افتح بطاقة <strong>تسجيل الدخول برمز QR</strong> (شاشة الترحيب أو الإعدادات › الحسابات) — يظهر رمز QR. يبقى صالحًا <strong>3 دقائق</strong>.</li>
+                <li>على الهاتف افتح تطبيق TiviEase Go وامسح رمز التلفزيون عبر ماسح QR.</li>
+                <li>اضغط على الهاتف <strong>«تسجيل الدخول»</strong> — سترى «تم التأكيد — التلفزيون يسجّل الدخول».</li>
+                <li>يسجّل التلفزيون الدخول إلى حساب الهاتف خلال ثوانٍ؛ تتزامن القائمة والإعدادات.</li>
+            </ol>
+            <div class="note"><p>إذا انتهت صلاحية رمز QR، أغلق النافذة وافتحها مجددًا — يُنشأ رمز جديد. يتطلب تسجيل الدخول برمز QR أن يكون التطبيق نفسه مفتوحًا على الهاتف مع تسجيل دخول منجز.</p></div>
+
+            <h3 id="google-giris">تسجيل الدخول عبر Google والمزامنة</h3>
+            <p>عند تسجيل الدخول بحساب Google تتزامن بين الأجهزة: إعدادات المصادر/القوائم، المفضلات، «قائمتي»، السجل، الملفات الشخصية ورخصة البريميوم. بعد أول دخول تُحمَّل المصادر وEPG تلقائيًا — لا حاجة لتحديث يدوي.</p>
+            <ul>
+                <li>إعدادات المزامنة والأجهزة المرتبطة: <strong>الإعدادات › الحسابات والمزامنة والأجهزة</strong>.</li>
+                <li>يمكن استخدام التطبيق دون حساب — تبقى البيانات على الجهاز.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── المصادر ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>إضافة قائمة تشغيل</h2>
+            <p>يدعم نوعان من المصادر: <strong>M3U</strong> (URL أو ملف محلي) و<strong>Xtream Codes</strong> (خادم + بيانات اعتماد). عند الإضافة يُقسَّم المحتوى تلقائيًا إلى <em>بث مباشر / أفلام / مسلسلات</em>.</p>
+
+            <h3>أين تُضاف؟</h3>
+            <ul>
+                <li>من بطاقة <strong>إضافة قائمة</strong> في شاشة الترحيب،</li>
+                <li>أو عبر <strong>الإعدادات › قوائم التشغيل › إضافة قائمة</strong>.</li>
+            </ul>
+
+            <h3>إضافة قائمة M3U</h3>
+            <ol>
+                <li>افتح <strong>إضافة قائمة</strong>، اختر بطاقة <strong>M3U / XMLTV</strong>.</li>
+                <li>في حقل <strong>الاسم</strong> أعطِ القائمة اسمًا (مثل «القائمة الرئيسية»).</li>
+                <li>في حقل <strong>URL / مسار الملف</strong> أدخل رابط M3U <em>أو</em> اختر ملفًا من الجهاز بأيقونة المجلد. الامتدادات المدعومة: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li>اضغط <strong>إضافة</strong> — تُنزَّل القائمة وتُعالَج؛ يظهر التقدم في شريط التنزيل السفلي.</li>
+            </ol>
+            <div class="note"><p>عند اختيار ملف يُدرَج اسمه تلقائيًا إن كان حقل الاسم فارغًا. يجب أن يبدأ URL بـ http/https.</p></div>
+
+            <h3>إضافة حساب Xtream Codes</h3>
+            <ol>
+                <li>اختر بطاقة <strong>Xtream</strong>.</li>
+                <li><strong>اسم المصدر</strong>: أي اسم (مثل «Xtream الرئيسي»).</li>
+                <li><strong>URL الخادم</strong>: عنوان مزوّدك، مثل <code>http://server.com:8080</code></li>
+                <li><strong>اسم المستخدم</strong> و<strong>كلمة المرور</strong>: بيانات المزوّد. أيقونة العين بجانب حقل كلمة المرور تُظهر المُدخَل.</li>
+                <li><strong>إضافة</strong> — يتصل التطبيق بواجهة Xtream API؛ يُحمَّل البث والأفلام والمسلسلات بشكل منفصل.</li>
+            </ol>
+            <div class="warn"><p><strong>في النسخة المجانية</strong> يمكن إضافة <strong>قائمة واحدة فقط</strong> (M3U أو Xtream — ليس كلاهما). بلا حدود: <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">إدارة القوائم</h3>
+            <p>العناصر في <strong>الإعدادات › قوائم التشغيل</strong>:</p>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>القوائم الموجودة</td><td>يعرض مصادر M3U وXtream المعرفة؛ على كل بطاقة — آخر تحديث وحالة نشط/غير نشط. اختر المصدر للتعديل أو الحذف أو التحديث. بطاقة الملخص تُظهر توزيع بث/مسلسلات/أفلام.</td></tr>
+                <tr><td>وتيرة التحديث</td><td>فترة التحديث التلقائي للقوائم: <strong>يدويًا، 6، 12، 24، 48، 72 أو 168 ساعة</strong>. مع «يدويًا» تُحدَّث القوائم فقط عند الطلب.</td></tr>
+                <tr><td>تحديث كل القوائم</td><td>يعيد تحميل جميع المصادر دفعة واحدة. تُعالَج في الخلفية بالترتيب؛ تابع التقدم في شريط التنزيل.</td></tr>
+                <tr><td>مصادر EPG</td><td>اختيار مصدر EPG المخصص لكل قائمة («تعيين للقائمة»).</td></tr>
+                <tr><td>مجموعات القنوات</td><td>إخفاء وإعادة تسمية وإعادة ترتيب المجموعات من القائمة (رياضة، أخبار…).</td></tr>
+                <tr><td>الفرز</td><td>ترتيب القنوات: <strong>بالاسم، بالرقم، يدوي، الترتيب الأصلي، حسب المجموعة</strong>.</td></tr>
+                <tr><td>فلاتر أسماء القنوات</td><td>قواعد تزيل تلقائيًا البادئات/اللاحقات من أسماء القنوات (مثل «TR:»، «|4K»). حرف البدل <code>*</code> مدعوم؛ حقل «مثال التحويل» يُظهر النتيجة.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">إضافة مصدر EPG (XMLTV)</h3>
+            <p>للحصول على جدول البرامج أضف عنوان XMLTV/EPG الخاص بمزوّدك:</p>
+            <ol>
+                <li>افتح <strong>الإعدادات › الدليل التلفزيوني › إضافة مصدر EPG</strong>.</li>
+                <li>أدخل الاسم و<strong>URL / العنوان</strong>، ثم احفظ.</li>
+                <li>بعد التنزيل تُطابَق القنوات تلقائيًا حسب تشابه الأسماء؛ طابِق البقية يدويًا عبر <a href="#epg-rehberi">مطابقة EPG للقنوات</a>.</li>
+            </ol>
+            <div class="warn"><p>النسخة المجانية تسمح بـ<strong>مصدر EPG واحد</strong>. بعض مزوّدي Xtream يرسلون EPG خاصتهم — عند إضافة مصدر Xtream يأتي EPG عادة تلقائيًا.</p></div>
+
+            <h3 id="grup-siralama">المجموعات والفرز وفلاتر الأسماء</h3>
+            <ul>
+                <li><strong>مجموعات القنوات:</strong> تدير عناوين المجموعات من M3U/Xtream. المجموعات المخفية لا تظهر في قائمة التلفزيون؛ الفرز يحدد تسلسل المجموعات.</li>
+                <li><strong>الفرز:</strong> مع «يدوي» تصنع ترتيبك الخاص في قائمة القنوات؛ «الترتيب الأصلي» يحفظ ترتيب الملف.</li>
+                <li><strong>فلاتر الأسماء:</strong> تزيل الأنماط في بداية/نهاية أسماء القنوات (مثل بادئات البلدان) — تصبح القائمة أوضح. فلتر منفصل لأسماء VOD: <strong>الإعدادات › بيانات الوسائط › فلاتر أسماء VOD</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── الرئيسية وEPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>الشاشة الرئيسية والدليل التلفزيوني <span class="plat tv">TV</span></h2>
+
+            <h3>الشريط العلوي والقوائم</h3>
+            <p>في شاشة التلفزيون الرئيسية يوجد في الأعلى شريط قوائم أفقي. التنقل <kbd>◀</kbd><kbd>▶</kbd>، الاختيار <kbd>OK</kbd>، النزول إلى المحتوى <kbd>▼</kbd>.</p>
+            <table class="tbl">
+                <tr><th>القائمة</th><th>المحتوى</th></tr>
+                <tr><td>بحث</td><td>شاشة البحث الذكي — قنوات وأفلام ومسلسلات وبرامج؛ تدعم البحث الصوتي.</td></tr>
+                <tr><td>تلفزيون</td><td>قائمة القنوات + شبكة EPG وبطاقة المعاينة الحية.</td></tr>
+                <tr><td>أفلام</td><td>عمود فئات (أكشن، كوميديا، دراما، خيال علمي، رعب، عائلي، مفضلة، جديد، متابعة المشاهدة) + معرض ملصقات.</td></tr>
+                <tr><td>مسلسلات</td><td>فئات مثل مسلسلات محلية/أجنبية، بث نهاري، وقت الذروة + معرض ملصقات.</td></tr>
+                <tr><td>قائمتي</td><td>المفضلات، أفلامي، مسلسلاتي، متابعة المشاهدة، التسجيلات، التذكيرات، التنزيلات، المحتوى دون اتصال.</td></tr>
+                <tr><td>الإعدادات</td><td>أيقونة الترس على اليمين — تفتح لوحة الإعدادات ذات 13 فئة.</td></tr>
+            </table>
+            <p>الأيقونات على يمين الشريط العلوي: <strong>صورة الملف الشخصي</strong> (تبديل الملف)، <strong>ترس الإعدادات</strong> وزر <strong>الأجهزة</strong> (DLNA/cast).</p>
+            <div class="note"><p>في القوائم الطويلة يقفز <kbd>قناة+</kbd>/<kbd>قناة−</kbd> (أو Page Up/Down) 10 صفوف. <kbd>رجوع</kbd> يصعد مستوى؛ في الشاشة الرئيسية يطلب تأكيد الخروج.</p></div>
+
+            <h3>معرض الملصقات والمعاينة</h3>
+            <ul>
+                <li>في صفحات الأفلام/المسلسلات تُعرض الملصقات بشبكة؛ عند التوقف تكبر البطاقة و— إن كان مفعّلًا — يشتغل <strong>معاينة الإعلان</strong> (إعداد: بيانات الوسائط › معاينة تلقائية).</li>
+                <li>ضغط <kbd>OK</kbd> مطول على الملصق: يفتح <a href="#vod-context">القائمة السياقية</a>.</li>
+                <li>في صفحة التلفزيون عند التوقف على صف قناة، نافذة <strong>المعاينة الحية</strong> أعلى اليسار تشغّل تلك القناة بحجم مصغّر.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">استخدام الدليل التلفزيوني (EPG)</h3>
+            <p>قائمة التلفزيون تتبدل بين عرضين: <strong>قائمة القنوات</strong> و<strong>شبكة EPG</strong> («الانتقال إلى قائمة EPG» / «الانتقال إلى قائمة القنوات»).</p>
+            <ul>
+                <li><strong>العمود الأيمن:</strong> شعارات وأسماء القنوات. <kbd>▲</kbd><kbd>▼</kbd> يبدّلان القناة؛ على الجانب تظهر برامجها.</li>
+                <li><strong>الشبكة:</strong> شريط زمني — بطاقات برامج مع المدة. <kbd>◀</kbd><kbd>▶</kbd> يتحركان في الزمن.</li>
+                <li><strong>اختيار اليوم:</strong> بأزرار أمس / اليوم / غدًا وأسهم «اليوم السابق / التالي» يمكن النظر للوراء بقدر ما يسمح إعداد <em>بيانات EPG للأيام السابقة</em>.</li>
+                <li><strong>ضغط <kbd>OK</kbd> مطول على صف القناة:</strong> يفتح <a href="#epg-context">قائمة EPG السياقية</a> (مفضلة، تسجيل، تذكير، إخفاء…).</li>
+                <li>ضغط <kbd>OK</kbd> قصير على قناة: يشاهدها بملء الشاشة.</li>
+            </ul>
+            <div class="tip"><p>لا يوجد EPG على قناة؟ تحقق أولًا أن مصدر EPG معرَّف ومحدَّث (الإعدادات › الدليل التلفزيوني › تحديث EPG)، ثم طابِق القناة يدويًا عبر «مطابقة EPG».</p></div>
+
+            <h3 id="arama">البحث والبحث الصوتي</h3>
+            <ul>
+                <li>قائمة <strong>بحث</strong> (أو «بحث» في القوائم السياقية) تفتح البحث الذكي. يبحث مباشرة في الأفلام والمسلسلات وأسماء القنوات وبرامج EPG («تطابقات البرامج»، «برامج التلفزيون»).</li>
+                <li>أيقونة الميكروفون تبدأ <strong>البحث الصوتي</strong> — تكلم بينما «أستمع…» مضاءة؛ عند أول استخدام يُطلَب إذن الميكروفون.</li>
+                <li><strong>سجل البحث</strong> يُظهر الاستعلامات السابقة؛ «مسح» يحذفها.</li>
+                <li>على الجوال تؤدي تبويبة البحث نفس الدور؛ الإدخال باللمس.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── القوائم السياقية ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>القوائم السياقية</h2>
+
+            <h3>قائمة EPG السياقية <span class="plat tv">TV</span></h3>
+            <p><strong>الفتح:</strong> على صف القناة في الدليل التلفزيوني <strong>اضغط <kbd>OK</kbd> مطولًا</strong> — تنزلق القائمة من الجانب. <kbd>▲</kbd><kbd>▼</kbd> للتنقل، <kbd>OK</kbd> للاختيار، <kbd>رجوع</kbd> للإغلاق.</p>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوظيفة</th></tr>
+                <tr><td>فتح القناة</td><td>يبدأ القناة المختارة بملء الشاشة.</td></tr>
+                <tr><td>بحث</td><td>يفتح البحث الذكي.</td></tr>
+                <tr><td>تلفزيون / أفلام / مسلسلات / قائمتي / الإعدادات</td><td>انتقالات سريعة إلى الأقسام الرئيسية الأخرى عدا الحالي.</td></tr>
+                <tr><td>إضافة للمفضلة / إزالة من المفضلة</td><td>يضيف أو يزيل القناة من المفضلة؛ تظهر في قائمة التلفزيون وقائمتي.</td></tr>
+                <tr><td>فتح في مشغّل خارجي</td><td>يرسل بث القناة إلى تطبيق تشغيل آخر على الجهاز (VLC، MX Player…).</td></tr>
+                <tr><td>تسجيل</td><td>يضيف البرنامج المختار (أو تسجيلًا يدويًا لمدة ساعتين دون برنامج) إلى قائمة التسجيلات. الدقائق الإضافية من الإعدادات تُطبَّق تلقائيًا.</td></tr>
+                <tr><td>تسجيل مخصص</td><td>يعرض أولًا نافذة اختيار دقائق البداية/النهاية الإضافية (+0/+1/+5/+10 دقائق).</td></tr>
+                <tr><td>إضافة / إزالة تذكير</td><td>ينبّه قبل بدء البرنامج؛ مع «الفتح التلقائي للقناة» المفعّل تفتح القناة نفسها.</td></tr>
+                <tr><td>مطابقة EPG</td><td>يربط يدويًا بيانات برامج القناة باسم قناة مصدر EPG الصحيح.</td></tr>
+                <tr><td>تحديث EPG</td><td>يعيد تحميل مصادر EPG المعرفة.</td></tr>
+                <tr><td>مسح EPG</td><td>يحذف بيانات البرامج المخزنة؛ تُحمَّل من جديد عند التحديث التالي.</td></tr>
+                <tr><td>تحديث الشعارات</td><td>يعيد تحميل شعارات القنوات (وفق إعداد مصدر الشعارات).</td></tr>
+                <tr><td>قفل / فتح القناة</td><td>يخفي القناة خلف PIN ضمن الرقابة الأبوية؛ الفتح يتطلب PIN.</td></tr>
+                <tr><td>إخفاء / إظهار قناة</td><td>يخفي القناة من القائمة؛ الاسترجاع: «إظهار القنوات المخفية» أو الإعدادات › الرقابة الأبوية › القنوات المخفية.</td></tr>
+                <tr><td>إظهار القنوات المخفية</td><td>يعيد مؤقتًا القنوات المخفية إلى القائمة.</td></tr>
+            </table>
+
+            <h3 id="vod-context">القائمة السياقية للفيلم / المسلسل</h3>
+            <p><strong>الفتح:</strong> ضغط <kbd>OK</kbd> مطول على الملصق (الجوال: ضغط مطوّل / أيقونة ☰).</p>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوظيفة</th></tr>
+                <tr><td>متابعة</td><td>يواصل من موضع التوقف (يظهر فقط عند وجود تقدم).</td></tr>
+                <tr><td>تشغيل</td><td>يشغّل المحتوى من البداية.</td></tr>
+                <tr><td>تشغيل خارجي</td><td>يرسل إلى تطبيق تشغيل آخر.</td></tr>
+                <tr><td>الإعلان</td><td>يفتح الإعلان الموجود على TMDB.</td></tr>
+                <tr><td>ملصق بملء الشاشة / إظهار البانر <span class="plat tv">TV</span></td><td>يبدّل المعرض بين شبكة الملصقات وتخطيط البانر.</td></tr>
+                <tr><td>فرز / تصفية</td><td>يفتح خيارات فرز وتصفية المعرض.</td></tr>
+                <tr><td>سنة الإصدار</td><td>يصفّي المحتوى حسب السنة.</td></tr>
+                <tr><td>الفئة</td><td>يصفّي حسب النوع (أكشن، كوميديا…).</td></tr>
+                <tr><td>تفاصيل أكثر</td><td>يفتح لوحة التفاصيل: الوصف والممثلون والمخرج والتقييم وقائمة الحلقات.</td></tr>
+                <tr><td>إلى قائمتي / إزالة</td><td>يضيف أو يزيل المحتوى من «قائمتي › أفلامي/مسلسلاتي».</td></tr>
+                <tr><td>إزالة من السجل</td><td>يمحو الموضع المحفوظ؛ يختفي المحتوى من «متابعة المشاهدة».</td></tr>
+                <tr><td>إزالة من المشاهَد / مسح المشاهَد</td><td>يزيل علامة «مشاهَد» أو يمسح كل سجل المشاهدة.</td></tr>
+                <tr><td>إزالة من المحتوى دون اتصال</td><td>يحذف المحتوى المنزَّل (يظهر فقط على التنزيلات).</td></tr>
+                <tr><td>البحث عن المحتوى ومطابقته</td><td>إذا كانت مطابقة TMDB خاطئة/مفقودة، ابحث وطابِق الفيلم/المسلسل الصحيح يدويًا.</td></tr>
+                <tr><td>تحديد متعدد <span class="plat mob">جوال</span></td><td>يفتح وضع تحديد عدة ملصقات لإجراءات جماعية.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── المشغّل ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>المشغّل بملء الشاشة</h2>
+
+            <h3>ملء الشاشة — بث مباشر <span class="plat tv">TV</span></h3>
+            <p>عند فتح قناة يشتغل الفيديو بملء الشاشة. كل اللوحات تُفتح بجهاز التحكم وتُغلق تلقائيًا بعد خمول (قائمة القنوات ~8 ثوانٍ، تدفق البرامج ~15 ثانية).</p>
+
+            <h4 id="fs-tuslar">أزرار جهاز التحكم — بث مباشر</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> قصير</div><div>يفتح/يغلق OSD (لوحة المعلومات).</div>
+                <div><kbd>OK</kbd> مطول</div><div>يفتح بطاقة إعدادات المشغّل (أدناه).</div>
+                <div><kbd>▶</kbd></div><div>يفتح قائمة القنوات عند الحافة. مع قائمة مفتوحة، ضغطة أخرى → عمود الفئات (المجموعات).</div>
+                <div><kbd>◀</kbd></div><div>يفتح «تدفق البرامج» EPG من الحافة الأخرى؛ إن كان مفتوحًا — يغلقه.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>يبدّلان القناة؛ يحركان التحديد في القائمة المفتوحة.</div>
+                <div><kbd>0–9</kbd></div><div>إدخال رقم القناة — يبدّل عند اكتمال الإدخال.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> أو <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>القناة التالية/السابقة (يتحرك في القائمة المفتوحة).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>يفتح/يغلق تدفق برامج EPG.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>يعود إلى آخر قناة مشاهَدة.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>القناة السابقة/التالية.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>يوقّف/يستأنف البث المباشر.</div>
+                <div><kbd>●</kbd> زر Record</div><div>يفتح/يغلق قائمة القنوات.</div>
+                <div><kbd>رجوع</kbd></div><div>يغلق اللوحة المفتوحة → يغلق OSD → يخرج من المشغّل.</div>
+            </div>
+
+            <h4 id="fs-paneller">اللوحات وبطاقة الإعدادات</h4>
+            <table class="tbl">
+                <tr><th>اللوحة</th><th>الفتح</th><th>المحتوى</th></tr>
+                <tr><td>OSD (لوحة المعلومات)</td><td><kbd>OK</kbd> قصير</td><td>اسم/شعار القناة، البرنامج الحالي والتالي، التقدم، الساعة (إن كانت ساعة ملء الشاشة مفعّلة).</td></tr>
+                <tr><td>قائمة القنوات</td><td><kbd>▶</kbd> أو <kbd>●</kbd></td><td>قائمة تنزلق من الجانب؛ أعلى/أسفل للاختيار، <kbd>OK</kbd> للتبديل. <kbd>▶</kbd> أخرى تفتح عمود المجموعات/الفئات — <kbd>OK</kbd> يطبّق المجموعة.</td></tr>
+                <tr><td>تدفق برامج EPG</td><td><kbd>◀</kbd> أو <kbd>Info</kbd></td><td>قائمة برامج تنزلق من الجانب: برامج اليوم. <kbd>▲</kbd><kbd>▼</kbd> للتصفح؛ ضغط <kbd>OK</kbd> مطول على برنامج → إجراءات التذكير/التسجيل.</td></tr>
+                <tr><td>بطاقة إعدادات المشغّل</td><td><kbd>OK</kbd> مطول</td><td>بطاقة إعدادات سريعة بـ 8 أيقونات (الجدول أدناه).</td></tr>
+            </table>
+
+            <h4>بطاقة إعدادات المشغّل (بث مباشر)</h4>
+            <p>مع بطاقة مفتوحة تحرّك بين الأيقونات بـ <kbd>◀</kbd><kbd>▶</kbd>، ومع لوحة مفتوحة بين الخيارات؛ <kbd>OK</kbd> يطبّق.</p>
+            <table class="tbl">
+                <tr><th>التبويب</th><th>الوصف</th></tr>
+                <tr><td>الانتقال إلى VOD</td><td>انتقال سريع إلى قسم الأفلام أو المسلسلات.</td></tr>
+                <tr><td>لغة البث</td><td>اختيار مسار الصوت إن كان للبث أكثر من واحد (وإلا تفضيل اللغة: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>حجم الصورة</td><td>النسبة: أصلي، اقتصاص/ملء، تمديد أفقي، تمديد عمودي، ملء الكل، 4:3، 16:9 — مع خيار «تطبيق على كل القنوات».</td></tr>
+                <tr><td>الترجمة</td><td>اختيار مسار الترجمة + لون النص (10 ألوان) والحجم.</td></tr>
+                <tr><td>PIP</td><td>يفتح وضع الشاشة المتعددة (<a href="#coklu-ekran">انظر أدناه</a>).</td></tr>
+                <tr><td>معلومات البث</td><td>بيانات البث التقنية (الدقة، الترميز…).</td></tr>
+                <tr><td>المشغّل</td><td>فك الترميز وخيارات سلوك المشغّل الأساسية.</td></tr>
+                <tr><td>الإعدادات</td><td>يفتح شاشة الإعدادات الرئيسية («فتح كل الإعدادات»).</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">الشاشة المتعددة (PIP)</h4>
+            <p>عبر <strong>PIP</strong> في البطاقة أو ميزة الشاشة المتعددة تُشاهَد عدة قنوات معًا (حتى 4 شاشات). خيارات قائمة الشاشة المتعددة:</p>
+            <ul>
+                <li><strong>إضافة شاشة / إغلاق شاشة:</strong> يفتح خلية بث جديدة أو يغلق المختارة.</li>
+                <li><strong>عرض متساوٍ / شاشة كبيرة:</strong> يقسم الشاشات بالتساوي أو يكبّر واحدة.</li>
+                <li><strong>تغيير القناة:</strong> يبدّل قناة الخلية المركّزة.</li>
+                <li><strong>ملء الشاشة / العودة للشاشات / شاشة واحدة:</strong> يوسّع الخلية أو يعيد عرض التعدد.</li>
+                <li><strong>تشغيل/إيقاف، كتم/تفعيل الصوت، إعادة التحميل:</strong> تشغيل وصوت لكل خلية (الصوت من شاشة واحدة في المرة).</li>
+            </ul>
+            <div class="warn"><p>الشاشة المتعددة تُجهد المعالج؛ على الأجهزة الضعيفة يُنصح بشاشتين.</p></div>
+
+            <h3 id="fs-vod">ملء الشاشة — فيلم / مسلسل</h3>
+            <p>في مشغّل VOD يُفتح OSD كلوحة تحكم أسفل: <strong>الحلقة/المحتوى السابق، للخلف، تشغيل/إيقاف، للأمام، التالي، اللغة والترجمة، معلومات، الإعدادات، من البداية</strong> وشريط التقدم.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>يفتح OSD؛ وهو مفتوح — يفعّل الزر المركّز (افتراضيًا تشغيل/إيقاف).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>تقدّم تدريجي على شريط التقدم؛ مع OSD مغلق يفتحه أولًا. في صف التحكم يتحرك بين الأزرار.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>حركة عمودية بين شريط التقدم ↔ صف التحكم ↔ بطاقة الإعدادات.</div>
+                <div><kbd>0–9</kbd></div><div>إدخال الدقائق — ينتقل إلى الدقيقة المُدخلة.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>للخلف/للأمام 30 ثانية (يظهر مؤشر على الشاشة).</div>
+                <div><kbd>Info</kbd></div><div>يفتح بطاقة معلومات الفيلم/المسلسل (الوصف، الممثلون، التقييم — TMDB).</div>
+                <div><kbd>رجوع</kbd></div><div>يغلق اللوحة/OSD؛ ضغط مجددًا يخرج مع حفظ التقدم.</div>
+            </div>
+            <ul>
+                <li><strong>بطاقة الحلقة التالية:</strong> في المسلسلات قبل ~30 ثانية من النهاية تظهر أسفل بطاقة «الانتقال إلى الحلقة التالية»؛ اضغط <kbd>OK</kbd> للانتقال.</li>
+                <li><strong>المتابعة من الموضع:</strong> المحتوى غير المُكمَل يستأنف عند إعادة الفتح من الثانية المحفوظة («متابعة»). يُحفظ التقدم عند الخروج.</li>
+                <li><strong>قائمة اللغة والترجمة:</strong> تبدّل فورًا مسارات الصوت والترجمة.</li>
+                <li><strong>إيماءات الجوال</strong> <span class="plat mob">جوال</span>: سحب عمودي على الحافة = الصوت، والأخرى = السطوع؛ اللمس يفتح OSD.</li>
+            </ul>
+            <p>بطاقة إعدادات VOD تشبه بطاقة البث المباشر؛ إضافةً إلى ذلك تحتوي <strong>إزاحة الصوت</strong> (منزلق + إعادة تعيين) و<strong>الانتقال إلى التلفزيون</strong>.</p>
+        </section>
+
+        <!-- ───────────── التسجيل والتذكيرات ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>التسجيل والتذكيرات <span class="plat pro">PRO</span></h2>
+
+            <h3>تسجيل البرامج</h3>
+            <ol>
+                <li>في EPG اضغط <kbd>OK</kbd> مطولًا على <strong>صف قناة</strong> البرنامج الذي تريد تسجيله.</li>
+                <li><strong>تسجيل</strong>: يضيف البرنامج إلى قائمة التسجيلات بالدقائق الإضافية من الإعدادات. دون برنامج يُجدول تسجيل يدوي لساعتين من الآن.</li>
+                <li><strong>تسجيل مخصص</strong>: يفتح نافذة اختيار دقائق البداية/النهاية الإضافية (0/+1/+5/+10 دقائق) قبل إنشاء التسجيل.</li>
+                <li>في الموعد المحدد يبدأ التسجيل تلقائيًا؛ على بطاقة البرنامج في التدفق تومض أيقونة REC.</li>
+            </ol>
+            <p>العناصر في <strong>الإعدادات › التسجيل</strong>:</p>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>مجلد التسجيلات</td><td>أين تُحفظ التسجيلات: الذاكرة الداخلية أو مجلد شبكة (SMB — «مسح الشبكة» يجد الموارد ويتصل باسم مستخدم/كلمة مرور).</td></tr>
+                <tr><td>وقت قبل / بعد التسجيل</td><td>وقت إضافي في بداية ونهاية كل تسجيل: 0، 1، 5 أو 10 دقائق. يساعد على عدم تفويت البداية/النهاية عند تأخر البرنامج أو إطالته.</td></tr>
+                <tr><td>قائمة التسجيلات</td><td>عدّادات الكل/المكتملة/المجدولة وكل التسجيلات: شغّل المكتملة بـ <kbd>OK</kbd>، ألغِ المنتظرة، احذف.</td></tr>
+            </table>
+            <div class="note"><p>تُكتب التسجيلات في المجلد المختار؛ تأكد من كفاية المساحة الحرة. يدعم اختيار USB/بطاقة SD.</p></div>
+
+            <h3 id="hatirlatici">التذكيرات</h3>
+            <ul>
+                <li>أنشئ تذكيرًا لبرنامج بعنصر <strong>إضافة تذكير</strong> في قائمة EPG السياقية؛ اختر مجددًا للحذف.</li>
+                <li>وقت الإشعار: <strong>قبل 1، 2، 5 أو 10 دقائق</strong> من بدء البرنامج.</li>
+                <li><strong>الإعدادات › التذكيرات</strong>: خيارات الإشعار و<strong>«الفتح التلقائي للقناة»</strong> (يبدّل التلفزيون نفسه إلى القناة في الموعد)؛ هنا تُدار أيضًا كل قائمة التذكيرات.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── الملفات والرقابة ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>الملفات الشخصية والرقابة الأبوية <span class="plat pro">PRO</span></h2>
+
+            <h3>إدارة الملفات الشخصية</h3>
+            <p>في <strong>الإعدادات › الملفات الشخصية</strong>:</p>
+            <ul>
+                <li><strong>إضافة ملف شخصي:</strong> ينشئ ملفًا جديدًا باسم واختيار صورة رمزية وPIN اختياري.</li>
+                <li><strong>قائمة الملفات:</strong> تعرض الملفات الموجودة؛ هنا تُعدَّل وتُحذف.</li>
+                <li>يحتفظ كل ملف بـ<em>مفضلاته ومحتوى «قائمتي» وسجله وإعداداته الشخصية</em>. يُسأل الملف النشط عند التشغيل؛ يُبدَّل فورًا عبر الصورة الرمزية في الشريط العلوي.</li>
+            </ul>
+
+            <h3 id="ebeveyn">الرقابة الأبوية</h3>
+            <p>العناصر في <strong>الإعدادات › الرقابة الأبوية</strong> (مع PIN معيَّن سيسأل دخول اللوحة عنه):</p>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>حماية PIN</td><td>حالة رمز PIN ذي 4 أرقام.</td></tr>
+                <tr><td>تغيير PIN</td><td>يعيّن PIN جديدًا من 4 أرقام (حذف PIN أيضًا هنا).</td></tr>
+                <tr><td>متطلبات PIN</td><td>يحدد في أي الحالات يُطلَب PIN.</td></tr>
+                <tr><td>قفل الإعدادات</td><td>إن مُفعَّل، دخول الإعدادات يتطلب PIN.</td></tr>
+                <tr><td>قفل محتوى 18+</td><td>يخفي محتوى البالغين خلف PIN.</td></tr>
+                <tr><td>قفل القنوات</td><td>فتح القنوات المقفلة يتطلب PIN (قفل القنوات: قائمة EPG السياقية).</td></tr>
+                <tr><td>الحد العمري</td><td>تقييد عمري — المحتوى دون العمر المختار يتطلب PIN. بجانبه «دليل التصنيفات العمرية» يشرح علامات الأنظمة الوطنية.</td></tr>
+                <tr><td>القنوات المخفية</td><td>يعرض القنوات المخفية ويعيدها مرئية.</td></tr>
+            </table>
+            <div class="tip"><p>نسيت PIN؟ اعمل نسخة احتياطية قبل إنشاء ملف جديد أو إعادة التثبيت؛ بيانات PIN تُحفظ مشفّرة على الجهاز.</p></div>
+        </section>
+
+        <!-- ───────────── الإعدادات ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>دليل الإعدادات</h2>
+            <p>شاشة الإعدادات تتكون من ثلاثة أعمدة: <strong>الأيمن</strong> — 13 فئة، <strong>الأوسط</strong> — عناصر الفئة، <strong>الأيسر</strong> — لوحة وصف/إعداد العنصر المختار. أيقونة <strong>العدسة</strong> في العنوان تفتح البحث في الإعدادات. <kbd>قناة+</kbd>/<kbd>−</kbd> تقفزان 10 صفوف في قائمة الفئات.</p>
+            <div class="warn"><p>في النسخة المجانية بعض الفئات مقفلة (أيقونة قفل): المشغّل، المظهر، بيانات الوسائط، التسجيل، التذكيرات، الملفات الشخصية، الرقابة الأبوية، التنزيلات وأخرى. الفئة المقفلة تفتح لوحة الترقية إلى Pro.</p></div>
+
+            <h3 id="ayar-listeler">1 · قوائم التشغيل</h3>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>إضافة قائمة</td><td>يضيف قائمة M3U جديدة (URL/ملف) أو Xtream (خادم+مستخدم+كلمة مرور).</td></tr>
+                <tr><td>وتيرة التحديث</td><td>فترة التحديث التلقائي: يدوي، 6، 12، 24، 48، 72، 168 ساعة.</td></tr>
+                <tr><td>تحديث كل القوائم</td><td>يعيد تحميل كل المصادر دفعة واحدة.</td></tr>
+                <tr><td>القوائم الموجودة</td><td>تعديل وحذف وتحديث المصادر؛ حالة نشط/غير نشط وآخر تحديث.</td></tr>
+                <tr><td>مجموعات القنوات</td><td>إخفاء وإعادة تسمية وإعادة ترتيب المجموعات.</td></tr>
+                <tr><td>مصادر EPG</td><td>تعيين مصدر EPG للقوائم («تعيين للقائمة»).</td></tr>
+                <tr><td>الفرز</td><td>ترتيب القنوات: بالاسم/الرقم، يدوي، أصلي أو حسب المجموعة.</td></tr>
+                <tr><td>فلاتر أسماء القنوات</td><td>إزالة البادئات/اللاحقات من الأسماء؛ قواعد بحرف بدل <code>*</code> ومعاينة مثال التحويل.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · الدليل التلفزيوني</h3>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>إضافة مصدر EPG</td><td>يضيف مصدر EPG بصيغة XMLTV (يعطي بيانات برامج القنوات).</td></tr>
+                <tr><td>مصادر EPG الموجودة</td><td>تعديل/حذف مصادر EPG؛ عدد القنوات وآخر تحديث لكل مصدر.</td></tr>
+                <tr><td>مطابقة EPG للقنوات</td><td>يطابق القنوات ببيانات EPG — تلقائيًا أو بتعيين يدوي؛ القنوات غير المطابقة مُدرجة.</td></tr>
+                <tr><td>وتيرة التحديث</td><td>فترة تحديث EPG في الخلفية: يدوي، 1، 2، 4، 6، 12، 24 ساعة.</td></tr>
+                <tr><td>التحديث عند التشغيل</td><td>إن مُفعَّل، يُحدَّث EPG تلقائيًا عند كل بدء للتطبيق.</td></tr>
+                <tr><td>التحديث عند تغيير القائمة</td><td>يحدّث EPG أيضًا تلقائيًا عند تغيّر/تحديث قائمة التشغيل.</td></tr>
+                <tr><td>بيانات EPG للأيام السابقة</td><td>كم يومًا من بيانات البرامج السابقة يُحتفظ به: لا، 1، 2، 3، 5 أو 7 أيام. أيام أكثر = ذاكرة أكبر.</td></tr>
+                <tr><td>الإزاحة الزمنية</td><td>يزيح وقت البرامج للأمام/للخلف بساعات/دقائق، إجمالًا أو لكل قناة (للمصادر ذات اختلاف المناطق الزمنية).</td></tr>
+                <tr><td>تحديث EPG</td><td>يبدأ التحديث اليدوي؛ يُعرض التقدم وعدد القنوات المعالَجة.</td></tr>
+                <tr><td>مسح EPG</td><td>يحذف بيانات البرامج المخزنة وذاكرة الصور؛ إعادة التحميل عند التحديث التالي.</td></tr>
+                <tr><td>آخر تحديث</td><td>القنوات المعالَجة وتاريخ التحديث لكل مصدر.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · المشغّل <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>الصورة</td><td>النسبة: أصلي، اقتصاص/ملء، تمديد أفقي، تمديد عمودي، ملء الكل، 4:3، 16:9؛ يُطبَّق على كل القنوات إن رغبت.</td></tr>
+                <tr><td>إخراج الفيديو</td><td>اختيار فك الترميز: عتادي (موصى به، بطارية/CPU أقل) أو برمجي (عند مشكلات التوافق).</td></tr>
+                <tr><td>إخراج الصوت</td><td>فك ترميز الصوت (عتادي/برمجي)، <strong>تمرير الصوت (Bitstream)</strong> — تدفق صوت خام لأنظمة المحيط، <strong>إزاحة الصوت</strong> (منزلق بالمللي ثانية + إعادة تعيين) ولغة الصوت الافتراضية.</td></tr>
+                <tr><td>الترجمة</td><td>حجم النص ولونه (10 ألوان) وموضعه (أعلى/وسط/أسفل) والترميز (UTF-8…).</td></tr>
+                <tr><td>تبديل القناة</td><td>سلوك التنقل: <strong>تأخير التبديل</strong> (بالمللي ثانية قبل التبديل الفعلي — يتجنب تحميلات زائدة عند التنقل السريع) و<strong>شاشة سوداء عند التبديل</strong> (سوداء أثناء تحميل القناة الجديدة؛ معطّل — القناة السابقة تبقى على الشاشة).</td></tr>
+                <tr><td>التخزين المؤقت</td><td>حجم المخزن: تلقائي، بلا، صغير (~1 ث)، متوسط (~3 ث، موصى به)، كبير (~8 ث)، كبير جدًا (~15+ ث). زِده للبث المتقطع؛ قلّله لتنقل أسرع.</td></tr>
+                <tr><td>VOD</td><td>تفضيلات الأفلام/المسلسلات: اختيار مشغّل خارجي (اختيار تلقائي / اختر تطبيق / مشغّل خارجي 1-2)، ترجمة تلقائية إلخ.</td></tr>
+                <tr><td>ساعة ملء الشاشة</td><td>ساعة على ملء الشاشة: تشغيل/إيقاف، الموضع، الحجم (صغير/متوسط/كبير)، تنسيق 24 ساعة، إظهار التاريخ.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · المظهر <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>اللغة</td><td>لغة الواجهة — اختيار من 24 لغة أو «لغة النظام»؛ تُصفَّى بحقل البحث.</td></tr>
+                <tr><td>الألوان</td><td>سمة التطبيق (داكن، أزرق، رمادي، أخضر، بنفسجي، أحمر، كهرماني، ليل، محيط، فحم، نبيذي، أزرق بحري، زمردي، غروب، فضاء، غرافيت)، لون التمييز (18 لونًا) وتعتيم OSD (مع معاينة).</td></tr>
+                <tr><td>الدليل التلفزيوني</td><td>مظهر EPG: تنسيق 24 ساعة، ارتفاع الصف (صغير/متوسط/كبير)، التخطيط (قائمة/شبكة).</td></tr>
+                <tr><td>قائمة القنوات</td><td>مظهر قائمة القنوات وتخطيط البطاقات.</td></tr>
+                <tr><td>الشعارات</td><td>أولوية مصدر الشعارات: <strong>XMLTV/EPG</strong>، <strong>القائمة (M3U)</strong> أو <strong>مجلد محلي</strong>؛ استخدم ملفات شعاراتك (PNG/JPG/WebP) باختيار المجلد.</td></tr>
+                <tr><td>مدة OSD</td><td>كم ثانية تبقى لوحة المعلومات على الشاشة — منفصلة للتلفزيون وVOD.</td></tr>
+                <tr><td>شاشة التوقف</td><td>الوقت حتى التفعيل عند الخمول: إيقاف، 1، 2، 5، 10، 15 أو 30 دقيقة.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · بيانات الوسائط <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>مفاتيح API</td><td>أدخل مفاتيح API الخاصة بك لـ TMDB وOMDb — تُحصَل عليها مجانًا من مواقع الخدمتين. ملصقات وأوصاف وممثلون وتقييمات IMDb للأفلام/المسلسلات تأتي من هذه الخدمات.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>تفعيل/تعطيل الخدمة. TMDB: ملصق+وصف+إعلان؛ OMDb: تقييم IMDb والنوع والمخرج.</td></tr>
+                <tr><td>ذاكرة تخزين ذكية</td><td>مفعّلة — تُحمَّل فقط بيانات المحتوى الظاهر على الشاشة؛ بدء أول أسرع.</td></tr>
+                <tr><td>إثراء يدوي فقط</td><td>يعطّل التحميل التلقائي للبيانات؛ الإثراء يحدث فقط عند تشغيلك له.</td></tr>
+                <tr><td>مجلد الذاكرة</td><td>المجلد حيث تُحفظ ذاكرة بيانات الوسائط.</td></tr>
+                <tr><td>إثراء كل المحتوى</td><td>ينزّل بيانات TMDB لكل محتوى VOD جماعيًا (قد يستغرق وقتًا).</td></tr>
+                <tr><td>إثراء حسب الفئات</td><td>يثرّي الفئات المختارة فقط.</td></tr>
+                <tr><td>مسح الذاكرة</td><td>يحذف كل ذاكرة بيانات الوسائط (يُعرض العدد والحجم).</td></tr>
+                <tr><td>فلاتر أسماء VOD</td><td>قواعد إزالة بادئات/لاحقات أسماء الأفلام/المسلسلات — تحسّن مطابقة TMDB.</td></tr>
+            </table>
+            <p>وأيضًا إعدادات معاينة الملصقات (إعلان عند التوقف): <strong>معاينة تلقائية</strong> (تشغّل الإعلان عند التوقف على ملصق)، <strong>صوت الإعلان</strong>، نقطة البدء ووقت الانتظار.</p>
+
+            <h3 id="ayar-diger">6–9، 11 · التسجيل، التذكيرات، الملفات، الرقابة الأبوية، التنزيلات، أخرى</h3>
+            <ul>
+                <li><strong>التسجيل</strong> <span class="plat pro">PRO</span> — المجلد، الوقت الإضافي، قائمة التسجيلات (<a href="#kayit">التفاصيل</a>).</li>
+                <li><strong>التذكيرات</strong> <span class="plat pro">PRO</span> — الإشعار والفتح التلقائي للقناة + القائمة (<a href="#hatirlatici">التفاصيل</a>).</li>
+                <li><strong>الملفات الشخصية</strong> <span class="plat pro">PRO</span> — قائمة الملفات وملف جديد (<a href="#profiller">التفاصيل</a>).</li>
+                <li><strong>الرقابة الأبوية</strong> <span class="plat pro">PRO</span> — PIN، أقفال، حد عمري، قنوات مخفية (<a href="#ebeveyn">التفاصيل</a>).</li>
+                <li><strong>التنزيلات</strong> <span class="plat pro">PRO</span> — المجلد، التنزيلات المتزامنة، Wi-Fi فقط، القائمة (<a href="#indirilenler">التفاصيل</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>عنصر أخرى <span class="plat pro">PRO</span></th><th>الوصف</th></tr>
+                <tr><td>صوت أزرار التحكم</td><td>يشغّل نقرة خفيفة عند التنقل بلوحة الاتجاهات.</td></tr>
+                <tr><td>لوحة مفاتيح التطبيق</td><td>استخدام لوحة مفاتيح التطبيق الخاصة أو لوحة النظام عند الإدخال.</td></tr>
+                <tr><td>البدء التلقائي</td><td>يبدأ التطبيق نفسه عند تشغيل الجهاز (التلفزيون).</td></tr>
+                <tr><td>إيقاف التشغيل عند الخروج</td><td>يتوقف التشغيل تلقائيًا عند مغادرة التطبيق.</td></tr>
+                <tr><td>إحصاءات المشاهدة</td><td>وقت مشاهدتك للأفلام والمسلسلات والبث المباشر (آخر 7/30 يومًا، الإجمالي)؛ قابلة للتصفير.</td></tr>
+                <tr><td>استهلاك البيانات</td><td>استهلاك بيانات الشبكة: مستلَم/مُرسَل والإجمالي.</td></tr>
+                <tr><td>نسخ احتياطي / استعادة</td><td>حفظ كل الإعدادات والمفضلات والملفات والسجل في ملف / استعادة من ملف.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 و 12 · الحسابات والمزامنة · عن التطبيق</h3>
+            <table class="tbl">
+                <tr><th>العنصر</th><th>الوصف</th></tr>
+                <tr><td>الحسابات والمزامنة والأجهزة</td><td>حالة حساب Google، إنشاء حساب مجهول، المزامنة التلقائية، مزامنة رخصة البريميوم، قائمة الأجهزة المرتبطة وحذفها، تسجيل الخروج و<strong>حذف الحساب</strong> (حذف نهائي بما فيه البيانات السحابية).</td></tr>
+                <tr><td>عن التطبيق</td><td>الإصدار ونوع الاشتراك ومدة الرخصة، قائمة الميزات (بث مباشر، VOD وIPTV، EPG، شاشة متعددة، تسجيل، تذكيرات، ملفات شخصية، رقابة أبوية، بحث ذكي، DLNA، مزامنة سحابية، قوائم مفضلة، بيانات وسائط) وجهات الاتصال.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── الجوال ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>تطبيق الجوال <span class="plat mob">جوال</span></h2>
+            <p>واجهة الجوال مصممة للمس؛ تستخدم نفس الحساب والقوائم.</p>
+            <ul>
+                <li><strong>شريط التبويبات السفلي:</strong> تلفزيون، أفلام، مسلسلات، قائمتي. في الوضع الأفقي تظهر قائمة عمودية عند الحافة.</li>
+                <li><strong>الشريط العلوي:</strong> الشعار، <strong>جهاز التحكم</strong>، <strong>البحث</strong>، <strong>DLNA/الأجهزة</strong>، ترس <strong>الإعدادات</strong> و<strong>صورة الملف</strong>.</li>
+                <li><strong>تبويبة التلفزيون:</strong> في الأعلى منطقة معاينة + فلتر «الكل»/المجموعات؛ في الأسفل بطاقات القنوات (شعار، اسم، خانة زمنية، برنامج حالي + تقدم، نجمة المفضلة، قائمة ☰).</li>
+                <li><strong>شاشة EPG:</strong> تدفق برامج اليوم؛ المس قناة لترى برامجها.</li>
+                <li><strong>التنزيلات / المحتوى دون اتصال:</strong> الأفلام والحلقات المنزّلة تُشاهَد بلا إنترنت؛ تشغيل وحذف من القائمة.</li>
+                <li><strong>شريط التنزيل</strong> السفلي يظهر على كل التبويبات أثناء تحميل المصادر.</li>
+            </ul>
+
+            <h3 id="kumanda">جهاز تحكم التلفزيون من الهاتف <span class="plat pro">PRO</span></h3>
+            <p>استخدم تطبيق الهاتف كجهاز تحكم لـ Android TV على نفس الشبكة:</p>
+            <ol>
+                <li>اترك TiviEase Go مفتوحًا على التلفزيون؛ على الهاتف المس <strong>أيقونة جهاز التحكم</strong> في الشريط العلوي.</li>
+                <li>اختر تلفزيونك من قائمة «أجهزة الشبكة» (لم يُعثر عليه؟ امسح مجددًا بزر «إعادة المحاولة»).</li>
+                <li>شاشة جهاز التحكم: <strong>لوحة اتجاهات + OK</strong>، أزرار رقمية، منقلات صوت/قناة، <strong>رجوع / الرئيسية</strong>، <strong>سكون / دليل / خيارات</strong>، <strong>أزرار ملونة</strong>، أزرار وسائط وزر <strong>لوحة المفاتيح</strong> لإدخال النص.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA والبث <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>مسح الشبكة</strong> يجد أجهزة DLNA/UPnP؛ اختر جهازًا وتصفح مجلدات وسائطه («المجلدات»، عدد العناصر).</li>
+                <li><strong>البث إلى التلفزيون / جهاز Cast:</strong> يُرسَل المحتوى المُشغَّل إلى جهاز على الشبكة؛ شاشة البث فيها شريط الموضع وتشغيل/إيقاف و«إيقاف البث».</li>
+                <li>«تغيير الجهاز» ينقل البث إلى جهاز آخر.</li>
+            </ul>
+
+            <h3 id="indirilenler">التنزيلات ودون اتصال <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>الإعدادات › التنزيلات:</strong> مجلد التنزيلات (ذاكرة داخلية أو SMB)، أقصى تنزيلات متزامنة، <strong>Wi-Fi فقط</strong> (يوفّر بيانات الجوال) وقائمة التنزيلات.</li>
+                <li>حالات القائمة: يُنزَّل، منتظر، مُنزَّل، خطأ/مُلغى — ألغِ المنتظرة، شغّل أو احذف المكتملة.</li>
+                <li>على الجوال تعرض شاشة «المحتوى دون اتصال» التنزيلات وتشغّلها بلا إنترنت.</li>
+            </ul>
+
+            <h3 id="yedekleme">النسخ الاحتياطي والاستعادة والمزامنة</h3>
+            <ul>
+                <li><strong>نسخ احتياطي</strong> (الإعدادات › أخرى): يحفظ كل الإعدادات والمفضلات والملفات والسجل في ملف واحد — مفيد عند تغيير الجهاز أو إعادة التعيين.</li>
+                <li><strong>استعادة البيانات:</strong> اختر الملف عبر «فتح ملف النسخة الاحتياطية» لاسترجاع الإعداد.</li>
+                <li><strong>المزامنة السحابية:</strong> عند الدخول عبر Google تتزامن البيانات في الخلفية؛ «المزامنة التلقائية» يمكن تعطيلها. الأجهزة المرتبطة تُعرَض/تُحذَف في لوحة الحسابات.</li>
+                <li>في شاشة Android TV الرئيسية يُظهر صف <strong>«متابعة المشاهدة»</strong> آخر ما شُوهِد.</li>
+            </ul>
+
+            <h3 id="premium">اشتراك Premium (Pro)</h3>
+            <p>النسخة المجانية تغطي قائمة واحدة + مصدر EPG واحد وإعدادات أساسية. رقِّ إلى Pro عبر <strong>الإعدادات</strong> بضغط فئة مقفلة، أو من شاشة Pro.</p>
+            <table class="tbl">
+                <tr><th>الخطة</th><th>السعر</th><th>الأجهزة</th></tr>
+                <tr><td>Pro شهري</td><td>₺9,99 / شهر</td><td>جهاز واحد</td></tr>
+                <tr><td>Pro سنوي</td><td>₺89,99 / سنة</td><td>جهاز واحد</td></tr>
+                <tr><td>Pro مدى الحياة</td><td>₺249,99 (مرة واحدة)</td><td>حتى 5 أجهزة</td></tr>
+            </table>
+            <ul>
+                <li>Pro يفتح <strong>قوائم ومصادر EPG بلا حدود</strong>، كل فئات الإعدادات، التسجيل، التذكيرات، الملفات، الرقابة الأبوية، التنزيلات، جهاز التحكم من الهاتف وDLNA.</li>
+                <li><strong>رمز التفعيل:</strong> يُفعَّل البريميوم بإدخال الرمز في «استخدام رمز التفعيل».</li>
+                <li>الرخصة مرتبطة بالسحابة — عند الدخول بنفس الحساب على جهاز آخر تتزامن تلقائيًا؛ عند تجاوز الحد احذف الجهاز القديم من القائمة.</li>
+                <li>للاستخدام دون اتصال يسري سماح 7 أيام بعد آخر تحقق.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── الأسئلة الشائعة ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>حل المشكلات والأسئلة الشائعة</h2>
+
+            <details class="faq"><summary>القنوات لا تأتي / القائمة لا تُحمَّل</summary><div class="faq-body"><p>تحقق أن URL صحيح ويبدأ بـ <code>http(s)://</code>. في الإعدادات › قوائم التشغيل › القوائم الموجودة، اختر المصدر وأعد التحميل بـ «تحديث»؛ لـ Xtream تحقق من غياب فراغات في اسم المستخدم/كلمة المرور. تحقق من اتصال الإنترنت وأن المزوّد متصل.</p></div></details>
+
+            <details class="faq"><summary>EPG (جدول البرامج) فارغ</summary><div class="faq-body"><p>أضف أولًا مصدر XMLTV عبر <strong>الإعدادات › الدليل التلفزيوني › إضافة مصدر EPG</strong> وحمّله بزر <strong>تحديث EPG</strong>. إن كانت القناة لا تزال بلا بيانات، اختر قناة EPG الصحيحة يدويًا عبر <strong>مطابقة EPG</strong> في القائمة السياقية. وقت مزاح؟ صحّحه بـ <strong>الإزاحة الزمنية</strong>.</p></div></details>
+
+            <details class="faq"><summary>البث لا يفتح أو يتجمّد</summary><div class="faq-body"><p>اضبط <strong>التخزين المؤقت</strong> على «متوسط/كبير» في الإعدادات › المشغّل؛ إن لم ينفع جرّب فك الترميز البرمجي في <strong>إخراج الفيديو</strong>. بث 4K يُجهد الأجهزة الضعيفة — يُفضَّل إصدار HD/FHD من القناة.</p></div></details>
+
+            <details class="faq"><summary>لا صوت أو الصوت والصورة غير متزامنين</summary><div class="faq-body"><p>جرّب تعطيل <strong>تمرير الصوت</strong> في الإعدادات › المشغّل › إخراج الصوت (البت-ستريم مشكلة على بعض الأجهزة). لعدم التزامن استخدم منزلق <strong>إزاحة الصوت</strong>؛ إن كان للبث لغة أخرى اختر المسار في <strong>لغة البث</strong> على بطاقة المشغّل.</p></div></details>
+
+            <details class="faq"><summary>الترجمة لا تظهر أو أحرف مشوّهة</summary><div class="faq-body"><p>اختر المسار الصحيح على بطاقة المشغّل أو في الإعدادات › المشغّل › الترجمة؛ عند أحرف مشوّهة غيّر <strong>الترميز</strong> (UTF-8…). الحجم/اللون/الموضع يُضبط في نفس اللوحة.</p></div></details>
+
+            <details class="faq"><summary>الملصقات ومعلومات الأفلام لا تأتي</summary><div class="faq-body"><p>تحقق في الإعدادات › بيانات الوسائط أن مفاتيح TMDB/OMDb مُدخَلة والخدمات مفعّلة (المفاتيح مجانية). احصل على البيانات جماعيًا عبر «إثراء كل المحتوى»؛ صحّح المطابقة الخاطئة بعنصر <strong>البحث عن المحتوى ومطابقته</strong> في قائمة المحتوى.</p></div></details>
+
+            <details class="faq"><summary>اشتريت Premium لكنه لم يُفتَح / لا يظهر على جهاز آخر</summary><div class="faq-body"><p>تأكد من تسجيل الدخول بنفس حساب Google — الرخصة تتزامن. إن كان حد الأجهزة ممتلئًا، احذف القديم في <strong>الإعدادات › الحسابات والمزامنة والأجهزة</strong>. عند الحاجة استخدم رمز التفعيل.</p></div></details>
+
+            <details class="faq"><summary>بعد سكون طويل للتلفزيون لا تفتح أي قناة</summary><div class="faq-body"><p>أغلق التطبيق تمامًا وافتحه مجددًا. التطبيق يغلق المشغّلات تلقائيًا عند الدخول في السكون؛ إن تعلّق رغم ذلك — إعادة التشغيل تحل.</p></div></details>
+
+            <details class="faq"><summary>كيف أنقل الإعدادات لجهاز آخر؟</summary><div class="faq-body"><p>أنشئ ملفًا عبر <strong>الإعدادات › أخرى › نسخ احتياطي</strong> واستورده على الجهاز الجديد عبر <strong>استعادة البيانات</strong> — أو سجّل الدخول عبر Google واستخدم المزامنة.</p></div></details>
+
+            <details class="faq"><summary>لا أستطيع استرجاع قناة / ليست في القائمة</summary><div class="faq-body"><p>ربما تكون مخفية: <strong>إظهار القنوات المخفية</strong> في قائمة EPG السياقية أو <strong>الإعدادات › الرقابة الأبوية › القنوات المخفية</strong> للاسترجاع. إن كانت مقفلة — تُفتَح بـ PIN. إن كانت المجموعة مخفية، تحقق من الإعدادات › قوائم التشغيل › مجموعات القنوات.</p></div></details>
+
+            <details class="faq"><summary>كيف أحذف حسابي؟</summary><div class="faq-body"><p><strong>الإعدادات › الحسابات والمزامنة والأجهزة › حذف الحساب</strong> يحذف الحساب نهائيًا مع بياناته السحابية. التفاصيل: صفحة <a href="account-deletion.ar.html">حذف الحساب</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>ما زلت بحاجة لمساعدة؟</h4>
+                <p>راسلنا: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — اذكر مشكلتك وطراز جهازك وإصدار التطبيق (الإعدادات › عن التطبيق).</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.ar.html">الرئيسية</a> · <a href="privacy.ar.html">الخصوصية</a> · <a href="account-deletion.ar.html">حذف الحساب</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('ar');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('ar');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

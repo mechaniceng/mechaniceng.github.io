@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilfezentrum — TiviEase Go</title>
+    <meta name="description" content="TiviEase Go Benutzerhandbuch: Einrichtung, Wiedergabelisten, EPG, Vollbild-Player, Einstellungen und Fehlerbehebung.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="Hilfezentrum — TiviEase Go">
+    <meta property="og:description" content="TiviEase Go Benutzerhandbuch: Einrichtung, Wiedergabelisten, EPG, Vollbild-Player, Einstellungen und Fehlerbehebung.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.de.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="de_DE">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.de.html">
+            <img src="assets/logo.png?v=2" alt="TiviEase Go Logo">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Menü">☰</button>
+        <nav class="site-nav">
+            <a href="index.de.html">Startseite</a>
+            <a href="index.de.html#ozellikler">Funktionen</a>
+            <a href="satin-al.en.html">Kaufen</a>
+            <a class="active" href="yardim.de.html">Hilfezentrum</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">Hilfezentrum</span>
+            <h1 style="font-size:34px">Wie wird es benutzt?</h1>
+            <p>Schritt-für-Schritt-Anleitungen für jeden Bildschirm — von der ersten Einrichtung bis zur kleinsten Einstellung. Wählen Sie ein Thema im linken Menü oder nutzen Sie die Suche.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">Kennzeichen: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">MOBIL</span> Smartphone/Tablet &nbsp; <span class="plat pro">PRO</span> Kostenpflichtige Funktion</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ SEITENLEISTE ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="Hilfe durchsuchen..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ Themen</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Erste Schritte<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">Erster Start</a>
+                        <a href="#profil-secimi">Profilauswahl</a>
+                        <a href="#qr-giris">Anmeldung per QR-Code</a>
+                        <a href="#google-giris">Google-Anmeldung</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Quellen<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">Wiedergabeliste hinzufügen</a>
+                        <a href="#liste-yonetimi">Listenverwaltung</a>
+                        <a href="#epg-kaynagi">EPG-Quelle hinzufügen</a>
+                        <a href="#grup-siralama">Gruppen, Sortierung, Filter</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Startbildschirm &amp; EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">Startbildschirm (TV)</a>
+                        <a href="#epg-rehberi">TV-Guide verwenden</a>
+                        <a href="#arama">Suche &amp; Sprachsuche</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Kontextmenüs<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">EPG-Kontextmenü</a>
+                        <a href="#vod-context">Film/Serien-Kontextmenü</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Player<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">Vollbild — Live-TV</a>
+                        <a href="#fs-tuslar">Fernbedienungstasten</a>
+                        <a href="#fs-paneller">Panels &amp; Einstellungskarte</a>
+                        <a href="#coklu-ekran">Multi-Screen (PIP)</a>
+                        <a href="#fs-vod">Vollbild — Filme/Serien</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Aufnahme &amp; Erinnerungen<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">Programmaufnahme</a>
+                        <a href="#hatirlatici">Erinnerungen</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profile &amp; Kindersicherung<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">Profilverwaltung</a>
+                        <a href="#ebeveyn">Kindersicherung</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Einstellungsguide<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">Einstellungsbildschirm</a>
+                        <a href="#ayar-listeler">Wiedergabelisten</a>
+                        <a href="#ayar-epg">TV-Guide</a>
+                        <a href="#ayar-oynatici">Player</a>
+                        <a href="#ayar-gorunum">Darstellung</a>
+                        <a href="#ayar-medya">Medieninfo</a>
+                        <a href="#ayar-diger">Aufnahme / Erinnerungen / Sonstiges</a>
+                        <a href="#ayar-hesap">Konto &amp; Über</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mobil &amp; Weiteres<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">Mobile App</a>
+                        <a href="#kumanda">Smartphone-Fernbedienung</a>
+                        <a href="#dlna">DLNA &amp; Streaming</a>
+                        <a href="#indirilenler">Downloads</a>
+                        <a href="#yedekleme">Backup &amp; Sync</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">Fehlerbehebung / FAQ</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">Keine Ergebnisse gefunden.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ INHALT ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── ERSTE SCHRITTE ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Erste Schritte</h2>
+            <p>TiviEase Go läuft mit einer einzigen App auf <strong>Android TV</strong> und <strong>Smartphone/Tablet</strong>. Die App selbst liefert keine Kanäle oder Inhalte — Sie fügen die <strong>M3U-Liste</strong> oder das <strong>Xtream-Codes-Konto</strong> Ihres eigenen IPTV-Anbieters hinzu.</p>
+
+            <h3>Begrüßungsbildschirm</h3>
+            <p>Wenn beim Öffnen der App keine Wiedergabeliste definiert ist, erscheint der <strong>Begrüßungsbildschirm</strong>. Er bietet vier Karten:</p>
+            <table class="tbl">
+                <tr><th>Karte</th><th>Funktion</th></tr>
+                <tr><td>Wiedergabeliste hinzufügen<br><small>M3U / Xtream</small></td><td>Wechselt zum Startbildschirm und öffnet das Formular zum Hinzufügen. Details: <a href="#kaynak-ekleme">Wiedergabeliste hinzufügen</a>.</td></tr>
+                <tr><td>Mit Google anmelden<br><small>Cloud-Sync</small></td><td>Meldet Sie mit Ihrem Google-Konto an; Ihre Quell-Einstellungen, Favoriten und Ihr Wiedergabeverlauf werden aus der Cloud geladen, danach werden die Listen automatisch aktualisiert.</td></tr>
+                <tr><td>Mit QR-Code anmelden<br><small>Vom Smartphone scannen</small> <span class="plat tv">TV</span></td><td>Zeigt auf dem TV einen 3 Minuten gültigen QR-Code; nach dem Scannen mit der Smartphone-App und Bestätigen meldet sich der TV mit demselben Konto an.</td></tr>
+                <tr><td>Einstellungen<br><small>System &amp; Profil</small></td><td>Öffnet den Einstellungsbildschirm, falls Sie sich erst umsehen möchten.</td></tr>
+            </table>
+            <div class="tip"><p><strong>Tipp:</strong> Wenn Sie TiviEase Go bereits auf einem anderen Gerät nutzen, sind <strong>Google-Anmeldung</strong> oder <strong>QR-Anmeldung</strong> der schnellste Weg — alle Listen und Einstellungen kommen automatisch mit.</p></div>
+
+            <h3 id="profil-secimi">Profilauswahl</h3>
+            <p>Sind mehrere Profile definiert, erscheint beim Start der Bildschirm <strong>„Profil wählen"</strong>. Mit Pfeiltasten + <kbd>OK</kbd> wählen. PIN-geschützte Profile fragen zuerst die PIN ab. Jedes Profil hat eigene <em>Favoriten, „Meine Liste"-Inhalte, Wiedergabeverlauf und persönliche Einstellungen</em>.</p>
+            <ul>
+                <li>Profile hinzufügen/bearbeiten: <strong>Einstellungen › Profile</strong> (siehe <a href="#profiller">Profilverwaltung</a>).</li>
+                <li>Profil im laufenden Betrieb wechseln: über das <strong>Avatar-Symbol</strong> in der oberen Leiste.</li>
+            </ul>
+
+            <h3 id="qr-giris">Anmeldung per QR-Code <span class="plat tv">TV</span> <span class="plat mob">MOBIL</span></h3>
+            <p>Nutzen Sie Ihr Smartphone statt Zugangsdaten auf dem TV einzutippen:</p>
+            <ol>
+                <li>Auf dem TV die Karte <strong>Mit QR-Code anmelden</strong> öffnen (Begrüßungsbildschirm oder Einstellungen › Konten) — ein QR-Code erscheint. Er ist <strong>3 Minuten</strong> gültig.</li>
+                <li>Auf dem Smartphone die TiviEase-Go-App öffnen und den Code mit dem QR-Scanner einscannen.</li>
+                <li>Auf dem Smartphone <strong>„Anmelden"</strong> tippen — „Bestätigt — TV meldet sich an" erscheint.</li>
+                <li>Der TV meldet sich binnen Sekunden mit Ihrem Konto an; Listen und Einstellungen werden synchronisiert.</li>
+            </ol>
+            <div class="note"><p>Läuft der QR-Code ab, Dialog schließen und erneut öffnen — ein neuer Code wird erzeugt. Für die QR-Anmeldung muss auf dem Smartphone dieselbe App geöffnet und bereits angemeldet sein.</p></div>
+
+            <h3 id="google-giris">Google-Anmeldung und Synchronisation</h3>
+            <p>Bei Anmeldung mit einem Google-Konto werden folgende Daten zwischen Geräten synchronisiert: Quell-/Listen-Einstellungen, Favoriten, „Meine Liste", Wiedergabeverlauf, Profile und die Premium-Lizenz. Nach der ersten Anmeldung werden Quellen und EPG automatisch geladen — keine manuelle Aktualisierung nötig.</p>
+            <ul>
+                <li>Sync-Einstellungen und verbundene Geräte: <strong>Einstellungen › Konten, Sync &amp; Geräte</strong>.</li>
+                <li>Die App funktioniert auch ohne Konto — Daten bleiben dann nur auf dem Gerät.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── QUELLEN ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Wiedergabeliste hinzufügen</h2>
+            <p>Zwei Quellentypen werden unterstützt: <strong>M3U</strong> (URL oder lokale Datei) und <strong>Xtream Codes</strong> (Server + Zugangsdaten). Beim Hinzufügen wird der Inhalt automatisch als <em>Live-TV / Filme / Serien</em> klassifiziert.</p>
+
+            <h3>Wo hinzufügen?</h3>
+            <ul>
+                <li>Über die Karte <strong>Wiedergabeliste hinzufügen</strong> auf dem Begrüßungsbildschirm,</li>
+                <li>oder über <strong>Einstellungen › Wiedergabelisten › Wiedergabeliste hinzufügen</strong>.</li>
+            </ul>
+
+            <h3>M3U-Liste hinzufügen</h3>
+            <ol>
+                <li><strong>Wiedergabeliste hinzufügen</strong> öffnen und die Karte <strong>M3U / XMLTV</strong> wählen.</li>
+                <li>Im Feld <strong>Name</strong> einen Namen vergeben (z. B. „Hauptliste").</li>
+                <li>Im Feld <strong>URL / Dateipfad</strong> den M3U-Link eingeben <em>oder</em> per Ordner-Symbol eine Datei vom Gerät wählen. Unterstützte Endungen: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li><strong>Hinzufügen</strong> — die Liste wird heruntergeladen und verarbeitet; der Fortschritt erscheint im Ladeband unten.</li>
+            </ol>
+            <div class="note"><p>Bei Dateiauswahl wird der Dateiname automatisch übernommen, falls das Namensfeld leer ist. URLs müssen mit http/https beginnen.</p></div>
+
+            <h3>Xtream-Codes-Konto hinzufügen</h3>
+            <ol>
+                <li>Die Karte <strong>Xtream</strong> wählen.</li>
+                <li><strong>Quellname</strong>: ein beliebiger Name (z. B. „Haupt-Xtream").</li>
+                <li><strong>Server-URL</strong>: die Adresse Ihres Anbieters, z. B. <code>http://server.com:8080</code></li>
+                <li><strong>Benutzername</strong> und <strong>Passwort</strong>: die Zugangsdaten Ihres Anbieters. Mit dem Augen-Symbol im Passwortfeld sehen Sie die Eingabe.</li>
+                <li><strong>Hinzufügen</strong> — die App verbindet sich mit der Xtream-API; Live-Streams, Filme und Serien werden getrennt geladen.</li>
+            </ol>
+            <div class="warn"><p><strong>In der Gratisversion</strong> kann insgesamt <strong>1 Liste</strong> hinzugefügt werden (M3U oder Xtream — nicht beides). Unbegrenzte Listen erfordern <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">Listenverwaltung</h3>
+            <p>Elemente unter <strong>Einstellungen › Wiedergabelisten</strong>:</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>Vorhandene Listen</td><td>Zeigt definierte M3U- und Xtream-Quellen; jede Karte enthält das letzte Aktualisierungsdatum und den Aktiv/Inaktiv-Status. Quelle wählen zum Bearbeiten, Löschen oder Aktualisieren. Die Gesamtkarte zeigt die Verteilung Live/Serien/Filme.</td></tr>
+                <tr><td>Aktualisierungshäufigkeit</td><td>Automatisches Aktualisierungsintervall der Listen: <strong>Manuell, 6, 12, 24, 48, 72 oder 168 Stunden</strong>. Bei Manuell wird nur auf Ihre Anweisung aktualisiert.</td></tr>
+                <tr><td>Alle Listen aktualisieren</td><td>Lädt alle Quellen auf einmal neu herunter. Die Quellen werden im Hintergrund nacheinander verarbeitet; Fortschritt im Ladeband.</td></tr>
+                <tr><td>EPG-Quellen</td><td>Zuweisung, welche EPG-Quelle zu welcher Liste gehört („Liste zuweisen").</td></tr>
+                <tr><td>Sendergruppen</td><td>Aus der Liste kommende Gruppen (Sport, Nachrichten usw.) verstecken, umbenennen und neu sortieren.</td></tr>
+                <tr><td>Sortierung</td><td>Senderreihenfolge: <strong>Nach Name, Nach Nummer, Manuelle Sortierung, Originalreihenfolge, Nach Gruppe</strong>.</td></tr>
+                <tr><td>Sendernamen-Filter</td><td>Regeln zum automatischen Entfernen von Prä-/Suffixen aus Sendernamen (z. B. „TR:", „|4K"). <code>*</code>-Platzhalter wird unterstützt; das Feld „Beispielumwandlung" zeigt eine Vorschau.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">EPG-Quelle hinzufügen (XMLTV)</h3>
+            <p>Für den Programmführer fügen Sie die XMLTV/EPG-Adresse Ihres IPTV-Anbieters hinzu:</p>
+            <ol>
+                <li><strong>Einstellungen › TV-Guide › EPG-Quelle hinzufügen</strong> öffnen.</li>
+                <li>Name und <strong>URL / Adresse</strong> eingeben und speichern.</li>
+                <li>Nach dem Laden werden Sender automatisch anhand der Namensähnlichkeit zugeordnet; nicht zugeordnete können Sie über <a href="#epg-rehberi">Sender-EPG-Zuordnung</a> manuell verknüpfen.</li>
+            </ol>
+            <div class="warn"><p>Die Gratisversion erlaubt <strong>1 EPG-Quelle</strong>. Manche Xtream-Anbieter liefern ihr eigenes EPG — beim Hinzufügen einer Xtream-Quelle kommt das EPG oft automatisch mit.</p></div>
+
+            <h3 id="grup-siralama">Gruppen, Sortierung und Namensfilter</h3>
+            <ul>
+                <li><strong>Sendergruppen:</strong> Verwaltung der aus M3U/Xtream kommenden Gruppenüberschriften. Versteckte Gruppen erscheinen nicht in der TV-Liste; die Sortierung bestimmt die Gruppenreihenfolge.</li>
+                <li><strong>Sortierung:</strong> Mit „Manuelle Sortierung" erstellen Sie eine eigene Reihenfolge in der Senderliste; „Originalreihenfolge" behält die Reihenfolge der Listendatei bei.</li>
+                <li><strong>Namensfilter:</strong> Entfernt Muster am Anfang/Ende von Sendernamen (z. B. Länderpräfixe) — die Liste wird lesbarer. Separater Filter für VOD-Namen: <strong>Einstellungen › Medieninfo › VOD-Namensfilter</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── STARTBILDSCHIRM & EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Startbildschirm &amp; TV-Guide <span class="plat tv">TV</span></h2>
+
+            <h3>Obere Leiste und Menüs</h3>
+            <p>Oben auf dem TV-Startbildschirm liegt ein horizontales Menü. Mit <kbd>◀</kbd><kbd>▶</kbd> navigieren, mit <kbd>OK</kbd> wählen, mit <kbd>▼</kbd> in den Inhaltsbereich wechseln.</p>
+            <table class="tbl">
+                <tr><th>Menü</th><th>Inhalt</th></tr>
+                <tr><td>Suche</td><td>Intelligente Suche — Sender, Filme, Serien und Programmsuche; unterstützt Sprachsuche.</td></tr>
+                <tr><td>TV</td><td>Senderliste + EPG-Raster und Live-Vorschaukarte.</td></tr>
+                <tr><td>Filme</td><td>Kategoriespalte (Action, Komödie, Drama, Sci-Fi, Horror, Familie, Favoriten, Neuheiten, Weiterschauen) + Postergalerie.</td></tr>
+                <tr><td>Serien</td><td>Kategorien wie Lokale/Internationale Serien, Daytime, Prime Time + Postergalerie.</td></tr>
+                <tr><td>Meine Liste</td><td>Favoriten, Meine Filme, Meine Serien, Weiterschauen, Aufnahmen, Erinnerungen, Downloads, Offline-Inhalte.</td></tr>
+                <tr><td>Einstellungen</td><td>Zahnrad-Symbol rechts — öffnet das Einstellungspanel mit 13 Kategorien.</td></tr>
+            </table>
+            <p>Symbole rechts in der oberen Leiste: <strong>Profil-Avatar</strong> (Profilwechsel), <strong>Einstellungszahnrad</strong> und <strong>Geräte</strong>-Button (DLNA/Cast).</p>
+            <div class="note"><p>In langen Listen springen <kbd>Kanal+</kbd>/<kbd>Kanal−</kbd> (oder Page Up/Down) jeweils 10 Zeilen. <kbd>Zurück</kbd> kehrt eine Ebene zurück; auf dem Startbildschirm fragt es eine Beenden-Bestätigung ab.</p></div>
+
+            <h3>Postergalerie und Vorschau</h3>
+            <ul>
+                <li>Auf Film-/Serienseiten werden Poster im Raster gelistet; beim Verweilen vergrößert sich die Karte und — falls aktiviert — spielt eine <strong>Trailer-Vorschau</strong> (Einstellung: Medieninfo › Auto-Vorschau).</li>
+                <li>Langes <kbd>OK</kbd> auf einem Poster öffnet das <a href="#vod-context">Kontextmenü</a>.</li>
+                <li>Auf der TV-Seite spielt beim Verweilen auf einer Senderzeile das <strong>Live-Vorschau</strong>-Fenster rechts oben diesen Sender klein ab.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">TV-Guide (EPG) verwenden</h3>
+            <p>Im TV-Menü wechselt man zwischen zwei Ansichten: <strong>Senderliste</strong> und <strong>EPG-Raster</strong> („Zur EPG-Liste wechseln" / „Zur Senderliste wechseln").</p>
+            <ul>
+                <li><strong>Linke Spalte:</strong> Senderlogos und -namen. <kbd>▲</kbd><kbd>▼</kbd> wechseln den Sender; rechts erscheinen seine Programme.</li>
+                <li><strong>Rechtes Raster:</strong> Zeitleiste — Programmkarten mit Dauer. <kbd>◀</kbd><kbd>▶</kbd> bewegen durch die Zeit.</li>
+                <li><strong>Tageswahl:</strong> Mit Gestern / Heute / Morgen und den Pfeilen „vorheriger/nächster Tag" kann man so weit zurückschauen, wie es die Einstellung <em>Vergangene EPG-Daten</em> erlaubt.</li>
+                <li><strong>Langes <kbd>OK</kbd> auf einer Senderzeile:</strong> öffnet das <a href="#epg-context">EPG-Kontextmenü</a> (Favorit, Aufnahme, Erinnerung, Verstecken usw.).</li>
+                <li>Kurzes <kbd>OK</kbd> auf einem Sender: startet ihn im Vollbild.</li>
+            </ul>
+            <div class="tip"><p>Kein EPG auf einem Sender? Erst prüfen, ob eine EPG-Quelle definiert und aktuell ist (Einstellungen › TV-Guide › EPG aktualisieren), dann den Sender per „EPG zuordnen" manuell verknüpfen.</p></div>
+
+            <h3 id="arama">Suche &amp; Sprachsuche</h3>
+            <ul>
+                <li>Das Menü <strong>Suche</strong> (oder „Suche" im Kontextmenü) öffnet die intelligente Suche. Sie durchsucht Filme, Serien, Sendernamen und EPG-Programme („Programmtreffer", „TV-Sendungen") gemeinsam.</li>
+                <li>Das Mikrofon-Symbol startet die <strong>Sprachsuche</strong> — sprechen, während „Ich höre zu…" angezeigt wird; beim ersten Mal wird die Mikrofon-Berechtigung abgefragt.</li>
+                <li>Der <strong>Suchverlauf</strong> listet frühere Suchen; mit „Löschen" leeren.</li>
+                <li>Auf Mobilgeräten erfüllt der Such-Tab denselben Zweck; per Tippen eingeben.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── KONTEXTMENÜS ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Kontextmenüs</h2>
+
+            <h3>EPG-Kontextmenü <span class="plat tv">TV</span></h3>
+            <p><strong>Öffnen:</strong> Auf einer Senderzeile im TV-Guide <kbd>OK</kbd> <strong>lang drücken</strong> — das Menü schiebt sich von rechts herein. Mit <kbd>▲</kbd><kbd>▼</kbd> navigieren, <kbd>OK</kbd> wählen, <kbd>Zurück</kbd> schließen.</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Funktion</th></tr>
+                <tr><td>Sender öffnen</td><td>Startet den gewählten Sender im Vollbild.</td></tr>
+                <tr><td>Suche</td><td>Öffnet die intelligente Suche.</td></tr>
+                <tr><td>TV / Filme / Serien / Meine Liste / Einstellungen</td><td>Schnellwechsel-Shortcuts zu den anderen Hauptbereichen außer dem aktuellen.</td></tr>
+                <tr><td>Zu Favoriten / Aus Favoriten entfernen</td><td>Fügt den Sender den Favoriten hinzu bzw. entfernt ihn; Favoriten erscheinen in TV-Liste und Meine Liste.</td></tr>
+                <tr><td>In externem Player öffnen</td><td>Sendet den Stream an eine andere Player-App auf dem Gerät (VLC, MX Player usw.).</td></tr>
+                <tr><td>Aufnehmen</td><td>Fügt das gewählte Programm (oder bei fehlendem Programm eine 2-stündige manuelle Aufnahme) der Aufnahmeliste hinzu. Die Extra-Minuten aus den Einstellungen werden automatisch angewendet.</td></tr>
+                <tr><td>Benutzerdefinierte Aufnahme</td><td>Zeigt vor der Aufnahme einen Dialog zur Wahl zusätzlicher Start-/Endminuten (+0/+1/+5/+10 Min.).</td></tr>
+                <tr><td>Erinnerung setzen / entfernen</td><td>Sie werden vor Programmbeginn benachrichtigt; bei aktiviertem „Kanal automatisch öffnen" schaltet der Sender von selbst um.</td></tr>
+                <tr><td>EPG zuordnen</td><td>Ordnet die Programmdaten des Senders manuell dem richtigen EPG-Kanalnamen zu.</td></tr>
+                <tr><td>EPG aktualisieren</td><td>Lädt die definierten EPG-Quellen neu herunter.</td></tr>
+                <tr><td>EPG löschen</td><td>Löscht zwischengespeicherte Programmdaten; sie werden bei der nächsten Aktualisierung neu geladen.</td></tr>
+                <tr><td>Logos aktualisieren</td><td>Lädt Senderlogos neu herunter (gemäß Logoquellen-Einstellung).</td></tr>
+                <tr><td>Sender sperren / Sperre aufheben</td><td>Legt den Sender im Rahmen der Kindersicherung hinter eine PIN; das Öffnen verlangt die PIN.</td></tr>
+                <tr><td>Sender verstecken / einblenden</td><td>Versteckt den Sender in der Liste; zurückholen über „Versteckte Sender anzeigen" oder Einstellungen › Kindersicherung › Versteckte Sender.</td></tr>
+                <tr><td>Versteckte Sender anzeigen</td><td>Blendet versteckte Sender vorübergehend wieder in die Liste ein.</td></tr>
+            </table>
+
+            <h3 id="vod-context">Film-/Serien-Kontextmenü</h3>
+            <p><strong>Öffnen:</strong> <kbd>OK</kbd> auf einem Poster lang drücken (mobil: lange tippen / das ☰-Symbol).</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Funktion</th></tr>
+                <tr><td>Fortsetzen</td><td>Setzt an der letzten Position fort (nur sichtbar bei vorhandenem Wiedergabefortschritt).</td></tr>
+                <tr><td>Abspielen</td><td>Spielt den Inhalt von Anfang an.</td></tr>
+                <tr><td>Extern abspielen</td><td>Sendet an eine andere Player-App.</td></tr>
+                <tr><td>Trailer</td><td>Öffnet den auf TMDB gefundenen Trailer.</td></tr>
+                <tr><td>Vollbild-Poster / Banner anzeigen <span class="plat tv">TV</span></td><td>Wechselt die Galerieansicht zwischen Posterraster und Banner-Layout.</td></tr>
+                <tr><td>Sortieren / Filtern</td><td>Öffnet Sortier- und Filteroptionen für die Galerie.</td></tr>
+                <tr><td>Erscheinungsjahr</td><td>Filtert Inhalte nach Jahr.</td></tr>
+                <tr><td>Kategorie</td><td>Filtert nach Genre (Action, Komödie …).</td></tr>
+                <tr><td>Mehr Info</td><td>Öffnet das Detailpanel mit Inhalt, Besetzung, Regie, Bewertung und Episodenliste.</td></tr>
+                <tr><td>Zu Meiner Liste hinzufügen / Entfernen</td><td>Fügt den Inhalt „Meine Liste › Meine Filme/Serien" hinzu oder entfernt ihn.</td></tr>
+                <tr><td>Aus Wiedergabeverlauf entfernen</td><td>Löscht die gespeicherte Position; der Inhalt fällt aus „Weiterschauen" heraus.</td></tr>
+                <tr><td>Aus Gesehenen entfernen / Gesehene löschen</td><td>Entfernt die „Gesehen"-Markierung oder leert den gesamten Verlauf.</td></tr>
+                <tr><td>Aus Offline-Inhalten entfernen</td><td>Löscht den heruntergeladenen Inhalt (nur bei Downloads sichtbar).</td></tr>
+                <tr><td>Inhalt suchen &amp; zuordnen</td><td>Falls die TMDB-Zuordnung falsch/fehlt, können Sie manuell den richtigen Film/die Serie suchen und zuordnen.</td></tr>
+                <tr><td>Mehrfachauswahl <span class="plat mob">MOBIL</span></td><td>Öffnet einen Modus zur Auswahl mehrerer Poster für Stapelaktionen.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── PLAYER ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Vollbild-Player</h2>
+
+            <h3>Live-TV Vollbild <span class="plat tv">TV</span></h3>
+            <p>Beim Öffnen eines Senders läuft das Video im Vollbild. Alle Panels lassen sich per Fernbedienung öffnen und schließen nach einiger Zeit ohne Eingabe von selbst (Senderliste ~8 s, Programmstrom ~15 s).</p>
+
+            <h4 id="fs-tuslar">Fernbedienungstasten — Live-TV</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> kurz</div><div>Öffnet/schließt das OSD (Info-Balken).</div>
+                <div><kbd>OK</kbd> lang</div><div>Öffnet die Player-Einstellungskarte (unten).</div>
+                <div><kbd>▶</kbd> rechts</div><div>Öffnet die Senderliste am rechten Rand. Bei geöffneter Liste nochmals rechts → zur Kategorie-(Gruppen-)Spalte wechseln.</div>
+                <div><kbd>◀</kbd> links</div><div>Öffnet den EPG-„Programmstrom" am linken Rand; schließt das Panel, falls offen.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Senderwechsel; bei geöffneter Liste Auswahl bewegen.</div>
+                <div><kbd>0–9</kbd></div><div>Sendernummern-Eingabe per Zifferntasten — springt nach Abschluss auf den Sender.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> oder <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>Nächster/vorheriger Sender (in geöffneter Liste bewegen).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>Öffnet/schließt den EPG-Programmstrom.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>Zurück zum zuletzt gesehenen Sender.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Vorheriger/nächster Sender.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>Stream pausieren/fortsetzen.</div>
+                <div><kbd>●</kbd> Record-Taste</div><div>Senderliste öffnen/schließen.</div>
+                <div><kbd>Zurück</kbd></div><div>Offenes Panel schließen → OSD schließen → Player verlassen.</div>
+            </div>
+
+            <h4 id="fs-paneller">Panels und Einstellungskarte</h4>
+            <table class="tbl">
+                <tr><th>Panel</th><th>Öffnen mit</th><th>Inhalt</th></tr>
+                <tr><td>OSD (Info-Balken)</td><td><kbd>OK</kbd> kurz</td><td>Sendername/-logo, aktuelles und nächstes Programm, Fortschritt, Uhr (bei aktivierter Vollbild-Uhr).</td></tr>
+                <tr><td>Senderliste</td><td><kbd>▶</kbd> oder <kbd>●</kbd></td><td>Von rechts hereinziehende Senderliste; hoch/runter wählen, <kbd>OK</kbd> wechselt. Erneut <kbd>▶</kbd> öffnet die Gruppen-/Kategoriespalte — <kbd>OK</kbd> wendet die Gruppe an.</td></tr>
+                <tr><td>EPG-Programmstrom</td><td><kbd>◀</kbd> oder <kbd>Info</kbd></td><td>Von links hereinziehende Programmliste: die Sendungen des Tages. <kbd>▲</kbd><kbd>▼</kbd> navigieren; auf einem Programm <kbd>OK</kbd> lang → Erinnerungs-/Aufnahmeaktionen.</td></tr>
+                <tr><td>Player-Einstellungskarte</td><td><kbd>OK</kbd> lang</td><td>Schnelleinstellungskarte mit 8 Symbolen (Tabelle unten).</td></tr>
+            </table>
+
+            <h4>Player-Einstellungskarte (Live-TV)</h4>
+            <p>Bei geöffneter Karte mit <kbd>◀</kbd><kbd>▶</kbd> zwischen Symbolen wechseln, bei offenem Panel zwischen Optionen; <kbd>OK</kbd> wendet an.</p>
+            <table class="tbl">
+                <tr><th>Reiter</th><th>Beschreibung</th></tr>
+                <tr><td>VOD-Shortcut</td><td>Schnellwechsel zu Filme oder Serien.</td></tr>
+                <tr><td>Sendsprache</td><td>Tonspur-Auswahl bei mehreren Spuren (sonst Sprachpräferenz: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>Bildgröße</td><td>Seitenverhältnis: Original, Zuschneiden/Füllen, Horizontal strecken, Vertikal strecken, Vollständig füllen, 4:3, 16:9 — mit Option „auf alle Sender anwenden".</td></tr>
+                <tr><td>Untertitel</td><td>Untertitelspur-Auswahl + Schriftfarbe (10 Farben) und -größe.</td></tr>
+                <tr><td>PIP</td><td>Öffnet den Multi-Screen-Modus (<a href="#coklu-ekran">siehe unten</a>).</td></tr>
+                <tr><td>Stream-Info</td><td>Technische Details des Streams (Auflösung, Codec usw.).</td></tr>
+                <tr><td>Player</td><td>Decoder- und grundlegende Player-Verhaltensoptionen.</td></tr>
+                <tr><td>Einstellungen</td><td>Öffnet den Haupt-Einstellungsbildschirm („Alle Einstellungen öffnen").</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">Multi-Screen (PIP)</h4>
+            <p>Mit <strong>PIP</strong> auf der Einstellungskarte bzw. der Multi-Screen-Funktion können mehrere Sender gleichzeitig laufen (bis zu 4 Bildschirme). Optionen im Multi-Screen-Menü:</p>
+            <ul>
+                <li><strong>Bildschirm hinzufügen / schließen:</strong> öffnet eine neue Stream-Zelle bzw. schließt die ausgewählte.</li>
+                <li><strong>Gleichmäßige Ansicht / Großbild:</strong> teilt Bildschirme gleichmäßig oder vergrößert einen.</li>
+                <li><strong>Sender wechseln:</strong> wechselt den Sender der fokussierten Zelle.</li>
+                <li><strong>Vollbild / Zu Bildschirmen / Einzelbild:</strong> vergrößert eine Zelle oder kehrt zur Multi-Ansicht zurück.</li>
+                <li><strong>Play/Pause, Stumm/Laut, Neu laden:</strong> Wiedergabe- und Tonsteuerung pro Zelle (Ton kommt jeweils nur von einem Bildschirm).</li>
+            </ul>
+            <div class="warn"><p>Multi-Screen belastet den Prozessor des Geräts; auf schwächeren TVs werden 2 Bildschirme empfohlen.</p></div>
+
+            <h3 id="fs-vod">Film-/Serien-Vollbild</h3>
+            <p>Im VOD-Player öffnet sich das OSD als Steuerleiste unten: <strong>Vorherige Folge/Inhalt, Zurückspulen, Play/Pause, Vorspulen, Nächste, Sprache &amp; Untertitel, Info, Einstellungen, Von vorn</strong> und Fortschrittsbalken.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>Öffnet das OSD; bei offenem OSD aktiviert es den fokussierten Button (Standard: Play/Pause).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>Schrittweises Spulen auf dem Fortschrittsbalken; bei geschlossenem OSD erst OSD öffnen. In der Steuerzeile zwischen Buttons wechseln.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Vertikaler Wechsel zwischen Fortschrittsbalken ↔ Steuerzeile ↔ Einstellungskarte.</div>
+                <div><kbd>0–9</kbd></div><div>Minuten-Eingabe — springt zur getippten Minute.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>30 Sekunden zurück/vor (Anzeige erscheint auf dem Bildschirm).</div>
+                <div><kbd>Info</kbd></div><div>Öffnet die Film-/Serien-Infokarte (Inhalt, Besetzung, Bewertung — TMDB).</div>
+                <div><kbd>Zurück</kbd></div><div>Panel/OSD schließen; erneut drücken → verlassen und Fortschritt speichern.</div>
+            </div>
+            <ul>
+                <li><strong>Nächste-Folge-Karte:</strong> bei Serien erscheint ~30 Sekunden vor Folgenende unten die Karte „Zur nächsten Folge"; mit <kbd>OK</kbd> überspringen.</li>
+                <li><strong>An letzter Stelle fortsetzen:</strong> mittendrin verlassene Inhalte laufen beim nächsten Öffnen ab der gespeicherten Sekunde („Fortsetzen"). Der Fortschritt wird beim Verlassen automatisch gespeichert.</li>
+                <li><strong>Sprache-&amp;-Untertitel-Menü:</strong> wechselt Ton- und Untertitelspuren sofort.</li>
+                <li><strong>Mobile Gesten</strong> <span class="plat mob">MOBIL</span>: vertikales Wischen am linken Rand = Lautstärke, am rechten = Helligkeit; Antippen öffnet das OSD.</li>
+            </ul>
+            <p>Die VOD-Einstellungskarte ähnelt der des Live-TV; zusätzlich enthält sie <strong>Tonverzögerung</strong> (Schieberegler + Zurücksetzen) und einen <strong>TV-Shortcut</strong>.</p>
+        </section>
+
+        <!-- ───────────── AUFNAHME & ERINNERUNGEN ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Aufnahme &amp; Erinnerungen <span class="plat pro">PRO</span></h2>
+
+            <h3>Programmaufnahme</h3>
+            <ol>
+                <li>Im EPG auf der <strong>Senderzeile</strong> mit dem gewünschten Programm <kbd>OK</kbd> lang drücken.</li>
+                <li><strong>Aufnehmen</strong>: fügt das Programm mit den Extra-Minuten aus den Einstellungen der Aufnahmeliste hinzu. Ohne Programm wird eine 2-stündige manuelle Aufnahme ab jetzt geplant.</li>
+                <li><strong>Benutzerdefinierte Aufnahme</strong>: öffnet vor der Aufnahme einen Dialog zur Wahl zusätzlicher Start-/Endminuten (0/+1/+5/+10 Min.).</li>
+                <li>Zur geplanten Zeit startet die Aufnahme automatisch; im Programmstrom blinkt ein REC-Symbol auf der Programmkarte.</li>
+            </ol>
+            <p>Elemente unter <strong>Einstellungen › Aufnahme</strong>:</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>Aufnahmeordner</td><td>Speicherort der Aufnahmen: interner Speicher oder Netzwerkordner (SMB — „Netzwerk durchsuchen" findet Freigaben, Anmeldung mit Benutzername/Passwort).</td></tr>
+                <tr><td>Vor-/Nachlaufzeit</td><td>Extra-Minuten am Anfang und Ende jeder Aufnahme: 0, 1, 5 oder 10 Minuten. Verhindert Fehlschläge bei verspätetem Programmbeginn/Überlänge.</td></tr>
+                <tr><td>Aufnahmeliste</td><td>Anzahl gesamt/abgeschlossen/geplant und alle Aufnahmen: fertige mit <kbd>OK</kbd> abspielen, ausstehende abbrechen, löschen.</td></tr>
+            </table>
+            <div class="note"><p>Aufnahmen werden in den gewählten Ordner geschrieben; ausreichend freien Speicher sicherstellen. USB-/SD-Karten-Auswahl wird ebenfalls unterstützt.</p></div>
+
+            <h3 id="hatirlatici">Erinnerungen</h3>
+            <ul>
+                <li>Über <strong>Erinnerung setzen</strong> im EPG-Kontextmenü wird eine Erinnerung eingerichtet; erneut wählen entfernt sie.</li>
+                <li>Erinnerungszeitpunkt: <strong>1, 2, 5 oder 10 Minuten vor</strong> Programmbeginn.</li>
+                <li><strong>Einstellungen › Erinnerungen</strong>: Benachrichtigungs-Optionen und <strong>„Kanal automatisch öffnen"</strong> (TV schaltet zur gegebenen Zeit selbst um); hier wird auch die komplette Erinnerungsliste verwaltet.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── PROFILE & KINDERSICHERUNG ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profile &amp; Kindersicherung <span class="plat pro">PRO</span></h2>
+
+            <h3>Profilverwaltung</h3>
+            <p>Unter <strong>Einstellungen › Profile</strong>:</p>
+            <ul>
+                <li><strong>Profil hinzufügen:</strong> neues Profil mit Name, Avatar-Auswahl und optionaler PIN erstellen.</li>
+                <li><strong>Profilliste:</strong> zeigt vorhandene Profile; Bearbeiten und Löschen erfolgt hier.</li>
+                <li>Jedes Profil hält eigene <em>Favoriten, „Meine Liste"-Inhalte, Wiedergabeverlauf und persönliche Einstellungen</em>. Das aktive Profil wird beim Start abgefragt; über den Avatar in der oberen Leiste kann es sofort gewechselt werden.</li>
+            </ul>
+
+            <h3 id="ebeveyn">Kindersicherung</h3>
+            <p>Elemente unter <strong>Einstellungen › Kindersicherung</strong> (bei gesetzter PIN verlangt der Panel-Eintritt die PIN):</p>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>PIN-Schutz</td><td>Status der 4-stelligen PIN.</td></tr>
+                <tr><td>PIN ändern</td><td>Neue 4-stellige PIN setzen (PIN entfernen ebenfalls hier).</td></tr>
+                <tr><td>PIN-Anforderungen</td><td>Legt fest, in welchen Situationen die PIN verlangt wird.</td></tr>
+                <tr><td>Einstellungssperre</td><td>Wenn aktiv, verlangt der Einstellungsbildschirm die PIN.</td></tr>
+                <tr><td>Adult-Content-Sperre</td><td>Legt Erwachseneninhalte hinter die PIN.</td></tr>
+                <tr><td>Sendersperre</td><td>Öffnen gesperrter Sender verlangt die PIN (Sperren über das EPG-Kontextmenü).</td></tr>
+                <tr><td>Altersfreigabe</td><td>Altersbeschränkung — Inhalte unter der gewählten Freigabe verlangen die PIN. Der „Altersfreigabe-Guide" daneben erklärt die Alterskennzeichen verschiedener Ländersysteme.</td></tr>
+                <tr><td>Versteckte Sender</td><td>Listet versteckte Sender und macht sie wieder sichtbar.</td></tr>
+            </table>
+            <div class="tip"><p>PIN vergessen? Vor dem Anlegen eines neuen Profils oder einer Neuinstallation sichern; PIN-Daten werden verschlüsselt auf dem Gerät gespeichert.</p></div>
+        </section>
+
+        <!-- ───────────── EINSTELLUNGEN ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Einstellungsguide</h2>
+            <p>Der Einstellungsbildschirm besteht aus drei Spalten: <strong>linke Spalte</strong> 13 Kategorien, <strong>mittlere Spalte</strong> Kategorie-Elemente, <strong>rechte Spalte</strong> Beschreibungs-/Einstellungspanel des gewählten Elements. Das <strong>Lupen-Symbol</strong> im Titel öffnet eine Einstellungssuche. <kbd>Kanal+</kbd>/<kbd>−</kbd> springen in der Kategorieliste jeweils 10 Zeilen.</p>
+            <div class="warn"><p>In der Gratisversion sind einige Kategorien gesperrt (Schloss-Kennzeichen): Player, Darstellung, Medieninfo, Aufnahme, Erinnerungen, Profile, Kindersicherung, Downloads und Sonstiges. Eine gesperrte Kategorie öffnet das Pro-Upgrade-Panel.</p></div>
+
+            <h3 id="ayar-listeler">1 · Wiedergabelisten</h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>Wiedergabeliste hinzufügen</td><td>Neue M3U- (URL/Datei) oder Xtream-Liste (Server+Benutzer+Passwort) hinzufügen.</td></tr>
+                <tr><td>Aktualisierungshäufigkeit</td><td>Automatisches Aktualisierungsintervall: Manuell, 6, 12, 24, 48, 72, 168 Stunden.</td></tr>
+                <tr><td>Alle Listen aktualisieren</td><td>Lädt alle Quellen auf einmal neu herunter.</td></tr>
+                <tr><td>Vorhandene Listen</td><td>Quellen bearbeiten, löschen, aktualisieren; Aktiv/Inaktiv-Status und letztes Aktualisierungsdatum.</td></tr>
+                <tr><td>Sendergruppen</td><td>Gruppen verstecken, umbenennen, neu sortieren.</td></tr>
+                <tr><td>EPG-Quellen</td><td>EPG-Quelle Listen zuweisen („Liste zuweisen").</td></tr>
+                <tr><td>Sortierung</td><td>Senderreihenfolge: nach Name/Nummer, manuell, Originalreihenfolge oder nach Gruppe.</td></tr>
+                <tr><td>Sendernamen-Filter</td><td>Prä-/Suffixe aus Sendernamen entfernen; <code>*</code>-Platzhalter-Regeln und Beispielumwandlungs-Vorschau.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · TV-Guide</h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>EPG-Quelle hinzufügen</td><td>Neue EPG-Quelle im XMLTV-Format hinzufügen (liefert Programmdaten für Sender).</td></tr>
+                <tr><td>Vorhandene EPG-Quellen</td><td>Definierte EPG-Quellen bearbeiten/löschen; Senderzahl und letztes Update pro Quelle.</td></tr>
+                <tr><td>Sender-EPG-Zuordnung</td><td>Ordnet Sender den EPG-Daten zu — automatisch oder manuell; nicht zugeordnete Sender werden gelistet.</td></tr>
+                <tr><td>Aktualisierungshäufigkeit</td><td>Hintergrund-Aktualisierungsintervall für EPG: Manuell, 1, 2, 4, 6, 12, 24 Stunden.</td></tr>
+                <tr><td>Beim Start aktualisieren</td><td>Bei Aktivierung wird das EPG bei jedem App-Start automatisch erneuert.</td></tr>
+                <tr><td>Bei Listenänderung aktualisieren</td><td>Aktualisiert das EPG automatisch mit, wenn die Wiedergabeliste geändert/aktualisiert wird.</td></tr>
+                <tr><td>Vergangene EPG-Daten</td><td>Wie viele Tage vergangene Programmdaten aufbewahrt werden: keine, 1, 2, 3, 5 oder 7 Tage. Mehr Tage = mehr Speicher.</td></tr>
+                <tr><td>Zeitverschiebung</td><td>Verschiebt Programmzeiten global oder pro Sender um Stunden/Minuten (für Quellen mit Zeitzonenversatz).</td></tr>
+                <tr><td>EPG aktualisieren</td><td>Startet eine manuelle Aktualisierung; Fortschritt und verarbeitete Senderzahl werden angezeigt.</td></tr>
+                <tr><td>EPG löschen</td><td>Löscht zwischengespeicherte Programmdaten und den Bildercache; Neuladen beim nächsten Update.</td></tr>
+                <tr><td>Letzte Aktualisierung</td><td>Verarbeitete Senderzahl und Aktualisierungsdatum pro Quelle.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · Player <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>Anzeige</td><td>Seitenverhältnis: Original, Zuschneiden/Füllen, Horizontal strecken, Vertikal strecken, Vollständig füllen, 4:3, 16:9; auf Wunsch auf alle Sender anwendbar.</td></tr>
+                <tr><td>Videoausgabe</td><td>Decoder-Wahl: Hardware (empfohlen, weniger Akku/CPU) oder Software (bei Kompatibilitätsproblemen).</td></tr>
+                <tr><td>Tonausgabe</td><td>Ton-Decoder (Hardware/Software), <strong>Audio-Passthrough (Bitstream)</strong> — roher Audiostream an Surround-Systeme, <strong>Tonverzögerung</strong> (ms-Schieberegler + Zurücksetzen) und Standard-Tonsprache.</td></tr>
+                <tr><td>Untertitel</td><td>Schriftgröße, Textfarbe (10 Farben), Position (oben/mitte/unten) und Zeichencodierung (UTF-8 usw.).</td></tr>
+                <tr><td>Senderwechsel</td><td>Zapping-Verhalten: <strong>Wechselverzögerung</strong> (ms bis zum tatsächlichen Senderwechsel — vermeidet unnötiges Laden beim schnellen Zappen) und <strong>Schwarzbild beim Wechsel</strong> (schwarz bis der neue Sender lädt; aus → vorheriger Sender bleibt sichtbar).</td></tr>
+                <tr><td>Pufferung</td><td>Puffergröße: Auto, Keine, Klein (~1 s), Mittel (~3 s, empfohlen), Groß (~8 s), Sehr groß (~15+ s). Bei ruckelnden Streams erhöhen; für schnelleren Senderwechsel verringern.</td></tr>
+                <tr><td>VOD</td><td>Film-/Serien-Präferenzen: externer Player (Auto wählen / App wählen / Externer Player 1-2), Auto-Untertitel usw.</td></tr>
+                <tr><td>Vollbild-Uhr</td><td>Uhranzeige im Vollbild: an/aus, Position, Größe (klein/mittel/groß), 24-Stunden-Format, Datum anzeigen.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · Darstellung <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>Sprache</td><td>Oberflächensprache — Auswahl aus 24 Sprachen oder „Systemsprache"; mit Suchfeld filterbar.</td></tr>
+                <tr><td>Farben</td><td>App-Theme (Dunkel, Blau, Grau, Grün, Lila, Rot, Amber, Nacht, Ozean, Kohle, Wein, Marine, Smaragd, Sonnenuntergang, Kosmos, Graphit), Akzentfarbe (18 Farben) und OSD-Deckkraft (mit Vorschau).</td></tr>
+                <tr><td>TV-Guide</td><td>EPG-Darstellung: 24-Stunden-Format, Zeilenhöhe (klein/mittel/groß), Listenlayout (Liste/Raster).</td></tr>
+                <tr><td>Senderliste</td><td>Darstellung der Senderliste und Kartenlayout.</td></tr>
+                <tr><td>Logos</td><td>Logoquellen-Priorität: <strong>XMLTV/EPG</strong>, <strong>Wiedergabeliste (M3U)</strong> oder <strong>Lokaler Ordner</strong>; eigene Logodateien (PNG/JPG/WebP) per Ordnerwahl verwenden.</td></tr>
+                <tr><td>OSD-Dauer</td><td>Wie lange der Info-Balken sichtbar bleibt (Sekunden) — getrennt für TV und VOD.</td></tr>
+                <tr><td>Bildschirmschoner</td><td>Verzögerung bis zur Aktivierung bei Inaktivität: aus, 1, 2, 5, 10, 15 oder 30 Minuten.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · Medieninfo <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>API-Keys</td><td>Ihre TMDB- und OMDb-API-Keys eingeben — die Keys gibt es kostenlos auf den Websites der Dienste. Poster, Inhalte, Besetzung und IMDb-Bewertungen für Filme/Serien kommen von diesen Diensten.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>Den jeweiligen Dienst ein-/ausschalten. TMDB: Poster+Inhalt+Trailer; OMDb: IMDb-Bewertung, Genre, Regie.</td></tr>
+                <tr><td>Smart-Cache</td><td>Bei Aktivierung werden Metadaten nur für sichtbare Inhalte geladen — schnellerer erster Start.</td></tr>
+                <tr><td>Nur manuell anreichern</td><td>Schaltet automatisches Laden von Metadaten ab; Anreicherung nur auf Ihren Befehl.</td></tr>
+                <tr><td>Cache-Ordner</td><td>Ordner für den Metadaten-Cache.</td></tr>
+                <tr><td>Alle Inhalte anreichern</td><td>Lädt TMDB-Daten für alle VOD-Inhalte gesammelt (kann dauern).</td></tr>
+                <tr><td>Nach Kategorie anreichern</td><td>Reichert nur die gewählten Kategorien an.</td></tr>
+                <tr><td>Cache leeren</td><td>Löscht den gesamten Metadaten-Cache (Inhaltszahl und Größe werden angezeigt).</td></tr>
+                <tr><td>VOD-Namensfilter</td><td>Regeln zum Entfernen von Prä-/Suffixen aus Film-/Seriennamen — verbessert die TMDB-Zuordnung.</td></tr>
+            </table>
+            <p>Außerdem Poster-Vorschau-Einstellungen (Hover-Trailer): <strong>Auto-Vorschau</strong> (Trailer beim Verweilen auf einem Poster), <strong>Trailer-Ton</strong>, Startpunkt und Wartezeit.</p>
+
+            <h3 id="ayar-diger">6–9, 11 · Aufnahme, Erinnerungen, Profile, Kindersicherung, Downloads, Sonstiges</h3>
+            <ul>
+                <li><strong>Aufnahme</strong> <span class="plat pro">PRO</span> — Aufnahmeordner, Extra-Zeiten, Aufnahmeliste (<a href="#kayit">Details</a>).</li>
+                <li><strong>Erinnerungen</strong> <span class="plat pro">PRO</span> — Benachrichtigung und Auto-Sender-Öffnung + Erinnerungsliste (<a href="#hatirlatici">Details</a>).</li>
+                <li><strong>Profile</strong> <span class="plat pro">PRO</span> — Profilliste und neues Profil (<a href="#profiller">Details</a>).</li>
+                <li><strong>Kindersicherung</strong> <span class="plat pro">PRO</span> — PIN, Sperren, Altersfreigabe, versteckte Sender (<a href="#ebeveyn">Details</a>).</li>
+                <li><strong>Downloads</strong> <span class="plat pro">PRO</span> — Download-Ordner, gleichzeitige Downloads, nur WLAN, Downloadliste (<a href="#indirilenler">Details</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>Sonstiges-Element <span class="plat pro">PRO</span></th><th>Beschreibung</th></tr>
+                <tr><td>Fernbedienungs-Tastenton</td><td>Spielt bei D-Pad-Bewegungen ein leises Klicken.</td></tr>
+                <tr><td>App-Tastatur</td><td>Ob bei Texteingabe die app-eigene oder die Systemtastatur verwendet wird.</td></tr>
+                <tr><td>Autostart</td><td>App startet beim Einschalten des Geräts (TV) von selbst.</td></tr>
+                <tr><td>Wiedergabe beim Beenden stoppen</td><td>Wiedergabe stoppt automatisch beim Verlassen der App.</td></tr>
+                <tr><td>Seh-Statistiken</td><td>Ihre Film-, Serien- und Live-TV-Sehdauern (letzte 7/30 Tage, gesamt); zurücksetzbar.</td></tr>
+                <tr><td>Datennutzung</td><td>Netzwerk-Datenverbrauch: heruntergeladene/hochgeladene und Gesamtmengen.</td></tr>
+                <tr><td>Daten sichern / wiederherstellen</td><td>Alle Einstellungen, Favoriten, Profile und Verlauf in eine Sicherungsdatei speichern / aus Datei wiederherstellen.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 &amp; 12 · Konten &amp; Sync · Über</h3>
+            <table class="tbl">
+                <tr><th>Element</th><th>Beschreibung</th></tr>
+                <tr><td>Konten, Sync &amp; Geräte</td><td>Google-Konto-Status, anonymes Konto, automatische Sync, Premium-Lizenz-Sync, Liste verbundener Geräte und Geräte-Entfernung, Abmelden und <strong>Konto löschen</strong> (endgültiges Löschen inkl. Cloud-Daten).</td></tr>
+                <tr><td>Über</td><td>Versionsinfo, Abo-Typ und Lizenzablauf, Funktionsliste (Live-TV, VOD &amp; IPTV, EPG, Multi-Screen, Aufnahme, Erinnerungen, Profile, Kindersicherung, Smart-Suche, DLNA, Cloud-Sync, Favoritenlisten, Metadaten) und Kontakt.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── MOBIL ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mobile App <span class="plat mob">MOBIL</span></h2>
+            <p>Die mobile Oberfläche ist für Touch ausgelegt; sie nutzt dasselbe Konto und dieselben Listen.</p>
+            <ul>
+                <li><strong>Untere Tab-Leiste:</strong> TV, Filme, Serien, Meine Liste. Im Querformat erscheint links ein vertikales Menü (Rail).</li>
+                <li><strong>Obere Leiste:</strong> Logo, <strong>Fernbedienung</strong>, <strong>Suche</strong>, <strong>DLNA/Geräte</strong>, <strong>Einstellungs</strong>zahnrad und <strong>Profil-Avatar</strong>.</li>
+                <li><strong>TV-Tab:</strong> oben Vorschau + „Alle"/Gruppenfilter; darunter Senderkarten (Logo, Sendername, Zeitbereich, aktuelles Programm + Fortschrittsbalken, Favoritenstern, ☰-Menü).</li>
+                <li><strong>EPG-Bildschirm:</strong> täglicher Programmablauf; Sender antippen → Sendungsübersicht.</li>
+                <li><strong>Downloads / Offline-Inhalte:</strong> heruntergeladene Filme und Folgen laufen ohne Internet; aus der Liste abspielen und löschen.</li>
+                <li>Das <strong>Ladeband</strong> unten ist auf allen Tabs sichtbar, während Quellen geladen werden.</li>
+            </ul>
+
+            <h3 id="kumanda">Smartphone als TV-Fernbedienung <span class="plat pro">PRO</span></h3>
+            <p>Nutzen Sie die App auf dem Smartphone als Fernbedienung für den Android-TV im selben Netzwerk:</p>
+            <ol>
+                <li>TiviEase Go auf dem TV geöffnet lassen; auf dem Smartphone das <strong>Fernbedienungs-Symbol</strong> in der oberen Leiste antippen.</li>
+                <li>Ihren TV aus der Liste „Geräte im Netzwerk" wählen (nicht gefunden? mit „Erneut versuchen" neu scannen).</li>
+                <li>Fernbedienungs-Screen: <strong>D-Pad + OK</strong>, Zifferntasten, Lautstärke-/Kanal-Wippen, <strong>Zurück / Home</strong>, <strong>Sleep / Guide / Optionen</strong>, <strong>Farbtasten</strong>, Mediensteuerung und ein <strong>Bildschirmtastatur</strong>-Button für Texteingabe.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA &amp; Streaming <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Netzwerk durchsuchen</strong> findet DLNA/UPnP-Geräte; Gerät wählen und Medienordner durchstöbern („Ordner", Elementzahlen).</li>
+                <li><strong>Auf TV streamen / Cast-Gerät:</strong> der laufende Inhalt wird an ein Netzwerkgerät gesendet; der Cast-Screen bietet Positionsbalken, Play/Pause und „Streaming beenden".</li>
+                <li>Mit „Gerät wechseln" lässt sich der Stream auf ein anderes Gerät verlagern.</li>
+            </ul>
+
+            <h3 id="indirilenler">Downloads &amp; Offline <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Einstellungen › Downloads:</strong> Download-Ordner (interner Speicher oder SMB), max. gleichzeitige Downloads, <strong>Nur WLAN</strong> (schont mobile Daten) und Downloadliste.</li>
+                <li>Status in der Downloadliste: Lädt, Wartet, Heruntergeladen, Fehlgeschlagen/Abgebrochen — wartende abbrechen, fertige abspielen oder löschen.</li>
+                <li>Auf Mobilgeräten listet der Screen „Offline-Inhalte" die Downloads und spielt sie ohne Internet ab.</li>
+            </ul>
+
+            <h3 id="yedekleme">Backup, Wiederherstellung und Sync</h3>
+            <ul>
+                <li><strong>Daten sichern</strong> (Einstellungen › Sonstiges): speichert alle Einstellungen, Favoriten, Profile und den Verlauf in einer Datei — für Gerätewechsel oder Zurücksetzen.</li>
+                <li><strong>Daten wiederherstellen:</strong> mit „Sicherungsdatei öffnen" die Datei wählen und das Setup zurückholen.</li>
+                <li><strong>Cloud-Sync:</strong> bei Google-Anmeldung synchronisieren die Daten im Hintergrund; „Automatisch synchronisieren" ist abschaltbar. Verbundene Geräte werden im Konten-Panel angezeigt/entfernt.</li>
+                <li>Auf dem Android-TV-Startbildschirm zeigt die Zeile <strong>„Weiterschauen"</strong> zuletzt gesehene Inhalte.</li>
+            </ul>
+
+            <h3 id="premium">Premium (Pro)-Mitgliedschaft</h3>
+            <p>Die Gratisversion deckt 1 Liste + 1 EPG-Quelle und die Basis-Einstellungen ab. Upgrade über <strong>Einstellungen</strong> — gesperrte Kategorie antippen oder über den Pro-Screen.</p>
+            <table class="tbl">
+                <tr><th>Plan</th><th>Preis</th><th>Geräte</th></tr>
+                <tr><td>Pro Monatlich</td><td>₺9,99 / Monat</td><td>1 Gerät</td></tr>
+                <tr><td>Pro Jährlich</td><td>₺89,99 / Jahr</td><td>1 Gerät</td></tr>
+                <tr><td>Pro Lifetime</td><td>₺249,99 (einmalig)</td><td>bis zu 5 Geräte</td></tr>
+            </table>
+            <ul>
+                <li>Pro schaltet <strong>unbegrenzte Listen und EPG-Quellen</strong>, alle Einstellungskategorien, Aufnahme, Erinnerungen, Profile, Kindersicherung, Downloads, Smartphone-Fernbedienung und DLNA frei.</li>
+                <li><strong>Aktivierungscode:</strong> Premium lässt sich per Code unter „Aktivierungscode verwenden" einschalten.</li>
+                <li>Die Lizenz ist cloud-gebunden — Anmeldung mit demselben Konto auf einem anderen Gerät synchronisiert sie automatisch; bei überschrittenem Gerätelimit ein altes Gerät aus der Liste entfernen.</li>
+                <li>Für Offline-Nutzung gilt eine 7-tägige Kulanzfrist nach der letzten Verifizierung.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── FAQ ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>Fehlerbehebung &amp; FAQ</h2>
+
+            <details class="faq"><summary>Sender kommen nicht / Liste lädt nicht</summary><div class="faq-body"><p>Prüfen, dass die URL korrekt ist und mit <code>http(s)://</code> beginnt. Unter Einstellungen › Wiedergabelisten › Vorhandene Listen die Quelle wählen und per „Aktualisieren" neu laden; bei Xtream auf Leerzeichen in Benutzername/Passwort achten. Internetverbindung und Verfügbarkeit des Anbieters prüfen.</p></div></details>
+
+            <details class="faq"><summary>EPG (Programmführer) ist leer</summary><div class="faq-body"><p>Erst über <strong>Einstellungen › TV-Guide › EPG-Quelle hinzufügen</strong> eine XMLTV-Quelle eintragen und per <strong>EPG aktualisieren</strong> laden. Hat ein Sender weiterhin keine Daten, über das Kontextmenü per <strong>EPG zuordnen</strong> den richtigen EPG-Kanal manuell wählen. Sind die Zeiten verschoben, mit <strong>Zeitverschiebung</strong> korrigieren.</p></div></details>
+
+            <details class="faq"><summary>Stream startet nicht oder hakt</summary><div class="faq-body"><p>Unter Einstellungen › Player die <strong>Pufferung</strong> auf „Mittel/Groß" stellen; falls das Problem bleibt, in <strong>Videoausgabe</strong> den Software-Decoder testen. 4K-Streams überfordern schwächere TVs — die HD/FHD-Variante des Senders bevorzugen.</p></div></details>
+
+            <details class="faq"><summary>Kein Ton oder Ton und Bild asynchron</summary><div class="faq-body"><p>Unter Einstellungen › Player › Tonausgabe <strong>Audio-Passthrough</strong> ausschalten (Bitstream macht auf manchen Geräten Probleme). Für Versatz den <strong>Tonverzögerungs</strong>-Schieberegler nutzen; bietet der Stream andere Sprachen, über <strong>Sendsprache</strong> auf der Playerkarte die Spur wählen.</p></div></details>
+
+            <details class="faq"><summary>Untertitel erscheinen nicht oder Zeichen sind kaputt</summary><div class="faq-body"><p>Über die Playerkarte oder Einstellungen › Player › Untertitel die richtige Spur wählen; bei kaputten Zeichen die <strong>Codierung</strong> ändern (UTF-8 usw.). Größe/Farbe/Position lassen sich im selben Panel einstellen.</p></div></details>
+
+            <details class="faq"><summary>Poster und Filminfos fehlen</summary><div class="faq-body"><p>Unter Einstellungen › Medieninfo prüfen, ob TMDB-/OMDb-Keys eingetragen und die Dienste aktiv sind (Keys sind kostenlos erhältlich). Mit „Alle Inhalte anreichern" gesammelt laden; falsche Zuordnungen über <strong>Inhalt suchen &amp; zuordnen</strong> im Kontextmenü korrigieren.</p></div></details>
+
+            <details class="faq"><summary>Premium gekauft, aber nicht freigeschaltet / auf anderem Gerät nicht sichtbar</summary><div class="faq-body"><p>Prüfen, dass Sie mit demselben Google-Konto angemeldet sind — die Lizenz wird synchronisiert. Ist das Gerätelimit voll, unter <strong>Einstellungen › Konten, Sync &amp; Geräte</strong> ein altes Gerät entfernen. Bei Bedarf den Aktivierungscode verwenden.</p></div></details>
+
+            <details class="faq"><summary>Nach langem Standby öffnet kein Sender mehr</summary><div class="faq-body"><p>App vollständig schließen und neu öffnen. Die App schließt Player beim Einschlafen automatisch; hängt sie trotzdem, löst ein Neustart das Problem.</p></div></details>
+
+            <details class="faq"><summary>Wie ziehe ich meine Einstellungen auf ein anderes Gerät um?</summary><div class="faq-body"><p>Mit <strong>Einstellungen › Sonstiges › Daten sichern</strong> eine Datei erzeugen und auf dem neuen Gerät per <strong>Daten wiederherstellen</strong> importieren — oder per Google-Anmeldung die Sync nutzen.</p></div></details>
+
+            <details class="faq"><summary>Ein Sender fehlt / lässt sich nicht zurückholen</summary><div class="faq-body"><p>Der Sender könnte versteckt sein: <strong>Versteckte Sender anzeigen</strong> im EPG-Kontextmenü oder unter <strong>Einstellungen › Kindersicherung › Versteckte Sender</strong> wieder sichtbar machen. Gesperrte Sender öffnen sich mit PIN. Ist die Gruppe versteckt, unter Einstellungen › Wiedergabelisten › Sendergruppen prüfen.</p></div></details>
+
+            <details class="faq"><summary>Wie lösche ich mein Konto?</summary><div class="faq-body"><p><strong>Einstellungen › Konten, Sync &amp; Geräte › Konto löschen</strong> löscht das Konto samt Cloud-Daten endgültig. Details: Seite <a href="account-deletion.de.html">Konto löschen</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>Brauchen Sie noch Hilfe?</h4>
+                <p>Schreiben Sie uns: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — bitte Problem, Gerätemodell und App-Version (Einstellungen › Über) angeben.</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.de.html">Startseite</a> · <a href="privacy.de.html">Datenschutz</a> · <a href="account-deletion.de.html">Konto löschen</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('de');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('de');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

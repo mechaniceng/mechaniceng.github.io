@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرکز راهنمایی — TiviEase Go</title>
+    <meta name="description" content="راهنمای کاربر TiviEase Go: نصب، افزودن فهرست، EPG، پخش‌کننده تمام‌صفحه، تنظیمات و عیب‌یابی.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="مرکز راهنمایی — TiviEase Go">
+    <meta property="og:description" content="راهنمای کاربر TiviEase Go: نصب، افزودن فهرست، EPG، پخش‌کننده تمام‌صفحه، تنظیمات و عیب‌یابی.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.fa.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="fa_IR">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.fa.html">
+            <img src="assets/logo.png?v=2" alt="لوگوی TiviEase Go">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="منو">☰</button>
+        <nav class="site-nav">
+            <a href="index.fa.html">خانه</a>
+            <a href="index.fa.html#ozellikler">ویژگی‌ها</a>
+            <a href="satin-al.en.html">خرید</a>
+            <a class="active" href="yardim.fa.html">مرکز راهنمایی</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">مرکز راهنمایی</span>
+            <h1 style="font-size:34px">چطور استفاده کنیم؟</h1>
+            <p>هر صفحه قدم‌به‌قدم توضیح داده شده — از اولین اجرا تا آخرین تنظیم. از ستون کناری موضوع انتخاب کنید یا جستجو کنید.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">نشان‌ها: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">موبایل</span> گوشی/تبلت &nbsp; <span class="plat pro">PRO</span> ویژگی پولی</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ ستون کناری ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="جستجو در راهنما..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ موضوعات</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>شروع به‌کار<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">اولین اجرا</a>
+                        <a href="#profil-secimi">انتخاب پروفایل</a>
+                        <a href="#qr-giris">ورود با رمز QR</a>
+                        <a href="#google-giris">ورود با Google</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>منابع<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">افزودن فهرست</a>
+                        <a href="#liste-yonetimi">مدیریت فهرست‌ها</a>
+                        <a href="#epg-kaynagi">افزودن منبع EPG</a>
+                        <a href="#grup-siralama">گروه‌ها، مرتب‌سازی، فیلترها</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>خانه و EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">صفحه اصلی (TV)</a>
+                        <a href="#epg-rehberi">استفاده از راهنمای TV</a>
+                        <a href="#arama">جستجو و جستجوی صوتی</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>منوهای زمینه<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">منوی زمینه EPG</a>
+                        <a href="#vod-context">منوی فیلم/سریال</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>پخش‌کننده<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">تمام‌صفحه — پخش زنده</a>
+                        <a href="#fs-tuslar">کلیدهای ریموت</a>
+                        <a href="#fs-paneller">پنل‌ها و کارت تنظیمات</a>
+                        <a href="#coklu-ekran">چندصفحه‌ای (PIP)</a>
+                        <a href="#fs-vod">تمام‌صفحه — فیلم/سریال</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>ضبط و یادآوری<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">ضبط برنامه‌ها</a>
+                        <a href="#hatirlatici">یادآوری‌ها</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>پروفایل و والدین<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">مدیریت پروفایل‌ها</a>
+                        <a href="#ebeveyn">کنترل والدین</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>راهنمای تنظیمات<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">صفحه تنظیمات</a>
+                        <a href="#ayar-listeler">فهرست‌های پخش</a>
+                        <a href="#ayar-epg">راهنمای تلویزیون</a>
+                        <a href="#ayar-oynatici">پخش‌کننده</a>
+                        <a href="#ayar-gorunum">ظاهر</a>
+                        <a href="#ayar-medya">داده‌های رسانه</a>
+                        <a href="#ayar-diger">ضبط / یادآوری / سایر</a>
+                        <a href="#ayar-hesap">حساب و درباره</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>موبایل و سایر<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">اپلیکیشن موبایل</a>
+                        <a href="#kumanda">ریموت از گوشی</a>
+                        <a href="#dlna">DLNA و ارسال</a>
+                        <a href="#indirilenler">دانلودها</a>
+                        <a href="#yedekleme">پشتیبان و همگام‌سازی</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">عیب‌یابی / پرسش‌ها</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">چیزی یافت نشد.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ محتوا ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── شروع به‌کار ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>شروع به‌کار</h2>
+            <p>TiviEase Go در یک اپلیکیشن واحد هم روی <strong>Android TV</strong> و هم روی <strong>گوشی/تبلت</strong> کار می‌کند. اپلیکیشن کانال یا محتوایی ارائه نمی‌دهد — شما <strong>فهرست M3U</strong> یا حساب <strong>Xtream Codes</strong> ارائه‌دهنده IPTV خود را اضافه می‌کنید.</p>
+
+            <h3>صفحه اولین اجرا</h3>
+            <p>اگر هیچ فهرستی تعریف نشده باشد، هنگام باز شدن اپلیکیشن <strong>صفحه خوش‌آمد</strong> می‌آید. چهار کارت ارائه می‌دهد:</p>
+            <table class="tbl">
+                <tr><th>کارت</th><th>چه می‌کند؟</th></tr>
+                <tr><td>افزودن فهرست<br><small>M3U / Xtream</small></td><td>شما را به صفحه اصلی می‌برد و فرم افزودن را باز می‌کند. جزئیات: <a href="#kaynak-ekleme">افزودن فهرست</a>.</td></tr>
+                <tr><td>ورود با Google<br><small>همگام‌سازی ابری</small></td><td>با حساب Google وارد می‌شود؛ منابع، علاقه‌مندی‌ها و تاریخچه ابری‌تان بارگیری می‌شود و فهرست‌ها خودکار به‌روز می‌شوند.</td></tr>
+                <tr><td>ورود با رمز QR<br><small>اسکن از گوشی</small> <span class="plat tv">TV</span></td><td>روی TV رمز QR معتبر ۳ دقیقه‌ای نشان می‌دهد؛ با اسکن در اپ گوشی و تأیید، TV به همان حساب وارد می‌شود.</td></tr>
+                <tr><td>تنظیمات<br><small>سیستم و پروفایل</small></td><td>صفحه تنظیمات را باز می‌کند اگر بخواهید قبل از افزودن فهرست نگاهی بیندازید.</td></tr>
+            </table>
+            <div class="tip"><p><strong>نکته:</strong> اگر TiviEase Go را روی دستگاه دیگری استفاده می‌کنید، سریع‌ترین راه <strong>ورود با Google</strong> یا <strong>ورود با رمز QR</strong> است — همه فهرست‌ها و تنظیمات خودکار می‌آیند.</p></div>
+
+            <h3 id="profil-secimi">انتخاب پروفایل</h3>
+            <p>اگر چند پروفایل روی دستگاه تعریف شده باشد، هنگام اجرا صفحه <strong>«انتخاب پروفایل»</strong> می‌آید. با جهت‌نما + <kbd>OK</kbd> انتخاب کنید. پروفایل‌های دارای PIN ابتدا کد می‌خواهند. هر پروفایل <em>علاقه‌مندی‌ها، محتوای «فهرست من»، تاریخچه و تنظیمات شخصی</em> خود را نگه می‌دارد.</p>
+            <ul>
+                <li>افزودن/ویرایش پروفایل: <strong>تنظیمات › پروفایل‌ها</strong> (به <a href="#profiller">مدیریت پروفایل‌ها</a> مراجعه کنید).</li>
+                <li>تعویض پروفایل هنگام استفاده: روی <strong>آیکون آواتار</strong> در نوار بالا بزنید.</li>
+            </ul>
+
+            <h3 id="qr-giris">ورود با رمز QR <span class="plat tv">TV</span> <span class="plat mob">موبایل</span></h3>
+            <p>به‌جای وارد کردن اطلاعات روی TV، از گوشی‌تان استفاده کنید:</p>
+            <ol>
+                <li>روی TV کارت <strong>ورود با رمز QR</strong> را باز کنید (صفحه خوش‌آمد یا تنظیمات › حساب‌ها) — رمز QR می‌آید و <strong>۳ دقیقه</strong> معتبر است.</li>
+                <li>روی گوشی اپ TiviEase Go را باز و رمز TV را با اسکنر QR بخوانید.</li>
+                <li>روی گوشی <strong>«ورود»</strong> را بزنید — «تأیید شد — TV در حال ورود است» می‌بینید.</li>
+                <li>TV ظرف چند ثانیه به حساب گوشی وارد می‌شود؛ فهرست و تنظیمات همگام می‌شوند.</li>
+            </ol>
+            <div class="note"><p>اگر رمز QR منقضی شد، پنجره را ببندید و دوباره باز کنید — رمز جدید ساخته می‌شود. ورود با QR لازم دارد اپ روی گوشی باز و واردشده باشد.</p></div>
+
+            <h3 id="google-giris">ورود با Google و همگام‌سازی</h3>
+            <p>وقتی با حساب Google وارد می‌شوید این‌ها بین دستگاه‌ها همگام می‌شوند: تنظیمات منبع/فهرست، علاقه‌مندی‌ها، «فهرست من»، تاریخچه، پروفایل‌ها و مجوز پریمیوم. پس از اولین ورود، منابع و EPG خودکار دانلود می‌شوند — به‌روزرسانی دستی لازم نیست.</p>
+            <ul>
+                <li>تنظیمات همگام‌سازی و دستگاه‌های متصل: <strong>تنظیمات › حساب‌ها و همگام‌سازی و دستگاه‌ها</strong>.</li>
+                <li>بدون حساب هم می‌توان استفاده کرد — داده‌ها روی دستگاه می‌مانند.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── منابع ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>افزودن فهرست پخش</h2>
+            <p>دو نوع منبع پشتیبانی می‌شود: <strong>M3U</strong> (URL یا فایل محلی) و <strong>Xtream Codes</strong> (سرور + اطلاعات ورود). محتوا هنگام افزودن خودکار به <em>پخش زنده / فیلم‌ها / سریال‌ها</em> تقسیم می‌شود.</p>
+
+            <h3>از کجا اضافه می‌شود؟</h3>
+            <ul>
+                <li>از کارت <strong>افزودن فهرست</strong> در صفحه خوش‌آمد،</li>
+                <li>یا از <strong>تنظیمات › فهرست‌های پخش › افزودن فهرست</strong>.</li>
+            </ul>
+
+            <h3>افزودن فهرست M3U</h3>
+            <ol>
+                <li><strong>افزودن فهرست</strong> را باز کنید و کارت <strong>M3U / XMLTV</strong> را انتخاب کنید.</li>
+                <li>در فیلد <strong>نام</strong> اسمی برای فهرست بگذارید (مثل «فهرست اصلی»).</li>
+                <li>در فیلد <strong>URL / مسیر فایل</strong> لینک M3U را وارد کنید <em>یا</em> با آیکون پوشه فایل را از دستگاه انتخاب کنید. پسوندهای پشتیبانی‌شده: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li><strong>افزودن</strong> را بزنید — فهرست دانلود و پردازش می‌شود؛ پیشرفت در نوار دانلود پایین دیده می‌شود.</li>
+            </ol>
+            <div class="note"><p>هنگام انتخاب فایل، اگر فیلد نام خالی باشد نام فایل خودکار وارد می‌شود. URL باید با http/https شروع شود.</p></div>
+
+            <h3>افزودن حساب Xtream Codes</h3>
+            <ol>
+                <li>کارت <strong>Xtream</strong> را انتخاب کنید.</li>
+                <li><strong>نام منبع</strong>: هر نامی (مثل «Xtream اصلی»).</li>
+                <li><strong>URL سرور</strong>: آدرس ارائه‌دهنده‌تان، مثل <code>http://server.com:8080</code></li>
+                <li><strong>نام کاربری</strong> و <strong>رمز عبور</strong>: اطلاعات ارائه‌دهنده. آیکون چشم کنار فیلد رمز، ورودی را نشان می‌دهد.</li>
+                <li><strong>افزودن</strong> — اپ به Xtream API متصل می‌شود؛ پخش زنده، فیلم و سریال جداگانه دانلود می‌شوند.</li>
+            </ol>
+            <div class="warn"><p><strong>در نسخه رایگان</strong> فقط <strong>۱ فهرست</strong> می‌توان اضافه کرد (M3U یا Xtream — نه هر دو). نامحدود: <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">مدیریت فهرست‌ها</h3>
+            <p>موارد <strong>تنظیمات › فهرست‌های پخش</strong>:</p>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>فهرست‌های موجود</td><td>منابع M3U/Xtream تعریف‌شده را نشان می‌دهد؛ روی هر کارت — آخرین به‌روزرسانی و وضعیت فعال/غیرفعال. منبع را برای ویرایش، حذف یا به‌روزرسانی انتخاب کنید. کارت خلاصه توزیع زنده/سریال/فیلم را نشان می‌دهد.</td></tr>
+                <tr><td>دوره به‌روزرسانی</td><td>بازه به‌روزرسانی خودکار فهرست‌ها: <strong>دستی، ۶، ۱۲، ۲۴، ۴۸، ۷۲ یا ۱۶۸ ساعت</strong>. با «دستی» فقط وقتی به‌روز می‌شوند که خودتان بخواهید.</td></tr>
+                <tr><td>به‌روزرسانی همه فهرست‌ها</td><td>همه منابع را یکجا دوباره دانلود می‌کند. در پس‌زمینه به ترتیب پردازش می‌شوند؛ پیشرفت را در نوار دانلود ببینید.</td></tr>
+                <tr><td>منابع EPG</td><td>انتخاب منبع EPG اختصاص‌یافته به هر فهرست («تخصیص به فهرست»).</td></tr>
+                <tr><td>گروه‌های کانال</td><td>پنهان‌کردن، تغییر نام و مرتب‌سازی گروه‌های فهرست (ورزش، اخبار…).</td></tr>
+                <tr><td>مرتب‌سازی</td><td>ترتیب کانال‌ها: <strong>نام، شماره، دستی، ترتیب اصلی، بر اساس گروه</strong>.</td></tr>
+                <tr><td>فیلترهای نام کانال</td><td>قواعدی که پیشوندها/پسوندهای نام کانال را خودکار حذف می‌کنند (مثل «TR:»، «|4K»). کاراکتر <code>*</code> پشتیبانی می‌شود؛ فیلد «مثال تبدیل» نتیجه را نشان می‌دهد.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">افزودن منبع EPG (XMLTV)</h3>
+            <p>برای داشتن جدول برنامه‌ها آدرس XMLTV/EPG ارائه‌دهنده‌تان را اضافه کنید:</p>
+            <ol>
+                <li><strong>تنظیمات › راهنمای تلویزیون › افزودن منبع EPG</strong> را باز کنید.</li>
+                <li>نام و <strong>URL/آدرس</strong> را وارد و ذخیره کنید.</li>
+                <li>پس از دانلود، کانال‌ها بر اساس شباهت نام خودکار تطبیق می‌شوند؛ باقی را از <a href="#epg-rehberi">تطبیق کانال EPG</a> دستی انجام دهید.</li>
+            </ol>
+            <div class="warn"><p>نسخه رایگان فقط <strong>۱ منبع EPG</strong> می‌پذیرد. برخی ارائه‌دهندگان Xtream خودشان EPG می‌فرستند — با افزودن منبع Xtream معمولاً EPG خودکار می‌آید.</p></div>
+
+            <h3 id="grup-siralama">گروه‌ها، مرتب‌سازی و فیلترهای نام</h3>
+            <ul>
+                <li><strong>گروه‌های کانال:</strong> عناوین گروه‌های آمدۀ از M3U/Xtream را مدیریت می‌کند. گروه‌های پنهان در فهرست TV دیده نمی‌شوند؛ مرتب‌سازی ترتیب گروه‌ها را تعیین می‌کند.</li>
+                <li><strong>مرتب‌سازی:</strong> با «دستی» ترتیب خودتان را در فهرست کانال می‌سازید؛ «ترتیب اصلی» ترتیب فایل را حفظ می‌کند.</li>
+                <li><strong>فیلترهای نام:</strong> الگوهای ابتدا/انتهای نام کانال را حذف می‌کند (مثل پیشوندهای کشور) — فهرست تمیزتر می‌شود. فیلتر جداگانه برای نام‌های VOD: <strong>تنظیمات › داده‌های رسانه › فیلترهای نام VOD</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── خانه و EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>صفحه اصلی و راهنمای تلویزیون <span class="plat tv">TV</span></h2>
+
+            <h3>نوار بالا و منوها</h3>
+            <p>در صفحه اصلی TV یک نوار منوی افقی بالاست. پیمایش <kbd>◀</kbd><kbd>▶</kbd>، انتخاب <kbd>OK</kbd>، رفتن به محتوا <kbd>▼</kbd>.</p>
+            <table class="tbl">
+                <tr><th>منو</th><th>محتوا</th></tr>
+                <tr><td>جستجو</td><td>صفحه جستجوی هوشمند — کانال، فیلم، سریال و برنامه‌ها؛ جستجوی صوتی پشتیبانی می‌شود.</td></tr>
+                <tr><td>تلویزیون</td><td>فهرست کانال‌ها + شبکه EPG و کارت پیش‌نمایش زنده.</td></tr>
+                <tr><td>فیلم‌ها</td><td>ستون دسته‌ها (اکشن، کمدی، درام، علمی-تخیلی، وحشت، خانوادگی، علاقه‌مندی‌ها، تازه‌ها، ادامه تماشا) + گالری پوستر.</td></tr>
+                <tr><td>سریال‌ها</td><td>دسته‌هایی مثل سریال داخلی/خارجی، روزانه، پرایم‌تایم + گالری پوستر.</td></tr>
+                <tr><td>فهرست من</td><td>علاقه‌مندی‌ها، فیلم‌های من، سریال‌های من، ادامه تماشا، ضبط‌ها، یادآوری‌ها، دانلودها، محتوای آفلاین.</td></tr>
+                <tr><td>تنظیمات</td><td>آیکون چرخ‌دنده سمت راست — پنل تنظیمات ۱۳ دسته‌ای را باز می‌کند.</td></tr>
+            </table>
+            <p>آیکون‌های سمت راست نوار بالا: <strong>عکس پروفایل</strong> (تعویض پروفایل)، <strong>چرخ‌دنده تنظیمات</strong> و دکمه <strong>دستگاه‌ها</strong> (DLNA/کست).</p>
+            <div class="note"><p>در فهرست‌های بلند <kbd>کانال+</kbd>/<kbd>کانال−</kbd> (یا Page Up/Down) ۱۰ ردیف می‌پرد. <kbd>بازگشت</kbd> یک سطح بالا می‌رود؛ در صفحه اصلی تأیید خروج می‌خواهد.</p></div>
+
+            <h3>گالری پوستر و پیش‌نمایش</h3>
+            <ul>
+                <li>در صفحات فیلم/سریال پوسترها به‌صورت شبکه نمایش می‌یابند؛ با مکث، کارت بزرگ می‌شود و — اگر فعال باشد — <strong>پیش‌نمایش تریلر</strong> پخش می‌شود (تنظیم: داده‌های رسانه › پیش‌نمایش خودکار).</li>
+                <li>فشار طولانی <kbd>OK</kbd> روی پوستر: <a href="#vod-context">منوی زمینه</a> را باز می‌کند.</li>
+                <li>در صفحه TV با توقف روی ردیف کانال، پنجره <strong>پیش‌نمایش زنده</strong> بالا-چپ همان کانال را کوچک پخش می‌کند.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">استفاده از راهنمای تلویزیون (EPG)</h3>
+            <p>فهرست TV بین دو نما جابه‌جا می‌شود: <strong>فهرست کانال‌ها</strong> و <strong>شبکه EPG</strong> («رفتن به فهرست EPG» / «رفتن به فهرست کانال‌ها»).</p>
+            <ul>
+                <li><strong>ستون کنار:</strong> لوگو و نام کانال‌ها. <kbd>▲</kbd><kbd>▼</kbd> کانال را عوض می‌کند؛ برنامه‌هایش سمت دیگر دیده می‌شود.</li>
+                <li><strong>شبکه:</strong> نوار زمان — کارت‌های برنامه با مدت. <kbd>◀</kbd><kbd>▶</kbd> در زمان حرکت می‌کند.</li>
+                <li><strong>انتخاب روز:</strong> با دکمه‌های دیروز / امروز / فردا و پیکان‌های «روز قبل / روز بعد» تا جایی که تنظیم <em>داده‌های EPG روزهای گذشته</em> اجازه دهد عقب نگاه کنید.</li>
+                <li><strong>فشار طولانی <kbd>OK</kbd> روی ردیف کانال:</strong> <a href="#epg-context">منوی زمینه EPG</a> را باز می‌کند (علاقه‌مندی، ضبط، یادآوری، پنهان…).</li>
+                <li>فشار کوتاه <kbd>OK</kbd> روی کانال: تمام‌صفحه پخش می‌کند.</li>
+            </ul>
+            <div class="tip"><p>EPG روی کانال نیست؟ اول چک کنید منبع EPG تعریف و به‌روز باشد (تنظیمات › راهنمای تلویزیون › به‌روزرسانی EPG)، بعد کانال را با «تطبیق EPG» دستی تطبیق دهید.</p></div>
+
+            <h3 id="arama">جستجو و جستجوی صوتی</h3>
+            <ul>
+                <li>منوی <strong>جستجو</strong> (یا «جستجو» در منوهای زمینه) جستجوی هوشمند را باز می‌کند. هم‌زمان در فیلم، سریال، نام کانال و برنامه‌های EPG می‌گردد («نتایج برنامه»، «برنامه‌های تلویزیون»).</li>
+                <li>آیکون میکروفون <strong>جستجوی صوتی</strong> را شروع می‌کند — وقتی «در حال گوش‌دادن…» روشن است صحبت کنید؛ در اولین استفاده مجوز میکروفون خواسته می‌شود.</li>
+                <li><strong>تاریخچه جستجو</strong> کوئری‌های قبلی را نشان می‌دهد؛ «پاک‌کردن» حذفشان می‌کند.</li>
+                <li>در موبایل، تب جستجو همان کار را می‌کند؛ ورودی لمسی است.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── منوهای زمینه ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>منوهای زمینه</h2>
+
+            <h3>منوی زمینه EPG <span class="plat tv">TV</span></h3>
+            <p><strong>بازکردن:</strong> روی ردیف کانال در راهنمای TV <strong><kbd>OK</kbd> را طولانی فشار دهید</strong> — منو از کنار می‌لغزد. <kbd>▲</kbd><kbd>▼</kbd> پیمایش، <kbd>OK</kbd> انتخاب، <kbd>بازگشت</kbd> بستن.</p>
+            <table class="tbl">
+                <tr><th>مورد</th><th>عملکرد</th></tr>
+                <tr><td>بازکردن کانال</td><td>کانال انتخابی را تمام‌صفحه شروع می‌کند.</td></tr>
+                <tr><td>جستجو</td><td>جستجوی هوشمند را باز می‌کند.</td></tr>
+                <tr><td>تلویزیون / فیلم‌ها / سریال‌ها / فهرست من / تنظیمات</td><td>پرش سریع به بخش‌های اصلیِ غیرفعلی.</td></tr>
+                <tr><td>افزودن به / حذف از علاقه‌مندی‌ها</td><td>کانال را به علاقه‌مندی‌ها اضافه/حذف می‌کند؛ در فهرست TV و فهرست من دیده می‌شود.</td></tr>
+                <tr><td>بازکردن در پخش‌کننده خارجی</td><td>استریم کانال را به اپ پخش دیگری روی دستگاه می‌فرستد (VLC، MX Player…).</td></tr>
+                <tr><td>ضبط</td><td>برنامه انتخابی (یا ضبط دستی ۲ ساعته بدون برنامه) را به فهرست ضبط‌ها اضافه می‌کند. دقایق اضافی تنظیمات خودکار اعمال می‌شود.</td></tr>
+                <tr><td>ضبط سفارشی</td><td>اول پنجره انتخاب دقایق اضافی شروع/پایان (+0/+1/+5/+10 دقیقه) را نشان می‌دهد.</td></tr>
+                <tr><td>افزودن / حذف یادآوری</td><td>قبل از شروع برنامه اعلان می‌دهد؛ با «بازکردن خودکار کانال» فعال، خود کانال باز می‌شود.</td></tr>
+                <tr><td>تطبیق EPG</td><td>داده‌های برنامه کانال را دستی به نام کانال صحیحِ منبع EPG وصل می‌کند.</td></tr>
+                <tr><td>به‌روزرسانی EPG</td><td>منابع EPG تعریف‌شده را دوباره دانلود می‌کند.</td></tr>
+                <tr><td>پاک‌کردن EPG</td><td>داده‌های برنامه ذخیره‌شده را حذف می‌کند؛ در به‌روزرسانی بعدی دوباره دانلود می‌شود.</td></tr>
+                <tr><td>به‌روزرسانی لوگوها</td><td>لوگوی کانال‌ها را دوباره بارگیری می‌کند (طبق تنظیم منبع لوگو).</td></tr>
+                <tr><td>قفل / بازکردن کانال</td><td>کانال را پشت PIN در چارچوب کنترل والدین پنهان می‌کند؛ بازکردن PIN می‌خواهد.</td></tr>
+                <tr><td>پنهان / نمایش کانال</td><td>کانال را از فهرست پنهان می‌کند؛ برگرداندن: «نمایش کانال‌های پنهان» یا تنظیمات › کنترل والدین › کانال‌های پنهان.</td></tr>
+                <tr><td>نمایش کانال‌های پنهان</td><td>کانال‌های پنهان را موقتاً به فهرست برمی‌گرداند.</td></tr>
+            </table>
+
+            <h3 id="vod-context">منوی زمینه فیلم / سریال</h3>
+            <p><strong>بازکردن:</strong> فشار طولانی <kbd>OK</kbd> روی پوستر (موبایل: فشار طولانی / آیکون ☰).</p>
+            <table class="tbl">
+                <tr><th>مورد</th><th>عملکرد</th></tr>
+                <tr><td>ادامه</td><td>از نقطه توقف ادامه می‌دهد (فقط وقتی پیشرفت وجود دارد ظاهر می‌شود).</td></tr>
+                <tr><td>پخش</td><td>محتوا را از ابتدا پخش می‌کند.</td></tr>
+                <tr><td>پخش خارجی</td><td>به اپ پخش دیگری می‌فرستد.</td></tr>
+                <tr><td>تریلر</td><td>تریلر موجود در TMDB را باز می‌کند.</td></tr>
+                <tr><td>پوستر تمام‌صفحه / نمایش بنر <span class="plat tv">TV</span></td><td>گالری را بین شبکه پوستر و چیدمان بنر جابه‌جا می‌کند.</td></tr>
+                <tr><td>مرتب‌سازی / فیلتر</td><td>گزینه‌های مرتب‌سازی و فیلتر گالری را باز می‌کند.</td></tr>
+                <tr><td>سال انتشار</td><td>محتوا را بر اساس سال فیلتر می‌کند.</td></tr>
+                <tr><td>دسته</td><td>بر اساس ژانر فیلتر می‌کند (اکشن، کمدی…).</td></tr>
+                <tr><td>جزئیات بیشتر</td><td>پنل جزئیات را باز می‌کند: خلاصه، بازیگران، کارگردان، امتیاز، فهرست قسمت‌ها.</td></tr>
+                <tr><td>به فهرست من / حذف</td><td>محتوا را به «فهرست من › فیلم‌های من/سریال‌های من» اضافه/حذف می‌کند.</td></tr>
+                <tr><td>حذف از تاریخچه</td><td>موقعیت ذخیره‌شده را پاک می‌کند؛ محتوا از «ادامه تماشا» می‌رود.</td></tr>
+                <tr><td>حذف از دیده‌شده / پاک‌کردن دیده‌شده‌ها</td><td>علامت «دیده‌شده» را برمی‌دارد یا کل سابقه تماشا را پاک می‌کند.</td></tr>
+                <tr><td>حذف از محتوای آفلاین</td><td>محتوای دانلودشده را حذف می‌کند (فقط روی دانلودها ظاهر می‌شود).</td></tr>
+                <tr><td>جستجو و تطبیق محتوا</td><td>اگر تطبیق TMDB اشتباه/گمشده است، فیلم/سریال صحیح را دستی جستجو و تطبیق دهید.</td></tr>
+                <tr><td>انتخاب چندگانه <span class="plat mob">موبایل</span></td><td>حالت انتخاب چند پوستر برای عملیات گروهی را باز می‌کند.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── پخش‌کننده ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>پخش‌کننده تمام‌صفحه</h2>
+
+            <h3>تمام‌صفحه — پخش زنده <span class="plat tv">TV</span></h3>
+            <p>وقتی کانال باز می‌شود، ویدیو تمام‌صفحه پخش می‌شود. همه پنل‌ها با ریموت باز و پس از بی‌عملی خودکار بسته می‌شوند (فهرست کانال ~۸ ثانیه، جریان برنامه ~۱۵ ثانیه).</p>
+
+            <h4 id="fs-tuslar">کلیدهای ریموت — پخش زنده</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> کوتاه</div><div>OSD (پنل اطلاعات) را باز/بسته می‌کند.</div>
+                <div><kbd>OK</kbd> طولانی</div><div>کارت تنظیمات پخش‌کننده را باز می‌کند (پایین).</div>
+                <div><kbd>▶</kbd></div><div>فهرست کانال‌ها را از لبه باز می‌کند. با فهرست باز، یک بار دیگر → ستون دسته‌ها (گروه‌ها).</div>
+                <div><kbd>◀</kbd></div><div>«جریان برنامه‌ها»ی EPG را از لبه دیگر باز می‌کند؛ اگر باز است — می‌بندد.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>کانال را عوض می‌کند؛ در فهرست باز انتخاب را حرکت می‌دهد.</div>
+                <div><kbd>0–9</kbd></div><div>ورود شماره کانال — با کامل شدن ورودی تغییر می‌کند.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> یا <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>کانال بعدی/قبلی (در فهرست باز حرکت می‌کند).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>جریان برنامه‌های EPG را باز/بسته می‌کند.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>به آخرین کانال دیده‌شده برمی‌گردد.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>کانال قبلی/بعدی.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>پخش زنده را مکث/ادامه می‌کند.</div>
+                <div><kbd>●</kbd> کلید Record</div><div>فهرست کانال‌ها را باز/بسته می‌کند.</div>
+                <div><kbd>بازگشت</kbd></div><div>پنل باز را می‌بندد → OSD را می‌بندد → از پخش‌کننده خارج می‌شود.</div>
+            </div>
+
+            <h4 id="fs-paneller">پنل‌ها و کارت تنظیمات</h4>
+            <table class="tbl">
+                <tr><th>پنل</th><th>بازکردن</th><th>محتوا</th></tr>
+                <tr><td>OSD (پنل اطلاعات)</td><td><kbd>OK</kbd> کوتاه</td><td>نام/لوگوی کانال، برنامه فعلی و بعدی، پیشرفت، ساعت (اگر ساعت تمام‌صفحه فعال باشد).</td></tr>
+                <tr><td>فهرست کانال‌ها</td><td><kbd>▶</kbd> یا <kbd>●</kbd></td><td>فهرستی که از کنار می‌لغزد؛ بالا/پایین برای انتخاب، <kbd>OK</kbd> برای تغییر. <kbd>▶</kbd> بعدی ستون گروه‌ها/دسته‌ها را باز می‌کند — <kbd>OK</kbd> گروه را اعمال می‌کند.</td></tr>
+                <tr><td>جریان برنامه‌های EPG</td><td><kbd>◀</kbd> یا <kbd>Info</kbd></td><td>فهرست برنامه‌ای که از کنار می‌لغزد: برنامه‌های امروز. <kbd>▲</kbd><kbd>▼</kbd> مرور؛ فشار طولانی <kbd>OK</kbd> روی برنامه → اقدامات یادآوری/ضبط.</td></tr>
+                <tr><td>کارت تنظیمات پخش‌کننده</td><td><kbd>OK</kbd> طولانی</td><td>کارت تنظیمات سریع ۸-آیکونه (جدول پایین).</td></tr>
+            </table>
+
+            <h4>کارت تنظیمات پخش‌کننده (پخش زنده)</h4>
+            <p>با کارت باز بین آیکون‌ها با <kbd>◀</kbd><kbd>▶</kbd> و بین گزینه‌های پنل باز حرکت کنید؛ <kbd>OK</kbd> اعمال می‌کند.</p>
+            <table class="tbl">
+                <tr><th>تب</th><th>توضیح</th></tr>
+                <tr><td>رفتن به VOD</td><td>پرش سریع به بخش فیلم‌ها یا سریال‌ها.</td></tr>
+                <tr><td>زبان پخش</td><td>انتخاب تراک صدا اگر استریم بیش از یکی داشته باشد (در غیر این‌صورت زبان ترجیحی: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>اندازه تصویر</td><td>نسبت: اصلی، برش/پُرکردن، کشش افقی، کشش عمودی، پرکردن کامل، 4:3، 16:9 — با گزینه «اعمال به همه کانال‌ها».</td></tr>
+                <tr><td>زیرنویس</td><td>انتخاب تراک زیرنویس + رنگ متن (۱۰ رنگ) و اندازه.</td></tr>
+                <tr><td>PIP</td><td>حالت چندصفحه‌ای را باز می‌کند (<a href="#coklu-ekran">پایین را ببینید</a>).</td></tr>
+                <tr><td>اطلاعات پخش</td><td>داده‌های فنی استریم (رزولوشن، کدک…).</td></tr>
+                <tr><td>پخش‌کننده</td><td>رمزگشایی و گزینه‌های رفتار پایه پخش‌کننده.</td></tr>
+                <tr><td>تنظیمات</td><td>صفحه اصلی تنظیمات را باز می‌کند («بازکردن همه تنظیمات»).</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">چندصفحه‌ای (PIP)</h4>
+            <p>از <strong>PIP</strong> در کارت یا قابلیت چندصفحه‌ای چند کانال هم‌زمان دیده می‌شود (تا ۴ صفحه). گزینه‌های منوی چندصفحه‌ای:</p>
+            <ul>
+                <li><strong>افزودن صفحه / بستن صفحه:</strong> سلول پخش جدید باز می‌کند یا سلول انتخابی را می‌بندد.</li>
+                <li><strong>نمای برابر / صفحه بزرگ:</strong> صفحه‌ها را برابر تقسیم می‌کند یا یکی را بزرگ می‌کند.</li>
+                <li><strong>تغییر کانال:</strong> کانال سلول متمرکز را عوض می‌کند.</li>
+                <li><strong>تمام‌صفحه / بازگشت به صفحه‌ها / تک‌صفحه:</strong> سلول را بزرگ می‌کند یا نمای چندگانه را برمی‌گرداند.</li>
+                <li><strong>پخش/توقف، قطع/وصل صدا، بارگیری مجدد:</strong> پخش و صدای هر سلول (صدا هر بار فقط از یک صفحه).</li>
+            </ul>
+            <div class="warn"><p>چندصفحه‌ای پردازنده را خسته می‌کند؛ روی دستگاه‌های ضعیف دو صفحه توصیه می‌شود.</p></div>
+
+            <h3 id="fs-vod">تمام‌صفحه — فیلم / سریال</h3>
+            <p>در پخش‌کننده VOD، OSD به‌صورت پنل کنترل در پایین باز می‌شود: <strong>قسمت/محتوای قبلی، عقب، پخش/توقف، جلو، بعدی، زبان و زیرنویس، اطلاعات، تنظیمات، شروع از اول</strong> و نوار پیشرفت.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>OSD را باز می‌کند؛ وقتی باز است — دکمه متمرکز را فعال می‌کند (پیش‌فرض پخش/توقف).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>جستجوی پلکانی روی نوار پیشرفت؛ با OSD بسته اول آن را باز می‌کند. در ردیف کنترل بین دکمه‌ها حرکت می‌کند.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>حرکت عمودی بین نوار پیشرفت ↔ ردیف کنترل ↔ کارت تنظیمات.</div>
+                <div><kbd>0–9</kbd></div><div>ورود دقیقه — به دقیقه واردشده می‌رود.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>۳۰ ثانیه عقب/جلو (نشانگر روی صفحه می‌آید).</div>
+                <div><kbd>Info</kbd></div><div>کارت اطلاعات فیلم/سریال را باز می‌کند (خلاصه، بازیگران، امتیاز — TMDB).</div>
+                <div><kbd>بازگشت</kbd></div><div>پنل/OSD را می‌بندد؛ با فشار دوباره خارج و پیشرفت ذخیره می‌شود.</div>
+            </div>
+            <ul>
+                <li><strong>کارت قسمت بعدی:</strong> در سریال‌ها ~۳۰ ثانیه مانده به پایان، کارت «رفتن به قسمت بعدی» پایین می‌آید؛ برای رفتن <kbd>OK</kbd> بزنید.</li>
+                <li><strong>ادامه از موقعیت:</strong> محتوای ناتمام هنگام بازکردن مجدد از ثانیه ذخیره‌شده ادامه می‌یابد («ادامه»). پیشرفت هنگام خروج ذخیره می‌شود.</li>
+                <li><strong>منوی زبان و زیرنویس:</strong> تراک‌های صدا و زیرنویس را بلافاصله عوض می‌کند.</li>
+                <li><strong>ژست‌های موبایل</strong> <span class="plat mob">موبایل</span>: کشیدن عمودی روی یک لبه = صدا، لبه دیگر = روشنایی؛ لمس OSD را باز می‌کند.</li>
+            </ul>
+            <p>کارت تنظیمات VOD شبیه کارت پخش زنده است؛ علاوه بر آن <strong>جابه‌جایی صدا</strong> (اسلایدر + بازنشانی) و <strong>رفتن به تلویزیون</strong> را دارد.</p>
+        </section>
+
+        <!-- ───────────── ضبط و یادآوری ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>ضبط و یادآوری <span class="plat pro">PRO</span></h2>
+
+            <h3>ضبط برنامه‌ها</h3>
+            <ol>
+                <li>در EPG روی <strong>ردیف کانال</strong> برنامه‌ای که می‌خواهید ضبط کنید <kbd>OK</kbd> را طولانی فشار دهید.</li>
+                <li><strong>ضبط</strong>: برنامه را با دقایق اضافی تنظیمات به فهرست ضبط‌ها اضافه می‌کند. بدون برنامه، ضبط دستی ۲ ساعته از همین الان زمان‌بندی می‌شود.</li>
+                <li><strong>ضبط سفارشی</strong>: قبل از ساخت ضبط، پنجره انتخاب دقایق اضافی شروع/پایان (0/+1/+5/+10 دقیقه) را باز می‌کند.</li>
+                <li>در زمان مشخص ضبط خودکار شروع می‌شود؛ آیکون REC روی کارت برنامه در جریان می‌چشمکد.</li>
+            </ol>
+            <p>موارد <strong>تنظیمات › ضبط</strong>:</p>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>پوشه ضبط‌ها</td><td>کجا ضبط‌ها ذخیره شود: حافظه داخلی یا پوشه شبکه (SMB — «اسکن شبکه» منابع را پیدا و با نام کاربری/رمز وصل می‌کند).</td></tr>
+                <tr><td>زمان قبل / بعد از ضبط</td><td>وقت اضافی شروع و پایان هر ضبط: ۰، ۱، ۵ یا ۱۰ دقیقه. کمک می‌کند وقتی برنامه عقب می‌افتد یا طول می‌کشد چیزی را از دست ندهید.</td></tr>
+                <tr><td>فهرست ضبط‌ها</td><td>شمارنده‌های همه/تکمیل‌شده/زمان‌بندی‌شده و همه ضبط‌ها: تکمیل‌شده را با <kbd>OK</kbd> پخش، در انتظار را لغو، حذف کنید.</td></tr>
+            </table>
+            <div class="note"><p>ضبط‌ها در پوشه انتخابی نوشته می‌شود؛ از کافی‌بودن فضا مطمئن شوید. انتخاب USB/کارت SD پشتیبانی می‌شود.</p></div>
+
+            <h3 id="hatirlatici">یادآوری‌ها</h3>
+            <ul>
+                <li>با <strong>افزودن یادآوری</strong> در منوی زمینه EPG برای برنامه یادآوری بسازید؛ برای حذف دوباره انتخاب کنید.</li>
+                <li>زمان اعلان: <strong>۱، ۲، ۵ یا ۱۰ دقیقه قبل</strong> از شروع برنامه.</li>
+                <li><strong>تنظیمات › یادآوری‌ها</strong>: گزینه‌های اعلان و <strong>«بازکردن خودکار کانال»</strong> (تلویزیون در موعد خودش به کانال می‌رود)؛ همه فهرست یادآوری‌ها هم اینجا مدیریت می‌شود.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── پروفایل و والدین ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>پروفایل‌ها و کنترل والدین <span class="plat pro">PRO</span></h2>
+
+            <h3>مدیریت پروفایل‌ها</h3>
+            <p>در <strong>تنظیمات › پروفایل‌ها</strong>:</p>
+            <ul>
+                <li><strong>افزودن پروفایل:</strong> پروفایل جدید با نام، انتخاب آواتار و PIN اختیاری می‌سازد.</li>
+                <li><strong>فهرست پروفایل‌ها:</strong> پروفایل‌های موجود را نشان می‌دهد؛ ویرایش و حذف همین‌جاست.</li>
+                <li>هر پروفایل <em>علاقه‌مندی‌ها، محتوای «فهرست من»، تاریخچه و تنظیمات شخصی</em> خود را نگه می‌دارد. پروفایل فعال هنگام اجرا پرسیده می‌شود؛ با آواتار در نوار بالا فوراً عوض می‌شود.</li>
+            </ul>
+
+            <h3 id="ebeveyn">کنترل والدین</h3>
+            <p>موارد <strong>تنظیمات › کنترل والدین</strong> (اگر PIN تعریف شده باشد، ورود به پنل PIN می‌خواهد):</p>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>محافظت PIN</td><td>وضعیت کد PIN چهاررقمی.</td></tr>
+                <tr><td>تغییر PIN</td><td>PIN چهاررقمی جدید تعیین می‌کند (حذف PIN هم همین‌جا).</td></tr>
+                <tr><td>الزامات PIN</td><td>مشخص می‌کند در کدام موقعیت‌ها PIN پرسیده شود.</td></tr>
+                <tr><td>قفل تنظیمات</td><td>اگر فعال باشد، ورود به تنظیمات PIN می‌خواهد.</td></tr>
+                <tr><td>قفل محتوای ۱۸+</td><td>محتوای بزرگسال را پشت PIN پنهان می‌کند.</td></tr>
+                <tr><td>قفل کانال‌ها</td><td>بازکردن کانال‌های قفل‌شده PIN می‌خواهد (قفل کانال: منوی زمینه EPG).</td></tr>
+                <tr><td>حد سنی</td><td>محدودیت سنی — محتوای بالاتر از سن انتخابی PIN می‌خواهد. کنارش «راهنمای رتبه‌بندی سنی» علامت‌های سیستم‌های ملی را توضیح می‌دهد.</td></tr>
+                <tr><td>کانال‌های پنهان</td><td>کانال‌های پنهان را نشان می‌دهد و دوباره قابل‌مشاهده می‌کند.</td></tr>
+            </table>
+            <div class="tip"><p>PIN را فراموش کردید؟ قبل از ساخت پروفایل جدید یا نصب مجدد، پشتیبان بگیرید؛ داده‌های PIN رمزنگاری‌شده روی دستگاه نگهداری می‌شود.</p></div>
+        </section>
+
+        <!-- ───────────── تنظیمات ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>راهنمای تنظیمات</h2>
+            <p>صفحه تنظیمات سه ستون دارد: <strong>کنار</strong> — ۱۳ دسته، <strong>وسط</strong> — موارد دسته، <strong>طرف دیگر</strong> — پنل توضیح/تنظیم مورد انتخابی. آیکون <strong>ذره‌بین</strong> در عنوان جستجو در تنظیمات را باز می‌کند. <kbd>کانال+</kbd>/<kbd>−</kbd> در فهرست دسته‌ها ۱۰ ردیف می‌پرد.</p>
+            <div class="warn"><p>در نسخه رایگان برخی دسته‌ها قفل‌اند (آیکون قفل): پخش‌کننده، ظاهر، داده‌های رسانه، ضبط، یادآوری‌ها، پروفایل‌ها، کنترل والدین، دانلودها و سایر. دسته قفل‌شده پنل ارتقا به Pro را باز می‌کند.</p></div>
+
+            <h3 id="ayar-listeler">۱ · فهرست‌های پخش</h3>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>افزودن فهرست</td><td>فهرست M3U جدید (URL/فایل) یا Xtream (سرور+کاربر+رمز) اضافه می‌کند.</td></tr>
+                <tr><td>دوره به‌روزرسانی</td><td>بازه به‌روزرسانی خودکار: دستی، ۶، ۱۲، ۲۴، ۴۸، ۷۲، ۱۶۸ ساعت.</td></tr>
+                <tr><td>به‌روزرسانی همه فهرست‌ها</td><td>همه منابع را یکجا دوباره دانلود می‌کند.</td></tr>
+                <tr><td>فهرست‌های موجود</td><td>ویرایش، حذف و به‌روزرسانی منابع؛ وضعیت فعال/غیرفعال و آخرین به‌روزرسانی.</td></tr>
+                <tr><td>گروه‌های کانال</td><td>پنهان‌کردن، تغییر نام و مرتب‌سازی گروه‌ها.</td></tr>
+                <tr><td>منابع EPG</td><td>تخصیص منبع EPG به فهرست‌ها («تخصیص به فهرست»).</td></tr>
+                <tr><td>مرتب‌سازی</td><td>ترتیب کانال‌ها: نام/شماره، دستی، اصلی یا بر اساس گروه.</td></tr>
+                <tr><td>فیلترهای نام کانال</td><td>حذف پیشوند/پسوند از نام‌ها؛ قواعد <code>*</code> و پیش‌نمایش مثال تبدیل.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">۲ · راهنمای تلویزیون</h3>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>افزودن منبع EPG</td><td>منبع EPG با فرمت XMLTV اضافه می‌کند (داده‌های برنامه کانال‌ها را می‌دهد).</td></tr>
+                <tr><td>منابع EPG موجود</td><td>ویرایش/حذف منابع EPG؛ تعداد کانال و آخرین به‌روزرسانی هر منبع.</td></tr>
+                <tr><td>تطبیق کانال EPG</td><td>کانال‌ها را با داده‌های EPG تطبیق می‌دهد — خودکار یا با تخصیص دستی؛ کانال‌های تطبیق‌نشده فهرست می‌شوند.</td></tr>
+                <tr><td>دوره به‌روزرسانی</td><td>بازه به‌روزرسانی EPG در پس‌زمینه: دستی، ۱، ۲، ۴، ۶، ۱۲، ۲۴ ساعت.</td></tr>
+                <tr><td>به‌روزرسانی هنگام اجرا</td><td>اگر فعال باشد، EPG در هر شروع اپ خودکار به‌روز می‌شود.</td></tr>
+                <tr><td>به‌روزرسانی هنگام تغییر فهرست</td><td>وقتی فهرست پخش تغییر/به‌روز شد، EPG هم خودکار به‌روز می‌شود.</td></tr>
+                <tr><td>داده‌های EPG روزهای گذشته</td><td>چند روز داده برنامه گذشته نگه داشته شود: هیچ، ۱، ۲، ۳، ۵ یا ۷ روز. روز بیشتر = حافظه بیشتر.</td></tr>
+                <tr><td>جابه‌جایی زمانی</td><td>زمان برنامه‌ها را جلو/عقب می‌برد — کلی یا به‌ازای هر کانال (برای منابع با اختلاف منطقه زمانی).</td></tr>
+                <tr><td>به‌روزرسانی EPG</td><td>به‌روزرسانی دستی را شروع می‌کند؛ پیشرفت و تعداد کانال پردازش‌شده نشان داده می‌شود.</td></tr>
+                <tr><td>پاک‌کردن EPG</td><td>داده‌های برنامه ذخیره‌شده و حافظه تصاویر را حذف می‌کند؛ در به‌روزرسانی بعدی دوباره دانلود می‌شود.</td></tr>
+                <tr><td>آخرین به‌روزرسانی</td><td>کانال‌های پردازش‌شده و تاریخ به‌روزرسانی هر منبع.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">۳ · پخش‌کننده <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>تصویر</td><td>نسبت: اصلی، برش/پُرکردن، کشش افقی، کشش عمودی، پرکردن کامل، 4:3، 16:9؛ در صورت تمایل به همه کانال‌ها اعمال می‌شود.</td></tr>
+                <tr><td>خروجی ویدیو</td><td>انتخاب رمزگشایی: سخت‌افزاری (توصیه‌شده، باتری/CPU کمتر) یا نرم‌افزاری (برای مشکلات سازگاری).</td></tr>
+                <tr><td>خروجی صدا</td><td>رمزگشایی صدا (سخت‌افزاری/نرم‌افزاری)، <strong>عبور صدا (Bitstream)</strong> — جریان صدای خام برای سیستم‌های سوراند، <strong>جابه‌جایی صدا</strong> (اسلایدر میلی‌ثانیه + بازنشانی) و زبان پیش‌فرض صدا.</td></tr>
+                <tr><td>زیرنویس</td><td>اندازه و رنگ متن (۱۰ رنگ)، موقعیت (بالا/وسط/پایین) و رمزگذاری (UTF-8…).</td></tr>
+                <tr><td>تعویض کانال</td><td>رفتار زاپ: <strong>تأخیر تعویض</strong> (میلی‌ثانیه صبر قبل از تعویض واقعی — از بارگذاری‌های اضافی در زاپ سریع جلوگیری می‌کند) و <strong>صفحه سیاه هنگام تعویض</strong> (سیاه هنگام بارگذاری کانال جدید؛ خاموش — کانال قبلی روی صفحه می‌ماند).</td></tr>
+                <tr><td>حافظه موقت</td><td>اندازه بافر: خودکار، بدون، کوچک (~۱ ثانیه)، متوسط (~۳ ثانیه، توصیه‌شده)، بزرگ (~۸ ثانیه)، خیلی بزرگ (~۱۵+ ثانیه). برای استریم قطع‌شونده بزرگ کنید؛ برای زاپ سریع‌تر کم کنید.</td></tr>
+                <tr><td>VOD</td><td>ترجیحات فیلم/سریال: انتخاب پخش‌کننده خارجی (انتخاب خودکار / انتخاب اپ / پخش‌کننده خارجی ۱-۲)، زیرنویس خودکار و غیره.</td></tr>
+                <tr><td>ساعت تمام‌صفحه</td><td>ساعت روی تمام‌صفحه: روشن/خاموش، موقعیت، اندازه (کوچک/متوسط/بزرگ)، قالب ۲۴ ساعته، نمایش تاریخ.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">۴ · ظاهر <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>زبان</td><td>زبان رابط — انتخاب از ۲۴ زبان یا «زبان سیستم»؛ با فیلد جستجو فیلتر می‌شود.</td></tr>
+                <tr><td>رنگ‌ها</td><td>تم اپ (تیره، آبی، خاکستری، سبز، بنفش، قرمز، کهربایی، شب، اقیانوس، ذغالی، شرابی، سرمه‌ای، زمردی، غروب، فضا، گرافیت)، رنگ تأکید (۱۸ رنگ) و کدری OSD (با پیش‌نمایش).</td></tr>
+                <tr><td>راهنمای تلویزیون</td><td>ظاهر EPG: قالب ۲۴ ساعته، ارتفاع ردیف (کوچک/متوسط/بزرگ)، چیدمان (فهرست/شبکه).</td></tr>
+                <tr><td>فهرست کانال‌ها</td><td>ظاهر فهرست کانال و چیدمان کارت‌ها.</td></tr>
+                <tr><td>لوگوها</td><td>اولویت منبع لوگو: <strong>XMLTV/EPG</strong>، <strong>فهرست (M3U)</strong> یا <strong>پوشه محلی</strong>؛ با انتخاب پوشه از فایل‌های لوگوی خودتان (PNG/JPG/WebP) استفاده کنید.</td></tr>
+                <tr><td>مدت OSD</td><td>چند ثانیه پنل اطلاعات روی صفحه بماند — جدا برای TV و VOD.</td></tr>
+                <tr><td>محافظ صفحه</td><td>زمان تا فعال‌شدن هنگام بی‌عملی: خاموش، ۱، ۲، ۵، ۱۰، ۱۵ یا ۳۰ دقیقه.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">۵ · داده‌های رسانه <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>کلیدهای API</td><td>کلیدهای API خودتان برای TMDB و OMDb را وارد کنید — از سایت دو سرویس رایگان گرفته می‌شود. پوسترها، توضیحات، بازیگران و امتیازهای IMDb فیلم/سریال از این سرویس‌ها می‌آید.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>فعال/غیرفعال‌کردن سرویس. TMDB: پوستر+خلاصه+تریلر؛ OMDb: امتیاز IMDb، ژانر، کارگردان.</td></tr>
+                <tr><td>حافظه هوشمند</td><td>فعال — فقط داده‌های محتوای دیده‌شده روی صفحه بارگیری می‌شود؛ شروع اول سریع‌تر.</td></tr>
+                <tr><td>فقط غنی‌سازی دستی</td><td>بارگیری خودکار داده‌ها را خاموش می‌کند؛ غنی‌سازی فقط وقتی انجام می‌شود که خودتان بخواهید.</td></tr>
+                <tr><td>پوشه حافظه</td><td>پوشه‌ای که حافظه داده‌های رسانه در آن نگه داشته می‌شود.</td></tr>
+                <tr><td>غنی‌سازی همه محتوا</td><td>داده‌های TMDB را برای کل محتوای VOD یکجا دانلود می‌کند (ممکن است طول بکشد).</td></tr>
+                <tr><td>غنی‌سازی بر اساس دسته</td><td>فقط دسته‌های انتخابی را غنی می‌کند.</td></tr>
+                <tr><td>پاک‌کردن حافظه</td><td>کل حافظه داده‌های رسانه را حذف می‌کند (تعداد و حجم نشان داده می‌شود).</td></tr>
+                <tr><td>فیلترهای نام VOD</td><td>قواعد حذف پیشوند/پسوند نام فیلم/سریال — تطبیق TMDB را بهتر می‌کند.</td></tr>
+            </table>
+            <p>همچنین تنظیمات پیش‌نمایش پوستر (تریلر هنگام توقف): <strong>پیش‌نمایش خودکار</strong> (تریلر را هنگام توقف روی پوستر پخش می‌کند)، <strong>صدای تریلر</strong>، نقطه شروع و زمان انتظار.</p>
+
+            <h3 id="ayar-diger">۶–۹، ۱۱ · ضبط، یادآوری، پروفایل، والدین، دانلود، سایر</h3>
+            <ul>
+                <li><strong>ضبط</strong> <span class="plat pro">PRO</span> — پوشه، زمان اضافی، فهرست ضبط‌ها (<a href="#kayit">جزئیات</a>).</li>
+                <li><strong>یادآوری‌ها</strong> <span class="plat pro">PRO</span> — اعلان و بازکردن خودکار کانال + فهرست (<a href="#hatirlatici">جزئیات</a>).</li>
+                <li><strong>پروفایل‌ها</strong> <span class="plat pro">PRO</span> — فهرست پروفایل و پروفایل جدید (<a href="#profiller">جزئیات</a>).</li>
+                <li><strong>کنترل والدین</strong> <span class="plat pro">PRO</span> — PIN، قفل‌ها، حد سنی، کانال‌های پنهان (<a href="#ebeveyn">جزئیات</a>).</li>
+                <li><strong>دانلودها</strong> <span class="plat pro">PRO</span> — پوشه، دانلودهای هم‌زمان، فقط Wi-Fi، فهرست (<a href="#indirilenler">جزئیات</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>مورد سایر <span class="plat pro">PRO</span></th><th>توضیح</th></tr>
+                <tr><td>صدای کلیدهای ریموت</td><td>هنگام پیمایش با دی‌پد کلیک نرم پخش می‌کند.</td></tr>
+                <tr><td>صفحه‌کلید اپ</td><td>استفاده از صفحه‌کلید خود اپ یا صفحه‌کلید سیستم هنگام ورودی.</td></tr>
+                <tr><td>شروع خودکار</td><td>اپ هنگام روشن‌شدن دستگاه خودش شروع می‌شود (تلویزیون).</td></tr>
+                <tr><td>توقف پخش هنگام خروج</td><td>پخش هنگام ترک اپ خودکار متوقف می‌شود.</td></tr>
+                <tr><td>آمار تماشا</td><td>زمان تماشای فیلم، سریال و پخش زنده شما (۷/۳۰ روز اخیر، مجموع)؛ قابل صفرشدن.</td></tr>
+                <tr><td>مصرف داده</td><td>مصرف داده شبکه: دریافت/ارسال و مجموع.</td></tr>
+                <tr><td>پشتیبان‌گیری / بازیابی</td><td>ذخیره همه تنظیمات، علاقه‌مندی‌ها، پروفایل‌ها و تاریخچه در یک فایل / بازیابی از فایل.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">۱۰ و ۱۲ · حساب‌ها و همگام‌سازی · درباره</h3>
+            <table class="tbl">
+                <tr><th>مورد</th><th>توضیح</th></tr>
+                <tr><td>حساب‌ها و همگام‌سازی و دستگاه‌ها</td><td>وضعیت حساب Google، ساخت حساب ناشناس، همگام‌سازی خودکار، همگام‌سازی مجوز پریمیوم، فهرست و حذف دستگاه‌های متصل، خروج و <strong>حذف حساب</strong> (حذف دائمی همراه داده‌های ابری).</td></tr>
+                <tr><td>درباره اپلیکیشن</td><td>نسخه و نوع اشتراک و مدت مجوز، فهرست ویژگی‌ها (پخش زنده، VOD و IPTV، EPG، چندصفحه‌ای، ضبط، یادآوری، پروفایل، کنترل والدین، جستجوی هوشمند، DLNA، همگام‌سازی ابری، فهرست علاقه‌مندی، داده‌های رسانه) و اطلاعات تماس.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── موبایل ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>اپلیکیشن موبایل <span class="plat mob">موبایل</span></h2>
+            <p>رابط موبایل برای لمس طراحی شده؛ از همان حساب و فهرست‌ها استفاده می‌کند.</p>
+            <ul>
+                <li><strong>نوار تب پایین:</strong> تلویزیون، فیلم‌ها، سریال‌ها، فهرست من. در حالت افقی فهرست عمودی در کنار می‌آید.</li>
+                <li><strong>نوار بالا:</strong> لوگو، <strong>ریموت</strong>، <strong>جستجو</strong>، <strong>DLNA/دستگاه‌ها</strong>، چرخ‌دنده <strong>تنظیمات</strong> و <strong>عکس پروفایل</strong>.</li>
+                <li><strong>تب تلویزیون:</strong> بالا ناحیه پیش‌نمایش + فیلتر «همه»/گروه‌ها؛ پایین کارت‌های کانال (لوگو، نام، نوار زمان، برنامه فعلی + پیشرفت، ستاره علاقه‌مندی، منوی ☰).</li>
+                <li><strong>صفحه EPG:</strong> جریان برنامه‌های روز؛ روی کانال بزنید تا برنامه‌هایش را ببینید.</li>
+                <li><strong>دانلودها / محتوای آفلاین:</strong> فیلم‌ها و قسمت‌های دانلودشده بدون اینترنت دیده می‌شود؛ از فهرست پخش و حذف کنید.</li>
+                <li><strong>نوار دانلود</strong> پایین هنگام بارگیری منابع روی همه تب‌ها دیده می‌شود.</li>
+            </ul>
+
+            <h3 id="kumanda">ریموت TV از گوشی <span class="plat pro">PRO</span></h3>
+            <p>اپ گوشی را به‌عنوان ریموت برای Android TV روی همان شبکه استفاده کنید:</p>
+            <ol>
+                <li>TiviEase Go را روی TV باز بگذارید؛ روی گوشی به <strong>آیکون ریموت</strong> در نوار بالا بزنید.</li>
+                <li>تلویزیون‌تان را از فهرست «دستگاه‌های شبکه» انتخاب کنید (پیدا نشد؟ با دکمه «تلاش مجدد» دوباره اسکن کنید).</li>
+                <li>صفحه ریموت: <strong>دی‌پد + OK</strong>، کلیدهای عددی، صدا/کانال، <strong>بازگشت / خانه</strong>، <strong>خواب / راهنما / گزینه‌ها</strong>، <strong>کلیدهای رنگی</strong>، کلیدهای رسانه و دکمه <strong>صفحه‌کلید</strong> برای ورود متن.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA و ارسال <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>اسکن شبکه</strong> دستگاه‌های DLNA/UPnP را پیدا می‌کند؛ دستگاهی انتخاب کنید و پوشه‌های رسانه‌اش را مرور کنید («پوشه‌ها»، تعداد موارد).</li>
+                <li><strong>ارسال به TV / دستگاه Cast:</strong> محتوای در حال پخش به دستگاهی روی شبکه فرستاده می‌شود؛ صفحه ارسال نوار موقعیت، پخش/توقف و «توقف ارسال» دارد.</li>
+                <li>«تغییر دستگاه» ارسال را به دستگاه دیگری منتقل می‌کند.</li>
+            </ul>
+
+            <h3 id="indirilenler">دانلود و آفلاین <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>تنظیمات › دانلودها:</strong> پوشه دانلود (حافظه داخلی یا SMB)، حداکثر دانلود هم‌زمان، <strong>فقط Wi-Fi</strong> (صرفه‌جویی داده موبایل) و فهرست دانلودها.</li>
+                <li>وضعیت‌های فهرست: در حال دانلود، در انتظار، دانلودشده، خطا/لغوشده — در انتظار را لغو، تکمیل‌شده را پخش یا حذف کنید.</li>
+                <li>در موبایل صفحه «محتوای آفلاین» دانلودها را نشان می‌دهد و بدون اینترنت پخش می‌کند.</li>
+            </ul>
+
+            <h3 id="yedekleme">پشتیبان‌گیری، بازیابی و همگام‌سازی</h3>
+            <ul>
+                <li><strong>پشتیبان‌گیری</strong> (تنظیمات › سایر): همه تنظیمات، علاقه‌مندی‌ها، پروفایل‌ها و تاریخچه را در یک فایل ذخیره می‌کند — هنگام تعویض دستگاه یا ریست مفید است.</li>
+                <li><strong>بازیابی داده:</strong> با «بازکردن فایل پشتیبان» فایل را انتخاب و تنظیمات را برگردانید.</li>
+                <li><strong>همگام‌سازی ابری:</strong> با ورود Google داده‌ها در پس‌زمینه همگام می‌شوند؛ «همگام‌سازی خودکار» قابل خاموش‌کردن است. دستگاه‌های متصل در پنل حساب‌ها دیده/حذف می‌شوند.</li>
+                <li>در صفحه اصلی Android TV ردیف <strong>«ادامه تماشا»</strong> آخرین دیده‌شده‌ها را نشان می‌دهد.</li>
+            </ul>
+
+            <h3 id="premium">اشتراک Premium (Pro)</h3>
+            <p>نسخه رایگان یک فهرست + یک منبع EPG و تنظیمات پایه را پوشش می‌دهد. از <strong>تنظیمات</strong> با زدن روی دسته قفل‌شده به Pro ارتقا دهید، یا از صفحه Pro.</p>
+            <table class="tbl">
+                <tr><th>طرح</th><th>قیمت</th><th>دستگاه‌ها</th></tr>
+                <tr><td>Pro ماهانه</td><td>₺9,99 / ماه</td><td>۱ دستگاه</td></tr>
+                <tr><td>Pro سالانه</td><td>₺89,99 / سال</td><td>۱ دستگاه</td></tr>
+                <tr><td>Pro مادام‌العمر</td><td>₺249,99 (یک‌بار)</td><td>تا ۵ دستگاه</td></tr>
+            </table>
+            <ul>
+                <li>Pro این‌ها را باز می‌کند: <strong>فهرست و منابع EPG نامحدود</strong>، همه دسته‌های تنظیمات، ضبط، یادآوری، پروفایل، کنترل والدین، دانلود، ریموت از گوشی و DLNA.</li>
+                <li><strong>کد فعال‌سازی:</strong> پریمیوم با وارد کردن کد در «استفاده از کد فعال‌سازی» فعال می‌شود.</li>
+                <li>مجوز به ابر گره خورده — با ورود به همان حساب روی دستگاه دیگر خودکار همگام می‌شود؛ هنگام پرشدن حد، دستگاه قدیمی را از فهرست حذف کنید.</li>
+                <li>برای استفاده آفلاین، ۷ روز مهلت پس از آخرین تأیید اعمال می‌شود.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── پرسش‌های متداول ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>عیب‌یابی و پرسش‌های متداول</h2>
+
+            <details class="faq"><summary>کانال‌ها نمی‌آیند / فهرست بارگیری نمی‌شود</summary><div class="faq-body"><p>بررسی کنید URL درست باشد و با <code>http(s)://</code> شروع شود. در تنظیمات › فهرست‌های پخش › فهرست‌های موجود منبع را انتخاب و با «به‌روزرسانی» دوباره بارگیری کنید؛ برای Xtream مطمئن شوید نام کاربری/رمز فاصله اضافه ندارد. اتصال اینترنت و آنلاین‌بودن ارائه‌دهنده را هم چک کنید.</p></div></details>
+
+            <details class="faq"><summary>EPG (جدول برنامه‌ها) خالی است</summary><div class="faq-body"><p>اول منبع XMLTV را از <strong>تنظیمات › راهنمای تلویزیون › افزودن منبع EPG</strong> اضافه و با دکمه <strong>به‌روزرسانی EPG</strong> دانلود کنید. اگر کانال هنوز داده ندارد، از <strong>تطبیق EPG</strong> در منوی زمینه کانال صحیح را دستی انتخاب کنید. زمان جابه‌جاست؟ با <strong>جابه‌جایی زمانی</strong> تصحیح کنید.</p></div></details>
+
+            <details class="faq"><summary>پخش باز نمی‌شود یا می‌لرزد</summary><div class="faq-body"><p>در تنظیمات › پخش‌کننده <strong>حافظه موقت</strong> را روی «متوسط/بزرگ» بگذارید؛ اگر نشد در <strong>خروجی ویدیو</strong> رمزگشایی نرم‌افزاری را امتحان کنید. پخش 4K دستگاه ضعیف را خسته می‌کند — نسخه HD/FHD کانال ترجیح داده شود.</p></div></details>
+
+            <details class="faq"><summary>صدا نیست یا صدا و تصویر همگام نیستند</summary><div class="faq-body"><p>در تنظیمات › پخش‌کننده › خروجی صدا <strong>عبور صدا</strong> را خاموش کنید (بیت‌استریم روی برخی دستگاه‌ها مشکل می‌سازد). برای عدم همگامی از اسلایدر <strong>جابه‌جایی صدا</strong> استفاده کنید؛ اگر استریم زبان دیگری دارد، تراک را در <strong>زبان پخش</strong> روی کارت پخش‌کننده انتخاب کنید.</p></div></details>
+
+            <details class="faq"><summary>زیرنویس نمی‌آید یا حروف خراب است</summary><div class="faq-body"><p>تراک صحیح را روی کارت پخش‌کننده یا در تنظیمات › پخش‌کننده › زیرنویس انتخاب کنید؛ با حروف خراب <strong>رمزگذاری</strong> را عوض کنید (UTF-8…). اندازه/رنگ/موقعیت در همان پنل تنظیم می‌شود.</p></div></details>
+
+            <details class="faq"><summary>پوسترها و اطلاعات فیلم نمی‌آید</summary><div class="faq-body"><p>در تنظیمات › داده‌های رسانه چک کنید کلیدهای TMDB/OMDb وارد و سرویس‌ها فعال باشند (کلیدها رایگان‌اند). داده‌ها را با «غنی‌سازی همه محتوا» یکجا بگیرید؛ تطبیق اشتباه را با <strong>جستجو و تطبیق محتوا</strong> در منوی محتوا اصلاح کنید.</p></div></details>
+
+            <details class="faq"><summary>Premium خریدم ولی باز نشد / روی دستگاه دیگر نمی‌آید</summary><div class="faq-body"><p>مطمئن شوید با همان حساب Google وارد شده‌اید — مجوز همگام می‌شود. اگر حد دستگاه پر است، در <strong>تنظیمات › حساب‌ها و همگام‌سازی و دستگاه‌ها</strong> دستگاه قدیمی را حذف کنید. در صورت نیاز از کد فعال‌سازی استفاده کنید.</p></div></details>
+
+            <details class="faq"><summary>بعد از خواب طولانی TV هیچ کانالی باز نمی‌شود</summary><div class="faq-body"><p>اپ را کامل ببندید و دوباره باز کنید. اپ هنگام ورود به خواب پخش‌کننده‌ها را خودکار می‌بندد؛ اگر با این حال گیر کند، راه‌اندازی مجدد حل می‌کند.</p></div></details>
+
+            <details class="faq"><summary>چطور تنظیمات را به دستگاه دیگر منتقل کنم؟</summary><div class="faq-body"><p>با <strong>تنظیمات › سایر › پشتیبان‌گیری</strong> فایل بسازید و روی دستگاه جدید با <strong>بازیابی داده</strong> وارد کنید — یا با Google وارد شوید و از همگام‌سازی استفاده کنید.</p></div></details>
+
+            <details class="faq"><summary>نمی‌توانم کانالی را برگردانم / در فهرست نیست</summary><div class="faq-body"><p>شاید پنهان شده: از <strong>نمایش کانال‌های پنهان</strong> در منوی زمینه EPG یا <strong>تنظیمات › کنترل والدین › کانال‌های پنهان</strong> برگردانید. اگر قفل است — با PIN باز می‌شود. اگر گروه پنهان است، تنظیمات › فهرست‌های پخش › گروه‌های کانال را چک کنید.</p></div></details>
+
+            <details class="faq"><summary>چطور حسابم را حذف کنم؟</summary><div class="faq-body"><p><strong>تنظیمات › حساب‌ها و همگام‌سازی و دستگاه‌ها › حذف حساب</strong> حساب را همراه داده‌های ابری برای همیشه حذف می‌کند. جزئیات: صفحه <a href="account-deletion.fa.html">حذف حساب</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>هنوز کمک لازم دارید؟</h4>
+                <p>برایمان بنویسید: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — مشکل، مدل دستگاه و نسخه اپ را ذکر کنید (تنظیمات › درباره).</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.fa.html">خانه</a> · <a href="privacy.fa.html">حریم خصوصی</a> · <a href="account-deletion.fa.html">حذف حساب</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('fa');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('fa');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Справочный центр — TiviEase Go</title>
+    <meta name="description" content="Руководство по TiviEase Go: установка, добавление списков, EPG, полноэкранный плеер, настройки и устранение неполадок.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="Справочный центр — TiviEase Go">
+    <meta property="og:description" content="Руководство по TiviEase Go: установка, добавление списков, EPG, полноэкранный плеер, настройки и устранение неполадок.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.ru.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="ru_RU">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.ru.html">
+            <img src="assets/logo.png?v=2" alt="Логотип TiviEase Go">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Меню">☰</button>
+        <nav class="site-nav">
+            <a href="index.ru.html">Главная</a>
+            <a href="index.ru.html#ozellikler">Возможности</a>
+            <a href="satin-al.en.html">Купить</a>
+            <a class="active" href="yardim.ru.html">Справочный центр</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">Справочный центр</span>
+            <h1 style="font-size:34px">Как пользоваться?</h1>
+            <p>Каждый экран объяснён шаг за шагом — от первого запуска до последней настройки. Выберите тему в меню слева или воспользуйтесь поиском.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">Значки: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">МОБИЛЬНЫЙ</span> Телефон/Планшет &nbsp; <span class="plat pro">PRO</span> Платная функция</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ БОКОВОЕ МЕНЮ ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="Поиск по справке..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ Темы</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Начало работы<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">Первый запуск</a>
+                        <a href="#profil-secimi">Выбор профиля</a>
+                        <a href="#qr-giris">Вход по QR-коду</a>
+                        <a href="#google-giris">Вход через Google</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Источники<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">Добавление списка</a>
+                        <a href="#liste-yonetimi">Управление списками</a>
+                        <a href="#epg-kaynagi">Добавление источника EPG</a>
+                        <a href="#grup-siralama">Группы, сортировка, фильтры</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Главная и EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">Главный экран (ТВ)</a>
+                        <a href="#epg-rehberi">Использование телегида</a>
+                        <a href="#arama">Поиск и голосовой поиск</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Контекстные меню<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">Контекстное меню EPG</a>
+                        <a href="#vod-context">Меню Фильмы/Сериалы</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Плеер<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">Весь экран — прямой эфир</a>
+                        <a href="#fs-tuslar">Клавиши пульта</a>
+                        <a href="#fs-paneller">Панели и карточка настроек</a>
+                        <a href="#coklu-ekran">Мультиэкран (PIP)</a>
+                        <a href="#fs-vod">Весь экран — Фильмы/Сериалы</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Запись и напоминания<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">Запись программ</a>
+                        <a href="#hatirlatici">Напоминания</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Профили и род. контроль<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">Управление профилями</a>
+                        <a href="#ebeveyn">Родительский контроль</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Гид по настройкам<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">Экран настроек</a>
+                        <a href="#ayar-listeler">Плейлисты</a>
+                        <a href="#ayar-epg">Телегид</a>
+                        <a href="#ayar-oynatici">Плеер</a>
+                        <a href="#ayar-gorunum">Внешний вид</a>
+                        <a href="#ayar-medya">Данные о медиа</a>
+                        <a href="#ayar-diger">Запись / Напоминания / Прочее</a>
+                        <a href="#ayar-hesap">Аккаунт и О программе</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Мобильный и прочее<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">Мобильное приложение</a>
+                        <a href="#kumanda">Пульт с телефона</a>
+                        <a href="#dlna">DLNA и трансляция</a>
+                        <a href="#indirilenler">Загрузки</a>
+                        <a href="#yedekleme">Резервная копия и синхр.</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">Устранение неполадок / FAQ</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">Ничего не найдено.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ СОДЕРЖИМОЕ ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── НАЧАЛО РАБОТЫ ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Начало работы</h2>
+            <p>TiviEase Go работает и на <strong>Android TV</strong>, и на <strong>телефоне/планшете</strong> в одном приложении. Приложение не предоставляет каналы и контент — вы добавляете <strong>список M3U</strong> или аккаунт <strong>Xtream Codes</strong> от своего IPTV-провайдера.</p>
+
+            <h3>Экран первого запуска</h3>
+            <p>Если при открытии приложения не задан ни один список, появляется <strong>экран приветствия</strong>. Он предлагает четыре карточки:</p>
+            <table class="tbl">
+                <tr><th>Карточка</th><th>Что делает?</th></tr>
+                <tr><td>Добавить список<br><small>M3U / Xtream</small></td><td>Переносит на главный экран и открывает форму добавления. Подробности: <a href="#kaynak-ekleme">Добавление списка</a>.</td></tr>
+                <tr><td>Вход через Google<br><small>Облачная синхронизация</small></td><td>Вход с аккаунтом Google; загружаются ваши источники, избранное и облачная история, затем списки обновляются автоматически.</td></tr>
+                <tr><td>Вход по QR<br><small>Сканирование с телефона</small> <span class="plat tv">TV</span></td><td>Показывает на ТВ QR-код, действительный 3 минуты; отсканировав его приложением телефона и подтвердив, ТВ входит в тот же аккаунт.</td></tr>
+                <tr><td>Настройки<br><small>Система и Профиль</small></td><td>Открывает экран настроек, если хотите осмотреться до добавления списка.</td></tr>
+            </table>
+            <div class="tip"><p><strong>Совет:</strong> если вы уже пользуетесь TiviEase Go на другом устройстве, быстрее всего <strong>Вход через Google</strong> или <strong>Вход по QR</strong> — все списки и настройки придут автоматически.</p></div>
+
+            <h3 id="profil-secimi">Выбор профиля</h3>
+            <p>Если на устройстве задано несколько профилей, при запуске появляется экран <strong>«Выбор профиля»</strong>. Стрелки + <kbd>OK</kbd> для выбора. Профили с PIN сначала запрашивают его. Каждый профиль хранит собственные <em>избранное, контент «Мой список», историю и личные настройки</em>.</p>
+            <ul>
+                <li>Добавление/редактирование профилей: <strong>Настройки › Профили</strong> (см. <a href="#profiller">Управление профилями</a>).</li>
+                <li>Смена профиля на ходу: нажмите на <strong>иконку аватара</strong> в верхней панели.</li>
+            </ul>
+
+            <h3 id="qr-giris">Вход по QR-коду <span class="plat tv">TV</span> <span class="plat mob">МОБИЛЬНЫЙ</span></h3>
+            <p>Используйте телефон вместо ввода учётных данных на ТВ:</p>
+            <ol>
+                <li>На ТВ откройте карточку <strong>Вход по QR</strong> (экран приветствия или Настройки › Аккаунты) — появится QR-код. Он действует <strong>3 минуты</strong>.</li>
+                <li>На телефоне откройте приложение TiviEase Go и отсканируйте код ТВ через QR-сканер.</li>
+                <li>Нажмите на телефоне <strong>«Войти»</strong> — вы увидите «Подтверждено — ТВ выполняет вход».</li>
+                <li>ТВ за считанные секунды входит в аккаунт телефона; список и настройки синхронизируются.</li>
+            </ol>
+            <div class="note"><p>Если QR истёк, закройте окно и откройте снова — будет создан новый код. Для входа по QR на телефоне должна быть открыта та же app с уже выполненным входом.</p></div>
+
+            <h3 id="google-giris">Вход через Google и синхронизация</h3>
+            <p>При входе через аккаунт Google между устройствами синхронизируются: настройки источников/списков, избранное, «Мой список», история, профили и премиум-лицензия. После первого входа источники и EPG загружаются автоматически — ручное обновление не нужно.</p>
+            <ul>
+                <li>Настройки синхронизации и связанные устройства: <strong>Настройки › Аккаунты, Синхр. и Устройства</strong>.</li>
+                <li>Приложением можно пользоваться и без аккаунта — данные остаются на устройстве.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── ИСТОЧНИКИ ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Добавление плейлиста</h2>
+            <p>Поддерживаются два типа источников: <strong>M3U</strong> (URL или локальный файл) и <strong>Xtream Codes</strong> (сервер + учётные данные). При добавлении контент автоматически делится на <em>Прямой эфир / Фильмы / Сериалы</em>.</p>
+
+            <h3>Куда добавлять?</h3>
+            <ul>
+                <li>С карточки <strong>Добавить список</strong> на экране приветствия,</li>
+                <li>или через <strong>Настройки › Плейлисты › Добавить список</strong>.</li>
+            </ul>
+
+            <h3>Добавление списка M3U</h3>
+            <ol>
+                <li>Откройте <strong>Добавить список</strong>, выберите карточку <strong>M3U / XMLTV</strong>.</li>
+                <li>В поле <strong>Имя</strong> задайте название списка (напр. «Основной список»).</li>
+                <li>В поле <strong>URL / Путь к файлу</strong> введите ссылку M3U <em>или</em> выберите файл с устройства значком папки. Поддерживаемые расширения: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li>Нажмите <strong>Добавить</strong> — список загрузится и обработается; ход виден в нижней полосе загрузки.</li>
+            </ol>
+            <div class="note"><p>При выборе файла его имя подставляется автоматически, если поле имени пусто. URL должны начинаться с http/https.</p></div>
+
+            <h3>Добавление аккаунта Xtream Codes</h3>
+            <ol>
+                <li>Выберите карточку <strong>Xtream</strong>.</li>
+                <li><strong>Имя источника</strong>: любое название (напр. «Основной Xtream»).</li>
+                <li><strong>URL сервера</strong>: адрес вашего провайдера, напр. <code>http://server.com:8080</code></li>
+                <li><strong>Имя пользователя</strong> и <strong>Пароль</strong>: данные провайдера. Значок глаза у поля пароля показывает введённое.</li>
+                <li><strong>Добавить</strong> — приложение подключается к API Xtream; эфир, фильмы и сериалы загружаются отдельно.</li>
+            </ol>
+            <div class="warn"><p><strong>В бесплатной версии</strong> можно добавить всего <strong>1 список</strong> (M3U или Xtream — не оба). Неограниченно: <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">Управление списками</h3>
+            <p>Элементы в <strong>Настройки › Плейлисты</strong>:</p>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>Существующие списки</td><td>Показывает заданные источники M3U и Xtream; на каждой карточке — последнее обновление и статус активен/неактивен. Выберите источник для правки, удаления или обновления. Карточка итогов показывает распределение эфир/сериалы/фильмы.</td></tr>
+                <tr><td>Частота обновления</td><td>Интервал автообновления списков: <strong>Вручную, 6, 12, 24, 48, 72 или 168 часов</strong>. При «Вручную» списки обновляются только по запросу.</td></tr>
+                <tr><td>Обновить все списки</td><td>Перезагружает все источники разом. Обрабатываются в фоне по очереди; следите за прогрессом в полосе загрузки.</td></tr>
+                <tr><td>Источники EPG</td><td>Выбор источника EPG, назначаемого каждому списку («Назначить списку»).</td></tr>
+                <tr><td>Группы каналов</td><td>Скрытие, переименование и переупорядочение групп из списка (спорт, новости…).</td></tr>
+                <tr><td>Сортировка</td><td>Порядок каналов: <strong>По имени, По номеру, Вручную, Исходный порядок, По группам</strong>.</td></tr>
+                <tr><td>Фильтры имён каналов</td><td>Правила автоматически убирают префиксы/суффиксы из имён каналов (напр. «TR:», «|4K»). Поддерживается подстановочный знак <code>*</code>; поле «Пример преобразования» показывает результат.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">Добавление источника EPG (XMLTV)</h3>
+            <p>Для программы передач добавьте адрес XMLTV/EPG вашего IPTV-провайдера:</p>
+            <ol>
+                <li>Откройте <strong>Настройки › Телегид › Добавить источник EPG</strong>.</li>
+                <li>Введите имя и <strong>URL / Адрес</strong>, сохраните.</li>
+                <li>После загрузки каналы сопоставляются автоматически по схожести имён; оставшиеся сопоставьте вручную через <a href="#epg-rehberi">Сопоставление EPG каналов</a>.</li>
+            </ol>
+            <div class="warn"><p>Бесплатная версия допускает <strong>1 источник EPG</strong>. Некоторые Xtream-провайдеры отдают свою EPG — при добавлении Xtream-источника EPG обычно приходит автоматически.</p></div>
+
+            <h3 id="grup-siralama">Группы, сортировка и фильтры имён</h3>
+            <ul>
+                <li><strong>Группы каналов:</strong> управляют заголовками групп из M3U/Xtream. Скрытые группы не отображаются в ТВ-списке; сортировка задаёт последовательность групп.</li>
+                <li><strong>Сортировка:</strong> с «Вручную» вы создаёте свой порядок в списке каналов; «Исходный порядок» сохраняет порядок файла.</li>
+                <li><strong>Фильтры имён:</strong> убирают шаблоны в начале/конце имён каналов (напр. префиксы стран) — список становится читаемее. Отдельный фильтр для имён VOD: <strong>Настройки › Данные о медиа › Фильтры имён VOD</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── ГЛАВНАЯ И EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Главный экран и Телегид <span class="plat tv">TV</span></h2>
+
+            <h3>Верхняя панель и меню</h3>
+            <p>На главном экране ТВ вверху — горизонтальное меню. Навигация <kbd>◀</kbd><kbd>▶</kbd>, выбор <kbd>OK</kbd>, переход в контент <kbd>▼</kbd>.</p>
+            <table class="tbl">
+                <tr><th>Меню</th><th>Содержимое</th></tr>
+                <tr><td>Поиск</td><td>Экран умного поиска — каналы, фильмы, сериалы и программы; поддерживает голосовой поиск.</td></tr>
+                <tr><td>ТВ</td><td>Список каналов + сетка EPG и карточка живого превью.</td></tr>
+                <tr><td>Фильмы</td><td>Колонка категорий (Боевик, Комедия, Драма, Фантастика, Ужасы, Семейные, Избранное, Новинки, Продолжить просмотр) + галерея постеров.</td></tr>
+                <tr><td>Сериалы</td><td>Категории вроде Отечественные/Зарубежные сериалы, Дневной эфир, Прайм-тайм + галерея постеров.</td></tr>
+                <tr><td>Мой список</td><td>Избранное, Мои фильмы, Мои сериалы, Продолжить просмотр, Записи, Напоминания, Загрузки, Офлайн-контент.</td></tr>
+                <tr><td>Настройки</td><td>Значок шестерёнки справа — открывает панель настроек с 13 категориями.</td></tr>
+            </table>
+            <p>Иконки справа верхней панели: <strong>аватар профиля</strong> (смена профиля), <strong>шестерёнка настроек</strong> и кнопка <strong>устройства</strong> (DLNA/cast).</p>
+            <div class="note"><p>В длинных списках <kbd>Канал+</kbd>/<kbd>Канал−</kbd> (или Page Up/Down) прыгают на 10 строк. <kbd>Назад</kbd> поднимает на уровень; на главном экране просит подтверждение выхода.</p></div>
+
+            <h3>Галерея постеров и превью</h3>
+            <ul>
+                <li>На страницах Фильмы/Сериалы постеры показаны сеткой; при задержке карточка увеличивается и — если включено — играет <strong>превью трейлера</strong> (настройка: Данные о медиа › Автопревью).</li>
+                <li>Долгое <kbd>OK</kbd> на постере: открывает <a href="#vod-context">контекстное меню</a>.</li>
+                <li>На странице ТВ при задержке на строке канала окно <strong>живого превью</strong> справа вверху играет этот канал в миниатюре.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">Использование Телегида (EPG)</h3>
+            <p>Меню ТВ переключается между двумя видами: <strong>список каналов</strong> и <strong>сетка EPG</strong> («Перейти к списку EPG» / «Перейти к списку каналов»).</p>
+            <ul>
+                <li><strong>Левая колонка:</strong> логотипы и названия каналов. <kbd>▲</kbd><kbd>▼</kbd> меняют канал; справа видны его программы.</li>
+                <li><strong>Правая сетка:</strong> временная шкала — карточки программ с длительностью. <kbd>◀</kbd><kbd>▶</kbd> двигаются по времени.</li>
+                <li><strong>Выбор дня:</strong> кнопками Вчера / Сегодня / Завтра и стрелками «предыдущий / следующий день» можно смотреть назад настолько, сколько позволяет настройка <em>EPG-данные за прошлые дни</em>.</li>
+                <li><strong>Долгое <kbd>OK</kbd> на строке канала:</strong> открывает <a href="#epg-context">контекстное меню EPG</a> (избранное, запись, напоминание, скрыть…).</li>
+                <li>Короткое <kbd>OK</kbd> по каналу: смотрит его на весь экран.</li>
+            </ul>
+            <div class="tip"><p>Нет EPG на канале? Сначала проверьте, что источник EPG задан и обновлён (Настройки › Телегид › Обновить EPG), затем сопоставьте канал вручную через «Сопоставить EPG».</p></div>
+
+            <h3 id="arama">Поиск и голосовой поиск</h3>
+            <ul>
+                <li>Меню <strong>Поиск</strong> (или «Поиск» в контекстных меню) открывает умный поиск. Он ищет сразу в фильмах, сериалах, названиях каналов и программах EPG («Совпадения программ», «ТВ-передачи»).</li>
+                <li>Иконка микрофона запускает <strong>Голосовой поиск</strong> — говорите, пока горит «Слушаю…»; при первом использовании запрашивается разрешение на микрофон.</li>
+                <li><strong>История поиска</strong> показывает прошлые запросы; «Очистить» удаляет её.</li>
+                <li>На мобильном вкладка поиска выполняет ту же роль; ввод — касанием.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── КОНТЕКСТНЫЕ МЕНЮ ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Контекстные меню</h2>
+
+            <h3>Контекстное меню EPG <span class="plat tv">TV</span></h3>
+            <p><strong>Открытие:</strong> на строке канала в Телегиде <strong>долго нажмите <kbd>OK</kbd></strong> — меню выезжает справа. <kbd>▲</kbd><kbd>▼</kbd> для навигации, <kbd>OK</kbd> для выбора, <kbd>Назад</kbd> для закрытия.</p>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Функция</th></tr>
+                <tr><td>Открыть канал</td><td>Запускает выбранный канал на весь экран.</td></tr>
+                <tr><td>Поиск</td><td>Открывает умный поиск.</td></tr>
+                <tr><td>ТВ / Фильмы / Сериалы / Мой список / Настройки</td><td>Быстрые переходы в другие основные разделы, кроме текущего.</td></tr>
+                <tr><td>В избранное / Убрать из избранного</td><td>Добавляет или убирает канал из избранного; видны в ТВ-списке и Моём списке.</td></tr>
+                <tr><td>Открыть во внешнем плеере</td><td>Отправляет поток канала в другое воспроизводящее приложение устройства (VLC, MX Player…).</td></tr>
+                <tr><td>Записать</td><td>Добавляет выбранную программу (или ручную запись на 2 ч без программы) в список записей. Дополнительные минуты из настроек применяются автоматически.</td></tr>
+                <tr><td>Пользовательская запись</td><td>Сначала показывает окно выбора доп. минут начала/конца (+0/+1/+5/+10 мин).</td></tr>
+                <tr><td>Добавить / убрать напоминание</td><td>Уведомит до начала программы; при включённом «автооткрытии канала» канал откроется сам.</td></tr>
+                <tr><td>Сопоставить EPG</td><td>Вручную связывает программные данные канала с правильным именем канала источника EPG.</td></tr>
+                <tr><td>Обновить EPG</td><td>Перезагружает заданные источники EPG.</td></tr>
+                <tr><td>Очистить EPG</td><td>Удаляет кэшированные данные программ; при следующем обновлении загружаются заново.</td></tr>
+                <tr><td>Обновить логотипы</td><td>Перезагружает логотипы каналов (согласно настройке источника логотипов).</td></tr>
+                <tr><td>Заблокировать / разблокировать канал</td><td>Прячет канал за PIN в рамках родительского контроля; открытие требует PIN.</td></tr>
+                <tr><td>Скрыть / показать канал</td><td>Скрывает канал из списка; вернуть: «Показать скрытые каналы» или Настройки › Родительский контроль › Скрытые каналы.</td></tr>
+                <tr><td>Показать скрытые каналы</td><td>Временно возвращает скрытые каналы в список.</td></tr>
+            </table>
+
+            <h3 id="vod-context">Контекстное меню фильма / сериала</h3>
+            <p><strong>Открытие:</strong> долгое <kbd>OK</kbd> на постере (мобильный: долгое нажатие / иконка ☰).</p>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Функция</th></tr>
+                <tr><td>Продолжить</td><td>Продолжает с места остановки (видно только при наличии прогресса).</td></tr>
+                <tr><td>Воспроизвести</td><td>Играет контент с начала.</td></tr>
+                <tr><td>Внешнее воспроизведение</td><td>Отправляет в другое воспроизводящее приложение.</td></tr>
+                <tr><td>Трейлер</td><td>Открывает найденный на TMDB трейлер.</td></tr>
+                <tr><td>Постер на весь экран / Показать баннер <span class="plat tv">TV</span></td><td>Переключает галерею между сеткой постеров и баннерной раскладкой.</td></tr>
+                <tr><td>Сортировка / Фильтр</td><td>Открывает опции сортировки и фильтрации галереи.</td></tr>
+                <tr><td>Год выпуска</td><td>Фильтрует контент по году.</td></tr>
+                <tr><td>Категория</td><td>Фильтрует по жанру (боевик, комедия…).</td></tr>
+                <tr><td>Подробнее</td><td>Открывает панель деталей: описание, актёры, режиссёр, рейтинг и список серий.</td></tr>
+                <tr><td>В Мой список / Убрать</td><td>Добавляет или убирает контент из «Мой список › Мои фильмы/Мои сериалы».</td></tr>
+                <tr><td>Убрать из истории</td><td>Стирает запомненную позицию; контент исчезает из «продолжить просмотр».</td></tr>
+                <tr><td>Убрать из просмотренных / Очистить просмотренные</td><td>Снимает отметку «просмотрено» или очищает всю историю просмотров.</td></tr>
+                <tr><td>Убрать из офлайн-контента</td><td>Удаляет скачанный контент (видно только на загрузках).</td></tr>
+                <tr><td>Найти и сопоставить контент</td><td>Если сопоставление TMDB неверно/отсутствует, найдите и сопоставьте правильный фильм/сериал вручную.</td></tr>
+                <tr><td>Множественный выбор <span class="plat mob">МОБИЛЬНЫЙ</span></td><td>Открывает режим выбора нескольких постеров для групповых действий.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── ПЛЕЕР ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Полноэкранный плеер</h2>
+
+            <h3>Весь экран — прямой эфир <span class="plat tv">TV</span></h3>
+            <p>При открытии канала видео играет на весь экран. Все панели открываются с пульта и сами закрываются после бездействия (список каналов ~8 с, поток программ ~15 с).</p>
+
+            <h4 id="fs-tuslar">Клавиши пульта — прямой эфир</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> короткое</div><div>Открывает/закрывает OSD (инфопанель).</div>
+                <div><kbd>OK</kbd> долгое</div><div>Открывает карточку настроек плеера (ниже).</div>
+                <div><kbd>▶</kbd> вправо</div><div>Открывает список каналов у правого края. При открытом списке ещё раз вправо → в колонку категорий (групп).</div>
+                <div><kbd>◀</kbd> влево</div><div>Открывает «Поток программ» EPG с левого края; если открыт — закрывает.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Меняют канал; двигают выбор в открытом списке.</div>
+                <div><kbd>0–9</kbd></div><div>Ввод номера канала — переключается по завершении ввода.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> или <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>Следующий/предыдущий канал (двигается в открытом списке).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>Открывает/закрывает поток программ EPG.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>Возвращается к последнему просмотренному каналу.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Предыдущий/следующий канал.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>Ставит эфир на паузу/возобновляет.</div>
+                <div><kbd>●</kbd> Клавиша Record</div><div>Открывает/закрывает список каналов.</div>
+                <div><kbd>Назад</kbd></div><div>Закрывает открытую панель → закрывает OSD → выходит из плеера.</div>
+            </div>
+
+            <h4 id="fs-paneller">Панели и карточка настроек</h4>
+            <table class="tbl">
+                <tr><th>Панель</th><th>Открытие</th><th>Содержимое</th></tr>
+                <tr><td>OSD (инфопанель)</td><td><kbd>OK</kbd> короткое</td><td>Название/логотип канала, текущая и следующая программы, прогресс, часы (если включены часы на весь экран).</td></tr>
+                <tr><td>Список каналов</td><td><kbd>▶</kbd> или <kbd>●</kbd></td><td>Список, выезжающий справа; вверх/вниз для выбора, <kbd>OK</kbd> для переключения. Ещё <kbd>▶</kbd> открывает колонку групп/категорий — <kbd>OK</kbd> применяет группу.</td></tr>
+                <tr><td>Поток программ EPG</td><td><kbd>◀</kbd> или <kbd>Info</kbd></td><td>Список программ, выезжающий слева: передачи дня. <kbd>▲</kbd><kbd>▼</kbd> для просмотра; долгое <kbd>OK</kbd> на программе → действия напоминания/записи.</td></tr>
+                <tr><td>Карточка настроек плеера</td><td><kbd>OK</kbd> долгое</td><td>Карточка быстрых настроек с 8 иконками (таблица ниже).</td></tr>
+            </table>
+
+            <h4>Карточка настроек плеера (прямой эфир)</h4>
+            <p>При открытой карточке двигайтесь между иконками <kbd>◀</kbd><kbd>▶</kbd>, при открытой панели — между опциями; <kbd>OK</kbd> применяет.</p>
+            <table class="tbl">
+                <tr><th>Вкладка</th><th>Описание</th></tr>
+                <tr><td>Переход к VOD</td><td>Быстрый переход в раздел Фильмы или Сериалы.</td></tr>
+                <tr><td>Язык эфира</td><td>Выбор звуковой дорожки, если у потока их несколько (иначе предпочтение языка: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>Размер изображения</td><td>Формат: Оригинал, Обрезать/Заполнить, Растянуть по горизонтали, Растянуть по вертикали, Заполнить всё, 4:3, 16:9 — с опцией «применить ко всем каналам».</td></tr>
+                <tr><td>Субтитры</td><td>Выбор дорожки субтитров + цвет текста (10 цветов) и размер.</td></tr>
+                <tr><td>PIP</td><td>Открывает режим мультиэкрана (<a href="#coklu-ekran">см. ниже</a>).</td></tr>
+                <tr><td>Инфо о потоке</td><td>Технические данные потока (разрешение, кодек…).</td></tr>
+                <tr><td>Плеер</td><td>Декодер и базовые опции поведения плеера.</td></tr>
+                <tr><td>Настройки</td><td>Открывает главный экран настроек («Открыть все настройки»).</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">Мультиэкран (PIP)</h4>
+            <p>Через <strong>PIP</strong> на карточке или функцию мультиэкрана смотрят несколько каналов разом (до 4 экранов). Опции меню мультиэкрана:</p>
+            <ul>
+                <li><strong>Добавить экран / Закрыть экран:</strong> открывает новую ячейку потока или закрывает выбранную.</li>
+                <li><strong>Равный вид / Большой экран:</strong> делит экраны поровну или увеличивает один.</li>
+                <li><strong>Сменить канал:</strong> меняет канал в ячейке с фокусом.</li>
+                <li><strong>Весь экран / Назад к экранам / Один экран:</strong> разворачивает ячейку или возвращает множественный вид.</li>
+                <li><strong>Воспроизведение/Пауза, Выключить/включить звук, Перезагрузить:</strong> воспроизведение и звук по ячейкам (звук идёт из одного экрана за раз).</li>
+            </ul>
+            <div class="warn"><p>Мультиэкран нагружает процессор; на слабых ТВ рекомендуются 2 экрана.</p></div>
+
+            <h3 id="fs-vod">Весь экран — фильм / сериал</h3>
+            <p>В VOD-плеере OSD открывается как панель управления внизу: <strong>Предыдущий эпизод/контент, назад, Воспроизвести/Пауза, вперёд, Следующий, Язык и Субтитры, Инфо, Настройки, Сначала</strong> и полоса прогресса.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>Открывает OSD; открытый — активирует кнопку в фокусе (по умолчанию Воспроизвести/Пауза).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>Пошаговая перемотка по полосе прогресса; при закрытом OSD сначала открывает его. В ряду управления двигает по кнопкам.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Вертикальное движение между полосой прогресса ↔ рядом управления ↔ карточкой настроек.</div>
+                <div><kbd>0–9</kbd></div><div>Ввод минут — переходит к введённой минуте.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Назад/вперёд на 30 секунд (на экране появляется индикатор).</div>
+                <div><kbd>Info</kbd></div><div>Открывает информационную карточку фильма/сериала (описание, актёры, рейтинг — TMDB).</div>
+                <div><kbd>Назад</kbd></div><div>Закрывает панель/OSD; повторное нажатие выходит, сохраняя прогресс.</div>
+            </div>
+            <ul>
+                <li><strong>Карточка Следующий эпизод:</strong> в сериалах за ~30 секунд до конца внизу появляется карточка «Перейти к следующей серии»; нажмите <kbd>OK</kbd> для перехода.</li>
+                <li><strong>Продолжить с места:</strong> недосмотренный контент при повторном открытии продолжится с сохранённой секунды («Продолжить»). Прогресс сохраняется при выходе.</li>
+                <li><strong>Меню Язык и Субтитры:</strong> мгновенно меняет дорожки звука и субтитров.</li>
+                <li><strong>Мобильные жесты</strong> <span class="plat mob">МОБИЛЬНЫЙ</span>: вертикальный свайп левого края = громкость, правого = яркость; касание открывает OSD.</li>
+            </ul>
+            <p>Карточка настроек VOD похожа на карточку прямого эфира; дополнительно включает <strong>Сдвиг звука</strong> (ползунок + Сброс) и <strong>Переход к ТВ</strong>.</p>
+        </section>
+
+        <!-- ───────────── ЗАПИСЬ И НАПОМИНАНИЯ ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Запись и напоминания <span class="plat pro">PRO</span></h2>
+
+            <h3>Запись программ</h3>
+            <ol>
+                <li>В EPG долго нажмите <kbd>OK</kbd> на <strong>строке канала</strong> программы, которую хотите записать.</li>
+                <li><strong>Записать</strong>: добавляет программу в список записей с доп. минутами из настроек. Без программы планируется ручная запись на 2 ч с текущего момента.</li>
+                <li><strong>Пользовательская запись</strong>: открывает окно выбора доп. минут начала/конца (0/+1/+5/+10 мин) перед созданием записи.</li>
+                <li>В назначенный час запись начинается автоматически; на карточке программы в потоке мигает значок REC.</li>
+            </ol>
+            <p>Элементы в <strong>Настройки › Запись</strong>:</p>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>Папка записи</td><td>Куда сохраняются записи: внутренняя память или сетевая папка (SMB — «Сканировать сеть» находит ресурсы и подключается с логином/паролем).</td></tr>
+                <tr><td>Время до / после записи</td><td>Дополнительное время в начале и конце каждой записи: 0, 1, 5 или 10 минут. Помогает не пропустить начало/конец при опоздании или затянутом эфире.</td></tr>
+                <tr><td>Список записей</td><td>Счётчики всего/завершённых/запланированных и все записи: завершённую проиграйте <kbd>OK</kbd>, ожидающие отменяйте, удаляйте.</td></tr>
+            </table>
+            <div class="note"><p>Записи пишутся в выбранную папку; убедитесь, что достаточно свободного места. Поддерживается выбор USB/SD-карты.</p></div>
+
+            <h3 id="hatirlatici">Напоминания</h3>
+            <ul>
+                <li>Создайте напоминание на программу пунктом <strong>Добавить напоминание</strong> контекстного меню EPG; выберите повторно для удаления.</li>
+                <li>Время уведомления: <strong>за 1, 2, 5 или 10 минут</strong> до начала программы.</li>
+                <li><strong>Настройки › Напоминания</strong>: опции уведомления и <strong>«Автооткрытие канала»</strong> (ТВ сам переключается на канал в срок); здесь же управляется весь список напоминаний.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── ПРОФИЛИ И РОД. КОНТРОЛЬ ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Профили и родительский контроль <span class="plat pro">PRO</span></h2>
+
+            <h3>Управление профилями</h3>
+            <p>В <strong>Настройки › Профили</strong>:</p>
+            <ul>
+                <li><strong>Добавить профиль:</strong> создаёт новый профиль с именем, выбором аватара и необязательным PIN.</li>
+                <li><strong>Список профилей:</strong> показывает существующие профили; здесь их редактируют и удаляют.</li>
+                <li>Каждый профиль хранит свои <em>избранное, контент «Мой список», историю и личные настройки</em>. Активный профиль спрашивается при запуске; меняется мгновенно через аватар в верхней панели.</li>
+            </ul>
+
+            <h3 id="ebeveyn">Родительский контроль</h3>
+            <p>Элементы в <strong>Настройки › Родительский контроль</strong> (при заданном PIN вход в панель запросит его):</p>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>PIN-защита</td><td>Состояние 4-значного PIN-кода.</td></tr>
+                <tr><td>Сменить PIN</td><td>Задаёт новый 4-значный PIN (удаление PIN тоже здесь).</td></tr>
+                <tr><td>Требования PIN</td><td>Определяет, в каких ситуациях запрашивается PIN.</td></tr>
+                <tr><td>Блокировка настроек</td><td>Если включено, вход в настройки требует PIN.</td></tr>
+                <tr><td>Блокировка контента 18+</td><td>Прячет контент для взрослых за PIN.</td></tr>
+                <tr><td>Блокировка каналов</td><td>Открытие заблокированных каналов требует PIN (блокировка каналов: контекстное меню EPG).</td></tr>
+                <tr><td>Возрастной предел</td><td>Возрастное ограничение — контент ниже выбранного возраста требует PIN. Рядом «Гид по возрастным рейтингам» объясняет возрастные метки национальных систем.</td></tr>
+                <tr><td>Скрытые каналы</td><td>Показывает скрытые каналы и делает их снова видимыми.</td></tr>
+            </table>
+            <div class="tip"><p>Забыли PIN? Сделайте резервную копию перед созданием нового профиля или переустановкой; данные PIN хранятся на устройстве в зашифрованном виде.</p></div>
+        </section>
+
+        <!-- ───────────── НАСТРОЙКИ ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Гид по настройкам</h2>
+            <p>Экран настроек состоит из трёх колонок: <strong>левая</strong> — 13 категорий, <strong>средняя</strong> — элементы категории, <strong>правая</strong> — панель описания/настройки выбранного элемента. Иконка <strong>лупы</strong> в заголовке открывает поиск по настройкам. <kbd>Канал+</kbd>/<kbd>−</kbd> прыгают на 10 строк в списке категорий.</p>
+            <div class="warn"><p>В бесплатной версии часть категорий заблокирована (значок замка): Плеер, Внешний вид, Данные о медиа, Запись, Напоминания, Профили, Родительский контроль, Загрузки и Прочее. Заблокированная категория открывает панель перехода на Pro.</p></div>
+
+            <h3 id="ayar-listeler">1 · Плейлисты</h3>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>Добавить список</td><td>Добавляет новый список M3U (URL/файл) или Xtream (сервер+логин+пароль).</td></tr>
+                <tr><td>Частота обновления</td><td>Интервал автообновления: Вручную, 6, 12, 24, 48, 72, 168 часов.</td></tr>
+                <tr><td>Обновить все списки</td><td>Перезагружает все источники разом.</td></tr>
+                <tr><td>Существующие списки</td><td>Правка, удаление, обновление источников; статус активен/неактивен и последнее обновление.</td></tr>
+                <tr><td>Группы каналов</td><td>Скрытие, переименование, переупорядочение групп.</td></tr>
+                <tr><td>Источники EPG</td><td>Назначение источника EPG спискам («Назначить списку»).</td></tr>
+                <tr><td>Сортировка</td><td>Порядок каналов: по имени/номеру, вручную, исходный или по группам.</td></tr>
+                <tr><td>Фильтры имён каналов</td><td>Удаление префиксов/суффиксов из имён; правила с подстановкой <code>*</code> и предпросмотр примера преобразования.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · Телегид</h3>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>Добавить источник EPG</td><td>Добавляет источник EPG в формате XMLTV (даёт программные данные каналов).</td></tr>
+                <tr><td>Существующие источники EPG</td><td>Правка/удаление источников EPG; число каналов и последнее обновление по каждому.</td></tr>
+                <tr><td>Сопоставление EPG каналов</td><td>Сопоставляет каналы с данными EPG — автоматически или назначением вручную; несопоставленные каналы перечислены.</td></tr>
+                <tr><td>Частота обновления</td><td>Фоновый интервал обновления EPG: Вручную, 1, 2, 4, 6, 12, 24 часа.</td></tr>
+                <tr><td>Обновлять при запуске</td><td>Если включено, EPG обновляется автоматически при каждом старте приложения.</td></tr>
+                <tr><td>Обновлять при смене списка</td><td>Автоматически обновляет и EPG, когда плейлист меняется/обновляется.</td></tr>
+                <tr><td>EPG-данные за прошлые дни</td><td>Сколько дней прошлых программных данных хранится: нет, 1, 2, 3, 5 или 7 дней. Больше дней = больше памяти.</td></tr>
+                <tr><td>Сдвиг времени</td><td>Сдвигает время программ вперёд/назад на часы/минуты, глобально или по каналам (для источников с расхождением часовых поясов).</td></tr>
+                <tr><td>Обновить EPG</td><td>Запускает ручное обновление; показываются прогресс и число обработанных каналов.</td></tr>
+                <tr><td>Очистить EPG</td><td>Удаляет кэшированные программные данные и кэш изображений; перезагрузка при следующем обновлении.</td></tr>
+                <tr><td>Последнее обновление</td><td>Обработанные каналы и дата обновления по источникам.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · Плеер <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>Изображение</td><td>Формат: Оригинал, Обрезать/Заполнить, Растянуть по горизонтали, Растянуть по вертикали, Заполнить всё, 4:3, 16:9; применимо ко всем каналам при желании.</td></tr>
+                <tr><td>Видеовыход</td><td>Выбор декодера: аппаратный (рекомендуется, меньше батарея/CPU) или программный (при проблемах совместимости).</td></tr>
+                <tr><td>Аудиовыход</td><td>Аудиодекодер (аппаратный/программный), <strong>Аудио-пасsthrough (Bitstream)</strong> — сырой звуковой поток на surround-системы, <strong>Сдвиг звука</strong> (ползунок в мс + Сброс) и язык звука по умолчанию.</td></tr>
+                <tr><td>Субтитры</td><td>Размер текста, цвет (10 цветов), положение (верх/центр/низ) и кодировка (UTF-8…).</td></tr>
+                <tr><td>Смена канала</td><td>Поведение зеппинга: <strong>Задержка смены</strong> (мс до реального переключения — избегает лишних загрузок при быстром зеппинге) и <strong>Чёрный экран при смене</strong> (чёрный пока грузится новый канал; выключено — предыдущий канал остаётся на экране).</td></tr>
+                <tr><td>Буферизация</td><td>Размер буфера: Авто, Нет, Малый (~1 с), Средний (~3 с, рекомендуется), Большой (~8 с), Очень большой (~15+ с). Увеличьте для рвущихся потоков; уменьшите для быстрого зеппинга.</td></tr>
+                <tr><td>VOD</td><td>Предпочтения фильмов/сериалов: выбор внешнего плеера (Автовыбор / Выбрать app / Внешний плеер 1-2), автосубтитры и т.д.</td></tr>
+                <tr><td>Часы на весь экран</td><td>Часы на весь экран: вкл/выкл, положение, размер (малый/средний/большой), формат 24 ч, показывать дату.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · Внешний вид <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>Язык</td><td>Язык интерфейса — выбор из 24 языков или «Язык системы»; фильтруется полем поиска.</td></tr>
+                <tr><td>Цвета</td><td>Тема приложения (Тёмная, Синяя, Серая, Зелёная, Фиолетовая, Красная, Янтарная, Ночь, Океан, Уголь, Вино, Тёмно-синяя, Изумруд, Закат, Космос, Графит), акцентный цвет (18 цветов) и непрозрачность OSD (с предпросмотром).</td></tr>
+                <tr><td>Телегид</td><td>Внешний вид EPG: формат 24 ч, высота строки (малая/средняя/большая), раскладка (список/сетка).</td></tr>
+                <tr><td>Список каналов</td><td>Внешний вид списка каналов и раскладка карточек.</td></tr>
+                <tr><td>Логотипы</td><td>Приоритет источника логотипов: <strong>XMLTV/EPG</strong>, <strong>Список (M3U)</strong> или <strong>Локальная папка</strong>; используйте свои файлы логотипов (PNG/JPG/WebP), выбрав папку.</td></tr>
+                <tr><td>Длительность OSD</td><td>Сколько секунд инфопанель остаётся на экране — отдельно для ТВ и VOD.</td></tr>
+                <tr><td>Заставка</td><td>Время до активации при бездействии: выкл, 1, 2, 5, 10, 15 или 30 минут.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · Данные о медиа <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>API-ключи</td><td>Введите свои API-ключи TMDB и OMDb — они бесплатно получаются на сайтах сервисов. Постеры, описания, актёры и рейтинги IMDb фильмов/сериалов приходят из этих сервисов.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>Включает/выключает сервис. TMDB: постер+описание+трейлер; OMDb: рейтинг IMDb, жанр, режиссёр.</td></tr>
+                <tr><td>Умный кэш</td><td>Включён — грузятся только метаданные видимого на экране контента; более быстрый первый запуск.</td></tr>
+                <tr><td>Только ручное обогащение</td><td>Выключает автозагрузку метаданных; обогащение происходит только по вашему запуску.</td></tr>
+                <tr><td>Папка кэша</td><td>Папка, где хранится кэш метаданных.</td></tr>
+                <tr><td>Обогатить весь контент</td><td>Массово скачивает данные TMDB всего VOD-контента (может занять время).</td></tr>
+                <tr><td>Обогатить по категориям</td><td>Обогащает только выбранные категории.</td></tr>
+                <tr><td>Очистить кэш</td><td>Удаляет весь кэш метаданных (показываются количество и размер).</td></tr>
+                <tr><td>Фильтры имён VOD</td><td>Правила удаления префиксов/суффиксов имён фильмов/сериалов — улучшает сопоставление TMDB.</td></tr>
+            </table>
+            <p>Также настройки превью постеров (трейлер при задержке): <strong>Автопревью</strong> (играет трейлер при задержке на постере), <strong>Звук трейлера</strong>, точка начала и время ожидания.</p>
+
+            <h3 id="ayar-diger">6–9, 11 · Запись, Напоминания, Профили, Род. контроль, Загрузки, Прочее</h3>
+            <ul>
+                <li><strong>Запись</strong> <span class="plat pro">PRO</span> — папка, доп. время, список записей (<a href="#kayit">подробнее</a>).</li>
+                <li><strong>Напоминания</strong> <span class="plat pro">PRO</span> — уведомление и автооткрытие канала + список (<a href="#hatirlatici">подробнее</a>).</li>
+                <li><strong>Профили</strong> <span class="plat pro">PRO</span> — список профилей и новый профиль (<a href="#profiller">подробнее</a>).</li>
+                <li><strong>Родительский контроль</strong> <span class="plat pro">PRO</span> — PIN, блокировки, возрастной предел, скрытые каналы (<a href="#ebeveyn">подробнее</a>).</li>
+                <li><strong>Загрузки</strong> <span class="plat pro">PRO</span> — папка, одновременные загрузки, только Wi-Fi, список (<a href="#indirilenler">подробнее</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>Элемент Прочее <span class="plat pro">PRO</span></th><th>Описание</th></tr>
+                <tr><td>Звук клавиш пульта</td><td>Воспроизводит лёгкий щелчок при навигации D-pad.</td></tr>
+                <tr><td>Клавиатура приложения</td><td>Использовать при вводе собственную экранную клавиатуру или системную.</td></tr>
+                <tr><td>Автозапуск</td><td>Приложение запускается само при включении устройства (ТВ).</td></tr>
+                <tr><td>Останавливать воспроизведение при выходе</td><td>Воспроизведение автоматически останавливается при выходе из приложения.</td></tr>
+                <tr><td>Статистика просмотра</td><td>Ваше время просмотра фильмов, сериалов и прямого эфира (последние 7/30 дней, всего); сбрасывается.</td></tr>
+                <tr><td>Расход данных</td><td>Потребление сетевых данных: получено/отправлено и всего.</td></tr>
+                <tr><td>Резервная копия / Восстановление</td><td>Сохранение всех настроек, избранного, профилей и истории в файл / восстановление из файла.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 и 12 · Аккаунты и синхронизация · О программе</h3>
+            <table class="tbl">
+                <tr><th>Элемент</th><th>Описание</th></tr>
+                <tr><td>Аккаунты, Синхр. и Устройства</td><td>Состояние аккаунта Google, создание анонимного аккаунта, автосинхронизация, синхр. премиум-лицензии, список связанных устройств и удаление, выход и <strong>Удалить аккаунт</strong> (окончательное удаление, включая облачные данные).</td></tr>
+                <tr><td>О программе</td><td>Версия, тип подписки и срок лицензии, список функций (Прямой эфир, VOD и IPTV, EPG, Мультиэкран, Запись, Напоминания, Профили, Родительский контроль, Умный поиск, DLNA, Облачная синхр., Списки избранного, Метаданные) и контакты.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── МОБИЛЬНЫЙ ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Мобильное приложение <span class="plat mob">МОБИЛЬНЫЙ</span></h2>
+            <p>Мобильный интерфейс рассчитан на касания; использует тот же аккаунт и списки.</p>
+            <ul>
+                <li><strong>Нижняя панель вкладок:</strong> ТВ, Фильмы, Сериалы, Мой список. В альбомной ориентации у левого края появляется вертикальное меню (рейка).</li>
+                <li><strong>Верхняя панель:</strong> логотип, <strong>пульт</strong>, <strong>поиск</strong>, <strong>DLNA/устройства</strong>, шестерёнка <strong>настроек</strong> и <strong>аватар профиля</strong>.</li>
+                <li><strong>Вкладка ТВ:</strong> сверху зона превью + фильтр «Все»/группы; ниже карточки каналов (логотип, имя, временной слот, текущая программа + прогресс, звезда избранного, меню ☰).</li>
+                <li><strong>Экран EPG:</strong> дневной поток программ; коснитесь канала, чтобы увидеть его передачи.</li>
+                <li><strong>Загрузки / Офлайн-контент:</strong> скачанные фильмы и серии смотрятся без интернета; воспроизведение и удаление из списка.</li>
+                <li>Нижняя <strong>полоса загрузки</strong> видна на всех вкладках во время загрузки источников.</li>
+            </ul>
+
+            <h3 id="kumanda">Пульт ТВ с телефона <span class="plat pro">PRO</span></h3>
+            <p>Используйте приложение телефона как пульт для Android TV в той же сети:</p>
+            <ol>
+                <li>Оставьте TiviEase Go открытым на ТВ; на телефоне коснитесь <strong>иконки пульта</strong> в верхней панели.</li>
+                <li>Выберите свой ТВ в списке «Устройства сети» (не находится? пересканируйте кнопкой «Повторить»).</li>
+                <li>Экран пульта: <strong>D-pad + OK</strong>, цифровые клавиши, качели громкости/каналов, <strong>Назад / Домой</strong>, <strong>Сон / Гид / Опции</strong>, <strong>цветные клавиши</strong>, медиакнопки и кнопка <strong>экранной клавиатуры</strong> для ввода текста.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA и трансляция <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Сканировать сеть</strong> находит устройства DLNA/UPnP; выберите устройство и просматривайте его медиапапки («Папки», число элементов).</li>
+                <li><strong>Трансляция на ТВ / Cast-устройство:</strong> воспроизводимый контент отправляется на устройство в сети; экран трансляции имеет полосу позиции, воспроизведение/паузу и «Остановить трансляцию».</li>
+                <li>«Сменить устройство» переносит трансляцию на другой аппарат.</li>
+            </ul>
+
+            <h3 id="indirilenler">Загрузки и офлайн <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Настройки › Загрузки:</strong> папка загрузок (внутренняя память или SMB), максимум одновременных загрузок, <strong>Только Wi-Fi</strong> (бережёт мобильный трафик) и список загрузок.</li>
+                <li>Статусы списка: Загружается, В ожидании, Загружено, Ошибка/Отменено — отменяйте ожидающие, воспроизводите или удаляйте завершённые.</li>
+                <li>На мобильном экран «Офлайн-контент» перечисляет загрузки и воспроизводит их без интернета.</li>
+            </ul>
+
+            <h3 id="yedekleme">Резервное копирование, восстановление и синхронизация</h3>
+            <ul>
+                <li><strong>Резервная копия</strong> (Настройки › Прочее): сохраняет все настройки, избранное, профили и историю в один файл — полезно при смене устройства или сбросе.</li>
+                <li><strong>Восстановление данных:</strong> выберите файл через «Открыть файл резервной копии», чтобы вернуть установку.</li>
+                <li><strong>Облачная синхронизация:</strong> при входе через Google данные синхронизируются в фоне; «Автосинхронизацию» можно отключить. Связанные устройства видны/удаляются в панели Аккаунты.</li>
+                <li>На главном экране Android TV строка <strong>«Продолжить просмотр»</strong> показывает последние просмотренные.</li>
+            </ul>
+
+            <h3 id="premium">Подписка Premium (Pro)</h3>
+            <p>Бесплатная версия покрывает 1 список + 1 источник EPG и базовые настройки. Перейдите на Pro через <strong>Настройки</strong>, нажав заблокированную категорию, или с экрана Pro.</p>
+            <table class="tbl">
+                <tr><th>Тариф</th><th>Цена</th><th>Устройства</th></tr>
+                <tr><td>Pro Месячный</td><td>₺9,99 / мес.</td><td>1 устройство</td></tr>
+                <tr><td>Pro Годовой</td><td>₺89,99 / год</td><td>1 устройство</td></tr>
+                <tr><td>Pro Пожизненный</td><td>₺249,99 (разово)</td><td>до 5 устройств</td></tr>
+            </table>
+            <ul>
+                <li>Pro открывает <strong>неограниченные списки и источники EPG</strong>, все категории настроек, запись, напоминания, профили, родительский контроль, загрузки, пульт с телефона и DLNA.</li>
+                <li><strong>Код активации:</strong> премиум активируется вводом кода в «Использовать код активации».</li>
+                <li>Лицензия привязана к облаку — при входе с тем же аккаунтом на другом устройстве синхронизируется сама; при превышении лимита удалите старое устройство из списка.</li>
+                <li>Для офлайн-использования действует допуск в 7 дней после последней проверки.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── FAQ ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>Устранение неполадок и FAQ</h2>
+
+            <details class="faq"><summary>Каналы не приходят / список не загружается</summary><div class="faq-body"><p>Проверьте, что URL верен и начинается с <code>http(s)://</code>. В Настройки › Плейлисты › Существующие списки выберите источник и перезагрузите «обновить»; для Xtream проверьте отсутствие пробелов в логине/пароле. Проверьте интернет-соединение и что провайдер в сети.</p></div></details>
+
+            <details class="faq"><summary>EPG (программа передач) пуста</summary><div class="faq-body"><p>Сначала добавьте источник XMLTV через <strong>Настройки › Телегид › Добавить источник EPG</strong> и загрузите кнопкой <strong>Обновить EPG</strong>. Если у канала всё ещё нет данных, выберите правильный EPG-канал вручную через <strong>Сопоставить EPG</strong> контекстного меню. Сдвинутое время? Исправьте <strong>Сдвигом времени</strong>.</p></div></details>
+
+            <details class="faq"><summary>Поток не открывается или зависает</summary><div class="faq-body"><p>Поставьте <strong>Буферизацию</strong> на «Средний/Большой» в Настройки › Плеер; если не помогло, попробуйте программный декодер в <strong>Видеовыходе</strong>. Потоки 4K нагружают слабые ТВ — предпочтительна версия HD/FHD канала.</p></div></details>
+
+            <details class="faq"><summary>Нет звука или звук и видео не синхронны</summary><div class="faq-body"><p>Попробуйте выключить <strong>Аудио-пасsthrough</strong> в Настройки › Плеер › Аудиовыход (битстрим проблемен на некоторых аппаратах). Для расхождения используйте ползунок <strong>Сдвиг звука</strong>; если у потока другой язык, выберите дорожку в <strong>Языке эфира</strong> на карточке плеера.</p></div></details>
+
+            <details class="faq"><summary>Субтитры не появляются или битые символы</summary><div class="faq-body"><p>Выберите правильную дорожку на карточке плеера или в Настройки › Плеер › Субтитры; при битых символах смените <strong>кодировку</strong> (UTF-8…). Размер/цвет/положение настраиваются в той же панели.</p></div></details>
+
+            <details class="faq"><summary>Не приходят постеры и информация о фильмах</summary><div class="faq-body"><p>Проверьте в Настройки › Данные о медиа, что ваши ключи TMDB/OMDb введены и сервисы включены (ключи бесплатны). Массово получите данные через «Обогатить весь контент»; исправьте неверное сопоставление пунктом <strong>Найти и сопоставить контент</strong> меню контента.</p></div></details>
+
+            <details class="faq"><summary>Купил Premium, но он не открылся / не виден на другом устройстве</summary><div class="faq-body"><p>Убедитесь, что вошли с тем же аккаунтом Google — лицензия синхронизируется. Если лимит устройств заполнен, удалите старое в <strong>Настройки › Аккаунты, Синхр. и Устройства</strong>. При необходимости используйте код активации.</p></div></details>
+
+            <details class="faq"><summary>После долгого сна ТВ ни один канал не открывается</summary><div class="faq-body"><p>Полностью закройте и заново откройте приложение. Приложение автоматически закрывает плееры при уходе в сон; если всё же зависло — перезапуск решает.</p></div></details>
+
+            <details class="faq"><summary>Как перенести настройки на другое устройство?</summary><div class="faq-body"><p>Создайте файл через <strong>Настройки › Прочее › Резервная копия</strong> и импортируйте его на новом устройстве через <strong>Восстановление данных</strong> — или войдите через Google и используйте синхронизацию.</p></div></details>
+
+            <details class="faq"><summary>Не получается вернуть канал / его нет в списке</summary><div class="faq-body"><p>Возможно, он скрыт: <strong>Показать скрытые каналы</strong> в контекстном меню EPG или <strong>Настройки › Родительский контроль › Скрытые каналы</strong> для восстановления. Если заблокирован — открывается по PIN. Если скрыта группа, проверьте Настройки › Плейлисты › Группы каналов.</p></div></details>
+
+            <details class="faq"><summary>Как удалить свой аккаунт?</summary><div class="faq-body"><p><strong>Настройки › Аккаунты, Синхр. и Устройства › Удалить аккаунт</strong> навсегда удаляет аккаунт вместе с облачными данными. Подробности: страница <a href="account-deletion.ru.html">Удаление аккаунта</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>Всё ещё нужна помощь?</h4>
+                <p>Напишите нам: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — укажите вашу проблему, модель устройства и версию приложения (Настройки › О программе).</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.ru.html">Главная</a> · <a href="privacy.ru.html">Конфиденциальность</a> · <a href="account-deletion.ru.html">Удаление аккаунта</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('ru');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('ru');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

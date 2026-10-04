@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusat Bantuan — TiviEase Go</title>
+    <meta name="description" content="Panduan pengguna TiviEase Go: pemasangan, menambah senarai main, EPG, pemain skrin penuh, tetapan dan penyelesaian masalah.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="Pusat Bantuan — TiviEase Go">
+    <meta property="og:description" content="Panduan pengguna TiviEase Go: pemasangan, menambah senarai main, EPG, pemain skrin penuh, tetapan dan penyelesaian masalah.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.ms.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="ms_MY">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.ms.html">
+            <img src="assets/logo.png?v=2" alt="Logo TiviEase Go">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Menu">☰</button>
+        <nav class="site-nav">
+            <a href="index.ms.html">Laman utama</a>
+            <a href="index.ms.html#ozellikler">Ciri-ciri</a>
+            <a href="satin-al.en.html">Beli</a>
+            <a class="active" href="yardim.ms.html">Pusat bantuan</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">Pusat bantuan</span>
+            <h1 style="font-size:34px">Bagaimana menggunakannya?</h1>
+            <p>Setiap skrin dijelaskan langkah demi langkah — daripada pembukaan pertama hingga tetapan terakhir. Pilih topik daripada bar sisi atau gunakan carian.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">Lencana: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">MUDAH ALIH</span> telefon/tablet &nbsp; <span class="plat pro">PRO</span> ciri berbayar</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ Bar sisi ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="Cari dalam bantuan..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ Topik</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Memulakan<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">Pembukaan pertama</a>
+                        <a href="#profil-secimi">Pemilihan profil</a>
+                        <a href="#qr-giris">Log masuk QR</a>
+                        <a href="#google-giris">Log masuk Google</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Sumber<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">Menambah senarai main</a>
+                        <a href="#liste-yonetimi">Urus senarai main</a>
+                        <a href="#epg-kaynagi">Menambah sumber EPG</a>
+                        <a href="#grup-siralama">Kumpulan, susunan, penapis</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Laman utama &amp; EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">Skrin utama (TV)</a>
+                        <a href="#epg-rehberi">Menggunakan panduan TV</a>
+                        <a href="#arama">Carian &amp; carian suara</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Menu konteks<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">Menu konteks EPG</a>
+                        <a href="#vod-context">Menu filem/siri</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Pemain<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">Skrin penuh — langsung</a>
+                        <a href="#fs-tuslar">Kekunci alat kawalan</a>
+                        <a href="#fs-paneller">Panel &amp; kad tetapan</a>
+                        <a href="#coklu-ekran">Pelbagai skrin (PIP)</a>
+                        <a href="#fs-vod">Skrin penuh — VOD</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Rakaman &amp; peringatan<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">Merakam program</a>
+                        <a href="#hatirlatici">Peringatan</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profil &amp; ibu bapa<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">Urus profil</a>
+                        <a href="#ebeveyn">Kawalan ibu bapa</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Panduan tetapan<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">Skrin tetapan</a>
+                        <a href="#ayar-listeler">Senarai main</a>
+                        <a href="#ayar-epg">Panduan TV</a>
+                        <a href="#ayar-oynatici">Pemain</a>
+                        <a href="#ayar-gorunum">Rupa</a>
+                        <a href="#ayar-medya">Data media</a>
+                        <a href="#ayar-diger">Rakam / Peringat / Lain</a>
+                        <a href="#ayar-hesap">Akaun &amp; perihal</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Mudah alih &amp; lain-lain<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">Aplikasi mudah alih</a>
+                        <a href="#kumanda">Alat kawalan telefon</a>
+                        <a href="#dlna">DLNA &amp; penghantaran</a>
+                        <a href="#indirilenler">Muat turun</a>
+                        <a href="#yedekleme">Sandaran &amp; segerak</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">Penyelesaian masalah / FAQ</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">Tiada hasil ditemui.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ Kandungan ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── Memulakan ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Memulakan</h2>
+            <p>TiviEase Go berfungsi pada <strong>Android TV</strong> dan <strong>telefon/tablet</strong> dalam satu aplikasi. Aplikasi tidak menyediakan saluran atau kandungan — anda menambah <strong>senarai main M3U</strong> atau akaun <strong>Xtream Codes</strong> daripada pembekal IPTV anda sendiri.</p>
+
+            <h3>Skrin pembukaan pertama</h3>
+            <p>Jika tiada senarai main dikonfigurasi lagi, apabila aplikasi dibuka <strong>skrin alu-aluan</strong> muncul. Empat kad ditawarkan:</p>
+            <table class="tbl">
+                <tr><th>Kad</th><th>Apa fungsinya?</th></tr>
+                <tr><td>Tambah senarai main<br><small>M3U / Xtream</small></td><td>Membawa anda ke skrin utama dan membuka borang penambahan. Butiran: <a href="#kaynak-ekleme">Menambah senarai main</a>.</td></tr>
+                <tr><td>Log masuk Google<br><small>segerak awan</small></td><td>Log masuk dengan akaun Google; sumber, kegemaran dan sejarah awan anda dimuatkan, kemudian senarai main dikemas kini automatik.</td></tr>
+                <tr><td>Log masuk QR<br><small>imbas daripada telefon</small> <span class="plat tv">TV</span></td><td>Papar kod QR sah 3 minit pada TV; imbas dengan aplikasi telefon dan sahkan, TV log masuk ke akaun yang sama.</td></tr>
+                <tr><td>Tetapan<br><small>sistem &amp; profil</small></td><td>Membuka skrin tetapan jika anda mahu meneroka sebelum menambah senarai main.</td></tr>
+            </table>
+            <div class="tip"><p><strong>Petua:</strong> Jika anda sudah menggunakan TiviEase Go pada peranti lain, cara terpantas ialah <strong>Log masuk Google</strong> atau <strong>Log masuk QR</strong> — semua senarai dan tetapan datang secara automatik.</p></div>
+
+            <h3 id="profil-secimi">Pemilihan profil</h3>
+            <p>Jika berbilang profil dikonfigurasi pada peranti, apabila dibuka anda melihat skrin <strong>«Pilih profil»</strong>. Pilih dengan kekunci arah + <kbd>OK</kbd>. Profil ber-PIN meminta kod dahulu. Setiap profil menyimpan <em>kegemaran, kandungan «Senarai Saya», sejarah dan tetapan peribadi</em> sendiri.</p>
+            <ul>
+                <li>Tambah/edit profil: <strong>Tetapan › Profil</strong> (lihat <a href="#profiller">Urus profil</a>).</li>
+                <li>Tukar profil semasa digunakan: ketik <strong>ikon gambar profil</strong> pada bar atas.</li>
+            </ul>
+
+            <h3 id="qr-giris">Log masuk QR <span class="plat tv">TV</span> <span class="plat mob">MUDAH ALIH</span></h3>
+            <p>Gunakan telefon anda daripada menaip kelayakan pada TV:</p>
+            <ol>
+                <li>Pada TV buka kad <strong>Log masuk QR</strong> (skrin alu-aluan atau Tetapan › Akaun) — kod QR muncul dan sah <strong>3 minit</strong>.</li>
+                <li>Pada telefon, buka aplikasi TiviEase Go dan imbas kod QR TV dengan pengimbas.</li>
+                <li>Pada telefon tekan <strong>«Log masuk»</strong> — anda akan melihat «Disahkan — TV sedang log masuk».</li>
+                <li>TV log masuk ke akaun telefon dalam beberapa saat; senarai main dan tetapan disegerakkan.</li>
+            </ol>
+            <div class="note"><p>Jika kod QR tamat tempoh, tutup dan buka semula tetingkap — kod baharu dijana. Log masuk QR memerlukan aplikasi pada telefon terbuka dan sudah log masuk.</p></div>
+
+            <h3 id="google-giris">Log masuk Google dan penyegerakan</h3>
+            <p>Apabila log masuk dengan akaun Google, ini disegerakkan merentas peranti: tetapan sumber/senarai, kegemaran, «Senarai Saya», sejarah, profil dan lesen premium. Selepas log masuk pertama, sumber dan EPG dimuat turun automatik — tiada kemas kini manual diperlukan.</p>
+            <ul>
+                <li>Tetapan segerak dan peranti terpaut: <strong>Tetapan › Akaun, segerak &amp; peranti</strong>.</li>
+                <li>Boleh digunakan tanpa akaun — data kekal pada peranti.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Sumber ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Menambah senarai main</h2>
+            <p>Dua jenis sumber disokong: <strong>M3U</strong> (URL atau fail tempatan) dan <strong>Xtream Codes</strong> (pelayan + kelayakan). Apabila ditambah, kandungan diasingkan automatik kepada <em>langsung / filem / siri</em>.</p>
+
+            <h3>Dari mana menambahnya?</h3>
+            <ul>
+                <li>Daripada kad <strong>Tambah senarai main</strong> pada skrin alu-aluan,</li>
+                <li>atau daripada <strong>Tetapan › Senarai main › Tambah senarai main</strong>.</li>
+            </ul>
+
+            <h3>Menambah senarai main M3U</h3>
+            <ol>
+                <li>Buka <strong>Tambah senarai main</strong>, pilih kad <strong>M3U / XMLTV</strong>.</li>
+                <li>Dalam medan <strong>Nama</strong> beri nama senarai main (cth. «Senarai utama»).</li>
+                <li>Dalam medan <strong>URL / Laluan fail</strong> masukkan pautan M3U <em>atau</em> pilih fail daripada peranti dengan ikon folder. Sambungan disokong: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li>Tekan <strong>Tambah</strong> — senarai main dimuat turun dan diproses; kemajuan kelihatan dalam bar muat turun bawah.</li>
+            </ol>
+            <div class="note"><p>Apabila memilih fail, jika medan nama kosong, nama fail diisi automatik. URL mesti bermula dengan http/https.</p></div>
+
+            <h3>Menambah akaun Xtream Codes</h3>
+            <ol>
+                <li>Pilih kad <strong>Xtream</strong>.</li>
+                <li><strong>Nama sumber</strong>: sebarang nama (cth. «Xtream utama»).</li>
+                <li><strong>URL pelayan</strong>: alamat pembekal anda, cth. <code>http://server.com:8080</code></li>
+                <li><strong>Nama pengguna</strong> dan <strong>Kata laluan</strong>: kelayakan daripada pembekal. Ikon mata di sebelah medan kata laluan memaparkan apa yang ditaip.</li>
+                <li><strong>Tambah</strong> — aplikasi menyambung ke API Xtream; siaran langsung, filem dan siri dimuat turun berasingan.</li>
+            </ol>
+            <div class="warn"><p><strong>Dalam versi percuma</strong> hanya <strong>1 senarai main</strong> boleh ditambah (M3U atau Xtream — bukan kedua-duanya). Tanpa had: <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">Urus senarai main</h3>
+            <p>Item dalam <strong>Tetapan › Senarai main</strong>:</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Senarai main sedia ada</td><td>Memaparkan sumber M3U/Xtream yang dikonfigurasi; pada setiap kad — kemas kini terakhir dan status aktif/tidak aktif. Pilih sumber untuk mengedit, memadam atau mengemas kini. Kad ringkasan menunjukkan agihan langsung/siri/filem.</td></tr>
+                <tr><td>Kekerapan kemas kini</td><td>Selang kemas kini automatik senarai main: <strong>manual, 6, 12, 24, 48, 72 atau 168 jam</strong>. Dengan «manual» senarai main hanya dikemas kini apabila anda memintanya.</td></tr>
+                <tr><td>Kemas kini semua senarai main</td><td>Memuat turun semula semua sumber serentak. Diproses berjujukan pada latar belakang; pantau kemajuan dalam bar muat turun.</td></tr>
+                <tr><td>Sumber EPG</td><td>Memilih sumber EPG yang ditugaskan kepada setiap senarai main («tugaskan kepada senarai main»).</td></tr>
+                <tr><td>Kumpulan saluran</td><td>Menyembunyikan, menamakan semula dan menyusun semula kumpulan daripada senarai main (sukan, berita…).</td></tr>
+                <tr><td>Susunan</td><td>Susunan saluran: <strong>mengikut nama, mengikut nombor, manual, susunan asal, mengikut kumpulan</strong>.</td></tr>
+                <tr><td>Penapis nama saluran</td><td>Peraturan yang membuang awalan/akhiran nama saluran automatik (cth. «TR:», «|4K»). Kad bebas <code>*</code> disokong; medan «contoh transformasi» menunjukkan hasilnya.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">Menambah sumber EPG (XMLTV)</h3>
+            <p>Untuk mendapatkan jadual program, tambahkan alamat XMLTV/EPG pembekal anda:</p>
+            <ol>
+                <li>Buka <strong>Tetapan › Panduan TV › Tambah sumber EPG</strong>.</li>
+                <li>Masukkan nama dan <strong>URL/alamat</strong> kemudian simpan.</li>
+                <li>Selepas dimuat turun, saluran dipadankan automatik mengikut kesamaan nama; selebihnya padankan manual melalui <a href="#epg-rehberi">pemadanan saluran EPG</a>.</li>
+            </ol>
+            <div class="warn"><p>Versi percuma membenarkan <strong>1 sumber EPG</strong>. Sesetengah pembekal Xtream menghantar EPG mereka sendiri — apabila anda menambah sumber Xtream, EPG biasanya datang automatik.</p></div>
+
+            <h3 id="grup-siralama">Kumpulan, susunan dan penapis nama</h3>
+            <ul>
+                <li><strong>Kumpulan saluran:</strong> Menguruskan nama kumpulan yang datang daripada M3U/Xtream. Kumpulan tersembunyi tidak dipaparkan dalam senarai TV; susunan menentukan urutan kumpulan.</li>
+                <li><strong>Susunan:</strong> Dengan «manual» anda mencipta susunan sendiri dalam senarai saluran; «susunan asal» mengekalkan susunan fail.</li>
+                <li><strong>Penapis nama:</strong> Membuang corak di awal/akhir nama saluran (cth. awalan negara) — senarai lebih kemas. Penapis berasingan untuk nama VOD: <strong>Tetapan › Data media › Penapis nama VOD</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Laman utama & EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Skrin utama dan panduan TV <span class="plat tv">TV</span></h2>
+
+            <h3>Bar atas dan menu</h3>
+            <p>Pada skrin utama TV terdapat bar menu mendatar di atas. Navigasi <kbd>◀</kbd><kbd>▶</kbd>, pilih <kbd>OK</kbd>, turun ke kandungan <kbd>▼</kbd>.</p>
+            <table class="tbl">
+                <tr><th>Menu</th><th>Kandungan</th></tr>
+                <tr><td>Cari</td><td>Skrin carian pintar — saluran, filem, siri dan program; carian suara disokong.</td></tr>
+                <tr><td>TV</td><td>Senarai saluran + jadual EPG dan kad pratonton langsung.</td></tr>
+                <tr><td>Filem</td><td>Lajur kategori (aksi, komedi, drama, sci-fi, seram, keluarga, kegemaran, baharu, teruskan menonton) + galeri poster.</td></tr>
+                <tr><td>Siri</td><td>Kategori seperti siri tempatan/asing, harian, waktu perdana + galeri poster.</td></tr>
+                <tr><td>Senarai Saya</td><td>Kegemaran, filem saya, siri saya, teruskan menonton, rakaman, peringatan, muat turun, kandungan luar talian.</td></tr>
+                <tr><td>Tetapan</td><td>Ikon gear di kanan — membuka panel tetapan 13 kategori.</td></tr>
+            </table>
+            <p>Ikon di kanan bar atas: <strong>gambar profil</strong> (tukar profil), <strong>gear tetapan</strong> dan butang <strong>peranti</strong> (DLNA/hantar).</p>
+            <div class="note"><p>Dalam senarai panjang <kbd>CH+</kbd>/<kbd>CH−</kbd> (atau Page Up/Down) melompat 10 baris. <kbd>Kembali</kbd> naik satu tahap; pada skrin utama meminta pengesahan keluar.</p></div>
+
+            <h3>Galeri poster dan pratonton</h3>
+            <ul>
+                <li>Pada halaman filem/siri, poster dipapar sebagai grid; apabila berhenti kad membesar dan — jika diaktifkan — <strong>pratonton treler</strong> dimainkan (tetapan: Data media › pratonton automatik).</li>
+                <li>Tekan lama <kbd>OK</kbd> pada poster: membuka <a href="#vod-context">menu konteks</a>.</li>
+                <li>Pada halaman TV, apabila berhenti pada baris saluran, tetingkap <strong>pratonton langsung</strong> di atas-kiri memainkan saluran itu dalam saiz kecil.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">Menggunakan panduan TV (EPG)</h3>
+            <p>Senarai TV bertukar antara dua paparan: <strong>senarai saluran</strong> dan <strong>grid EPG</strong> («pergi ke senarai EPG» / «pergi ke senarai saluran»).</p>
+            <ul>
+                <li><strong>Lajur tepi:</strong> logo dan nama saluran. <kbd>▲</kbd><kbd>▼</kbd> menukar saluran; programnya dipapar di sebelah lain.</li>
+                <li><strong>Grid:</strong> garis masa — kad program dengan tempoh. <kbd>◀</kbd><kbd>▶</kbd> bergerak melalui masa.</li>
+                <li><strong>Pemilihan hari:</strong> dengan butang semalam / hari ini / esok dan anak panah «hari sebelum / hari selepas» lihat ke belakang sejauh tetapan <em>data EPG hari lepas</em> membenarkan.</li>
+                <li><strong>Tekan lama <kbd>OK</kbd> pada baris saluran:</strong> membuka <a href="#epg-context">menu konteks EPG</a> (kegemaran, rakam, ingatkan, sembunyikan…).</li>
+                <li><kbd>OK</kbd> pendek pada saluran: menonton skrin penuh.</li>
+            </ul>
+            <div class="tip"><p>Tiada EPG pada saluran? Semak dahulu sumber EPG ditugaskan dan dikemas kini (Tetapan › Panduan TV › Kemas kini EPG), kemudian padankan saluran manual melalui «pemadanan EPG».</p></div>
+
+            <h3 id="arama">Carian dan carian suara</h3>
+            <ul>
+                <li>Menu <strong>Cari</strong> (atau «carian» dalam menu konteks) membuka carian pintar. Mencari serentak dalam filem, siri, nama saluran dan program EPG («padanan program», «program TV»).</li>
+                <li>Ikon mikrofon memulakan <strong>carian suara</strong> — bercakap semasa «Mendengar…» menyala; kebenaran mikrofon diminta kali pertama.</li>
+                <li><strong>Sejarah carian</strong> memaparkan pertanyaan sebelumnya; «kosongkan» memadamkannya.</li>
+                <li>Pada mudah alih, tab carian melakukan perkara sama; input melalui sentuhan.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Menu konteks ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Menu konteks</h2>
+
+            <h3>Menu konteks EPG <span class="plat tv">TV</span></h3>
+            <p><strong>Membuka:</strong> Pada baris saluran dalam panduan TV <strong>tekan lama <kbd>OK</kbd></strong> — menu meluncur masuk dari tepi. <kbd>▲</kbd><kbd>▼</kbd> navigasi, <kbd>OK</kbd> pilih, <kbd>Kembali</kbd> tutup.</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Fungsi</th></tr>
+                <tr><td>Buka saluran</td><td>Memulakan saluran terpilih skrin penuh.</td></tr>
+                <tr><td>Cari</td><td>Membuka carian pintar.</td></tr>
+                <tr><td>TV / Filem / Siri / Senarai Saya / Tetapan</td><td>Lompatan pantas ke bahagian utama lain selain yang aktif.</td></tr>
+                <tr><td>Tambah ke / buang daripada kegemaran</td><td>Menambah atau membuang saluran daripada kegemaran; dipapar dalam senarai TV dan Senarai Saya.</td></tr>
+                <tr><td>Buka dalam pemain luaran</td><td>Menghantar strim saluran ke aplikasi pemain lain pada peranti (VLC, MX Player…).</td></tr>
+                <tr><td>Rakam</td><td>Menambah program terpilih (atau rakaman manual 2 jam jika tiada program) ke senarai rakaman. Minit tambahan daripada tetapan digunakan automatik.</td></tr>
+                <tr><td>Rakaman tersuai</td><td>Memaparkan tetingkap pilihan minit tambahan awal/akhir dahulu (+0/+1/+5/+10 minit).</td></tr>
+                <tr><td>Tambah / buang peringatan</td><td>Memberitahu sebelum program bermula; jika «buka saluran automatik» aktif, saluran terbuka sendiri.</td></tr>
+                <tr><td>Pemadanan EPG</td><td>Menghubungkan data program saluran dengan nama saluran sumber EPG yang betul secara manual.</td></tr>
+                <tr><td>Kemas kini EPG</td><td>Memuat turun semula sumber EPG yang ditugaskan.</td></tr>
+                <tr><td>Kosongkan EPG</td><td>Memadam data program tersimpan; dimuat turun semula pada kemas kini berikutnya.</td></tr>
+                <tr><td>Kemas kini logo</td><td>Memuat semula logo saluran (mengikut tetapan sumber logo).</td></tr>
+                <tr><td>Kunci / buka kunci saluran</td><td>Menyembunyikan saluran di sebalik PIN dalam kawalan ibu bapa; membuka memerlukan PIN.</td></tr>
+                <tr><td>Sembunyikan / tunjukkan saluran</td><td>Menyembunyikan saluran daripada senarai; mengembalikan: «tunjukkan saluran tersembunyi» atau Tetapan › Kawalan ibu bapa › Saluran tersembunyi.</td></tr>
+                <tr><td>Tunjukkan saluran tersembunyi</td><td>Mengembalikan saluran tersembunyi ke senarai buat sementara.</td></tr>
+            </table>
+
+            <h3 id="vod-context">Menu konteks filem / siri</h3>
+            <p><strong>Membuka:</strong> Tekan lama <kbd>OK</kbd> pada poster (mudah alih: tekan lama / ikon ☰).</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Fungsi</th></tr>
+                <tr><td>Teruskan</td><td>Meneruskan daripada titik berhenti (hanya dipapar apabila ada kemajuan).</td></tr>
+                <tr><td>Main</td><td>Memainkan kandungan dari awal.</td></tr>
+                <tr><td>Main luaran</td><td>Menghantar ke aplikasi pemain lain.</td></tr>
+                <tr><td>Treler</td><td>Membuka treler yang tersedia di TMDB.</td></tr>
+                <tr><td>Poster skrin penuh / tunjukkan sepanduk <span class="plat tv">TV</span></td><td>Menukar galeri antara grid poster dan tataletak sepanduk.</td></tr>
+                <tr><td>Susun / tapis</td><td>Membuka pilihan susunan dan penapis galeri.</td></tr>
+                <tr><td>Tahun keluaran</td><td>Menapis kandungan mengikut tahun.</td></tr>
+                <tr><td>Kategori</td><td>Menapis mengikut genre (aksi, komedi…).</td></tr>
+                <tr><td>Butiran lanjut</td><td>Membuka panel butiran: sinopsis, pelakon, pengarah, penarafan, senarai episod.</td></tr>
+                <tr><td>Ke senarai saya / buang</td><td>Menambah atau membuang kandungan daripada «Senarai Saya › filem saya/siri saya».</td></tr>
+                <tr><td>Padam daripada sejarah</td><td>Mengosongkan kedudukan tersimpan; kandungan keluar daripada «teruskan menonton».</td></tr>
+                <tr><td>Padam daripada ditonton / kosongkan ditonton</td><td>Membuang tanda «sudah ditonton» atau mengosongkan seluruh sejarah tontonan.</td></tr>
+                <tr><td>Padam daripada kandungan luar talian</td><td>Memadam kandungan yang dimuat turun (hanya dipapar pada muat turun).</td></tr>
+                <tr><td>Cari &amp; padankan kandungan</td><td>Jika padanan TMDB salah/tiada, cari dan padankan filem/siri yang betul secara manual.</td></tr>
+                <tr><td>Pilih berbilang <span class="plat mob">MUDAH ALIH</span></td><td>Membuka mod memilih beberapa poster untuk operasi pukal.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── Pemain ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Pemain skrin penuh</h2>
+
+            <h3>Skrin penuh — siaran langsung <span class="plat tv">TV</span></h3>
+            <p>Apabila saluran dibuka, video dimainkan skrin penuh. Semua panel dibuka dengan alat kawalan dan tertutup automatik apabila tidak digunakan (senarai saluran ~8 saat, aliran program ~15 saat).</p>
+
+            <h4 id="fs-tuslar">Kekunci alat kawalan — siaran langsung</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> pendek</div><div>Membuka/menutup OSD (panel maklumat).</div>
+                <div><kbd>OK</kbd> lama</div><div>Membuka kad tetapan pemain (di bawah).</div>
+                <div><kbd>▶</kbd></div><div>Membuka senarai saluran daripada tepi. Apabila senarai terbuka, tekan lagi → lajur kategori (kumpulan).</div>
+                <div><kbd>◀</kbd></div><div>Membuka «aliran program» EPG daripada tepi lain; jika terbuka — menutup.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Menukar saluran; pada senarai terbuka menggerakkan pilihan.</div>
+                <div><kbd>0–9</kbd></div><div>Input nombor saluran — menukar apabila input selesai.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> atau <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>Saluran seterusnya/sebelumnya (menatal pada senarai terbuka).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>Membuka/menutup aliran program EPG.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>Kembali ke saluran terakhir ditonton.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Saluran sebelumnya/seterusnya.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>Jeda/sambung siaran langsung.</div>
+                <div><kbd>●</kbd> butang Record</div><div>Membuka/menutup senarai saluran.</div>
+                <div><kbd>Kembali</kbd></div><div>Menutup panel terbuka → menutup OSD → keluar daripada pemain.</div>
+            </div>
+
+            <h4 id="fs-paneller">Panel dan kad tetapan</h4>
+            <table class="tbl">
+                <tr><th>Panel</th><th>Membuka</th><th>Kandungan</th></tr>
+                <tr><td>OSD (panel maklumat)</td><td><kbd>OK</kbd> pendek</td><td>Nama/logo saluran, program semasa dan seterusnya, kemajuan, jam (jika jam skrin penuh aktif).</td></tr>
+                <tr><td>Senarai saluran</td><td><kbd>▶</kbd> atau <kbd>●</kbd></td><td>Senarai meluncur daripada tepi; atas/bawah pilih, <kbd>OK</kbd> tukar. <kbd>▶</kbd> kedua membuka lajur kumpulan/kategori — <kbd>OK</kbd> mengguna pakai kumpulan.</td></tr>
+                <tr><td>Aliran program EPG</td><td><kbd>◀</kbd> atau <kbd>Info</kbd></td><td>Senarai program meluncur daripada tepi: program hari ini. <kbd>▲</kbd><kbd>▼</kbd> layari; tekan lama <kbd>OK</kbd> pada program → tindakan peringat/rakam.</td></tr>
+                <tr><td>Kad tetapan pemain</td><td><kbd>OK</kbd> lama</td><td>Kad tetapan pantas 8 ikon (jadual di bawah).</td></tr>
+            </table>
+
+            <h4>Kad tetapan pemain (siaran langsung)</h4>
+            <p>Apabila kad terbuka, bergerak antara ikon dengan <kbd>◀</kbd><kbd>▶</kbd> dan antara pilihan dalam panel terbuka; <kbd>OK</kbd> mengguna pakai.</p>
+            <table class="tbl">
+                <tr><th>Tab</th><th>Penerangan</th></tr>
+                <tr><td>Pergi ke VOD</td><td>Lompatan pantas ke bahagian filem atau siri.</td></tr>
+                <tr><td>Bahasa main balik</td><td>Pilih trek audio jika strim ada lebih daripada satu (jika tidak, keutamaan bahasa: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>Saiz gambar</td><td>Nisbah aspek: asal, pangkas/isi, regang melintang, regang menegak, isi penuh, 4:3, 16:9 — dengan pilihan «guna pakai ke semua saluran».</td></tr>
+                <tr><td>Sari kata</td><td>Pemilihan trek sari kata + warna teks (10 warna) dan saiz.</td></tr>
+                <tr><td>PIP</td><td>Membuka mod pelbagai skrin (<a href="#coklu-ekran">lihat di bawah</a>).</td></tr>
+                <tr><td>Maklumat strim</td><td>Maklumat strim teknikal (resolusi, pengekod…).</td></tr>
+                <tr><td>Pemain</td><td>Pilihan nyahkod dan tingkah laku asas pemain.</td></tr>
+                <tr><td>Tetapan</td><td>Membuka skrin tetapan utama («buka semua tetapan»).</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">Pelbagai skrin (PIP)</h4>
+            <p>Melalui <strong>PIP</strong> dalam kad atau ciri pelbagai skrin, beberapa saluran ditonton bersama (sehingga 4 skrin). Pilihan menu pelbagai skrin:</p>
+            <ul>
+                <li><strong>Tambah skrin / tutup skrin:</strong> membuka sel pemain baharu atau menutup sel terpilih.</li>
+                <li><strong>Paparan sama rata / skrin besar:</strong> membahagi skrin sama rata atau membesarkan satu.</li>
+                <li><strong>Tukar saluran:</strong> menukar saluran sel yang difokuskan.</li>
+                <li><strong>Skrin penuh / kembali ke skrin / skrin tunggal:</strong> membesarkan sel atau mengembalikan paparan pelbagai.</li>
+                <li><strong>Main/jeda, bisu/suarakan, muat semula:</strong> main balik dan audio setiap sel (audio hanya daripada satu skrin pada satu masa).</li>
+            </ul>
+            <div class="warn"><p>Pelbagai skrin membebankan pemproses; dua skrin disyorkan pada peranti lemah.</p></div>
+
+            <h3 id="fs-vod">Skrin penuh — filem / siri</h3>
+            <p>Dalam pemain VOD, OSD terbuka sebagai panel kawalan bawah: <strong>episod/kandungan sebelumnya, undur, main/jeda, maju, seterusnya, bahasa &amp; sari kata, maklumat, tetapan, mula semula</strong> dan bar kemajuan.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>Membuka OSD; apabila terbuka — mengaktifkan butang terfokus (lalai main/jeda).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>Seek berperingkat pada bar kemajuan; jika OSD tertutup membukanya dahulu. Dalam baris kawalan bergerak antara butang.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Bergerak menegak antara bar kemajuan ↔ baris kawalan ↔ kad tetapan.</div>
+                <div><kbd>0–9</kbd></div><div>Input minit — melompat ke minit yang dimasukkan.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Undur/maju 30 saat (penunjuk muncul pada skrin).</div>
+                <div><kbd>Info</kbd></div><div>Membuka kad maklumat filem/siri (sinopsis, pelakon, penarafan — TMDB).</div>
+                <div><kbd>Kembali</kbd></div><div>Menutup panel/OSD; tekan lagi keluar sambil menyimpan kemajuan.</div>
+            </div>
+            <ul>
+                <li><strong>Kad episod seterusnya:</strong> dalam siri ~30 saat sebelum akhir, kad «ke episod seterusnya» muncul di bawah; tekan <kbd>OK</kbd> untuk melangkah.</li>
+                <li><strong>Sambung daripada kedudukan:</strong> kandungan belum selesai disambung daripada saat tersimpan apabila dibuka semula («teruskan»). Kemajuan disimpan apabila keluar.</li>
+                <li><strong>Menu bahasa &amp; sari kata:</strong> menukar trek audio dan sari kata serta-merta.</li>
+                <li><strong>Gerak isyarat mudah alih</strong> <span class="plat mob">MUDAH ALIH</span>: leret menegak pada satu tepi = volum, tepi lain = kecerahan; ketuk membuka OSD.</li>
+            </ul>
+            <p>Kad tetapan VOD serupa dengan kad siaran langsung; sebagai tambahan terdapat <strong>anjakan audio</strong> (gelangsar + set semula) dan <strong>pergi ke TV</strong>.</p>
+        </section>
+
+        <!-- ───────────── Rakaman & peringatan ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Rakaman dan peringatan <span class="plat pro">PRO</span></h2>
+
+            <h3>Merakam program</h3>
+            <ol>
+                <li>Dalam EPG tekan lama <kbd>OK</kbd> pada <strong>baris saluran</strong> program yang mahu dirakam.</li>
+                <li><strong>Rakam</strong>: menambah program ke senarai rakaman dengan minit tambahan daripada tetapan. Jika tiada program, rakaman manual 2 jam daripada sekarang dijadualkan.</li>
+                <li><strong>Rakaman tersuai</strong>: membuka tetingkap pilihan minit tambahan awal/akhir (0/+1/+5/+10 minit) sebelum mencipta rakaman.</li>
+                <li>Apabila tiba masanya, rakaman bermula automatik; ikon REC berkelip pada kad program dalam aliran.</li>
+            </ol>
+            <p>Item dalam <strong>Tetapan › Rakaman</strong>:</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Folder rakaman</td><td>Di mana rakaman disimpan: storan dalaman atau folder rangkaian (SMB — «imbas rangkaian» mencari sumber dan menyambung dengan nama pengguna/kata laluan).</td></tr>
+                <tr><td>Masa sebelum / selepas rakaman</td><td>Masa tambahan pada awal dan akhir setiap rakaman: 0, 1, 5 atau 10 minit. Membantu tidak terlepas awal/akhir apabila program mula lewat atau berjalan lama.</td></tr>
+                <tr><td>Senarai rakaman</td><td>Pembilang semua/selesai/berjadual dan semua rakaman: mainkan yang selesai dengan <kbd>OK</kbd>, batalkan yang menunggu, padam.</td></tr>
+            </table>
+            <div class="note"><p>Rakaman ditulis ke folder terpilih; pastikan ruang kosong mencukupi. Pemilihan USB/kad SD disokong.</p></div>
+
+            <h3 id="hatirlatici">Peringatan</h3>
+            <ul>
+                <li>Cipta peringatan untuk program dengan <strong>tambah peringatan</strong> dalam menu konteks EPG; pilih lagi untuk membuang.</li>
+                <li>Masa notifikasi: <strong>1, 2, 5 atau 10 minit sebelum</strong> program bermula.</li>
+                <li><strong>Tetapan › Peringatan</strong>: pilihan notifikasi dan <strong>«buka saluran automatik»</strong> (TV bertukar ke saluran itu sendiri apabila tiba masanya); seluruh senarai peringatan juga diurus di sini.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Profil & ibu bapa ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profil dan kawalan ibu bapa <span class="plat pro">PRO</span></h2>
+
+            <h3>Urus profil</h3>
+            <p>Dalam <strong>Tetapan › Profil</strong>:</p>
+            <ul>
+                <li><strong>Tambah profil:</strong> mencipta profil baharu dengan nama, pilihan gambar dan PIN pilihan.</li>
+                <li><strong>Senarai profil:</strong> memaparkan profil sedia ada; edit dan padam di sini.</li>
+                <li>Setiap profil menyimpan <em>kegemaran, kandungan «Senarai Saya», sejarah dan tetapan peribadi</em> sendiri. Profil aktif ditanya semasa pembukaan; tukar serta-merta melalui gambar dalam bar atas.</li>
+            </ul>
+
+            <h3 id="ebeveyn">Kawalan ibu bapa</h3>
+            <p>Item dalam <strong>Tetapan › Kawalan ibu bapa</strong> (jika PIN ditetapkan, memasuki panel meminta PIN):</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Perlindungan PIN</td><td>Status kod PIN 4 digit.</td></tr>
+                <tr><td>Tukar PIN</td><td>Menetapkan PIN 4 digit baharu (padam PIN juga di sini).</td></tr>
+                <tr><td>Keperluan PIN</td><td>Menentukan situasi mana yang meminta PIN.</td></tr>
+                <tr><td>Kunci tetapan</td><td>Jika aktif, memasuki tetapan memerlukan PIN.</td></tr>
+                <tr><td>Kunci kandungan 18+</td><td>Menyembunyikan kandungan dewasa di sebalik PIN.</td></tr>
+                <tr><td>Kunci saluran</td><td>Membuka saluran terkunci memerlukan PIN (kunci saluran: menu konteks EPG).</td></tr>
+                <tr><td>Had umur</td><td>Sekatan umur — kandungan melebihi umur terpilih memerlukan PIN. «Panduan penarafan umur» di sebelahnya menerangkan label sistem kebangsaan.</td></tr>
+                <tr><td>Saluran tersembunyi</td><td>Memaparkan saluran tersembunyi dan menjadikannya kelihatan semula.</td></tr>
+            </table>
+            <div class="tip"><p>Lupa PIN? Buat sandaran sebelum mencipta profil baharu atau memasang semula; data PIN disimpan sulit pada peranti.</p></div>
+        </section>
+
+        <!-- ───────────── Tetapan ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Panduan tetapan</h2>
+            <p>Skrin tetapan terdiri daripada tiga lajur: <strong>tepi</strong> — 13 kategori, <strong>tengah</strong> — item kategori, <strong>sebelah lain</strong> — panel penerangan/tetapan item terpilih. Ikon <strong>kanta pembesar</strong> dalam pengepala membuka carian dalam tetapan. <kbd>CH+</kbd>/<kbd>−</kbd> melompat 10 baris dalam senarai kategori.</p>
+            <div class="warn"><p>Dalam versi percuma sesetengah kategori dikunci (ikon mangga): pemain, rupa, data media, rakaman, peringatan, profil, kawalan ibu bapa, muat turun dan lain-lain. Kategori terkunci membuka panel naik taraf Pro.</p></div>
+
+            <h3 id="ayar-listeler">1 · Senarai main</h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Tambah senarai main</td><td>Menambah senarai main M3U baharu (URL/fail) atau Xtream (pelayan+pengguna+kata laluan).</td></tr>
+                <tr><td>Kekerapan kemas kini</td><td>Selang kemas kini automatik: manual, 6, 12, 24, 48, 72, 168 jam.</td></tr>
+                <tr><td>Kemas kini semua senarai main</td><td>Memuat turun semula semua sumber serentak.</td></tr>
+                <tr><td>Senarai main sedia ada</td><td>Edit, padam dan kemas kini sumber; status aktif/tidak aktif dan kemas kini terakhir.</td></tr>
+                <tr><td>Kumpulan saluran</td><td>Sembunyikan, namakan semula dan susun semula kumpulan.</td></tr>
+                <tr><td>Sumber EPG</td><td>Menugaskan sumber EPG kepada senarai main («tugaskan kepada senarai main»).</td></tr>
+                <tr><td>Susunan</td><td>Susunan saluran: nama/nombor, manual, asal atau mengikut kumpulan.</td></tr>
+                <tr><td>Penapis nama saluran</td><td>Membuang awalan/akhiran daripada nama; peraturan kad bebas <code>*</code> dan pratonton contoh transformasi.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · Panduan TV</h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Tambah sumber EPG</td><td>Menambah sumber EPG format XMLTV (menyediakan data program saluran).</td></tr>
+                <tr><td>Sumber EPG sedia ada</td><td>Edit/padam sumber EPG; bilangan saluran dan kemas kini terakhir setiap sumber.</td></tr>
+                <tr><td>Pemadanan saluran EPG</td><td>Memadankan saluran dengan data EPG — automatik atau penugasan manual; saluran tak terpadan disenaraikan.</td></tr>
+                <tr><td>Kekerapan kemas kini</td><td>Selang kemas kini EPG latar belakang: manual, 1, 2, 4, 6, 12, 24 jam.</td></tr>
+                <tr><td>Kemas kini semasa dibuka</td><td>Jika aktif, EPG dikemas kini automatik setiap kali aplikasi dimulakan.</td></tr>
+                <tr><td>Kemas kini apabila senarai main berubah</td><td>Apabila senarai main berubah/dikemas kini, EPG turut dikemas kini automatik.</td></tr>
+                <tr><td>Data EPG hari lepas</td><td>Berapa hari data program disimpan ke belakang: tiada, 1, 2, 3, 5 atau 7 hari. Lebih hari = lebih memori.</td></tr>
+                <tr><td>Anjakan masa</td><td>Menganjakkan masa program ke depan/belakang mengikut jam/minit — keseluruhan atau setiap saluran (untuk sumber dalam zon masa berbeza).</td></tr>
+                <tr><td>Kemas kini EPG</td><td>Memulakan kemas kini manual; kemajuan dan bilangan saluran diproses dipaparkan.</td></tr>
+                <tr><td>Kosongkan EPG</td><td>Memadam data program tersimpan dan cache imej; dimuat turun semula pada kemas kini berikutnya.</td></tr>
+                <tr><td>Kemas kini terakhir</td><td>Saluran diproses dan tarikh kemas kini setiap sumber.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · Pemain <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Gambar</td><td>Nisbah aspek: asal, pangkas/isi, regang melintang, regang menegak, isi penuh, 4:3, 16:9; boleh diguna pakai ke semua saluran.</td></tr>
+                <tr><td>Output video</td><td>Pilihan nyahkod: perkakasan (disyorkan, jimat bateri/CPU) atau perisian (untuk masalah keserasian).</td></tr>
+                <tr><td>Output audio</td><td>Nyahkod audio (perkakasan/perisian), <strong>lintasan audio (Bitstream)</strong> — strim audio mentah untuk sistem surround, <strong>anjakan audio</strong> (gelangsar milisaat + set semula) dan bahasa audio lalai.</td></tr>
+                <tr><td>Sari kata</td><td>Saiz dan warna teks (10 warna), kedudukan (atas/tengah/bawah) dan pengekodan (UTF-8…).</td></tr>
+                <tr><td>Penukaran saluran</td><td>Tingkah laku zapping: <strong>kelewatan penukaran</strong> (tunggu milisaat sebelum penukaran sebenar — mengelakkan pemuatan berlebihan semasa zapping pantas) dan <strong>skrin hitam semasa menukar</strong> (hitam semasa saluran baharu memuat; mati — saluran sebelumnya kekal pada skrin).</td></tr>
+                <tr><td>Penimbal</td><td>Saiz penimbal: automatik, tiada, kecil (~1s), sederhana (~3s, disyorkan), besar (~8s), sangat besar (~15+s). Besarkan untuk strim tersendat; kecilkan untuk zapping lebih pantas.</td></tr>
+                <tr><td>VOD</td><td>Keutamaan filem/siri: pemilihan pemain luaran (pilih automatik / pilih aplikasi / pemain luaran 1-2), sari kata automatik dsb.</td></tr>
+                <tr><td>Jam skrin penuh</td><td>Jam pada skrin penuh: aktif/tidak aktif, kedudukan, saiz (kecil/sederhana/besar), format 24 jam, tunjuk tarikh.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · Rupa <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Bahasa</td><td>Bahasa antara muka — pilih daripada 24 bahasa atau «bahasa sistem»; ditapis dengan medan carian.</td></tr>
+                <tr><td>Warna</td><td>Tema aplikasi (gelap, biru, kelabu, hijau, ungu, merah, ambar, malam, lautan, arang, wain, biru gelap, zamrud, matahari terbenam, kosmik, grafit), warna penekanan (18 warna) dan kelegapan OSD (dengan pratonton).</td></tr>
+                <tr><td>Panduan TV</td><td>Rupa EPG: format 24 jam, ketinggian baris (kecil/sederhana/besar), tataletak (senarai/grid).</td></tr>
+                <tr><td>Senarai saluran</td><td>Rupa senarai saluran dan tataletak kad.</td></tr>
+                <tr><td>Logo</td><td>Keutamaan sumber logo: <strong>XMLTV/EPG</strong>, <strong>senarai main (M3U)</strong> atau <strong>folder tempatan</strong>; pilih folder untuk menggunakan fail logo anda sendiri (PNG/JPG/WebP).</td></tr>
+                <tr><td>Tempoh OSD</td><td>Berapa saat panel maklumat kekal pada skrin — berasingan untuk TV dan VOD.</td></tr>
+                <tr><td>Penyelamat skrin</td><td>Masa sehingga aktif apabila tidak digunakan: mati, 1, 2, 5, 10, 15 atau 30 minit.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · Data media <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Kunci API</td><td>Masukkan kunci API anda sendiri untuk TMDB dan OMDb — diperoleh percuma daripada laman kedua-dua perkhidmatan. Poster, perihalan, pelakon dan penarafan IMDb filem/siri datang daripada perkhidmatan ini.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>Aktif/tidak aktif perkhidmatan. TMDB: poster+sinopsis+treler; OMDb: penarafan IMDb, genre, pengarah.</td></tr>
+                <tr><td>Cache pintar</td><td>Aktif — hanya data kandungan yang kelihatan pada skrin dimuatkan; permulaan lebih pantas.</td></tr>
+                <tr><td>Pengayaan manual sahaja</td><td>Mematikan muat turun data automatik; pengayaan hanya apabila anda mencetuskannya.</td></tr>
+                <tr><td>Folder cache</td><td>Folder tempat cache data media disimpan.</td></tr>
+                <tr><td>Pengayaan semua kandungan</td><td>Memuat turun data TMDB untuk semua kandungan VOD pukal (boleh mengambil masa).</td></tr>
+                <tr><td>Pengayaan mengikut kategori</td><td>Mengaya hanya kategori terpilih.</td></tr>
+                <tr><td>Kosongkan cache</td><td>Memadam keseluruhan cache data media (kiraan dan saiz dipaparkan).</td></tr>
+                <tr><td>Penapis nama VOD</td><td>Peraturan membuang awalan/akhiran nama filem/siri — memperbaiki pemadanan TMDB.</td></tr>
+            </table>
+            <p>Dan tetapan pratonton poster (treler semasa hover): <strong>pratonton automatik</strong> (memainkan treler apabila berhenti pada poster), <strong>bunyi treler</strong>, titik mula dan masa menunggu.</p>
+
+            <h3 id="ayar-diger">6–9, 11 · Rakam, ingatkan, profil, ibu bapa, muat turun, lain-lain</h3>
+            <ul>
+                <li><strong>Rakaman</strong> <span class="plat pro">PRO</span> — folder, masa tambahan, senarai rakaman (<a href="#kayit">butiran</a>).</li>
+                <li><strong>Peringatan</strong> <span class="plat pro">PRO</span> — notifikasi dan buka saluran automatik + senarai (<a href="#hatirlatici">butiran</a>).</li>
+                <li><strong>Profil</strong> <span class="plat pro">PRO</span> — senarai profil dan profil baharu (<a href="#profiller">butiran</a>).</li>
+                <li><strong>Kawalan ibu bapa</strong> <span class="plat pro">PRO</span> — PIN, kunci, had umur, saluran tersembunyi (<a href="#ebeveyn">butiran</a>).</li>
+                <li><strong>Muat turun</strong> <span class="plat pro">PRO</span> — folder, muat turun serentak, Wi-Fi sahaja, senarai (<a href="#indirilenler">butiran</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>Item lain-lain <span class="plat pro">PRO</span></th><th>Penerangan</th></tr>
+                <tr><td>Bunyi kekunci alat kawalan</td><td>Memainkan bunyi klik lembut apabila menavigasi dengan D-pad.</td></tr>
+                <tr><td>Papan kekunci aplikasi</td><td>Menggunakan papan kekunci aplikasi atau papan kekunci sistem semasa input.</td></tr>
+                <tr><td>Mula automatik</td><td>Aplikasi bermula sendiri apabila peranti dihidupkan (TV).</td></tr>
+                <tr><td>Henti main balik semasa keluar</td><td>Main balik berhenti automatik apabila keluar daripada aplikasi.</td></tr>
+                <tr><td>Statistik tontonan</td><td>Masa menonton filem, siri dan langsung anda (7/30 hari terakhir, keseluruhan); boleh diset semula.</td></tr>
+                <tr><td>Penggunaan data</td><td>Penggunaan data rangkaian: terima/hantar dan jumlah.</td></tr>
+                <tr><td>Sandar / pulihkan</td><td>Menyimpan semua tetapan, kegemaran, profil dan sejarah ke fail / memulihkan daripada fail.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 &amp; 12 · Akaun &amp; segerak · Perihal</h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Penerangan</th></tr>
+                <tr><td>Akaun, segerak &amp; peranti</td><td>Status akaun Google, cipta akaun tanpa nama, segerak automatik, segerak lesen premium, senarai &amp; buang peranti terpaut, log keluar dan <strong>padam akaun</strong> (pemadaman kekal termasuk data awan).</td></tr>
+                <tr><td>Perihal aplikasi</td><td>Versi, jenis langganan &amp; tempoh lesen, senarai ciri (langsung, VOD &amp; IPTV, EPG, pelbagai skrin, rakaman, peringatan, profil, kawalan ibu bapa, carian pintar, DLNA, segerak awan, senarai kegemaran, data media) dan maklumat hubungan.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── Mudah alih ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Aplikasi mudah alih <span class="plat mob">MUDAH ALIH</span></h2>
+            <p>Antara muka mudah alih direka untuk sentuhan; menggunakan akaun dan senarai main yang sama.</p>
+            <ul>
+                <li><strong>Bar tab bawah:</strong> TV, Filem, Siri, Senarai Saya. Dalam landskap, senarai menegak muncul di tepi.</li>
+                <li><strong>Bar atas:</strong> logo, <strong>alat kawalan</strong>, <strong>carian</strong>, <strong>DLNA/peranti</strong>, gear <strong>tetapan</strong> dan <strong>gambar profil</strong>.</li>
+                <li><strong>Tab TV:</strong> kawasan pratonton + penapis «semua»/kumpulan di atas; di bawah kad saluran (logo, nama, slot masa, program semasa + kemajuan, bintang kegemaran, menu ☰).</li>
+                <li><strong>Skrin EPG:</strong> aliran program hari itu; ketik saluran untuk melihat programnya.</li>
+                <li><strong>Muat turun / kandungan luar talian:</strong> filem dan episod yang dimuat turun ditonton tanpa internet; main dan padam daripada senarai.</li>
+                <li><strong>Bar muat turun</strong> di bawah dipapar pada semua tab semasa sumber dimuatkan.</li>
+            </ul>
+
+            <h3 id="kumanda">Alat kawalan TV daripada telefon <span class="plat pro">PRO</span></h3>
+            <p>Gunakan aplikasi telefon sebagai alat kawalan untuk Android TV pada rangkaian yang sama:</p>
+            <ol>
+                <li>Biarkan TiviEase Go terbuka pada TV; pada telefon ketik <strong>ikon alat kawalan</strong> dalam bar atas.</li>
+                <li>Pilih TV anda daripada senarai «peranti rangkaian» (tidak jumpa? imbas semula dengan butang «cuba lagi»).</li>
+                <li>Skrin alat kawalan: <strong>D-pad + OK</strong>, kekunci nombor, volum/saluran, <strong>kembali / laman utama</strong>, <strong>tidur / panduan / pilihan</strong>, <strong>butang warna</strong>, butang media dan butang <strong>papan kekunci</strong> untuk input teks.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA dan penghantaran <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Imbas rangkaian</strong> mencari peranti DLNA/UPnP; pilih peranti dan layari folder media («folder», bilangan item).</li>
+                <li><strong>Hantar ke TV / peranti Cast:</strong> kandungan yang dimainkan dihantar ke peranti pada rangkaian; skrin hantaran ada bar kedudukan, main/jeda dan «hentikan hantaran».</li>
+                <li>«Tukar peranti» memindahkan hantaran ke peranti lain.</li>
+            </ul>
+
+            <h3 id="indirilenler">Muat turun dan luar talian <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Tetapan › Muat turun:</strong> folder muat turun (storan dalaman atau SMB), muat turun serentak maksimum, <strong>Wi-Fi sahaja</strong> (jimat data mudah alih) dan senarai muat turun.</li>
+                <li>Status senarai: memuat turun, menunggu, dimuat turun, ralat/dibatalkan — batalkan yang menunggu, main atau padam yang selesai.</li>
+                <li>Pada mudah alih skrin «Kandungan luar talian» memaparkan muat turun dan main tanpa internet.</li>
+            </ul>
+
+            <h3 id="yedekleme">Sandaran, pemulihan dan segerak</h3>
+            <ul>
+                <li><strong>Sandaran</strong> (Tetapan › Lain-lain): menyimpan semua tetapan, kegemaran, profil dan sejarah ke satu fail — berguna apabila menukar peranti atau menetapkan semula.</li>
+                <li><strong>Pulihkan data:</strong> pilih fail melalui «buka fail sandaran» untuk mengembalikan tetapan.</li>
+                <li><strong>Segerak awan:</strong> dengan log masuk Google, data disegerakkan pada latar belakang; «segerak automatik» boleh dimatikan. Peranti terpaut dipapar/dibuang dalam panel akaun.</li>
+                <li>Pada skrin utama Android TV, baris <strong>«Teruskan menonton»</strong> memaparkan yang terakhir ditonton.</li>
+            </ul>
+
+            <h3 id="premium">Langganan Premium (Pro)</h3>
+            <p>Versi percuma merangkumi satu senarai main + satu sumber EPG dan tetapan asas. Naik taraf ke Pro dengan mengetik kategori terkunci dalam <strong>Tetapan</strong>, atau daripada skrin Pro.</p>
+            <table class="tbl">
+                <tr><th>Pelan</th><th>Harga</th><th>Peranti</th></tr>
+                <tr><td>Pro Bulanan</td><td>₺9,99 / bulan</td><td>1 peranti</td></tr>
+                <tr><td>Pro Tahunan</td><td>₺89,99 / tahun</td><td>1 peranti</td></tr>
+                <tr><td>Pro Seumur Hidup</td><td>₺249,99 (sekali bayar)</td><td>sehingga 5 peranti</td></tr>
+            </table>
+            <ul>
+                <li>Pro membuka <strong>senarai main dan sumber EPG tanpa had</strong>, semua kategori tetapan, rakaman, peringatan, profil, kawalan ibu bapa, muat turun, alat kawalan daripada telefon dan DLNA.</li>
+                <li><strong>Kod pengaktifan:</strong> premium diaktifkan dengan memasukkan kod dalam «guna kod pengaktifan».</li>
+                <li>Lesen terikat pada awan — log masuk dengan akaun yang sama pada peranti lain menyegerakkan automatik; apabila had penuh, buang peranti lama daripada senarai.</li>
+                <li>Untuk penggunaan luar talian, tempoh tenggang 7 hari terpakai selepas pengesahan terakhir.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── FAQ ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>Penyelesaian masalah dan soalan lazim</h2>
+
+            <details class="faq"><summary>Saluran tidak datang / senarai main tidak dimuatkan</summary><div class="faq-body"><p>Semak URL betul dan bermula dengan <code>http(s)://</code>. Dalam Tetapan › Senarai main › Senarai main sedia ada, pilih sumber dan muat semula dengan «kemas kini»; untuk Xtream semak tiada ruang pada nama pengguna/kata laluan. Periksa juga sambungan internet dan sama ada pembekal dalam talian.</p></div></details>
+
+            <details class="faq"><summary>EPG (jadual program) kosong</summary><div class="faq-body"><p>Pertama tambah sumber XMLTV melalui <strong>Tetapan › Panduan TV › Tambah sumber EPG</strong> dan muat turun dengan butang <strong>Kemas kini EPG</strong>. Jika saluran masih tiada data, pilih saluran EPG yang betul secara manual melalui <strong>pemadanan EPG</strong> dalam menu konteks. Masa lari? Baiki dengan <strong>anjakan masa</strong>.</p></div></details>
+
+            <details class="faq"><summary>Strim tidak terbuka atau tersekat</summary><div class="faq-body"><p>Tetapkan <strong>penimbal</strong> kepada «sederhana/besar» dalam Tetapan › Pemain; jika tidak berjaya cuba nyahkod perisian dalam <strong>output video</strong>. Strim 4K membebankan peranti lemah — versi HD/FHD saluran lebih baik.</p></div></details>
+
+            <details class="faq"><summary>Tiada bunyi atau audio-video tidak segerak</summary><div class="faq-body"><p>Cuba matikan <strong>lintasan audio</strong> dalam Tetapan › Pemain › Output audio (bitstream bermasalah pada sesetengah peranti). Untuk ketidaksegerakan gunakan gelangsar <strong>anjakan audio</strong>; jika strim ada bahasa lain, pilih trek dalam <strong>bahasa main balik</strong> pada kad pemain.</p></div></details>
+
+            <details class="faq"><summary>Sari kata tidak dipapar atau aksara rosak</summary><div class="faq-body"><p>Pilih trek yang betul pada kad pemain atau Tetapan › Pemain › Sari kata; aksara rosak tukar <strong>pengekodan</strong> (UTF-8…). Saiz/warna/kedudukan ditetapkan dalam panel yang sama.</p></div></details>
+
+            <details class="faq"><summary>Poster dan maklumat filem tidak datang</summary><div class="faq-body"><p>Semak kunci TMDB/OMDb dimasukkan dan perkhidmatan aktif dalam Tetapan › Data media (kunci percuma). Ambil data secara pukal dengan «pengayaan semua kandungan»; baiki padanan salah dengan <strong>cari &amp; padankan kandungan</strong> dalam menu kandungan.</p></div></details>
+
+            <details class="faq"><summary>Beli Premium tetapi tidak diaktifkan / tidak muncul pada peranti lain</summary><div class="faq-body"><p>Pastikan anda log masuk dengan akaun Google yang sama — lesen disegerakkan. Jika had peranti penuh, buang yang lama dalam <strong>Tetapan › Akaun, segerak &amp; peranti</strong>. Gunakan kod pengaktifan jika perlu.</p></div></details>
+
+            <details class="faq"><summary>Selepas TV tidur lama tiada saluran terbuka</summary><div class="faq-body"><p>Tutup aplikasi sepenuhnya dan buka semula. Aplikasi menutup pemain automatik apabila masuk tidur; jika masih tersekat, mula semula menyelesaikannya.</p></div></details>
+
+            <details class="faq"><summary>Bagaimana memindahkan tetapan ke peranti lain?</summary><div class="faq-body"><p>Cipta fail dengan <strong>Tetapan › Lain-lain › Sandaran</strong> kemudian import pada peranti baharu dengan <strong>pulihkan data</strong> — atau log masuk dengan Google dan gunakan penyegerakan.</p></div></details>
+
+            <details class="faq"><summary>Tidak dapat mengembalikan saluran / tiada dalam senarai</summary><div class="faq-body"><p>Mungkin tersembunyi: kembalikan dengan <strong>tunjukkan saluran tersembunyi</strong> dalam menu konteks EPG atau <strong>Tetapan › Kawalan ibu bapa › Saluran tersembunyi</strong>. Jika terkunci — buka dengan PIN. Jika kumpulan disembunyikan, semak Tetapan › Senarai main › Kumpulan saluran.</p></div></details>
+
+            <details class="faq"><summary>Bagaimana memadam akaun saya?</summary><div class="faq-body"><p><strong>Tetapan › Akaun, segerak &amp; peranti › Padam akaun</strong> memadam akaun secara kekal bersama data awannya. Butiran: halaman <a href="account-deletion.ms.html">pemadaman akaun</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>Masih perlukan bantuan?</h4>
+                <p>Tulis kepada kami: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — nyatakan masalah anda, model peranti dan versi aplikasi (Tetapan › Perihal).</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.ms.html">Laman utama</a> · <a href="privacy.ms.html">Privasi</a> · <a href="account-deletion.ms.html">Pemadaman akaun</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('ms');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('ms');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>

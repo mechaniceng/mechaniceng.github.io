@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satın Al — TiviEase Go Pro</title>
+    <meta name="description" content="TiviEase Go Pro: aylık, yıllık veya ömür boyu plan seçin. Güvenli ödeme sonrası aktivasyon kodunuz e-postanıza gönderilir.">
+    <meta name="robots" content="noindex">
+    <meta name="tiviease-langs" content="tr,en">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.html">
+            <img src="assets/logo.png?v=2" alt="TiviEase Go logosu">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Menü">☰</button>
+        <nav class="site-nav">
+            <a href="index.html#ozellikler">Özellikler</a>
+            <a href="index.html#nasil">Nasıl Başlarım?</a>
+            <a href="yardim.html">Yardım Merkezi</a>
+            <a class="active" href="satin-al.html">Satın Al</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<section class="acc-hero">
+    <div class="wrap">
+        <span class="eyebrow">TiviEase Pro</span>
+        <h2>Planınızı seçin</h2>
+        <p class="section-sub">Tek seferlik ödeme — aktivasyon kodunuz e-postanıza gelir, uygulamada Ayarlar → Premium → Aktivasyon Kodu ekranına girersiniz. Bölgenize göre fiyat otomatik gösterilir.</p>
+    </div>
+</section>
+
+<main class="wrap" id="buyApp" style="padding-bottom:90px">
+
+    <div class="plan-grid">
+
+        <!-- Aylık — bronz -->
+        <div class="plan-card" data-plan="monthly" style="--plan-color:#CD7F32">
+            <div class="plan-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v4M16 4v4"/></svg></div>
+            <h3>Pro Aylık</h3>
+            <p class="plan-sub">Aylık • 1 cihaz</p>
+            <div class="plan-price">₺9.99 <small>/ ay</small></div>
+            <ul class="plan-feats">
+                <li>Sınırsız oynatma listesi</li>
+                <li>Sınırsız EPG kaynağı</li>
+                <li>Tüm ayarlar (kayıt, profiller, ebeveyn kilidi)</li>
+                <li>Telefondan kumanda, DLNA</li>
+                <li>Güncellemeler dahil</li>
+            </ul>
+            <button type="button" class="acc-btn primary plan-buy">Satın Al</button>
+        </div>
+
+        <!-- Yıllık — gümüş -->
+        <div class="plan-card" data-plan="annual" style="--plan-color:#C0C0C0">
+            <div class="plan-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg></div>
+            <h3>Pro Yıllık</h3>
+            <p class="plan-sub">Yıllık • 1 cihaz</p>
+            <div class="plan-price">₺89.99 <small>/ yıl</small></div>
+            <ul class="plan-feats">
+                <li>Sınırsız oynatma listesi</li>
+                <li>Sınırsız EPG kaynağı</li>
+                <li>Tüm ayarlar (kayıt, profiller, ebeveyn kilidi)</li>
+                <li>Telefondan kumanda, DLNA</li>
+                <li>Güncellemeler dahil</li>
+            </ul>
+            <button type="button" class="acc-btn primary plan-buy">Satın Al</button>
+        </div>
+
+        <!-- Ömür boyu — altın, önerilen -->
+        <div class="plan-card recommended" data-plan="lifetime" style="--plan-color:#D4AF37">
+            <div class="plan-badge">En Avantajlı</div>
+            <div class="plan-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l4 4 5-6 5 6 4-4-1.5 10h-15z"/><path d="M6 21h12"/></svg></div>
+            <h3>Pro Ömür Boyu</h3>
+            <p class="plan-sub">Tek seferlik • 5 cihaza kadar</p>
+            <div class="plan-price">₺249.99 <small>tek seferlik</small></div>
+            <ul class="plan-feats">
+                <li>Tüm Pro özellikler, süresiz</li>
+                <li>5 cihaza kadar kayıt</li>
+                <li>Telefondan kumanda, DLNA</li>
+                <li>Ömür boyu güncellemeler dahil</li>
+            </ul>
+            <button type="button" class="acc-btn primary plan-buy">Satın Al</button>
+        </div>
+    </div>
+
+    <!-- ═══ Checkout paneli ═══ -->
+    <div class="ck-panel" id="ckPanel" hidden>
+        <div class="ck-summary">
+            <div>
+                <div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px" id="ckSummaryLabel">Sipariş özeti</div>
+                <div class="ck-plan" id="ckPlan"></div>
+            </div>
+            <div class="ck-amount" id="ckAmount"></div>
+        </div>
+        <div class="acc-field">
+            <label for="ckEmail" id="ckEmailLabel">E-posta adresiniz</label>
+            <input class="acc-input" id="ckEmail" type="email" autocomplete="email" placeholder="ornek@eposta.com">
+            <p class="ck-note" id="ckEmailHint">Aktivasyon kodu bu adrese gönderilecek</p>
+        </div>
+        <div class="acc-row">
+            <button type="button" class="acc-btn primary" id="ckPay" style="flex:1">Ödemeye Geç</button>
+            <button type="button" class="acc-btn ghost" id="ckCancel">Vazgeç</button>
+        </div>
+        <div class="acc-msg" id="ckMsg"></div>
+        <p class="ck-note">Kart bilgileri bu sayfada girilmez — güvenli ödeme sayfasına yönlendirilirsiniz. Ödeme sonrası kodunuz e-postayla anında gönderilir.</p>
+    </div>
+
+    <!-- ═══ Başarı ═══ -->
+    <div class="ck-panel ck-success" id="ckSuccess" hidden>
+        <div class="ck-check">✓</div>
+        <h3 id="ckSuccessTitle">Ödeme alındı!</h3>
+        <p id="ckSuccessBody">Aktivasyon kodunuz e-posta adresinize gönderildi. Uygulamada Ayarlar → Premium → Aktivasyon Kodu ekranına girin.</p>
+    </div>
+
+    <h3 style="margin-top:44px">Ücretsiz ile Pro farkı</h3>
+    <table class="tbl" style="margin-top:16px">
+        <tr><th>Özellik</th><th>Ücretsiz</th><th>Pro</th></tr>
+        <tr><td>Oynatma listesi</td><td>1 liste</td><td>Sınırsız</td></tr>
+        <tr><td>EPG kaynağı</td><td>1 kaynak</td><td>Sınırsız</td></tr>
+        <tr><td>Ayar kategorileri</td><td>Temel (listeler, EPG, hesap)</td><td>Tümü</td></tr>
+        <tr><td>Kayıt, hatırlatıcı, profiller, ebeveyn kilidi</td><td>—</td><td>✓</td></tr>
+        <tr><td>Telefondan TV kumandası, DLNA</td><td>—</td><td>✓</td></tr>
+        <tr><td>Cihaz limiti</td><td>1 cihaz</td><td>Aylık/Yıllık 1 • Ömür Boyu 5 cihaz</td></tr>
+    </table>
+
+    <p style="margin-top:26px; font-size:13px; color:var(--text-muted)">Alternatif: premium'u doğrudan uygulama içinden Google Play ile de satın alabilirsiniz. Sorular için <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a>.</p>
+</main>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-grid">
+            <div class="col">
+                <a class="brand" href="index.html" style="margin-bottom:10px">
+                    <img src="assets/logo.png?v=2" alt="TiviEase Go" style="height:28px">
+                    <span class="brand-name" style="font-size:15px">tivi <b>ease</b> <b class="go">GO</b></span>
+                </a>
+                <p style="font-size:13px; max-width:300px; margin:0">Android TV ve mobil cihazlar için modern IPTV oynatıcı.</p>
+            </div>
+            <div class="col">
+                <h4>Uygulama</h4>
+                <a href="index.html#ozellikler">Özellikler</a>
+                <a href="index.html#premium">Premium</a>
+                <a href="yardim.html">Yardım Merkezi</a>
+            </div>
+            <div class="col">
+                <h4>Yasal</h4>
+                <a href="privacy.tr.html">Gizlilik Politikası</a>
+                <a href="account-deletion.tr.html">Hesap Silme</a>
+            </div>
+            <div class="col">
+                <h4>İletişim</h4>
+                <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 TiviEase Go. Tüm hakları saklıdır.</span>
+            <span>tivieasego.github.io</span>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/pricing.js?v=37" defer></script>
+<script src="assets/checkout.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+</body>
+</html>

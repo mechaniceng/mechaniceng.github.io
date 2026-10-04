@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset=".42" stop-color="#101a33"/>
+      <stop offset=".68" stop-color="#2b3050"/>
+      <stop offset=".82" stop-color="#7a4a35"/>
+      <stop offset="1" stop-color="#c07a42"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd9a0" stop-opacity=".95"/>
+      <stop offset=".35" stop-color="#f0a45c" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#f0a45c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ridge1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2138"/>
+      <stop offset="1" stop-color="#0b0e1c"/>
+    </linearGradient>
+    <linearGradient id="ridge2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12172b"/>
+      <stop offset="1" stop-color="#070910"/>
+    </linearGradient>
+    <linearGradient id="ridge3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0f1e"/>
+      <stop offset="1" stop-color="#05060c"/>
+    </linearGradient>
+    <radialGradient id="bokeh" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#8fc4ff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#8fc4ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bokehW" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffcf9a" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#ffcf9a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vign" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05070d" stop-opacity=".85"/>
+      <stop offset=".45" stop-color="#05070d" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#05070d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vignB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".7" stop-color="#05070d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#05070d" stop-opacity=".8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- gökyüzü -->
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+
+  <!-- ufukta gün batımı parlaması -->
+  <ellipse cx="1420" cy="760" rx="520" ry="300" fill="url(#sun)"/>
+  <circle cx="1420" cy="745" r="58" fill="#ffdca8" opacity=".9"/>
+
+  <!-- bokeh ışık lekeleri -->
+  <circle cx="620" cy="300" r="90" fill="url(#bokeh)" opacity=".14"/>
+  <circle cx="1010" cy="190" r="60" fill="url(#bokeh)" opacity=".12"/>
+  <circle cx="1640" cy="330" r="110" fill="url(#bokehW)" opacity=".16"/>
+  <circle cx="1290" cy="140" r="46" fill="url(#bokeh)" opacity=".10"/>
+  <circle cx="1820" cy="120" r="70" fill="url(#bokehW)" opacity=".10"/>
+  <circle cx="860" cy="520" r="52" fill="url(#bokeh)" opacity=".08"/>
+
+  <!-- yıldızlar -->
+  <g fill="#cfe4ff" opacity=".55">
+    <circle cx="480" cy="120" r="1.6"/><circle cx="760" cy="80" r="1.2"/>
+    <circle cx="1120" cy="60" r="1.8"/><circle cx="1480" cy="90" r="1.3"/>
+    <circle cx="1760" cy="210" r="1.5"/><circle cx="980" cy="330" r="1.1"/>
+    <circle cx="240" cy="260" r="1.4"/><circle cx="1340" cy="240" r="1.1"/>
+    <circle cx="560" cy="440" r="1.0"/><circle cx="1880" cy="60" r="1.4"/>
+  </g>
+
+  <!-- dağ silüetleri -->
+  <path fill="url(#ridge1)" opacity=".95" d="M0,1080 L0,720 Q240,610 430,700 T840,650 Q1020,560 1180,660 T1520,610 Q1700,540 1920,640 L1920,1080 Z"/>
+  <path fill="url(#ridge2)" d="M0,1080 L0,800 Q300,690 520,790 T960,760 Q1150,660 1360,760 T1920,780 L1920,1080 Z"/>
+  <path fill="url(#ridge3)" d="M0,1080 L0,890 Q360,790 700,880 T1300,850 Q1560,780 1920,880 L1920,1080 Z"/>
+
+  <!-- vignette: sol ve alt kenar karartması -->
+  <rect width="1920" height="1080" fill="url(#vign)"/>
+  <rect width="1920" height="1080" fill="url(#vignB)"/>
+</svg>

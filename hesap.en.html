@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account — TiviEase Go</title>
+    <meta name="description" content="Sign in to your TiviEase Go account: view your premium status and manage registered devices.">
+    <meta name="robots" content="noindex">
+    <meta name="tiviease-langs" content="tr,en">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.en.html">
+            <img src="assets/logo.png?v=2" alt="TiviEase Go logo">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Menu">☰</button>
+        <nav class="site-nav">
+            <a href="index.en.html#ozellikler">Features</a>
+            <a href="index.en.html#nasil">Getting Started</a>
+            <a href="satin-al.en.html">Buy</a>
+            <a href="yardim.en.html">Help Center</a>
+            <a class="active" href="hesap.en.html">Account</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<section class="acc-hero">
+    <div class="wrap">
+        <span class="eyebrow">Account</span>
+        <h2>Manage your account</h2>
+        <p class="section-sub">Sign in with the same account you use in the app — view your premium status and manage your registered devices here.</p>
+    </div>
+</section>
+
+<main class="acc-wrap" id="accApp">
+
+    <div class="acc-loading" id="vLoading">Loading…</div>
+
+    <!-- ═══ SIGN IN / SIGN UP ═══ -->
+    <div id="vLogin" hidden>
+        <div class="acc-card">
+            <h3 id="fTitle">Sign in to your account</h3>
+            <p class="acc-sub">Use the same account as in the app — your data stays in sync.</p>
+
+            <button type="button" class="acc-google" id="btnGoogle">
+                <svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.27c0-.85-.08-1.66-.22-2.45H12v4.64h6.45a5.52 5.52 0 0 1-2.39 3.62v3h3.87c2.26-2.09 3.57-5.16 3.57-8.81z"/><path fill="#34A853" d="M12 24c3.24 0 5.96-1.07 7.94-2.91l-3.87-3c-1.07.72-2.44 1.15-4.07 1.15-3.13 0-5.78-2.11-6.73-4.96H1.29v3.1A12 12 0 0 0 12 24z"/><path fill="#FBBC05" d="M5.27 14.28A7.2 7.2 0 0 1 4.89 12c0-.79.14-1.56.38-2.28v-3.1H1.29a12 12 0 0 0 0 10.76l3.98-3.1z"/><path fill="#EA4335" d="M12 4.76c1.76 0 3.34.61 4.59 1.8l3.44-3.44A11.97 11.97 0 0 0 12 0 12 12 0 0 0 1.29 6.62l3.98 3.1C6.22 6.87 8.87 4.76 12 4.76z"/></svg>
+                Continue with Google
+            </button>
+
+            <div class="acc-or">or</div>
+
+            <form id="authForm" autocomplete="on">
+                <div class="acc-field" id="fName" hidden>
+                    <label for="inName">Name</label>
+                    <input class="acc-input" id="inName" type="text" autocomplete="name" placeholder="Your name">
+                </div>
+                <div class="acc-field">
+                    <label for="inEmail">Email</label>
+                    <input class="acc-input" id="inEmail" type="email" autocomplete="email" required placeholder="you@example.com">
+                </div>
+                <div class="acc-field">
+                    <label for="inPass">Password</label>
+                    <input class="acc-input" id="inPass" type="password" autocomplete="current-password" required minlength="6" placeholder="••••••••">
+                </div>
+                <div class="acc-forgot"><a href="#" id="linkForgot">Forgot password?</a></div>
+                <button type="submit" class="acc-btn primary" id="btnAuth">Sign in</button>
+            </form>
+
+            <div class="acc-msg" id="accMsg"></div>
+            <p class="acc-switch" id="swText">No account? <a id="swLink">Sign up</a></p>
+        </div>
+    </div>
+
+    <!-- ═══ ACCOUNT ═══ -->
+    <div id="vAccount" hidden>
+
+        <div class="acc-card">
+            <div class="acc-head">
+                <div id="pAvatar"></div>
+                <div class="grow">
+                    <div class="acc-name" id="pName"></div>
+                    <div class="acc-mail" id="pEmail"></div>
+                    <div class="acc-id" id="pUid"></div>
+                </div>
+                <button type="button" class="acc-btn ghost sm" id="btnSignOut2">Sign out</button>
+            </div>
+        </div>
+
+        <div class="acc-card">
+            <h3>Premium Status</h3>
+            <div class="acc-row" style="margin-top:12px">
+                <span class="tier-badge free" id="licTier">Free</span>
+            </div>
+            <dl class="acc-kv">
+                <dt>Expires</dt><dd id="licExp">—</dd>
+                <dt>Devices</dt><dd id="licDev">—</dd>
+            </dl>
+            <p style="margin-top:16px; font-size:13.5px">To upgrade, <a href="satin-al.en.html">buy on the web</a>, purchase in the app, or redeem an activation code. <a href="index.en.html#premium">See plans →</a></p>
+        </div>
+
+        <div class="acc-card">
+            <h3>Registered Devices</h3>
+            <p class="acc-sub">Devices linked to your account. If you hit the device limit, remove old devices here.</p>
+            <div id="devRows"><div class="acc-loading">…</div></div>
+        </div>
+
+        <div class="acc-card">
+            <h3>Account Settings</h3>
+            <div class="acc-field" style="margin-top:14px">
+                <label for="inDispName">Display name</label>
+                <div class="acc-row">
+                    <input class="acc-input grow" id="inDispName" type="text" placeholder="Your name">
+                    <button type="button" class="acc-btn ghost sm" id="btnSaveName">Save</button>
+                </div>
+                <div class="acc-msg" id="nameMsg"></div>
+            </div>
+            <div class="acc-row" id="rowPassReset" style="margin-top:6px">
+                <button type="button" class="acc-btn ghost sm" id="btnPassReset">Send password reset email</button>
+            </div>
+            <div class="acc-msg" id="passMsg"></div>
+            <p style="margin-top:18px; font-size:13.5px">To delete your account and all data: <a href="account-deletion.en.html">Account Deletion</a></p>
+        </div>
+
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-grid">
+            <div class="col">
+                <a class="brand" href="index.en.html" style="margin-bottom:10px">
+                    <img src="assets/logo.png?v=2" alt="TiviEase Go" style="height:28px">
+                    <span class="brand-name" style="font-size:15px">tivi <b>ease</b> <b class="go">GO</b></span>
+                </a>
+                <p style="font-size:13px; max-width:300px; margin:0">A modern IPTV player for Android TV and mobile devices.</p>
+            </div>
+            <div class="col">
+                <h4>App</h4>
+                <a href="index.en.html#ozellikler">Features</a>
+                <a href="index.en.html#premium">Premium</a>
+                <a href="yardim.en.html">Help Center</a>
+            </div>
+            <div class="col">
+                <h4>Legal</h4>
+                <a href="privacy.en.html">Privacy Policy</a>
+                <a href="account-deletion.en.html">Account Deletion</a>
+            </div>
+            <div class="col">
+                <h4>Contact</h4>
+                <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 TiviEase Go. All rights reserved.</span>
+            <span>tivieasego.github.io</span>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/hesap.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+</body>
+</html>

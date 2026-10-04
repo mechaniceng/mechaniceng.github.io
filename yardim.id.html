@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusat Bantuan — TiviEase Go</title>
+    <meta name="description" content="Panduan pengguna TiviEase Go: pemasangan, menambah playlist, EPG, pemutar layar penuh, pengaturan, dan pemecahan masalah.">
+    <link rel="canonical" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="tr" href="https://mechaniceng.github.io/yardim.html">
+    <link rel="alternate" hreflang="ar" href="https://mechaniceng.github.io/yardim.ar.html">
+    <link rel="alternate" hreflang="az" href="https://mechaniceng.github.io/yardim.az.html">
+    <link rel="alternate" hreflang="cs" href="https://mechaniceng.github.io/yardim.cs.html">
+    <link rel="alternate" hreflang="de" href="https://mechaniceng.github.io/yardim.de.html">
+    <link rel="alternate" hreflang="en" href="https://mechaniceng.github.io/yardim.en.html">
+    <link rel="alternate" hreflang="es" href="https://mechaniceng.github.io/yardim.es.html">
+    <link rel="alternate" hreflang="fa" href="https://mechaniceng.github.io/yardim.fa.html">
+    <link rel="alternate" hreflang="fr" href="https://mechaniceng.github.io/yardim.fr.html">
+    <link rel="alternate" hreflang="hi" href="https://mechaniceng.github.io/yardim.hi.html">
+    <link rel="alternate" hreflang="id" href="https://mechaniceng.github.io/yardim.id.html">
+    <link rel="alternate" hreflang="it" href="https://mechaniceng.github.io/yardim.it.html">
+    <link rel="alternate" hreflang="ja" href="https://mechaniceng.github.io/yardim.ja.html">
+    <link rel="alternate" hreflang="ko" href="https://mechaniceng.github.io/yardim.ko.html">
+    <link rel="alternate" hreflang="ms" href="https://mechaniceng.github.io/yardim.ms.html">
+    <link rel="alternate" hreflang="nl" href="https://mechaniceng.github.io/yardim.nl.html">
+    <link rel="alternate" hreflang="pl" href="https://mechaniceng.github.io/yardim.pl.html">
+    <link rel="alternate" hreflang="pt" href="https://mechaniceng.github.io/yardim.pt.html">
+    <link rel="alternate" hreflang="ru" href="https://mechaniceng.github.io/yardim.ru.html">
+    <link rel="alternate" hreflang="sv" href="https://mechaniceng.github.io/yardim.sv.html">
+    <link rel="alternate" hreflang="th" href="https://mechaniceng.github.io/yardim.th.html">
+    <link rel="alternate" hreflang="uk" href="https://mechaniceng.github.io/yardim.uk.html">
+    <link rel="alternate" hreflang="vi" href="https://mechaniceng.github.io/yardim.vi.html">
+    <link rel="alternate" hreflang="zh" href="https://mechaniceng.github.io/yardim.zh.html">
+    <link rel="alternate" hreflang="x-default" href="https://mechaniceng.github.io/yardim.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TiviEase Go">
+    <meta property="og:title" content="Pusat Bantuan — TiviEase Go">
+    <meta property="og:description" content="Panduan pengguna TiviEase Go: pemasangan, menambah playlist, EPG, pemutar layar penuh, pengaturan, dan pemecahan masalah.">
+    <meta property="og:url" content="https://mechaniceng.github.io/yardim.id.html">
+    <meta property="og:image" content="https://mechaniceng.github.io/assets/screens/screen-epg.png">
+    <meta property="og:locale" content="id_ID">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+    <link rel="stylesheet" href="assets/style.css?v=37">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+        <a class="brand" href="index.id.html">
+            <img src="assets/logo.png?v=2" alt="Logo TiviEase Go">
+        </a>
+        <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')" aria-label="Menu">☰</button>
+        <nav class="site-nav">
+            <a href="index.id.html">Beranda</a>
+            <a href="index.id.html#ozellikler">Fitur</a>
+            <a href="satin-al.en.html">Beli</a>
+            <a class="active" href="yardim.id.html">Pusat bantuan</a>
+        </nav>
+        <div id="langPicker"></div>
+    </div>
+</header>
+
+<div class="help-hero">
+    <div class="wrap">
+        <div>
+            <span class="eyebrow">Pusat bantuan</span>
+            <h1 style="font-size:34px">Bagaimana cara menggunakannya?</h1>
+            <p>Setiap layar dijelaskan langkah demi langkah — dari pembukaan pertama hingga pengaturan terakhir. Pilih topik dari sidebar atau gunakan pencarian.</p>
+        </div>
+        <p style="font-size:13px;color:var(--text-muted)">Lencana: <span class="plat tv">TV</span> Android TV &nbsp; <span class="plat mob">SELULER</span> ponsel/tablet &nbsp; <span class="plat pro">PRO</span> fitur berbayar</p>
+    </div>
+</div>
+
+<div class="help-layout">
+    <!-- ═══ Sidebar ═══ -->
+    <aside class="help-sidebar" id="helpSidebar">
+        <div class="help-search">
+            <input type="search" id="helpSearch" placeholder="Cari di bantuan..." autocomplete="off">
+        </div>
+        <button class="help-nav-toggle" onclick="document.getElementById('helpSidebar').classList.toggle('open')">☰ Topik</button>
+        <div class="nav-wrap">
+            <nav id="helpNav">
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Memulai<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#baslarken">Pembukaan pertama</a>
+                        <a href="#profil-secimi">Pemilihan profil</a>
+                        <a href="#qr-giris">Login dengan QR</a>
+                        <a href="#google-giris">Login Google</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Sumber<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kaynak-ekleme">Menambah playlist</a>
+                        <a href="#liste-yonetimi">Kelola playlist</a>
+                        <a href="#epg-kaynagi">Menambah sumber EPG</a>
+                        <a href="#grup-siralama">Grup, urutan, filter</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Beranda dan EPG<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ana-ekran">Layar utama (TV)</a>
+                        <a href="#epg-rehberi">Memakai panduan TV</a>
+                        <a href="#arama">Pencarian dan pencarian suara</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Menu konteks<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#epg-context">Menu konteks EPG</a>
+                        <a href="#vod-context">Menu film/serial</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Pemutar<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#fs-canli">Layar penuh — langsung</a>
+                        <a href="#fs-tuslar">Tombol remote</a>
+                        <a href="#fs-paneller">Panel dan kartu pengaturan</a>
+                        <a href="#coklu-ekran">Multi-layar (PIP)</a>
+                        <a href="#fs-vod">Layar penuh — VOD</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Perekaman dan pengingat<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#kayit">Merekam program</a>
+                        <a href="#hatirlatici">Pengingat</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profil dan orang tua<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#profiller">Kelola profil</a>
+                        <a href="#ebeveyn">Kontrol orang tua</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Panduan pengaturan<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#ayarlar-genel">Layar pengaturan</a>
+                        <a href="#ayar-listeler">Playlist</a>
+                        <a href="#ayar-epg">Panduan TV</a>
+                        <a href="#ayar-oynatici">Pemutar</a>
+                        <a href="#ayar-gorunum">Tampilan</a>
+                        <a href="#ayar-medya">Data media</a>
+                        <a href="#ayar-diger">Rekam / Pengingat / Lainnya</a>
+                        <a href="#ayar-hesap">Akun dan tentang</a>
+                    </div>
+                </div>
+                <div class="help-nav-group">
+                    <button class="nav-head"><span class="g-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Seluler dan lainnya<span class="caret">▼</span></button>
+                    <div class="nav-items">
+                        <a href="#mobil">Aplikasi seluler</a>
+                        <a href="#kumanda">Remote dari ponsel</a>
+                        <a href="#dlna">DLNA dan cast</a>
+                        <a href="#indirilenler">Unduhan</a>
+                        <a href="#yedekleme">Cadangan dan sinkronisasi</a>
+                        <a href="#premium">Premium (Pro)</a>
+                        <a href="#sss">Pemecahan masalah / FAQ</a>
+                    </div>
+                </div>
+            </nav>
+            <p class="no-results" id="noResults">Tidak ada hasil.</p>
+        </div>
+    </aside>
+
+    <!-- ═══ Konten ═══ -->
+    <main class="help-content">
+
+        <!-- ───────────── Memulai ───────────── -->
+        <section id="baslarken">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9z"/></svg></span>Memulai</h2>
+            <p>TiviEase Go bekerja di <strong>Android TV</strong> dan <strong>ponsel/tablet</strong> dalam satu aplikasi. Aplikasi tidak menyediakan saluran atau konten — Anda menambahkan <strong>playlist M3U</strong> atau akun <strong>Xtream Codes</strong> dari penyedia IPTV Anda sendiri.</p>
+
+            <h3>Layar pembukaan pertama</h3>
+            <p>Jika belum ada playlist yang dikonfigurasi, saat aplikasi dibuka muncul <strong>layar sambutan</strong>. Empat kartu tersedia:</p>
+            <table class="tbl">
+                <tr><th>Kartu</th><th>Apa fungsinya?</th></tr>
+                <tr><td>Tambah playlist<br><small>M3U / Xtream</small></td><td>Membawa Anda ke layar utama dan membuka formulir penambahan. Detail: <a href="#kaynak-ekleme">Menambah playlist</a>.</td></tr>
+                <tr><td>Login dengan Google<br><small>sinkronisasi cloud</small></td><td>Masuk dengan akun Google; sumber, favorit, dan riwayat cloud Anda dimuat, lalu playlist diperbarui otomatis.</td></tr>
+                <tr><td>Login dengan QR<br><small>pindai dari ponsel</small> <span class="plat tv">TV</span></td><td>Menampilkan kode QR valid 3 menit di TV; pindai dengan aplikasi ponsel dan konfirmasi, TV masuk ke akun yang sama.</td></tr>
+                <tr><td>Pengaturan<br><small>sistem dan profil</small></td><td>Membuka layar pengaturan jika ingin menjelajah sebelum menambah playlist.</td></tr>
+            </table>
+            <div class="tip"><p><strong>Tips:</strong> Jika Anda sudah memakai TiviEase Go di perangkat lain, cara tercepat adalah <strong>Login dengan Google</strong> atau <strong>Login dengan QR</strong> — semua daftar dan pengaturan datang otomatis.</p></div>
+
+            <h3 id="profil-secimi">Pemilihan profil</h3>
+            <p>Jika beberapa profil dikonfigurasi di perangkat, saat dibuka Anda melihat layar <strong>«Pilih profil»</strong>. Pilih dengan tombol arah + <kbd>OK</kbd>. Profil ber-PIN menanyakan kode dulu. Setiap profil menyimpan <em>favorit, konten «Daftar Saya», riwayat, dan pengaturan pribadi</em> sendiri.</p>
+            <ul>
+                <li>Tambah/edit profil: <strong>Pengaturan › Profil</strong> (lihat <a href="#profiller">Kelola profil</a>).</li>
+                <li>Ganti profil saat digunakan: ketuk <strong>ikon gambar profil</strong> di bilah atas.</li>
+            </ul>
+
+            <h3 id="qr-giris">Login dengan QR <span class="plat tv">TV</span> <span class="plat mob">SELULER</span></h3>
+            <p>Gunakan ponsel Anda daripada mengetik kredensial di TV:</p>
+            <ol>
+                <li>Di TV buka kartu <strong>Login dengan QR</strong> (layar sambutan atau Pengaturan › Akun) — kode QR muncul dan valid <strong>3 menit</strong>.</li>
+                <li>Di ponsel, buka aplikasi TiviEase Go dan pindai kode QR TV dengan pemindai.</li>
+                <li>Di ponsel tekan <strong>«Masuk»</strong> — Anda akan melihat «Dikonfirmasi — TV sedang masuk».</li>
+                <li>TV masuk ke akun ponsel dalam beberapa detik; playlist dan pengaturan tersinkron.</li>
+            </ol>
+            <div class="note"><p>Jika kode QR kedaluwarsa, tutup dan buka kembali jendelanya — kode baru dibuat. Login QR mengharuskan aplikasi di ponsel terbuka dan sudah masuk.</p></div>
+
+            <h3 id="google-giris">Login Google dan sinkronisasi</h3>
+            <p>Saat masuk dengan akun Google, ini tersinkron antar perangkat: pengaturan sumber/daftar, favorit, «Daftar Saya», riwayat, profil, dan lisensi premium. Setelah login pertama, sumber dan EPG terunduh otomatis — tidak perlu pembaruan manual.</p>
+            <ul>
+                <li>Pengaturan sinkronisasi dan perangkat tertaut: <strong>Pengaturan › Akun, sinkronisasi, dan perangkat</strong>.</li>
+                <li>Bisa digunakan tanpa akun — data tetap di perangkat.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Sumber ───────────── -->
+        <section id="kaynak-ekleme">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Menambah playlist</h2>
+            <p>Dua jenis sumber didukung: <strong>M3U</strong> (URL atau file lokal) dan <strong>Xtream Codes</strong> (server + kredensial). Saat ditambahkan, konten otomatis terbagi menjadi <em>langsung / film / serial</em>.</p>
+
+            <h3>Dari mana menambahkannya?</h3>
+            <ul>
+                <li>Dari kartu <strong>Tambah playlist</strong> di layar sambutan,</li>
+                <li>atau dari <strong>Pengaturan › Playlist › Tambah playlist</strong>.</li>
+            </ul>
+
+            <h3>Menambah playlist M3U</h3>
+            <ol>
+                <li>Buka <strong>Tambah playlist</strong>, pilih kartu <strong>M3U / XMLTV</strong>.</li>
+                <li>Di kolom <strong>Nama</strong> beri nama playlist (mis. «Daftar utama»).</li>
+                <li>Di kolom <strong>URL / Jalur file</strong> masukkan tautan M3U <em>atau</em> pilih file dari perangkat dengan ikon folder. Ekstensi yang didukung: <code>.m3u</code>, <code>.m3u8</code>, <code>.xml</code>, <code>.txt</code>.</li>
+                <li>Tekan <strong>Tambah</strong> — playlist terunduh dan diproses; kemajuan terlihat di bilah unduhan bawah.</li>
+            </ol>
+            <div class="note"><p>Saat memilih file, jika kolom nama kosong, nama file diisi otomatis. URL harus diawali http/https.</p></div>
+
+            <h3>Menambah akun Xtream Codes</h3>
+            <ol>
+                <li>Pilih kartu <strong>Xtream</strong>.</li>
+                <li><strong>Nama sumber</strong>: nama apa saja (mis. «Xtream utama»).</li>
+                <li><strong>URL server</strong>: alamat penyedia Anda, mis. <code>http://server.com:8080</code></li>
+                <li><strong>Nama pengguna</strong> dan <strong>Sandi</strong>: kredensial dari penyedia. Ikon mata di samping kolom sandi menampilkan yang diketik.</li>
+                <li><strong>Tambah</strong> — aplikasi terhubung ke API Xtream; siaran langsung, film, dan serial diunduh terpisah.</li>
+            </ol>
+            <div class="warn"><p><strong>Versi gratis</strong> hanya mengizinkan <strong>1 playlist</strong> (M3U atau Xtream — bukan keduanya). Tanpa batas: <a href="#premium">Pro</a>.</p></div>
+
+            <h3 id="liste-yonetimi">Kelola playlist</h3>
+            <p>Item di <strong>Pengaturan › Playlist</strong>:</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>Playlist yang ada</td><td>Menampilkan sumber M3U/Xtream yang dikonfigurasi; di tiap kartu — pembaruan terakhir dan status aktif/nonaktif. Pilih sumber untuk mengedit, menghapus, atau memperbarui. Kartu ringkasan menunjukkan distribusi langsung/serial/film.</td></tr>
+                <tr><td>Frekuensi pembaruan</td><td>Interval pembaruan playlist otomatis: <strong>manual, 6, 12, 24, 48, 72, atau 168 jam</strong>. Dengan «manual» playlist hanya diperbarui saat Anda memintanya.</td></tr>
+                <tr><td>Perbarui semua playlist</td><td>Mengunduh ulang semua sumber sekaligus. Diproses berurutan di latar belakang; pantau kemajuan di bilah unduhan.</td></tr>
+                <tr><td>Sumber EPG</td><td>Memilih sumber EPG yang ditetapkan ke tiap playlist («tetapkan ke playlist»).</td></tr>
+                <tr><td>Grup saluran</td><td>Menyembunyikan, mengganti nama, dan menyusun ulang grup dari playlist (olahraga, berita…).</td></tr>
+                <tr><td>Urutan</td><td>Urutan saluran: <strong>menurut nama, menurut nomor, manual, urutan asli, menurut grup</strong>.</td></tr>
+                <tr><td>Filter nama saluran</td><td>Aturan yang otomatis menghapus awalan/akhiran nama saluran (mis. «TR:», «|4K»). Wildcard <code>*</code> didukung; kolom «contoh transformasi» menunjukkan hasilnya.</td></tr>
+            </table>
+
+            <h3 id="epg-kaynagi">Menambah sumber EPG (XMLTV)</h3>
+            <p>Untuk mendapatkan jadwal program, tambahkan alamat XMLTV/EPG penyedia Anda:</p>
+            <ol>
+                <li>Buka <strong>Pengaturan › Panduan TV › Tambah sumber EPG</strong>.</li>
+                <li>Masukkan nama dan <strong>URL/alamat</strong> lalu simpan.</li>
+                <li>Setelah terunduh, saluran tercocok otomatis berdasarkan kemiripan nama; sisanya cocokkan manual via <a href="#epg-rehberi">pencocokan saluran EPG</a>.</li>
+            </ol>
+            <div class="warn"><p>Versi gratis mengizinkan <strong>1 sumber EPG</strong>. Beberapa penyedia Xtream mengirim EPG mereka sendiri — saat Anda menambah sumber Xtream, EPG biasanya datang otomatis.</p></div>
+
+            <h3 id="grup-siralama">Grup, urutan, dan filter nama</h3>
+            <ul>
+                <li><strong>Grup saluran:</strong> Mengelola nama grup dari M3U/Xtream. Grup tersembunyi tidak tampil di daftar TV; urutan mengatur susunan grup.</li>
+                <li><strong>Urutan:</strong> Dengan «manual» Anda membuat urutan sendiri di daftar saluran; «urutan asli» mempertahankan urutan file.</li>
+                <li><strong>Filter nama:</strong> Menghapus pola di awal/akhir nama saluran (mis. awalan negara) — daftar lebih bersih. Filter terpisah untuk nama VOD: <strong>Pengaturan › Data media › Filter nama VOD</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Beranda dan EPG ───────────── -->
+        <section id="ana-ekran">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 9h18"/></svg></span>Layar utama dan panduan TV <span class="plat tv">TV</span></h2>
+
+            <h3>Bilah atas dan menu</h3>
+            <p>Di layar utama TV ada bilah menu horizontal di atas. Navigasi <kbd>◀</kbd><kbd>▶</kbd>, pilih <kbd>OK</kbd>, turun ke konten <kbd>▼</kbd>.</p>
+            <table class="tbl">
+                <tr><th>Menu</th><th>Konten</th></tr>
+                <tr><td>Cari</td><td>Layar pencarian cerdas — saluran, film, serial, dan program; pencarian suara didukung.</td></tr>
+                <tr><td>TV</td><td>Daftar saluran + jadwal EPG dan kartu pratinjau langsung.</td></tr>
+                <tr><td>Film</td><td>Kolom kategori (aksi, komedi, drama, fiksi ilmiah, horor, keluarga, favorit, baru, lanjutkan menonton) + galeri poster.</td></tr>
+                <tr><td>Serial</td><td>Kategori seperti serial lokal/asing, harian, prime time + galeri poster.</td></tr>
+                <tr><td>Daftar Saya</td><td>Favorit, film saya, serial saya, lanjutkan menonton, rekaman, pengingat, unduhan, konten offline.</td></tr>
+                <tr><td>Pengaturan</td><td>Ikon roda gigi di kanan — membuka panel pengaturan 13 kategori.</td></tr>
+            </table>
+            <p>Ikon di kanan bilah atas: <strong>gambar profil</strong> (ganti profil), <strong>roda gigi pengaturan</strong>, dan tombol <strong>perangkat</strong> (DLNA/cast).</p>
+            <div class="note"><p>Di daftar panjang <kbd>CH+</kbd>/<kbd>CH−</kbd> (atau Page Up/Down) melompat 10 baris. <kbd>Kembali</kbd> naik satu tingkat; di layar utama meminta konfirmasi keluar.</p></div>
+
+            <h3>Galeri poster dan pratinjau</h3>
+            <ul>
+                <li>Di halaman film/serial, poster tampil sebagai kisi; saat dihover kartu membesar dan — jika diaktifkan — <strong>pratinjau trailer</strong> diputar (pengaturan: Data media › pratinjau otomatis).</li>
+                <li>Tekan lama <kbd>OK</kbd> pada poster: membuka <a href="#vod-context">menu konteks</a>.</li>
+                <li>Di halaman TV, saat berhenti pada baris saluran, jendela <strong>pratinjau langsung</strong> di kiri atas memutar saluran itu dalam ukuran kecil.</li>
+            </ul>
+
+            <h3 id="epg-rehberi">Memakai panduan TV (EPG)</h3>
+            <p>Daftar TV beralih antara dua tampilan: <strong>daftar saluran</strong> dan <strong>kisi EPG</strong> («pindah ke daftar EPG» / «pindah ke daftar saluran»).</p>
+            <ul>
+                <li><strong>Kolom samping:</strong> logo dan nama saluran. <kbd>▲</kbd><kbd>▼</kbd> mengganti saluran; programnya tampil di sisi lain.</li>
+                <li><strong>Kisi:</strong> timeline — kartu program dengan durasi. <kbd>◀</kbd><kbd>▶</kbd> bergerak dalam waktu.</li>
+                <li><strong>Pemilihan hari:</strong> dengan tombol kemarin / hari ini / besok dan panah «hari sebelumnya / hari berikutnya» lihat ke belakang sejauh pengaturan <em>data EPG hari-hari lalu</em> mengizinkan.</li>
+                <li><strong>Tekan lama <kbd>OK</kbd> pada baris saluran:</strong> membuka <a href="#epg-context">menu konteks EPG</a> (favorit, rekam, ingatkan, sembunyikan…).</li>
+                <li><kbd>OK</kbd> singkat pada saluran: menonton layar penuh.</li>
+            </ul>
+            <div class="tip"><p>Tidak ada EPG di saluran? Pertama periksa sumber EPG sudah ditetapkan dan diperbarui (Pengaturan › Panduan TV › Perbarui EPG), lalu cocokkan saluran manual via «pencocokan EPG».</p></div>
+
+            <h3 id="arama">Pencarian dan pencarian suara</h3>
+            <ul>
+                <li>Menu <strong>Cari</strong> (atau «cari» di menu konteks) membuka pencarian cerdas. Mencari sekaligus di film, serial, nama saluran, dan program EPG («kecocokan program», «program TV»).</li>
+                <li>Ikon mikrofon memulai <strong>pencarian suara</strong> — bicara saat «Mendengarkan…» menyala; izin mikrofon diminta pertama kali.</li>
+                <li><strong>Riwayat pencarian</strong> menampilkan kueri sebelumnya; «bersihkan» menghapusnya.</li>
+                <li>Di seluler, tab pencarian melakukan hal yang sama; input via sentuhan.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Menu konteks ───────────── -->
+        <section id="epg-context">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 9h16"/></svg></span>Menu konteks</h2>
+
+            <h3>Menu konteks EPG <span class="plat tv">TV</span></h3>
+            <p><strong>Membuka:</strong> Pada baris saluran di panduan TV <strong>tekan lama <kbd>OK</kbd></strong> — menu masuk dari samping. <kbd>▲</kbd><kbd>▼</kbd> navigasi, <kbd>OK</kbd> pilih, <kbd>Kembali</kbd> tutup.</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Fungsi</th></tr>
+                <tr><td>Buka saluran</td><td>Memulai saluran yang dipilih layar penuh.</td></tr>
+                <tr><td>Cari</td><td>Membuka pencarian cerdas.</td></tr>
+                <tr><td>TV / Film / Serial / Daftar Saya / Pengaturan</td><td>Lompat cepat ke bagian utama lain selain yang aktif.</td></tr>
+                <tr><td>Tambah ke / hapus dari favorit</td><td>Menambah atau menghapus saluran dari favorit; tampil di daftar TV dan Daftar Saya.</td></tr>
+                <tr><td>Buka di pemutar eksternal</td><td>Mengirim stream saluran ke aplikasi pemutar lain di perangkat (VLC, MX Player…).</td></tr>
+                <tr><td>Rekam</td><td>Menambahkan program yang dipilih (atau rekaman manual 2 jam jika tidak ada program) ke daftar rekaman. Menit tambahan dari pengaturan diterapkan otomatis.</td></tr>
+                <tr><td>Rekam kustom</td><td>Menampilkan jendela pilihan menit tambahan awal/akhir terlebih dulu (+0/+1/+5/+10 menit).</td></tr>
+                <tr><td>Tambah / hapus pengingat</td><td>Memberi notifikasi sebelum program mulai; jika «buka saluran otomatis» aktif, saluran terbuka sendiri.</td></tr>
+                <tr><td>Pencocokan EPG</td><td>Menghubungkan data program saluran ke nama saluran sumber EPG yang benar secara manual.</td></tr>
+                <tr><td>Perbarui EPG</td><td>Mengunduh ulang sumber EPG yang ditetapkan.</td></tr>
+                <tr><td>Bersihkan EPG</td><td>Menghapus data program tersimpan; diunduh ulang pada pembaruan berikutnya.</td></tr>
+                <tr><td>Perbarui logo</td><td>Memuat ulang logo saluran (sesuai pengaturan sumber logo).</td></tr>
+                <tr><td>Kunci / buka kunci saluran</td><td>Menyembunyikan saluran di balik PIN dalam kontrol orang tua; membuka butuh PIN.</td></tr>
+                <tr><td>Sembunyikan / tampilkan saluran</td><td>Menyembunyikan saluran dari daftar; mengembalikan: «tampilkan saluran tersembunyi» atau Pengaturan › Kontrol orang tua › Saluran tersembunyi.</td></tr>
+                <tr><td>Tampilkan saluran tersembunyi</td><td>Mengembalikan sementara saluran tersembunyi ke daftar.</td></tr>
+            </table>
+
+            <h3 id="vod-context">Menu konteks film / serial</h3>
+            <p><strong>Membuka:</strong> Tekan lama <kbd>OK</kbd> pada poster (seluler: tekan lama / ikon ☰).</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Fungsi</th></tr>
+                <tr><td>Lanjutkan</td><td>Melanjutkan dari titik berhenti (hanya tampil saat ada kemajuan).</td></tr>
+                <tr><td>Putar</td><td>Memutar konten dari awal.</td></tr>
+                <tr><td>Putar eksternal</td><td>Mengirim ke aplikasi pemutar lain.</td></tr>
+                <tr><td>Trailer</td><td>Membuka trailer yang tersedia di TMDB.</td></tr>
+                <tr><td>Poster layar penuh / tampilkan banner <span class="plat tv">TV</span></td><td>Mengalihkan galeri antara kisi poster dan tata letak banner.</td></tr>
+                <tr><td>Urutkan / filter</td><td>Membuka opsi urutan dan filter galeri.</td></tr>
+                <tr><td>Tahun rilis</td><td>Memfilter konten menurut tahun.</td></tr>
+                <tr><td>Kategori</td><td>Memfilter menurut genre (aksi, komedi…).</td></tr>
+                <tr><td>Detail lebih lanjut</td><td>Membuka panel detail: sinopsis, pemeran, sutradara, rating, daftar episode.</td></tr>
+                <tr><td>Ke daftar saya / hapus</td><td>Menambah atau menghapus konten dari «Daftar Saya › film saya/serial saya».</td></tr>
+                <tr><td>Hapus dari riwayat</td><td>Menghapus posisi tersimpan; konten keluar dari «lanjutkan menonton».</td></tr>
+                <tr><td>Hapus dari ditonton / bersihkan ditonton</td><td>Menghapus tanda «sudah ditonton» atau membersihkan seluruh riwayat tontonan.</td></tr>
+                <tr><td>Hapus dari konten offline</td><td>Menghapus konten terunduh (hanya tampil pada unduhan).</td></tr>
+                <tr><td>Cari dan cocokkan konten</td><td>Jika pencocokan TMDB salah/hilang, cari dan cocokkan film/serial yang benar secara manual.</td></tr>
+                <tr><td>Pilih banyak <span class="plat mob">SELULER</span></td><td>Mengaktifkan mode memilih beberapa poster untuk operasi massal.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── Pemutar ───────────── -->
+        <section id="fs-canli">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m10 8 5 4-5 4z" fill="currentColor"/></svg></span>Pemutar layar penuh</h2>
+
+            <h3>Layar penuh — siaran langsung <span class="plat tv">TV</span></h3>
+            <p>Saat saluran dibuka, video diputar layar penuh. Semua panel dibuka dengan remote dan tertutup otomatis saat tidak digunakan (daftar saluran ~8 detik, alur program ~15 detik).</p>
+
+            <h4 id="fs-tuslar">Tombol remote — siaran langsung</h4>
+            <div class="keymap">
+                <div><kbd>OK</kbd> singkat</div><div>Membuka/menutup OSD (panel info).</div>
+                <div><kbd>OK</kbd> lama</div><div>Membuka kartu pengaturan pemutar (di bawah).</div>
+                <div><kbd>▶</kbd></div><div>Membuka daftar saluran dari tepi. Saat daftar terbuka, tekan lagi → kolom kategori (grup).</div>
+                <div><kbd>◀</kbd></div><div>Membuka «alur program» EPG dari tepi lain; jika terbuka — menutup.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Mengganti saluran; pada daftar terbuka memindahkan pilihan.</div>
+                <div><kbd>0–9</kbd></div><div>Input nomor saluran — berganti saat input selesai.</div>
+                <div><kbd>CH+</kbd>/<kbd>CH−</kbd> atau <kbd>PgUp</kbd>/<kbd>PgDn</kbd></div><div>Saluran berikutnya/sebelumnya (bergulir pada daftar terbuka).</div>
+                <div><kbd>Info</kbd> / <kbd>Guide</kbd></div><div>Membuka/menutup alur program EPG.</div>
+                <div><kbd>⏮</kbd> Media Last</div><div>Kembali ke saluran terakhir yang ditonton.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Saluran sebelumnya/berikutnya.</div>
+                <div><kbd>⏯</kbd> Play/Pause</div><div>Menjeda/melanjutkan siaran langsung.</div>
+                <div><kbd>●</kbd> tombol Record</div><div>Membuka/menutup daftar saluran.</div>
+                <div><kbd>Kembali</kbd></div><div>Menutup panel terbuka → menutup OSD → keluar dari pemutar.</div>
+            </div>
+
+            <h4 id="fs-paneller">Panel dan kartu pengaturan</h4>
+            <table class="tbl">
+                <tr><th>Panel</th><th>Membuka</th><th>Konten</th></tr>
+                <tr><td>OSD (panel info)</td><td><kbd>OK</kbd> singkat</td><td>Nama/logo saluran, program saat ini dan berikutnya, kemajuan, jam (jika jam layar penuh aktif).</td></tr>
+                <tr><td>Daftar saluran</td><td><kbd>▶</kbd> atau <kbd>●</kbd></td><td>Daftar masuk dari samping; atas/bawah pilih, <kbd>OK</kbd> ganti. <kbd>▶</kbd> kedua membuka kolom grup/kategori — <kbd>OK</kbd> menerapkan grup.</td></tr>
+                <tr><td>Alur program EPG</td><td><kbd>◀</kbd> atau <kbd>Info</kbd></td><td>Daftar program masuk dari samping: program hari ini. <kbd>▲</kbd><kbd>▼</kbd> jelajah; tekan lama <kbd>OK</kbd> pada program → aksi pengingat/rekam.</td></tr>
+                <tr><td>Kartu pengaturan pemutar</td><td><kbd>OK</kbd> lama</td><td>Kartu pengaturan cepat 8 ikon (tabel di bawah).</td></tr>
+            </table>
+
+            <h4>Kartu pengaturan pemutar (siaran langsung)</h4>
+            <p>Saat kartu terbuka, bergerak antar ikon dengan <kbd>◀</kbd><kbd>▶</kbd> dan antar opsi di panel terbuka; <kbd>OK</kbd> menerapkan.</p>
+            <table class="tbl">
+                <tr><th>Tab</th><th>Deskripsi</th></tr>
+                <tr><td>Pindah ke VOD</td><td>Lompat cepat ke bagian film atau serial.</td></tr>
+                <tr><td>Bahasa pemutaran</td><td>Pilih trek audio jika stream punya lebih dari satu (jika tidak, preferensi bahasa: Auto/TR/ENG/DE/FR/AR/RU).</td></tr>
+                <tr><td>Ukuran gambar</td><td>Rasio aspek: asli, potong/isi, regangkan horizontal, regangkan vertikal, isi penuh, 4:3, 16:9 — dengan opsi «terapkan ke semua saluran».</td></tr>
+                <tr><td>Subtitel</td><td>Pilihan trek subtitel + warna teks (10 warna) dan ukuran.</td></tr>
+                <tr><td>PIP</td><td>Membuka mode multi-layar (<a href="#coklu-ekran">lihat di bawah</a>).</td></tr>
+                <tr><td>Info stream</td><td>Info stream teknis (resolusi, codec…).</td></tr>
+                <tr><td>Pemutar</td><td>Decoding dan opsi perilaku dasar pemutar.</td></tr>
+                <tr><td>Pengaturan</td><td>Membuka layar pengaturan utama («buka semua pengaturan»).</td></tr>
+            </table>
+
+            <h4 id="coklu-ekran">Multi-layar (PIP)</h4>
+            <p>Via <strong>PIP</strong> di kartu atau fitur multi-layar, beberapa saluran ditonton bersamaan (hingga 4 layar). Opsi menu multi-layar:</p>
+            <ul>
+                <li><strong>Tambah layar / tutup layar:</strong> membuka sel pemutar baru atau menutup sel terpilih.</li>
+                <li><strong>Tampilan sejajar / layar besar:</strong> membagi layar sama rata atau memperbesar satu.</li>
+                <li><strong>Ganti saluran:</strong> mengganti saluran sel yang difokuskan.</li>
+                <li><strong>Layar penuh / kembali ke layar / layar tunggal:</strong> memperbesar sel atau mengembalikan tampilan multi.</li>
+                <li><strong>Putar/jeda, bisu/bersuara, muat ulang:</strong> pemutaran dan audio tiap sel (audio hanya dari satu layar setiap saat).</li>
+            </ul>
+            <div class="warn"><p>Multi-layar memberatkan prosesor; dua layar direkomendasikan pada perangkat lemah.</p></div>
+
+            <h3 id="fs-vod">Layar penuh — film / serial</h3>
+            <p>Di pemutar VOD, OSD terbuka sebagai panel kontrol bawah: <strong>episode/konten sebelumnya, mundur, putar/jeda, maju, berikutnya, bahasa dan subtitel, info, pengaturan, mulai dari awal</strong> dan bilah kemajuan.</p>
+            <div class="keymap">
+                <div><kbd>OK</kbd></div><div>Membuka OSD; saat terbuka — mengaktifkan tombol terfokus (default putar/jeda).</div>
+                <div><kbd>◀</kbd>/<kbd>▶</kbd></div><div>Seek bertahap pada bilah kemajuan; jika OSD tertutup membukanya dulu. Di baris kontrol bergerak antar tombol.</div>
+                <div><kbd>▲</kbd>/<kbd>▼</kbd></div><div>Bergerak vertikal antara bilah kemajuan ↔ baris kontrol ↔ kartu pengaturan.</div>
+                <div><kbd>0–9</kbd></div><div>Input menit — melompat ke menit yang dimasukkan.</div>
+                <div><kbd>⏪</kbd>/<kbd>⏩</kbd></div><div>Mundur/maju 30 detik (indikator muncul di layar).</div>
+                <div><kbd>Info</kbd></div><div>Membuka kartu info film/serial (sinopsis, pemeran, rating — TMDB).</div>
+                <div><kbd>Kembali</kbd></div><div>Menutup panel/OSD; tekan lagi keluar sambil menyimpan kemajuan.</div>
+            </div>
+            <ul>
+                <li><strong>Kartu episode berikutnya:</strong> di serial ~30 detik sebelum akhir, kartu «ke episode berikutnya» muncul di bawah; tekan <kbd>OK</kbd> untuk lanjut.</li>
+                <li><strong>Lanjutkan dari posisi:</strong> konten belum selesai dilanjutkan dari detik tersimpan saat dibuka lagi («lanjutkan»). Kemajuan tersimpan saat keluar.</li>
+                <li><strong>Menu bahasa dan subtitel:</strong> mengganti trek audio dan subtitel seketika.</li>
+                <li><strong>Gestur seluler</strong> <span class="plat mob">SELULER</span>: geser vertikal di satu tepi = volume, tepi lain = kecerahan; ketuk membuka OSD.</li>
+            </ul>
+            <p>Kartu pengaturan VOD mirip kartu siaran langsung; tambahan ada <strong>offset audio</strong> (slider + reset) dan <strong>pindah ke TV</strong>.</p>
+        </section>
+
+        <!-- ───────────── Perekaman dan pengingat ───────────── -->
+        <section id="kayit">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>Perekaman dan pengingat <span class="plat pro">PRO</span></h2>
+
+            <h3>Merekam program</h3>
+            <ol>
+                <li>Di EPG tekan lama <kbd>OK</kbd> pada <strong>baris saluran</strong> program yang ingin direkam.</li>
+                <li><strong>Rekam</strong>: menambahkan program ke daftar rekaman dengan menit tambahan dari pengaturan. Jika tidak ada program, rekaman manual 2 jam dari sekarang dijadwalkan.</li>
+                <li><strong>Rekam kustom</strong>: membuka jendela pilihan menit tambahan awal/akhir (0/+1/+5/+10 menit) sebelum membuat rekaman.</li>
+                <li>Saat waktunya tiba, rekaman mulai otomatis; ikon REC berkedip pada kartu program di alur.</li>
+            </ol>
+            <p>Item di <strong>Pengaturan › Perekaman</strong>:</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>Folder rekaman</td><td>Di mana rekaman disimpan: penyimpanan internal atau folder jaringan (SMB — «pindai jaringan» menemukan resource dan terhubung dengan nama pengguna/sandi).</td></tr>
+                <tr><td>Waktu sebelum / sesudah rekaman</td><td>Waktu tambahan di awal dan akhir setiap rekaman: 0, 1, 5, atau 10 menit. Membantu tidak ketinggalan awal/akhir saat program mulai terlambat atau berjalan lama.</td></tr>
+                <tr><td>Daftar rekaman</td><td>Penghitung semua/selesai/terjadwal dan semua rekaman: putar yang selesai dengan <kbd>OK</kbd>, batalkan yang menunggu, hapus.</td></tr>
+            </table>
+            <div class="note"><p>Rekaman ditulis ke folder yang dipilih; pastikan ada ruang kosong cukup. Pemilihan USB/kartu SD didukung.</p></div>
+
+            <h3 id="hatirlatici">Pengingat</h3>
+            <ul>
+                <li>Buat pengingat untuk program dengan <strong>tambah pengingat</strong> di menu konteks EPG; pilih lagi untuk menghapus.</li>
+                <li>Waktu notifikasi: <strong>1, 2, 5, atau 10 menit sebelum</strong> program mulai.</li>
+                <li><strong>Pengaturan › Pengingat</strong>: opsi notifikasi dan <strong>«buka saluran otomatis»</strong> (TV berganti ke saluran itu sendiri saat waktunya tiba); seluruh daftar pengingat juga dikelola di sini.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── Profil dan orang tua ───────────── -->
+        <section id="profiller">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>Profil dan kontrol orang tua <span class="plat pro">PRO</span></h2>
+
+            <h3>Kelola profil</h3>
+            <p>Di <strong>Pengaturan › Profil</strong>:</p>
+            <ul>
+                <li><strong>Tambah profil:</strong> membuat profil baru dengan nama, pilihan gambar, dan PIN opsional.</li>
+                <li><strong>Daftar profil:</strong> menampilkan profil yang ada; edit dan hapus di sini.</li>
+                <li>Setiap profil menyimpan <em>favorit, konten «Daftar Saya», riwayat, dan pengaturan pribadi</em> sendiri. Profil aktif ditanyakan saat membuka; ganti seketika via gambar di bilah atas.</li>
+            </ul>
+
+            <h3 id="ebeveyn">Kontrol orang tua</h3>
+            <p>Item di <strong>Pengaturan › Kontrol orang tua</strong> (jika PIN ditetapkan, masuk panel menanyakan PIN):</p>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>Perlindungan PIN</td><td>Status kode PIN 4 digit.</td></tr>
+                <tr><td>Ubah PIN</td><td>Menetapkan PIN 4 digit baru (hapus PIN juga di sini).</td></tr>
+                <tr><td>Persyaratan PIN</td><td>Menentukan situasi mana yang menanyakan PIN.</td></tr>
+                <tr><td>Kunci pengaturan</td><td>Jika aktif, masuk ke pengaturan butuh PIN.</td></tr>
+                <tr><td>Kunci konten 18+</td><td>Menyembunyikan konten dewasa di balik PIN.</td></tr>
+                <tr><td>Kunci saluran</td><td>Membuka saluran terkunci butuh PIN (kunci saluran: menu konteks EPG).</td></tr>
+                <tr><td>Batas usia</td><td>Pembatasan usia — konten di atas usia terpilih butuh PIN. «Panduan rating usia» di sampingnya menjelaskan label sistem nasional.</td></tr>
+                <tr><td>Saluran tersembunyi</td><td>Menampilkan saluran tersembunyi dan membuatnya terlihat lagi.</td></tr>
+            </table>
+            <div class="tip"><p>Lupa PIN? Cadangkan sebelum membuat profil baru atau instal ulang; data PIN tersimpan terenkripsi di perangkat.</p></div>
+        </section>
+
+        <!-- ───────────── Pengaturan ───────────── -->
+        <section id="ayarlar-genel">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></span>Panduan pengaturan</h2>
+            <p>Layar pengaturan terdiri dari tiga kolom: <strong>samping</strong> — 13 kategori, <strong>tengah</strong> — item kategori, <strong>sisi lain</strong> — panel deskripsi/pengaturan item terpilih. Ikon <strong>lup</strong> di header membuka pencarian dalam pengaturan. <kbd>CH+</kbd>/<kbd>−</kbd> melompat 10 baris di daftar kategori.</p>
+            <div class="warn"><p>Di versi gratis beberapa kategori terkunci (ikon gembok): pemutar, tampilan, data media, perekaman, pengingat, profil, kontrol orang tua, unduhan, dan lainnya. Kategori terkunci membuka panel upgrade Pro.</p></div>
+
+            <h3 id="ayar-listeler">1 · Playlist</h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>Tambah playlist</td><td>Menambah playlist M3U baru (URL/file) atau Xtream (server+pengguna+sandi).</td></tr>
+                <tr><td>Frekuensi pembaruan</td><td>Interval pembaruan otomatis: manual, 6, 12, 24, 48, 72, 168 jam.</td></tr>
+                <tr><td>Perbarui semua playlist</td><td>Mengunduh ulang semua sumber sekaligus.</td></tr>
+                <tr><td>Playlist yang ada</td><td>Edit, hapus, dan perbarui sumber; status aktif/nonaktif dan pembaruan terakhir.</td></tr>
+                <tr><td>Grup saluran</td><td>Sembunyikan, ganti nama, dan susun ulang grup.</td></tr>
+                <tr><td>Sumber EPG</td><td>Menetapkan sumber EPG ke playlist («tetapkan ke playlist»).</td></tr>
+                <tr><td>Urutan</td><td>Urutan saluran: nama/nomor, manual, asli, atau menurut grup.</td></tr>
+                <tr><td>Filter nama saluran</td><td>Menghapus awalan/akhiran dari nama; aturan wildcard <code>*</code> dan pratinjau contoh transformasi.</td></tr>
+            </table>
+
+            <h3 id="ayar-epg">2 · Panduan TV</h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>Tambah sumber EPG</td><td>Menambah sumber EPG format XMLTV (menyediakan data program saluran).</td></tr>
+                <tr><td>Sumber EPG yang ada</td><td>Edit/hapus sumber EPG; jumlah saluran dan pembaruan terakhir tiap sumber.</td></tr>
+                <tr><td>Pencocokan saluran EPG</td><td>Mencocokkan saluran dengan data EPG — otomatis atau penetapan manual; saluran tak tercocok terdaftar.</td></tr>
+                <tr><td>Frekuensi pembaruan</td><td>Interval pembaruan EPG latar belakang: manual, 1, 2, 4, 6, 12, 24 jam.</td></tr>
+                <tr><td>Perbarui saat dibuka</td><td>Jika aktif, EPG diperbarui otomatis setiap aplikasi dimulai.</td></tr>
+                <tr><td>Perbarui saat playlist berubah</td><td>Saat playlist berubah/diperbarui, EPG juga diperbarui otomatis.</td></tr>
+                <tr><td>Data EPG hari-hari lalu</td><td>Berapa hari data program disimpan ke belakang: tidak ada, 1, 2, 3, 5, atau 7 hari. Hari lebih = memori lebih.</td></tr>
+                <tr><td>Pergeseran waktu</td><td>Menggeser waktu program maju/mundur dalam jam/menit — total atau per saluran (untuk sumber beda zona waktu).</td></tr>
+                <tr><td>Perbarui EPG</td><td>Memulai pembaruan manual; kemajuan dan jumlah saluran diproses ditampilkan.</td></tr>
+                <tr><td>Bersihkan EPG</td><td>Menghapus data program tersimpan dan cache gambar; diunduh ulang pada pembaruan berikutnya.</td></tr>
+                <tr><td>Pembaruan terakhir</td><td>Saluran diproses dan tanggal pembaruan tiap sumber.</td></tr>
+            </table>
+
+            <h3 id="ayar-oynatici">3 · Pemutar <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>Gambar</td><td>Rasio aspek: asli, potong/isi, regangkan horizontal, regangkan vertikal, isi penuh, 4:3, 16:9; bisa diterapkan ke semua saluran.</td></tr>
+                <tr><td>Output video</td><td>Pilihan decoding: perangkat keras (direkomendasikan, hemat baterai/CPU) atau perangkat lunak (untuk masalah kompatibilitas).</td></tr>
+                <tr><td>Output audio</td><td>Decoding audio (perangkat keras/lunak), <strong>passthrough audio (Bitstream)</strong> — stream audio mentah untuk sistem surround, <strong>offset audio</strong> (slider milidetik + reset), dan bahasa audio default.</td></tr>
+                <tr><td>Subtitel</td><td>Ukuran dan warna teks (10 warna), posisi (atas/tengah/bawah), dan encoding (UTF-8…).</td></tr>
+                <tr><td>Ganti saluran</td><td>Perilaku zapping: <strong>delay pergantian</strong> (tunggu milidetik sebelum pergantian nyata — menghindari pemuatan berlebih saat zapping cepat) dan <strong>layar hitam saat berganti</strong> (hitam saat saluran baru memuat; mati — saluran sebelumnya tetap di layar).</td></tr>
+                <tr><td>Buffer</td><td>Ukuran buffer: otomatis, tidak ada, kecil (~1d), sedang (~3d, direkomendasikan), besar (~8d), sangat besar (~15+d). Perbesar untuk stream tersendat; perkecil untuk zapping lebih cepat.</td></tr>
+                <tr><td>VOD</td><td>Preferensi film/serial: pilihan pemutar eksternal (pilih otomatis / pilih aplikasi / pemutar eksternal 1-2), subtitel otomatis, dll.</td></tr>
+                <tr><td>Jam layar penuh</td><td>Jam di layar penuh: aktif/nonaktif, posisi, ukuran (kecil/sedang/besar), format 24 jam, tampilkan tanggal.</td></tr>
+            </table>
+
+            <h3 id="ayar-gorunum">4 · Tampilan <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>Bahasa</td><td>Bahasa antarmuka — pilih dari 24 bahasa atau «bahasa sistem»; difilter dengan kolom pencarian.</td></tr>
+                <tr><td>Warna</td><td>Tema aplikasi (gelap, biru, abu-abu, hijau, ungu, merah, ambar, malam, samudra, arang, wine, biru tua, zamrud, sunset, kosmik, grafit), warna aksen (18 warna), dan opasitas OSD (dengan pratinjau).</td></tr>
+                <tr><td>Panduan TV</td><td>Tampilan EPG: format 24 jam, tinggi baris (kecil/sedang/besar), tata letak (daftar/kisi).</td></tr>
+                <tr><td>Daftar saluran</td><td>Tampilan daftar saluran dan tata letak kartu.</td></tr>
+                <tr><td>Logo</td><td>Prioritas sumber logo: <strong>XMLTV/EPG</strong>, <strong>playlist (M3U)</strong>, atau <strong>folder lokal</strong>; pilih folder untuk memakai file logo Anda sendiri (PNG/JPG/WebP).</td></tr>
+                <tr><td>Durasi OSD</td><td>Berapa detik panel info bertahan di layar — terpisah untuk TV dan VOD.</td></tr>
+                <tr><td>Screensaver</td><td>Waktu hingga aktif saat tidak digunakan: mati, 1, 2, 5, 10, 15, atau 30 menit.</td></tr>
+            </table>
+
+            <h3 id="ayar-medya">5 · Data media <span class="plat pro">PRO</span></h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>API keys</td><td>Masukkan API key Anda sendiri untuk TMDB dan OMDb — didapat gratis dari situs kedua layanan. Poster, deskripsi, pemeran, dan rating IMDb film/serial datang dari layanan ini.</td></tr>
+                <tr><td>TMDB / OMDb</td><td>Aktif/nonaktif layanan. TMDB: poster+sinopsis+trailer; OMDb: rating IMDb, genre, sutradara.</td></tr>
+                <tr><td>Cache cerdas</td><td>Aktif — hanya data konten yang terlihat di layar yang dimuat; awal lebih cepat.</td></tr>
+                <tr><td>Pengayaan manual saja</td><td>Mematikan pengunduhan data otomatis; pengayaan hanya saat Anda memicunya.</td></tr>
+                <tr><td>Folder cache</td><td>Folder tempat cache data media disimpan.</td></tr>
+                <tr><td>Pengayaan semua konten</td><td>Mengunduh data TMDB untuk semua konten VOD sekaligus (bisa memakan waktu).</td></tr>
+                <tr><td>Pengayaan menurut kategori</td><td>Mengaya hanya kategori terpilih.</td></tr>
+                <tr><td>Bersihkan cache</td><td>Menghapus seluruh cache data media (jumlah dan ukuran ditampilkan).</td></tr>
+                <tr><td>Filter nama VOD</td><td>Aturan menghapus awalan/akhiran nama film/serial — memperbaiki pencocokan TMDB.</td></tr>
+            </table>
+            <p>Dan pengaturan pratinjau poster (trailer saat hover): <strong>pratinjau otomatis</strong> (memutar trailer saat berhenti di poster), <strong>suara trailer</strong>, titik mulai, dan waktu tunggu.</p>
+
+            <h3 id="ayar-diger">6–9, 11 · Rekam, ingatkan, profil, orang tua, unduhan, lainnya</h3>
+            <ul>
+                <li><strong>Perekaman</strong> <span class="plat pro">PRO</span> — folder, waktu tambahan, daftar rekaman (<a href="#kayit">detail</a>).</li>
+                <li><strong>Pengingat</strong> <span class="plat pro">PRO</span> — notifikasi dan buka saluran otomatis + daftar (<a href="#hatirlatici">detail</a>).</li>
+                <li><strong>Profil</strong> <span class="plat pro">PRO</span> — daftar profil dan profil baru (<a href="#profiller">detail</a>).</li>
+                <li><strong>Kontrol orang tua</strong> <span class="plat pro">PRO</span> — PIN, kunci, batas usia, saluran tersembunyi (<a href="#ebeveyn">detail</a>).</li>
+                <li><strong>Unduhan</strong> <span class="plat pro">PRO</span> — folder, unduhan bersamaan, hanya Wi-Fi, daftar (<a href="#indirilenler">detail</a>).</li>
+            </ul>
+            <table class="tbl">
+                <tr><th>Item lainnya <span class="plat pro">PRO</span></th><th>Deskripsi</th></tr>
+                <tr><td>Suara tombol remote</td><td>Memainkan bunyi klik halus saat menavigasi dengan D-pad.</td></tr>
+                <tr><td>Keyboard aplikasi</td><td>Memakai keyboard aplikasi atau keyboard sistem saat input.</td></tr>
+                <tr><td>Mulai otomatis</td><td>Aplikasi mulai sendiri saat perangkat menyala (TV).</td></tr>
+                <tr><td>Hentikan pemutaran saat keluar</td><td>Pemutaran berhenti otomatis saat keluar dari aplikasi.</td></tr>
+                <tr><td>Statistik menonton</td><td>Waktu menonton film, serial, dan siaran langsung Anda (7/30 hari terakhir, total); bisa direset.</td></tr>
+                <tr><td>Penggunaan data</td><td>Penggunaan data jaringan: terima/kirim dan total.</td></tr>
+                <tr><td>Cadangkan / pulihkan</td><td>Menyimpan semua pengaturan, favorit, profil, dan riwayat ke file / memulihkan dari file.</td></tr>
+            </table>
+
+            <h3 id="ayar-hesap">10 dan 12 · Akun dan sinkronisasi · Tentang</h3>
+            <table class="tbl">
+                <tr><th>Item</th><th>Deskripsi</th></tr>
+                <tr><td>Akun, sinkronisasi, dan perangkat</td><td>Status akun Google, buat akun anonim, sinkronisasi otomatis, sinkronisasi lisensi premium, daftar dan hapus perangkat tertaut, keluar, dan <strong>hapus akun</strong> (penghapusan permanen termasuk data cloud).</td></tr>
+                <tr><td>Tentang aplikasi</td><td>Versi, jenis langganan dan durasi lisensi, daftar fitur (siaran langsung, VOD dan IPTV, EPG, multi-layar, perekaman, pengingat, profil, kontrol orang tua, pencarian cerdas, DLNA, sinkronisasi cloud, daftar favorit, data media), dan info kontak.</td></tr>
+            </table>
+        </section>
+
+        <!-- ───────────── Seluler ───────────── -->
+        <section id="mobil">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>Aplikasi seluler <span class="plat mob">SELULER</span></h2>
+            <p>Antarmuka seluler dirancang untuk sentuhan; memakai akun dan playlist yang sama.</p>
+            <ul>
+                <li><strong>Bilah tab bawah:</strong> TV, Film, Serial, Daftar Saya. Dalam orientasi landscape, daftar vertikal muncul di tepi.</li>
+                <li><strong>Bilah atas:</strong> logo, <strong>remote</strong>, <strong>cari</strong>, <strong>DLNA/perangkat</strong>, roda gigi <strong>pengaturan</strong>, dan <strong>gambar profil</strong>.</li>
+                <li><strong>Tab TV:</strong> area pratinjau + filter «semua»/grup di atas; di bawah kartu saluran (logo, nama, slot waktu, program saat ini + kemajuan, bintang favorit, menu ☰).</li>
+                <li><strong>Layar EPG:</strong> alur program hari itu; ketuk saluran untuk melihat programnya.</li>
+                <li><strong>Unduhan / konten offline:</strong> film dan episode terunduh ditonton tanpa internet; putar dan hapus dari daftar.</li>
+                <li><strong>Bilah unduhan</strong> di bawah tampil di semua tab saat sumber dimuat.</li>
+            </ul>
+
+            <h3 id="kumanda">Remote TV dari ponsel <span class="plat pro">PRO</span></h3>
+            <p>Gunakan aplikasi ponsel sebagai remote untuk Android TV di jaringan yang sama:</p>
+            <ol>
+                <li>Biarkan TiviEase Go terbuka di TV; di ponsel ketuk <strong>ikon remote</strong> di bilah atas.</li>
+                <li>Pilih TV Anda dari daftar «perangkat jaringan» (tidak ketemu? pindai ulang dengan tombol «coba lagi»).</li>
+                <li>Layar remote: <strong>D-pad + OK</strong>, tombol angka, volume/saluran, <strong>kembali / beranda</strong>, <strong>tidur / panduan / opsi</strong>, <strong>tombol warna</strong>, tombol media, dan tombol <strong>keyboard</strong> untuk input teks.</li>
+            </ol>
+
+            <h3 id="dlna">DLNA dan cast <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Pindai jaringan</strong> menemukan perangkat DLNA/UPnP; pilih perangkat dan jelajahi folder media («folder», jumlah item).</li>
+                <li><strong>Kirim ke TV / perangkat Cast:</strong> konten yang diputar dikirim ke perangkat di jaringan; layar cast punya bilah posisi, putar/jeda, dan «hentikan cast».</li>
+                <li>«Ganti perangkat» memindahkan cast ke perangkat lain.</li>
+            </ul>
+
+            <h3 id="indirilenler">Unduhan dan offline <span class="plat pro">PRO</span></h3>
+            <ul>
+                <li><strong>Pengaturan › Unduhan:</strong> folder unduhan (penyimpanan internal atau SMB), maksimum unduhan bersamaan, <strong>hanya Wi-Fi</strong> (hemat data seluler), dan daftar unduhan.</li>
+                <li>Status daftar: mengunduh, menunggu, terunduh, error/dibatalkan — batalkan yang menunggu, putar atau hapus yang selesai.</li>
+                <li>Di seluler, layar «Konten offline» menampilkan unduhan dan memutar tanpa internet.</li>
+            </ul>
+
+            <h3 id="yedekleme">Cadangan, pemulihan, dan sinkronisasi</h3>
+            <ul>
+                <li><strong>Cadangan</strong> (Pengaturan › Lainnya): menyimpan semua pengaturan, favorit, profil, dan riwayat ke satu file — berguna saat ganti perangkat atau reset.</li>
+                <li><strong>Pulihkan data:</strong> pilih file via «buka file cadangan» untuk mengembalikan pengaturan.</li>
+                <li><strong>Sinkronisasi cloud:</strong> dengan login Google data tersinkron di latar belakang; «sinkronisasi otomatis» bisa dimatikan. Perangkat tertaut tampil/dihapus di panel akun.</li>
+                <li>Di layar utama Android TV, baris <strong>«Lanjutkan menonton»</strong> menampilkan yang terakhir ditonton.</li>
+            </ul>
+
+            <h3 id="premium">Langganan Premium (Pro)</h3>
+            <p>Versi gratis mencakup satu playlist + satu sumber EPG dan pengaturan dasar. Upgrade ke Pro dengan mengetuk kategori terkunci di <strong>Pengaturan</strong>, atau dari layar Pro.</p>
+            <table class="tbl">
+                <tr><th>Paket</th><th>Harga</th><th>Perangkat</th></tr>
+                <tr><td>Pro Bulanan</td><td>₺9,99 / bulan</td><td>1 perangkat</td></tr>
+                <tr><td>Pro Tahunan</td><td>₺89,99 / tahun</td><td>1 perangkat</td></tr>
+                <tr><td>Pro Seumur Hidup</td><td>₺249,99 (sekali bayar)</td><td>hingga 5 perangkat</td></tr>
+            </table>
+            <ul>
+                <li>Pro membuka <strong>playlist dan sumber EPG tanpa batas</strong>, semua kategori pengaturan, perekaman, pengingat, profil, kontrol orang tua, unduhan, remote dari ponsel, dan DLNA.</li>
+                <li><strong>Kode aktivasi:</strong> premium diaktifkan dengan memasukkan kode di «gunakan kode aktivasi».</li>
+                <li>Lisensi terikat ke cloud — masuk dengan akun yang sama di perangkat lain tersinkron otomatis; saat batas penuh hapus perangkat lama dari daftar.</li>
+                <li>Untuk penggunaan offline, masa tenggang 7 hari berlaku setelah verifikasi terakhir.</li>
+            </ul>
+        </section>
+
+        <!-- ───────────── FAQ ───────────── -->
+        <section id="sss">
+            <h2><span class="h-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.7-1.5 1-1.5 2"/><circle cx="12" cy="17" r=".8" fill="currentColor"/></svg></span>Pemecahan masalah dan pertanyaan umum</h2>
+
+            <details class="faq"><summary>Saluran tidak datang / playlist tidak termuat</summary><div class="faq-body"><p>Periksa URL benar dan diawali <code>http(s)://</code>. Di Pengaturan › Playlist › Playlist yang ada, pilih sumber dan muat ulang dengan «perbarui»; untuk Xtream periksa nama pengguna/sandi tanpa spasi. Periksa juga koneksi internet dan apakah penyedia online.</p></div></details>
+
+            <details class="faq"><summary>EPG (jadwal program) kosong</summary><div class="faq-body"><p>Pertama tambahkan sumber XMLTV via <strong>Pengaturan › Panduan TV › Tambah sumber EPG</strong> dan unduh dengan tombol <strong>Perbarui EPG</strong>. Jika saluran tetap tanpa data, pilih saluran EPG yang benar secara manual via <strong>pencocokan EPG</strong> di menu konteks. Waktu melenceng? Perbaiki dengan <strong>pergeseran waktu</strong>.</p></div></details>
+
+            <details class="faq"><summary>Stream tidak terbuka atau tersendat</summary><div class="faq-body"><p>Atur <strong>buffer</strong> ke «sedang/besar» di Pengaturan › Pemutar; jika tidak berhasil coba decoding perangkat lunak di <strong>output video</strong>. Stream 4K memberatkan perangkat lemah — versi HD/FHD saluran lebih baik.</p></div></details>
+
+            <details class="faq"><summary>Tidak ada suara atau audio-video tidak sinkron</summary><div class="faq-body"><p>Coba matikan <strong>passthrough audio</strong> di Pengaturan › Pemutar › Output audio (bitstream bermasalah di beberapa perangkat). Untuk ketidaksinkronan gunakan slider <strong>offset audio</strong>; jika stream punya bahasa lain, pilih trek di <strong>bahasa pemutaran</strong> pada kartu pemutar.</p></div></details>
+
+            <details class="faq"><summary>Subtitel tidak tampil atau karakter rusak</summary><div class="faq-body"><p>Pilih trek yang benar di kartu pemutar atau Pengaturan › Pemutar › Subtitel; karakter rusak ganti <strong>encoding</strong> (UTF-8…). Ukuran/warna/posisi diatur di panel yang sama.</p></div></details>
+
+            <details class="faq"><summary>Poster dan info film tidak datang</summary><div class="faq-body"><p>Di Pengaturan › Data media periksa key TMDB/OMDb sudah dimasukkan dan layanan aktif (key gratis). Ambil data sekaligus dengan «pengayaan semua konten»; perbaiki pencocokan salah dengan <strong>cari dan cocokkan konten</strong> di menu konten.</p></div></details>
+
+            <details class="faq"><summary>Beli Premium tapi tidak aktif / tidak muncul di perangkat lain</summary><div class="faq-body"><p>Pastikan masuk dengan akun Google yang sama — lisensi tersinkron. Jika batas perangkat penuh, hapus yang lama di <strong>Pengaturan › Akun, sinkronisasi, dan perangkat</strong>. Gunakan kode aktivasi jika perlu.</p></div></details>
+
+            <details class="faq"><summary>Setelah TV tidur lama tidak ada saluran yang terbuka</summary><div class="faq-body"><p>Tutup aplikasi sepenuhnya dan buka lagi. Aplikasi menutup pemutar otomatis saat masuk mode tidur; jika tetap macet, restart akan mengatasinya.</p></div></details>
+
+            <details class="faq"><summary>Bagaimana memindahkan pengaturan ke perangkat lain?</summary><div class="faq-body"><p>Buat file dengan <strong>Pengaturan › Lainnya › Cadangan</strong> lalu impor di perangkat baru dengan <strong>pulihkan data</strong> — atau masuk dengan Google dan pakai sinkronisasi.</p></div></details>
+
+            <details class="faq"><summary>Tidak bisa mengembalikan saluran / tidak ada di daftar</summary><div class="faq-body"><p>Mungkin tersembunyi: kembalikan dengan <strong>tampilkan saluran tersembunyi</strong> di menu konteks EPG atau <strong>Pengaturan › Kontrol orang tua › Saluran tersembunyi</strong>. Jika terkunci — buka dengan PIN. Jika grup tersembunyi, periksa Pengaturan › Playlist › Grup saluran.</p></div></details>
+
+            <details class="faq"><summary>Bagaimana menghapus akun saya?</summary><div class="faq-body"><p><strong>Pengaturan › Akun, sinkronisasi, dan perangkat › Hapus akun</strong> menghapus akun permanen beserta data cloud. Detail: halaman <a href="account-deletion.id.html">penghapusan akun</a>.</p></div></details>
+
+            <div class="card" style="margin-top:26px">
+                <h4>Masih butuh bantuan?</h4>
+                <p>Tulis ke kami: <a href="mailto:tivieasego@gmail.com">tivieasego@gmail.com</a> — sebutkan masalah Anda, model perangkat, dan versi aplikasi (Pengaturan › Tentang).</p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-bottom" style="border:none; margin:0; padding:0">
+            <span>© 2026 TiviEase Go</span>
+            <span><a href="index.id.html">Beranda</a> · <a href="privacy.id.html">Privasi</a> · <a href="account-deletion.id.html">Penghapusan akun</a></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.help-nav-group > .nav-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('closed');
+    });
+});
+(function () {
+    var input = document.getElementById('helpSearch');
+    var noRes = document.getElementById('noResults');
+    var links = Array.prototype.slice.call(document.querySelectorAll('#helpNav a'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.help-nav-group'));
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLocaleLowerCase('id');
+        var any = false;
+        if (!q) {
+            links.forEach(function (a) { a.style.display = ''; });
+            groups.forEach(function (g) { g.style.display = ''; g.classList.remove('closed'); });
+            noRes.style.display = 'none';
+            return;
+        }
+        links.forEach(function (a) {
+            var id = a.getAttribute('href').slice(1);
+            var sec = document.getElementById(id);
+            var hay = (a.textContent + ' ' + (sec ? sec.textContent : '')).toLocaleLowerCase('id');
+            var hit = hay.indexOf(q) !== -1;
+            a.style.display = hit ? '' : 'none';
+            if (hit) any = true;
+        });
+        groups.forEach(function (g) {
+            var vis = Array.prototype.some.call(g.querySelectorAll('.nav-items a'), function (a) { return a.style.display !== 'none'; });
+            g.style.display = vis ? '' : 'none';
+            if (vis) g.classList.remove('closed');
+        });
+        noRes.style.display = any ? 'none' : 'block';
+    });
+})();
+(function () {
+    var links = document.querySelectorAll('#helpNav a');
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var sections = document.querySelectorAll('.help-content section, .help-content h3[id]');
+    var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+            if (e.isIntersecting) {
+                links.forEach(function (a) { a.classList.remove('active'); });
+                var a = map[e.target.id];
+                if (a) a.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { if (s.id) io.observe(s); });
+})();
+</script>
+<script src="assets/auth.js?v=37" defer></script>
+<script src="assets/langs.js?v=37"></script>
+<script src="assets/pricing.js?v=37"></script>
+
+</body>
+</html>
